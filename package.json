@@ -12,5 +12,8 @@
   },
   "scripts": {
     "start": "eg 'serve(Files(.))'"
+  },
+  "engines": {
+    "node": "v14.15.0"
   }
 }
