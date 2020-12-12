@@ -1,0 +1,16 @@
+{
+  "name": "emojese",
+  "version": "0.0.1",
+  "dependencies": {
+    "@explorablegraph/core": "0.0.2",
+    "@explorablegraph/eg": "0.0.2",
+    "@explorablegraph/exlang": "0.0.2",
+    "@explorablegraph/node": "0.0.2",
+    "@explorablegraph/symbols": "0.0.2",
+    "@explorablegraph/webserver": "0.0.2",
+    "elix": "14.1.1"
+  },
+  "scripts": {
+    "start": "eg 'serve(Files(.))'"
+  }
+}
