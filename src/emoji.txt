@@ -1,0 +1,217 @@
+⟿	-ing
+~	-ish
+◓	above, over
+	across
+➕	add
+◐	after, behind
+⟲	again
+∀	all, every
+	allow, let
+&	and
+~	around
+🛬	arrive
+💬	ask
+@	at
+	away
+👎	bad
+↓	be
+🦋	become, turn into
+◑	before, in front
+1️⃣	begin, start
+◐	behind, after
+	believe
+"◒
+⌄"	below, under
+	between
+🐘	big, large
+[🥞🥓]	breakfast
+🎒	bring, carry
+🔨	build, create, make
+⇤	but
+🛒	buy
+	by, near
+🤙	call
+💪	can
+🎒	carry, bring
+]	category end
+[	category start
+[🥞🥓]の🌾	cereal, oatmeal
+）	clause end
+（	clause start
+	clear
+📖📕	close
+←	come
+	continue
+🔨	create, build, make
+✂️	cut
+⚖️	decide
+⤺	did (past)
+⚰️	die
+	different
+⟿	do
+⬇️	down
+🕑⤻🕓	duration
+	during, while
+🌅	early
+	easy
+🍴	eat
+	expect
+🍁	fall (down), lower
+⛺🏕️	far, away
+🐇	fast
+🦯	feel, sense
+🔍	find
+🏁	finish, end
+1️⃣	First; to start
+	follow
+➡️	for, to
+	free
+⬅️	from
+	full
+。	full stop
+🕸️	get, catch
+↤	get, take
+↦	give, offer, provide
+→	go
+👍	good
+🌱	grow
+	happen
+	hard
+💁‍♀️	have, hold
+♂️	he
+👂	hear, listen
+🚑	help
+🏖️⛰️	high
+🔨？	How
+🕑⤻🕓？	How long
+👇	I
+‼️	important
+◑	in front of, before
+⇲	in, inside
+	include
+🌐	internet, world wide web
+=	is
+♟	It, person, thing
+🔐	keep
+🗡️	kill
+🎓	know
+Ω	last; to end; and in the end
+🌃	late
+	lead
+🛫	leave, depart
+⇊	less
+	let, allow
+💚	like
+👂	listen, hear
+"🐁
+🐜"	little, small
+🕊️	live
+🔒	lock
+🐍	long
+👀	look, see
+	lose
+❤️	love
+⛰️🏖️	low
+🔨	make, create
+	mean (transitive verb)
+🤝	meet
+⇈	more
+🚛	move
+	near, by
+🏕️⛺	near, close
+	need, require
+🐣	new, young
+	next to, beside
+👎	No; I disagree; Let’s not do it
+の	of; possessive
+↥	off
+🆗	OK
+	old
+⤓	on
+	only
+📕📖	open
+↔️	or
+	other
+⎋	out, outside
+"◓
+⤼"	over
+	pass
+☜	passive
+💸	pay, spend
+[🐈🐕]	pet
+	play
+🙏🏻	please
+🐿️	prepare, get ready (e.g., for winter by gathering nuts)
+	pull
+	push
+	put
+？	question
+¿	question
+	reach
+📚	read
+	real
+📥	receive
+	recent
+🟥	red
+🎓↤	remember
+🌅	rise, lift
+🏃	run
+⚖️	same
+😮	say, speak, talk
+🏫	school
+👀	see, look, watch
+🪞	seem, appear (Mirror)
+_	self
+📤	send
+♀️	She
+	short
+	show
+🪑	sit
+🐢	slow
+🐜	small, little
+	some
+	special
+💸	spend, pay
+🧍	stand
+	stay, remain
+🛑	stop
+💪	strong
+	suggest
+↤	take, get
+😮	talk, say, speak
+💬	tell
+👈	that
+💭	think
+👉	this
+♟♟	those
+"⤔
+⤃"	through
+♾️	to (infinitive)
+➡️	to, for
+🧗	try
+💡	understand
+🔓	unlock
+	until
+⬆️	up
+💪	use
+⏳	wait
+🚶	walk
+❤️‍🔥	want
+👀	watch, look, see
+👇👇	we/us
+❄️	weak
+_？	what
+🕓？	when
+📍？	where
+♟？	who
+	whole
+¿?	why
+⤻	will (future)
+💯	win
+🧞	wish
+🛠️	work
+✍️	write
+👍	Yes; cool; I agree; Let’s do it
+👆👆	you (pl.)
+👆	you (sing.)
+🤔	Hmm

@@ -14,7 +14,7 @@ export default class EmojiButton extends ReactiveElement {
 
     if (this[firstRender]) {
       this[ids].button.addEventListener("click", () => {
-        const slot = this[shadowRoot].querySelector("slot");
+        const slot = this[shadowRoot].querySelector("slot:not([name])");
         const emoji = slot.assignedNodes()[0].textContent;
         this.dispatchEvent(
           new CustomEvent("emoji-click", {
@@ -32,15 +32,38 @@ export default class EmojiButton extends ReactiveElement {
     return templateFrom.html`
       <style>
         #button {
+          align-items: center;
           background: none;
           border: none;
+          display: inline-grid;
+          grid-template-columns: 1.5em auto;
           height: 1.5em;
           font: inherit;
           padding: 0;
-          width: 1.5em;
+        }
+
+        #emoji {
+          overflow: hidden;
+          white-space: nowrap;
+        }
+        
+        #description {
+          font-size: smaller;
+          margin-left: 0.25em;
+          overflow: hidden;
+          text-align: left;
+          white-space: nowrap;
+          width: var(--emoji-description-width, 0);
         }
       </style>
-      <button id="button"><slot></slot></button>
+      <button id="button">
+        <span id="emoji">
+          <slot></slot>
+        </span>
+        <span id="description">
+          <slot name="description"></slot>
+        </span>
+      </button>
     `;
   }
 }

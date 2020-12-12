@@ -3,6 +3,7 @@ import {
   defaultState,
   firstRender,
   ids,
+  raiseChangeEvents,
   render,
   rendered,
   setState,
@@ -19,6 +20,7 @@ if (AutoSizeTextarea || EmojiGrid) {
 export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
+      showHelp: false,
       viewportHeight: null,
       viewportWidth: null,
     });
@@ -32,7 +34,8 @@ export default class EmojeseComposer extends ReactiveElement {
         addToInput(this[ids].input, event.detail.emoji);
       });
 
-      this[ids].share.addEventListener("click", async () => {
+      this[ids].shareButton.addEventListener("click", async () => {
+        this[raiseChangeEvents] = true;
         const text = this[ids].input.value;
         const canShare = navigator.canShare({ text });
         if (canShare) {
@@ -45,15 +48,35 @@ export default class EmojeseComposer extends ReactiveElement {
         } else {
           console.log("Can't share text");
         }
+        this[raiseChangeEvents] = false;
       });
 
       if (!navigator.share) {
-        this[ids].share.disabled = true;
+        this[ids].shareButton.disabled = true;
       }
+
+      this[ids].copyButton.addEventListener("click", async () => {
+        this[raiseChangeEvents] = true;
+        const text = this[ids].input.value;
+        await navigator.clipboard.writeText(text);
+        this[raiseChangeEvents] = false;
+      });
+
+      this[ids].helpToggle.addEventListener("click", () => {
+        this[raiseChangeEvents] = true;
+        const { showHelp } = this[state];
+        this[setState]({ showHelp: !showHelp });
+        this[raiseChangeEvents] = false;
+      });
 
       window.visualViewport.addEventListener("resize", () => {
         viewportResized(this);
       });
+    }
+
+    if (changed.showHelp) {
+      const { showHelp } = this[state];
+      this.toggleAttribute("show-help", showHelp);
     }
 
     if (changed.viewportHeight || changed.viewportWidth) {
@@ -67,8 +90,11 @@ export default class EmojeseComposer extends ReactiveElement {
 
   [rendered](changed) {
     super[rendered](changed);
+
     if (this[firstRender]) {
       viewportResized(this);
+
+      // setTimeout(() => this[ids].input.focus());
     }
   }
 
@@ -77,22 +103,70 @@ export default class EmojeseComposer extends ReactiveElement {
       <style>
         :host {
           display: grid;
-          grid-template-rows: auto auto 1fr;
+          font-size: 24px;
+          grid-template-rows: auto minmax(0, 1fr);
         }
 
-        #input {
-          display: block;
+        #inputBar {
+          align-items: start;
+          background: white;
+          border: 1px solid gray;
+          box-sizing: border-box;
+          display: grid;
+          grid-template-columns: 1fr auto;
+          margin: 2px;
+          padding: 2px;
+        }
+
+        #input::part(textarea) {
+          background: transparent;
+          border: none;
+        }
+
+        #commands {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          margin-left: 2px;
+        }
+
+        #commands button {
+          align-items: center;
+          background: none;
+          border: none;
+          display: grid;
+          font: inherit;
+          height: 1.5em;
+          justify-content: center;
+          width: 1.5em;
+          padding: 0;
+        }
+
+        #helpToggle {
+          font-weight: bold !important;
+        }
+
+        :host([show-help]) {
+          --emoji-description-width: 3em;
         }
       </style>
-      <elix-auto-size-textarea id="input" minimum-rows="2"></elix-auto-size-textarea>
-      <button id="share">Share</button>
+      <div id="inputBar">
+        <elix-auto-size-textarea id="input" minimum-rows="1"></elix-auto-size-textarea>
+        <div id="commands">
+          <button id="shareButton">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
+          <button id="copyButton">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+          </button>
+          <button id="helpToggle">ⓘ</button>
+        </div>
+      </div>
       <emoji-grid id="grid"></emoji-grid>
     `;
   }
 }
 
 function addToInput(input, emoji) {
-  input.setRangeText(emoji);
+  input.setRangeText(emoji, input.selectionStart, input.selectionEnd, "end");
 }
 
 function viewportResized(element) {
