@@ -1,11 +1,13 @@
 ⟿	-ing
 ~	-ish
-◓	above, over
+の	(possessive)
+◓	above
 	across
 ➕	add
-◐	after, behind
+◐	after
+◐	after
 ⟲	again
-∀	all, every
+∀	all
 	allow, let
 &	and
 ~	around
@@ -13,40 +15,43 @@
 💬	ask
 @	at
 	away
+⛺🏕️	away
 👎	bad
 ↓	be
-🦋	become, turn into
-◑	before, in front
-1️⃣	begin, start
-◐	behind, after
+🦋	become
+◑	before
+◑	before
+1️⃣	begin
+◐	behind
+◐	behind
 	believe
-"◒
-⌄"	below, under
+◒	below
 	between
-🐘~	big, large
+🐘~	big
 [🥞🥓]	breakfast
-🎒	bring, carry
-🔨	build, create, make
+🎒	bring
+🔨	build
 ⇤	but
 🛒	buy
 	by, near
 🤙	call
 💪	can
-🎒	carry, bring
+🎒	carry
 🕸️	catch
+[	category
 ]	category end
-[	category start
-[🥞🥓]の🌾	cereal
+（	clause
 ）	clause end
-（	clause start
 	clear
 📖📕	close
+🏕️⛺	close
 ←	come
 	continue
-🔨	create, build, make
+👍	cool
 ✂️	cut
 🦂~	dangerous
 ⚖️	decide
+🛫	depart
 ⤺	did (past)
 ⚰️	die
 	different
@@ -58,76 +63,91 @@
 🌅	early
 	easy
 🍴	eat
+🏁	end
+Ω	end
+∀	every
 💦	exhausted
 	expect
 🍁	fall down
-⛺🏕️	far, away
+⛺🏕️	far
 🐇~	fast
-🦯	feel, sense
 🔍	find
-🏁	finish, end
-1️⃣	First; to start
+🏁	finish
+1️⃣	first
 	follow
-➡️	for, to
+➡️	for
 	free
 ⬅️	from
 	full
 。	full stop
-↤	get, take
-↦	give, offer
+↤	get
+🐿️	get ready
+↦	give
 →	go
 👍	good
+👋	goodbye
 🌱	grow
 	happen
 	hard
-💁‍♀️	have, hold
+💁‍♀️	have
 ♂️	he
-👂	hear, listen
+🙍‍♂️	he
+👂	hear
+👋	hello
 🚑	help
+🙍‍♀️	her
 ⛰️~	high
+🙍‍♂️	him
 💥	hit
 🤔	Hmm
-🔨？	How
-🕑⤻🕓？	How long
+💁‍♀️	hold
+🔨？	how
+🕑⤻🕓？	how long
 👇	I
 ‼️	important
-◑	in front of, before
-⇲	in, inside
+⇲	in
+◑	in front
+◑	in front of
 	include
-🌐	internet, world wide web
+⇲	inside
+🌐	internet
 =	is
-♟	It, person, thing
+≠	isn't
+♟	it
 🔐	keep
 🗡️	kill
 🎓	know
-Ω	last; to end; and in the end
+🐘~	large
+Ω	last
 🌃	late
 	lead
-🛫	leave, depart
+🛫	leave
 ⇊	less
 	let, allow
 💚	like
-👂	listen, hear
-🐜~	little, small
+👂	listen
+🐜~	little
 🕊️	live
 🔒	lock
 🐍~	long
-👀	look, see
+👀	look
 	lose
 ❤️	love
 🏖️~	low
-🔨	make, create
+🔨	make
+✖️✖️	many
 	mean (transitive verb)
 🤝	meet
 ⇈	more
 🚛	move
+❗	must
+🏕️⛺	near
 	near, by
-🏕️⛺	near, close
-❤️‍🔥	need, require
-🐣~	new, young
-	next to, beside
-👎	No; I disagree; Let’s not do it
-の	of; possessive
+❤️‍🔥	need
+🐣~	new
+	next to
+👎	no
+🚫	not
 ↥	off
 🆗	OK
 	old
@@ -136,23 +156,26 @@
 📕📖	open
 ↔️	or
 	other
-⎋	out, outside
-"◓
-⤼"	over
+⎋	out
+⎋	outside
+◓	over
+◓	over
 	pass
 ☜	passive
-💸	pay, spend
+💸	pay
 🕊️~	peaceful
+♟	person
 [🐈🐕]	pet
 	play
 🙏🏻	please
-🐿️	prepare, get ready (e.g., for winter by gathering nuts)
+🐿️	prepare
 🎁	present
 	pull
 	push
 	put
 ？	question
 ¿	question
+🌧️	rain
 	reach
 📚	read
 	real
@@ -160,42 +183,47 @@
 	recent
 🟥	red
 🎓↤	remember
-🌅	rise, lift
+🌅	rise
 🏃	run
 ⚖️	same
-😮	say, speak, talk
+💬	say
 🏫	school
-👀	see, look, watch
-	seem, appear (Mirror)
+👀	see
+	seem
 _	self
 📤	send
+🦯	sense
 ♀️	She
+🙍‍♀️	she
 	short
 	show
 🪑	sit
 🛌	sleep
 🦥~	sleepy
-🐢~	slow
-🐜~	small, little
+🐌~	slow
+🐜~	small
 	some
 ⭐️	special
-💸	spend, pay
+💸	spend
 🧍	stand
+1️⃣	start
 	stay, remain
 🛑	stop
 💪	strong
 	suggest
-↤	take, get
-😮	talk, say, speak
+↤	take
+💬	talk
 💬	tell
 👈	that
+♟	thing
 💭	think
 👉	this
 ♟♟	those
 ⤃	through
+➡️	to
 ♾️	to (infinitive)
-➡️	to, for
 🧗	try
+◒	under
 💡	understand
 🔓	unlock
 	until
@@ -204,20 +232,21 @@ _	self
 ⏳	wait
 🚶	walk
 ❤️‍🔥	want
-👀	watch, look, see
+👀	watch
 👇👇	we/us
-❄️	weak
+❄️~	weak
 _？	what
 🕓？	when
 📍？	where
 ♟？	who
 	whole
 ¿?	why
-⤻	will (future)
+⤻	will
 💯	win
 🧞	wish
 🛠️	work
 ✍️	write
-👍	Yes; cool; I agree; Let’s do it
-👆👆	you (pl.)
-👆	you (sing.)
+🗯️	yell
+👍	yes
+👆	you
+🐣~	young

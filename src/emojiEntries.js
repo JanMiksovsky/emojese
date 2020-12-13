@@ -1,6 +1,6 @@
 const fileName = "./src/emoji.txt";
 
-export default async function readEmoji() {
+async function readEmoji() {
   const response = await fetch(fileName);
   const text = await response.text();
   const lines = text.split("\n");
@@ -11,3 +11,6 @@ export default async function readEmoji() {
   const nonEmptyEntries = entries.filter((entry) => entry.emoji);
   return nonEmptyEntries;
 }
+
+let emojiEntries = readEmoji();
+export default emojiEntries;

@@ -10,7 +10,7 @@ import {
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 import EmojiButton from "./EmojiButton.js";
-import readEmoji from "./readEmoji.js";
+import emojiEntries from "./emojiEntries.js";
 
 export default class EmojiGrid extends ReactiveElement {
   get [defaultState]() {
@@ -18,9 +18,10 @@ export default class EmojiGrid extends ReactiveElement {
       entries: null,
     });
   }
+
   async connectedCallback() {
     super.connectedCallback();
-    const entries = await readEmoji();
+    const entries = await emojiEntries;
     this[setState]({ entries });
   }
 
