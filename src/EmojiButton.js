@@ -31,6 +31,10 @@ export default class EmojiButton extends ReactiveElement {
   get [template]() {
     return templateFrom.html`
       <style>
+        :host {
+          display: inline-grid;
+        }
+        
         #button {
           align-items: center;
           background: none;

@@ -23,7 +23,7 @@
 "◒
 ⌄"	below, under
 	between
-🐘	big, large
+🐘~	big, large
 [🥞🥓]	breakfast
 🎒	bring, carry
 🔨	build, create, make
@@ -33,9 +33,10 @@
 🤙	call
 💪	can
 🎒	carry, bring
+🕸️	catch
 ]	category end
 [	category start
-[🥞🥓]の🌾	cereal, oatmeal
+[🥞🥓]の🌾	cereal
 ）	clause end
 （	clause start
 	clear
@@ -44,21 +45,24 @@
 	continue
 🔨	create, build, make
 ✂️	cut
+🦂~	dangerous
 ⚖️	decide
 ⤺	did (past)
 ⚰️	die
 	different
 ⟿	do
 ⬇️	down
+🚗	drive
 🕑⤻🕓	duration
 	during, while
 🌅	early
 	easy
 🍴	eat
+💦	exhausted
 	expect
-🍁	fall (down), lower
+🍁	fall down
 ⛺🏕️	far, away
-🐇	fast
+🐇~	fast
 🦯	feel, sense
 🔍	find
 🏁	finish, end
@@ -69,9 +73,8 @@
 ⬅️	from
 	full
 。	full stop
-🕸️	get, catch
 ↤	get, take
-↦	give, offer, provide
+↦	give, offer
 →	go
 👍	good
 🌱	grow
@@ -81,7 +84,9 @@
 ♂️	he
 👂	hear, listen
 🚑	help
-🏖️⛰️	high
+⛰️~	high
+💥	hit
+🤔	Hmm
 🔨？	How
 🕑⤻🕓？	How long
 👇	I
@@ -103,15 +108,14 @@
 	let, allow
 💚	like
 👂	listen, hear
-"🐁
-🐜"	little, small
+🐜~	little, small
 🕊️	live
 🔒	lock
-🐍	long
+🐍~	long
 👀	look, see
 	lose
 ❤️	love
-⛰️🏖️	low
+🏖️~	low
 🔨	make, create
 	mean (transitive verb)
 🤝	meet
@@ -119,8 +123,8 @@
 🚛	move
 	near, by
 🏕️⛺	near, close
-	need, require
-🐣	new, young
+❤️‍🔥	need, require
+🐣~	new, young
 	next to, beside
 👎	No; I disagree; Let’s not do it
 の	of; possessive
@@ -138,10 +142,12 @@
 	pass
 ☜	passive
 💸	pay, spend
+🕊️~	peaceful
 [🐈🐕]	pet
 	play
 🙏🏻	please
 🐿️	prepare, get ready (e.g., for winter by gathering nuts)
+🎁	present
 	pull
 	push
 	put
@@ -160,17 +166,19 @@
 😮	say, speak, talk
 🏫	school
 👀	see, look, watch
-🪞	seem, appear (Mirror)
+	seem, appear (Mirror)
 _	self
 📤	send
 ♀️	She
 	short
 	show
 🪑	sit
-🐢	slow
-🐜	small, little
+🛌	sleep
+🦥~	sleepy
+🐢~	slow
+🐜~	small, little
 	some
-	special
+⭐️	special
 💸	spend, pay
 🧍	stand
 	stay, remain
@@ -184,8 +192,7 @@ _	self
 💭	think
 👉	this
 ♟♟	those
-"⤔
-⤃"	through
+⤃	through
 ♾️	to (infinitive)
 ➡️	to, for
 🧗	try
@@ -214,4 +221,3 @@ _？	what
 👍	Yes; cool; I agree; Let’s do it
 👆👆	you (pl.)
 👆	you (sing.)
-🤔	Hmm
