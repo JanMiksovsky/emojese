@@ -59,14 +59,16 @@ export default class EmojiGrid extends ReactiveElement {
     return templateFrom.html`
       <style>
         :host {
+          display: grid;
+        }
+        
+        #grid {
           box-sizing: border-box;
           display: grid;
+          gap: 2px 4px;
+          grid-template-columns: repeat(auto-fill, minmax(var(--emoji-entry-width), 1fr));
           overflow: auto;
           touch-action: manipulation;
-        }
-
-        emoji-button {
-          margin-right: 0.25em;
         }
       </style>
       <div id="grid"></div>

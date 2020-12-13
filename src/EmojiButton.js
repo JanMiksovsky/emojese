@@ -52,12 +52,12 @@ export default class EmojiButton extends ReactiveElement {
         }
         
         #description {
+          display: var(--emoji-description-display, none);
           font-size: smaller;
           margin-left: 0.25em;
           overflow: hidden;
           text-align: left;
           white-space: nowrap;
-          width: var(--emoji-description-width, 0);
         }
       </style>
       <button id="button">

@@ -32,10 +32,10 @@ export default class EmojeseComposer extends ReactiveElement {
     super[render](changed);
 
     if (this[firstRender]) {
-      this[ids].input.addEventListener("input", () => {
+      // TODO: event name should be value-change
+      this[ids].input.addEventListener("value-changed", () => {
         this[raiseChangeEvents] = true;
-        const text = this[ids].input.value;
-        this[setState]({ text });
+        updateValueFromInput(this);
         this[raiseChangeEvents] = false;
       });
 
@@ -46,12 +46,7 @@ export default class EmojeseComposer extends ReactiveElement {
         if (canShare) {
           try {
             await navigator.share({ text });
-            console.log("shared successfully");
-          } catch (error) {
-            console.log(error);
-          }
-        } else {
-          console.log("Can't share text");
+          } catch (error) {}
         }
         this[raiseChangeEvents] = false;
       });
@@ -75,7 +70,7 @@ export default class EmojeseComposer extends ReactiveElement {
       });
 
       this[ids].grid.addEventListener("emoji-click", (event) => {
-        addToInput(this[ids].input, event.detail.emoji);
+        addToInput(this, event.detail.emoji);
       });
 
       window.visualViewport.addEventListener("resize", () => {
@@ -117,6 +112,7 @@ export default class EmojeseComposer extends ReactiveElement {
       <style>
         :host {
           display: grid;
+          --emoji-entry-width: 1.5em;
           font-size: 24px;
           grid-template-rows: auto minmax(0, 1fr);
         }
@@ -170,7 +166,8 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         :host([show-help]) {
-          --emoji-description-width: 3em;
+          --emoji-description-display: inline-block;
+          --emoji-entry-width: 4em;
         }
         :host([show-help]) #gloss {
           display: block;
@@ -195,8 +192,15 @@ export default class EmojeseComposer extends ReactiveElement {
   }
 }
 
-function addToInput(input, emoji) {
+function addToInput(element, emoji) {
+  const input = element[ids].input;
   input.setRangeText(emoji, input.selectionStart, input.selectionEnd, "end");
+  updateValueFromInput(element);
+}
+
+function updateValueFromInput(element) {
+  const text = element[ids].input.value;
+  element[setState]({ text });
 }
 
 function viewportResized(element) {
