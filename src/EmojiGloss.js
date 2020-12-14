@@ -93,6 +93,7 @@ function longestMatch(map, text) {
   }
   // No match, skip character and return empty meaning.
   // TODO: Use https://github.com/flmnt/graphemer
+  const rest = text.slice(1);
   return { meaning: "", rest };
 }
 
