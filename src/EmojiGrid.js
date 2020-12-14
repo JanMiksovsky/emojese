@@ -44,11 +44,28 @@ export default class EmojiGrid extends ReactiveElement {
 
     const { entries } = this[state];
     if (changed.entries && entries) {
-      const buttons = entries.map((entry) => {
+      const buttons = [];
+      let referenceLetter = "";
+      for (const entry of entries) {
+        // Add letter reference mark before first description that starts with
+        // that letter.
+        const entryLetter = entry.description[0].toUpperCase();
+        if (
+          (entryLetter >= "A") & (entryLetter <= "Z") &&
+          entryLetter !== referenceLetter
+        ) {
+          const mark = document.createElement("div");
+          mark.classList.add("mark");
+          mark.textContent = entryLetter;
+          buttons.push(mark);
+          referenceLetter = entryLetter;
+        }
+
+        // Add button
         const button = new EmojiButton();
         button.innerHTML = `${entry.emoji}<span slot="description">${entry.description}</span>`;
-        return button;
-      });
+        buttons.push(button);
+      }
       const grid = this[ids].grid;
       grid.innerHTML = "";
       grid.append(...buttons);
@@ -69,6 +86,13 @@ export default class EmojiGrid extends ReactiveElement {
           grid-template-columns: repeat(auto-fill, minmax(var(--emoji-entry-width), 1fr));
           overflow: auto;
           touch-action: manipulation;
+        }
+
+        .mark {
+          align-items: center;
+          background: #eee;
+          display: grid;
+          justify-items: center;
         }
       </style>
       <div id="grid"></div>

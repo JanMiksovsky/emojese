@@ -8,7 +8,7 @@
     "@explorablegraph/node": "0.0.2",
     "@explorablegraph/symbols": "0.0.2",
     "@explorablegraph/webserver": "0.0.2",
-    "elix": "https://github.com/elix/elix.git"
+    "elix": "14.1.1-a"
   },
   "scripts": {
     "start": "eg 'serve(Files(.))'"
