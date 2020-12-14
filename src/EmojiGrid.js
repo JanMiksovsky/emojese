@@ -84,8 +84,8 @@ export default class EmojiGrid extends ReactiveElement {
           display: grid;
           gap: 2px 4px;
           grid-template-columns: repeat(auto-fill, minmax(var(--emoji-entry-width), 1fr));
-          overflow: auto;
-          touch-action: manipulation;
+          overflow-y: auto;
+          touch-action: pan-y;
         }
 
         .mark {

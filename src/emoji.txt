@@ -34,6 +34,7 @@
 🤙	call
 💪	can
 🎒	carry
+🐈	cat
 🕸️	catch
 [	category
 ]	category end
@@ -42,6 +43,7 @@
 	clear
 📖📕	close
 🏕️⛺	close
+🧊~	cold
 ←	come
 	continue
 👍	cool
@@ -51,9 +53,11 @@
 🛫	depart
 ⤺	did
 ⚰️	die
-	different
+🍎🍊	different
 ⟿	do
+🐕	dog
 ⬇️	down
+🥛	drink
 🚗	drive
 🕑⤻🕓	duration
 	during, while
@@ -68,15 +72,18 @@
 🍁	fall down
 ⛺🏕️	far
 🐇~	fast
+♀️	female
 🔍	find
 🏁	finish
 1️⃣	first
+🐟	fish
 	follow
 ↬	for
 	free
 ↫	from
 	full
 。	full stop
+😀	fun
 ↤	get
 🐿️	get ready
 ↦	give
@@ -85,10 +92,12 @@
 👋	goodbye
 🌱	grow
 	happen
+😄	happy
 	hard
 💁‍♀️	have
 ♂️	he
 🙍‍♂️	he
+👤	head
 👂	hear
 👋	hello
 🚑	help
@@ -97,7 +106,9 @@
 🙍‍♂️	him
 💥	hit
 🤔	Hmm
-💁‍♀️	hold
+🤲	hold
+🏠	home
+🔥~	hot
 🔨？	how
 🕑⤻🕓？	how long
 👇	I
@@ -131,12 +142,16 @@
 ❤️	love
 🏖️~	low
 🔨	make
+♂	male
 ✖️✖️	many
 	mean (transitive verb)
 🤝	meet
+🌙	moon
 ⇈	more
+👄	mouth
 🚛	move
 ❗	must
+📛	name
 🏕️⛺	near
 	near, by
 ❤️‍🔥	need
@@ -145,6 +160,7 @@
 👎	no
 🚫	not
 ↥	off
+🏢	office
 🆗	OK
 	old
 ⤓	on
@@ -181,6 +197,7 @@
 🎓↤	remember
 🌅	rise
 🏃	run
+😢	sad
 ⚖️	same
 💬	say
 🏫	school
@@ -189,7 +206,6 @@
 _	self
 📤	send
 🦯	sense
-♀️	She
 🙍‍♀️	she
 	short
 	show
@@ -205,11 +221,14 @@ _	self
 1️⃣	start
 	stay, remain
 🛑	stop
+🏬	store
 💪	strong
 	suggest
+☀️	sun
+🏊‍♀️	swim
 ↤	take
 💬	talk
-💬	tell
+🗣	tell
 👈	that
 👈	that
 ♟	thing
@@ -220,6 +239,7 @@ _	self
 ⤃	through
 ↬	to
 ♾️	to (infinitive)
+🌳	tree
 🧗	try
 ◒	under
 💡	understand
