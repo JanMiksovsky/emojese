@@ -104,7 +104,6 @@
 ‼️	important
 ⇲	in
 ◑	in front
-◑	in front of
 	include
 ⇲	inside
 🌐	internet
@@ -212,8 +211,10 @@ _	self
 💬	talk
 💬	tell
 👈	that
+👈	that
 ♟	thing
 💭	think
+👉	this
 👉	this
 ♟♟	those
 ⤃	through
@@ -230,7 +231,7 @@ _	self
 🚶	walk
 ❤️‍🔥	want
 👀	watch
-👇👇	we/us
+👇👇	we
 ❄️~	weak
 _？	what
 🕓？	when

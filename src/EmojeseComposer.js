@@ -136,6 +136,9 @@ export default class EmojeseComposer extends ReactiveElement {
         #gloss {
           color: #666;
           display: none;
+          font-size: smaller;
+          grid-column: 1 / span 2;
+          grid-row: 2;
         }
 
         #commands {
@@ -174,10 +177,7 @@ export default class EmojeseComposer extends ReactiveElement {
         }
       </style>
       <div id="inputBar">
-        <div>
-          <elix-auto-size-textarea id="input" minimum-rows="1"></elix-auto-size-textarea>
-          <emoji-gloss id="gloss"></emoji-gloss>
-        </div>
+        <elix-auto-size-textarea id="input" minimum-rows="1"></elix-auto-size-textarea>
         <div id="commands">
           <button id="shareButton">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
@@ -186,6 +186,7 @@ export default class EmojeseComposer extends ReactiveElement {
           </button>
           <button id="helpToggle">ⓘ</button>
         </div>
+        <emoji-gloss id="gloss"></emoji-gloss>
       </div>
       <emoji-grid id="grid"></emoji-grid>
     `;
