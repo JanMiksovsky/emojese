@@ -111,7 +111,7 @@ export default class EmojiGrid extends ReactiveElement {
         #grid {
           box-sizing: border-box;
           display: grid;
-          gap: 2px 4px;
+          gap: 2px 5px;
           grid-template-columns: repeat(auto-fill, minmax(var(--emoji-entry-width), 1fr));
           grid-template-rows: min-content;
           overflow-y: auto;
@@ -120,7 +120,7 @@ export default class EmojiGrid extends ReactiveElement {
 
         .mark {
           align-items: center;
-          background: #eee;
+          background: #ddd;
           display: grid;
           justify-items: center;
         }

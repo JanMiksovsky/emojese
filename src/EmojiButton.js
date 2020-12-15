@@ -69,21 +69,23 @@ export default class EmojiButton extends ReactiveElement {
           border: none;
           display: inline-grid;
           grid-template-columns: 1.5em auto;
-          height: 1.5em;
           font: inherit;
+          height: 1.5em;
+          justify-items: start;
+          overflow: hidden;
           padding: 0;
         }
 
         #emoji {
           overflow: hidden;
           white-space: nowrap;
+          width: 1.5em;
         }
         
         #description {
           display: var(--emoji-description-display, none);
           font-size: smaller;
           margin-left: 0.25em;
-          overflow: hidden;
           text-align: left;
           white-space: nowrap;
         }
