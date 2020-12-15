@@ -32,10 +32,12 @@ export default class EmojiButton extends ReactiveElement {
       this[ids].button.addEventListener("click", () => {
         const slot = this[shadowRoot].querySelector("slot:not([name])");
         const emoji = slot.assignedNodes()[0].textContent;
+        const { description } = this[state];
         this.dispatchEvent(
           new CustomEvent("emoji-click", {
             bubbles: true,
             detail: {
+              description,
               emoji,
             },
           })

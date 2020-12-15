@@ -5,6 +5,7 @@
 💪	able
 	about
 ◓	above
+💥	accident
 ⤼	across
 	actually
 ➕	add
@@ -100,10 +101,11 @@
 👍	cool
 	copy
 ⤺💪	could
+💥	crash
 ✂️	cut
 🧸	cute
 👨‍👧	dad
-🦂~	dangerous
+☠️	dangerous
 📅	date
 ☀️	day
 １２🌙	December
@@ -160,12 +162,12 @@
 🐕‍🦺	follow
 🥫	food
 ↬	for
-🚫🧠	forget
-⤺🚫🧠	forgot
+🧠💥	forget
+⤺🧠💥	forgot
 	form
 ⤺🔍	found
 ０💵	free
-６☀️	Friday
+５☀️	Friday
 🫂	friend
 ↫	from
 	full
@@ -212,8 +214,8 @@
 🤲	hold
 🏠	home
 	hope
-🏨	hotel
 ♨️	hot
+🏨	hotel
 🕑	hour
 	house
 🔨？	how
@@ -299,7 +301,7 @@
 👇の	mine
 	miss
 👩‍👦	mom
-２☀️	Monday
+１☀️	Monday
 	money
 🌙	moon
 ⇈	more
@@ -311,7 +313,7 @@
 🎞️	movie
 ⇈	much
 ❗	must
-の	my
+👇の	my
 📛	name
 🏕️⛺	near
 ❤️‍🔥↤	need
@@ -395,7 +397,7 @@
 🦺	safe
 ⤺🗣	said
 ⚖️	same
-７☀️	Saturday
+６☀️	Saturday
 💾	save
 ⤺👀	saw
 🗣	say
@@ -445,7 +447,7 @@ _	self
 ↦	submit
 ↦💬	suggest
 ☀️	sun
-１☀️	Sunday
+７☀️	Sunday
 🦸	super
 	supposed
 👍	sure
@@ -476,7 +478,7 @@ _	self
 ⤺💭	thought
 ⤃	through
 🏈	throw
-５☀️	Thursday
+４☀️	Thursday
 ◐	till
 ⏰	time
 🥱	tired
@@ -493,7 +495,7 @@ _	self
 🌳	tree
 	true
 🧗	try
-３☀️	Tuesday
+２☀️	Tuesday
 ⌨️	type
 ◒	under
 💡	understand
@@ -513,7 +515,7 @@ _	self
 👇👇	we
 ❄️~	weak
 👖⟿	wear
-４☀️	Wednesday
+３☀️	Wednesday
 ⓻☀️	week
 👍	well
 ⤺→	went
@@ -548,7 +550,8 @@ _？	what
 👍	yes
 ⏮️☀️	yesterday
 	yet
-	yo
+👋	yo
 👆	you
 🐣~	young
 👆の	your
+👩	woman

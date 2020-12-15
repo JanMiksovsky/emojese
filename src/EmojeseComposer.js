@@ -21,6 +21,7 @@ if (AutoSizeTextarea || EmojiGloss || EmojiGrid) {
 export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
+      filter: "",
       showHelp: false,
       text: "",
       viewportHeight: null,
@@ -35,7 +36,7 @@ export default class EmojeseComposer extends ReactiveElement {
       // TODO: event name should be value-change
       this[ids].input.addEventListener("value-changed", () => {
         this[raiseChangeEvents] = true;
-        updateValueFromInput(this);
+        handleTextInput(this);
         this[raiseChangeEvents] = false;
       });
 
@@ -70,12 +71,20 @@ export default class EmojeseComposer extends ReactiveElement {
       });
 
       this[ids].grid.addEventListener("emoji-click", (event) => {
-        addToInput(this, event.detail.emoji);
+        addToInput(this, event.detail.emoji, event.detail.description);
+      });
+      this[ids].grid.addEventListener("mousedown", (event) => {
+        event.preventDefault(); // Keep focus on input.
       });
 
       window.visualViewport.addEventListener("resize", () => {
         viewportResized(this);
       });
+    }
+
+    if (changed.filter) {
+      const { filter } = this[state];
+      this[ids].grid.filter = filter;
     }
 
     if (changed.text) {
@@ -193,9 +202,42 @@ export default class EmojeseComposer extends ReactiveElement {
   }
 }
 
-function addToInput(element, emoji) {
+function addToInput(element, emoji, description) {
   const input = element[ids].input;
-  input.setRangeText(emoji, input.selectionStart, input.selectionEnd, "end");
+  const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
+  let start = input.selectionStart;
+  if (prefix && description.toLowerCase().startsWith(prefix)) {
+    start -= prefix.length;
+  }
+  input.setRangeText(emoji, start, input.selectionEnd, "end");
+  element[setState]({ filter: "" });
+  updateValueFromInput(element);
+}
+
+function getPrefixBeforeInsertionPoint(input) {
+  const text = input.value;
+  let prefix = "";
+  const { selectionStart, selectionEnd } = input;
+  if (selectionStart === selectionEnd) {
+    // Selection is an insertion point (not a proper selection).
+    // See if we can find letters to the left.
+    let letters = [];
+    for (let i = selectionStart - 1; i >= 0; i--) {
+      const c = text[i].toLowerCase();
+      if (c >= "a" && c <= "z") {
+        letters.unshift(c);
+      } else {
+        break;
+      }
+    }
+    prefix = letters.join("");
+  }
+  return prefix;
+}
+
+function handleTextInput(element) {
+  const filter = getPrefixBeforeInsertionPoint(element[ids].input);
+  element[setState]({ filter });
   updateValueFromInput(element);
 }
 

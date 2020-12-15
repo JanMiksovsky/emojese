@@ -30,7 +30,9 @@ export default class EmojiGrid extends ReactiveElement {
     return this[state].filter;
   }
   set filter(filter) {
-    this[setState]({ filter });
+    this[setState]({
+      filter: filter.toLowerCase(),
+    });
   }
 
   [render](changed) {
@@ -43,6 +45,7 @@ export default class EmojiGrid extends ReactiveElement {
           new CustomEvent("emoji-click", {
             bubbles: true,
             detail: {
+              description: event.detail.description,
               emoji: event.detail.emoji,
             },
           })
@@ -86,14 +89,14 @@ export default class EmojiGrid extends ReactiveElement {
       if (filter) {
         this.setAttribute("filter", filter);
         matches = [
-          ...this[ids].grid.querySelectorAll(`[description^="${filter}"]`),
+          ...this[ids].grid.querySelectorAll(`[description^="${filter}"i]`),
         ];
       } else {
         this.removeAttribute("filter");
         matches = [];
       }
       [...this[ids].grid.children].forEach((child) => {
-        child.classList.toggle("notMatch", !matches.includes(child));
+        child.classList.toggle("notMatch", filter && !matches.includes(child));
       });
     }
   }
@@ -110,6 +113,7 @@ export default class EmojiGrid extends ReactiveElement {
           display: grid;
           gap: 2px 4px;
           grid-template-columns: repeat(auto-fill, minmax(var(--emoji-entry-width), 1fr));
+          grid-template-rows: min-content;
           overflow-y: auto;
           touch-action: pan-y;
         }
