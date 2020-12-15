@@ -1,14 +1,30 @@
 import {
+  defaultState,
   firstRender,
   ids,
   render,
+  setState,
   shadowRoot,
+  state,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 
 export default class EmojiButton extends ReactiveElement {
+  get [defaultState]() {
+    return Object.assign(super[defaultState], {
+      description: "",
+    });
+  }
+
+  get description() {
+    return this[state].description;
+  }
+  set description(description) {
+    this[setState]({ description });
+  }
+
   [render](changed) {
     super[render](changed);
 
@@ -25,6 +41,16 @@ export default class EmojiButton extends ReactiveElement {
           })
         );
       });
+    }
+
+    if (changed.description) {
+      const { description } = this[state];
+      this[ids].description.textContent = description;
+      if (description) {
+        this.setAttribute("description", description);
+      } else {
+        this.removeAttribute("description");
+      }
     }
   }
 
@@ -64,9 +90,7 @@ export default class EmojiButton extends ReactiveElement {
         <span id="emoji">
           <slot></slot>
         </span>
-        <span id="description">
-          <slot name="description"></slot>
-        </span>
+        <span id="description"></span>
       </button>
     `;
   }

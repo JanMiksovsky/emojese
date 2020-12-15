@@ -16,6 +16,7 @@ export default class EmojiGrid extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       entries: null,
+      filter: null,
     });
   }
 
@@ -23,6 +24,13 @@ export default class EmojiGrid extends ReactiveElement {
     super.connectedCallback();
     const entries = await emojiEntries;
     this[setState]({ entries });
+  }
+
+  get filter() {
+    return this[state].filter;
+  }
+  set filter(filter) {
+    this[setState]({ filter });
   }
 
   [render](changed) {
@@ -63,12 +71,30 @@ export default class EmojiGrid extends ReactiveElement {
 
         // Add button
         const button = new EmojiButton();
-        button.innerHTML = `${entry.emoji}<span slot="description">${entry.description}</span>`;
+        button.description = entry.description;
+        button.textContent = entry.emoji;
         buttons.push(button);
       }
       const grid = this[ids].grid;
       grid.innerHTML = "";
       grid.append(...buttons);
+    }
+
+    if (changed.filter) {
+      const { filter } = this[state];
+      let matches;
+      if (filter) {
+        this.setAttribute("filter", filter);
+        matches = [
+          ...this[ids].grid.querySelectorAll(`[description^="${filter}"]`),
+        ];
+      } else {
+        this.removeAttribute("filter");
+        matches = [];
+      }
+      [...this[ids].grid.children].forEach((child) => {
+        child.classList.toggle("notMatch", !matches.includes(child));
+      });
     }
   }
 
@@ -93,6 +119,10 @@ export default class EmojiGrid extends ReactiveElement {
           background: #eee;
           display: grid;
           justify-items: center;
+        }
+
+        .notMatch {
+          display: none;
         }
       </style>
       <div id="grid"></div>
