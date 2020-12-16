@@ -9,7 +9,7 @@
 ⤼	across
 	actually
 ➕	add
-◑	after
+◑⏰	after
 ◑🕛	afternoon
 ⟲	again
 ⚔️~	aggressive
@@ -30,23 +30,23 @@
 =	are
 ~	around
 🛬	arrive
-	as
+⚖️	as
 💬	ask
 🛌	asleep
 @	at
 ８🌙	August
 ⛺🏕️	away
-◐	back
+◐📍	back
 👎	bad
 🛁	bathe
 ♾️=	be
 🦋~	beautiful
-	because
+∵	because
 🐛🦋	become
-=	been
-◐	before
+	been
+◐⏰	before
 1️⃣	begin
-◐	behind
+◐📍	behind
 🗿	believe
 ◒	below
 💯	best
@@ -56,7 +56,7 @@
 🎂	birthday
 😇	blessed
 📕	book
-	both
+𐄚	both
 ⤺🛒	bought
 👦	boy
 🥥	break
@@ -68,7 +68,7 @@
 🐝~	busy
 ⇤	but
 🛒	buy
-	by
+⩕	by
 📞	call
 ⤺←	came
 💪	can
@@ -99,7 +99,7 @@
 〰	continue
 🍳	cook
 👍	cool
-	copy
+Ꚙ	copy
 ⤺💪	could
 💥	crash
 ✂️	cut
@@ -109,7 +109,7 @@
 📅	date
 ☀️	day
 １２🌙	December
-⚖️	decide
+⌥	decide
 🛫	depart
 ⤺	did
 ⚰️	die
@@ -122,6 +122,7 @@
 🥛	drink
 🚗	drive
 🍁	drop
+🪨~	dumb
 🕑⤻🕓	duration
 〰️	during
 	each
@@ -134,8 +135,8 @@
 📧	email
 🏁	end
 	enjoy
-	enough
-	even
+⍐	enough
+⏸	even
 ∀	every
 ∀👤	everyone
 ∀♟	everything
@@ -145,11 +146,11 @@
 🍁	fall down
 👪	family
 ⛺🏕️	far
-🐇~	fast
-👨‍👧	father
+💨	fast
+👨‍🍼	father
 ２🌙	February
-	feel
-	feeling
+[😀]	feel
+[😀]⟿	feeling
 ♀️	female
 ⠇	few
 ⚔️	fight
@@ -164,13 +165,14 @@
 ↬	for
 🧠💥	forget
 ⤺🧠💥	forgot
-	form
+⬚	form
 ⤺🔍	found
 ０💵	free
 ５☀️	Friday
 🫂	friend
 ↫	from
-	full
+◑📍	front
+⍐	full
 。	full stop
 😀	fun
 ↤	get
@@ -185,7 +187,7 @@
 🦸	great
 	group
 🌱	grow
-🎱	guess
+🔮	guess
 👨	guy
 ⤺💁	had
 🤣	haha
@@ -217,7 +219,7 @@
 ♨️	hot
 🏨	hotel
 🕑	hour
-	house
+🏠	house
 🔨？	how
 🕑⤻🕓？	how long
 👇	I
@@ -228,18 +230,17 @@
 ◑	in front
 🗳	include
 🗣	inform
-⇲	inside
+▣	inside
 	interested
 🌐	internet
 ⇲	into
-	introduction
 =	is
 ≠	isn't
 ♟	it
 ♟の	its
 １🌙	January
 🏢	job
-	join
+🤝	join
 ７🌙	July
 ６🌙	June
 	just
@@ -294,20 +295,20 @@
 	means
 🤝	meet
 🤝	meeting
-	message
+✉️	message
 ⏀	middle
 ⤺🎲	might
 🧠	mind
 👇の	mine
-	miss
+💔	miss
 👩‍👦	mom
 １☀️	Monday
-	money
+💵	money
 🌙	moon
 ⇈	more
 🌅	morning
 	most
-👩‍👦	mother
+👩‍🍼	mother
 👄	mouth
 🚛	move
 🎞️	movie
@@ -337,9 +338,9 @@
 🆗	okay
 🧓~	old
 🤯	omg
-⤓	on
-	once
-	online
+⊻	on
+１⏰	once
+🌐の	online
 	only
 📕📖	open
 ↔️	or
@@ -351,8 +352,8 @@
 💁‍♀️	own
 📄	paper
 👩‍👦👨‍👧	parents
-◱	part
-	pass
+⚙️	part
+💯	pass
 ☜	passive
 💸	pay
 🕊️~	peaceful
@@ -363,13 +364,13 @@
 ⌥	pick
 📍	place
 🗺	plan
-	play
+[🤾]	play
 🙏🏻	please
 ➕	plus
 🐿️	prepare
 🎁	present
 ⏮️	previous
-	probably
+🔮🤷	probably
 🧩	problem
 	pull
 👐	push
@@ -381,10 +382,10 @@
 🛬	reach
 📚	read
 🐿️~	ready
-	real
+◌○	real
 ⇈	really
 📥	receive
-	recent
+🏕️⛺⏰	recent
 🟥	red
 🎓↤	remember
 	rest
@@ -405,17 +406,17 @@
 🏫	school
 👀	see
 🪞	seem
-_	self
+	self
 📤	send
 🦯	sense
 ⤺📤	sent
 ９🌙	September
-	shall
+⇒	shall
 🙍‍♀️	she
 🛒	shop
 🤏	short
-	should
-↦👀	show
+⇒	should
+💁👀	show
 	sign
 ◑	since
 🪑	sit
@@ -423,6 +424,8 @@ _	self
 🦥~	sleepy
 🐌~	slow
 🐜~	small
+🎓~	smart
+⇈	so
 ∴	so
 ∃	some
 ∃👤	someone
@@ -434,9 +437,10 @@ _	self
 👂	sound
 ⭐️	special
 💸	spend
+[⚽]	sport
 🧍	stand
 1️⃣	start
-	stay
+⤓	stay
 🦝	steal
 〰	still
 🛑	stop
@@ -449,7 +453,7 @@ _	self
 ☀️	sun
 ７☀️	Sunday
 🦸	super
-	supposed
+⇒	supposed
 👍	sure
 🍯~	sweet
 🏊‍♀️	swim
@@ -464,11 +468,14 @@ _	self
 🙏	thanks
 👈	that
 	the
+👤の	their
 👥の	their
+👤👈	them
 👥👈	them
 ⇥	then
 📍👈	there
 👉👉	these
+👤	they
 👥	they
 ♟	thing
 ♟♟	things
@@ -493,7 +500,7 @@ _	self
 ⤺↤	took
 🚞	train
 🌳	tree
-	true
+⊨	true
 🧗	try
 ２☀️	Tuesday
 ⌨️	type
@@ -520,13 +527,13 @@ _	self
 👍	well
 ⤺→	went
 ⤺=	were
-_？	what
-🕓？	when
-📍？	where
-⌥?	whether
-⌥?	which
+__	what
+__🕓	when
+__📍	where
+⌥	whether
+⌥	which
 〰️	while
-👤？	who
+__👤	who
 	whole
 ¿?	why
 ⤻	will
@@ -535,6 +542,7 @@ _？	what
 🧑‍🤝‍🧑	with
 🚫🧑‍🤝‍🧑	without
 🛌🛏	woke
+👩	woman
 😍	wonderful
 💬	word
 🛠️	work
@@ -554,4 +562,3 @@ _？	what
 👆	you
 🐣~	young
 👆の	your
-👩	woman

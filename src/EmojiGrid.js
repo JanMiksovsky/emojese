@@ -1,3 +1,4 @@
+import emojis from "../data/emojis.js";
 import {
   defaultState,
   firstRender,
@@ -10,20 +11,13 @@ import {
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 import EmojiButton from "./EmojiButton.js";
-import emojiEntries from "./emojiEntries.js";
 
 export default class EmojiGrid extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
-      entries: null,
+      entries: emojis,
       filter: null,
     });
-  }
-
-  async connectedCallback() {
-    super.connectedCallback();
-    const entries = await emojiEntries;
-    this[setState]({ entries });
   }
 
   get filter() {
@@ -58,11 +52,13 @@ export default class EmojiGrid extends ReactiveElement {
       const buttons = [];
       let referenceLetter = "";
       for (const entry of entries) {
+        const [emoji, gloss, part] = entry;
         // Add letter reference mark before first description that starts with
         // that letter.
-        const entryLetter = entry.description[0].toUpperCase();
+        const entryLetter = part ? gloss[0].toUpperCase() : "⋯";
         if (
-          (entryLetter >= "A") & (entryLetter <= "Z") &&
+          ((entryLetter >= "A") & (entryLetter <= "Z") ||
+            entryLetter === "⋯") &&
           entryLetter !== referenceLetter
         ) {
           const mark = document.createElement("div");
@@ -74,8 +70,8 @@ export default class EmojiGrid extends ReactiveElement {
 
         // Add button
         const button = new EmojiButton();
-        button.description = entry.description;
-        button.textContent = entry.emoji;
+        button.description = gloss;
+        button.textContent = emoji;
         buttons.push(button);
       }
       const grid = this[ids].grid;

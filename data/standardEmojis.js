@@ -1,0 +1,15 @@
+export default standardEmojis = [
+  { emoji: "😀", gloss: "grinning face" },
+  { emoji: "😃", gloss: "grinning face with big eyes" },
+  { emoji: "😄", gloss: "grinning face with smiling eyes" },
+  { emoji: "😁", gloss: "beaming face with smiling eyes" },
+  { emoji: "😆", gloss: "grinning squinting face" },
+  { emoji: "😅", gloss: "grinning face with sweat" },
+  { emoji: "🤣", gloss: "rolling on the floor laughing" },
+  { emoji: "😂", gloss: "face with tears of joy" },
+  { emoji: "🙂", gloss: "slightly smiling face" },
+  { emoji: "🙃", gloss: "upside-down face" },
+  { emoji: "😉", gloss: "winking face" },
+  { emoji: "😊", gloss: "smiling face with smiling eyes" },
+  { emoji: "😇", gloss: "smiling face with halo" },
+];

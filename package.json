@@ -1,6 +1,7 @@
 {
   "name": "emojese",
   "version": "0.0.1",
+  "type": "module",
   "dependencies": {
     "@explorablegraph/core": "0.0.2",
     "@explorablegraph/eg": "0.0.2",
@@ -11,6 +12,7 @@
     "elix": "14.1.1-a"
   },
   "scripts": {
+    "build": "node data/build.js",
     "start": "eg 'serve(Files(.))'"
   },
   "engines": {

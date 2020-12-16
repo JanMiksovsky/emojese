@@ -1,3 +1,4 @@
+import emojis from "../data/emojis.js";
 import {
   defaultState,
   ids,
@@ -8,7 +9,6 @@ import {
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
-import emojiEntries from "./emojiEntries.js";
 
 let emojiMap;
 let longestEntryLength;
@@ -54,12 +54,11 @@ async function getEmojiMap() {
   if (!emojiMap) {
     emojiMap = new Map();
     longestEntryLength = 0;
-    const entries = await emojiEntries;
-    for (const entry of entries) {
-      const { emoji, description } = entry;
+    for (const entry of emojis) {
+      const [emoji, gloss, part] = entry;
       // Take first description for glosses.
       if (!emojiMap.get(emoji)) {
-        emojiMap.set(emoji, description);
+        emojiMap.set(emoji, gloss);
       }
       if (emoji.length > longestEntryLength) {
         longestEntryLength = emoji.length;
