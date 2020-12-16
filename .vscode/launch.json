@@ -16,7 +16,8 @@
       "request": "launch",
       "name": "eg",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/node_modules/@explorablegraph/eg/src/eg.js",
+      // "program": "${workspaceFolder}/node_modules/@explorablegraph/eg/src/eg.js",
+      "program": "/Users/jan/.nvm/versions/node/v15.2.1/lib/node_modules/@explorablegraph/eg/src/eg.js",
       "args": []
     }
   ]

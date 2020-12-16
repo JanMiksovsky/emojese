@@ -4,10 +4,12 @@
   "type": "module",
   "dependencies": {
     "@explorablegraph/eg": "0.0.2-e",
+    "@explorablegraph/symbols": "file:../ExplorableGraph/explorable/packages/symbols",
     "elix": "14.1.1-a"
   },
   "scripts": {
     "build": "node data/build.js",
+    "eg": "eg",
     "start": "eg 'serve(Files(.))'"
   },
   "engines": {
