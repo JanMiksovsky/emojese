@@ -118,6 +118,7 @@ export default class EmojiGrid extends ReactiveElement {
           align-items: center;
           background: none;
           border: none;
+          color: inherit;
           display: inline-grid;
           grid-template-columns: 1.5em auto;
           font: inherit;
@@ -140,7 +141,6 @@ export default class EmojiGrid extends ReactiveElement {
         }
         
         .gloss {
-          display: var(--emoji-gloss-display, none);
           font-size: smaller;
           margin-left: 0.25em;
           text-align: left;

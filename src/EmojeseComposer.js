@@ -22,7 +22,6 @@ export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       filter: "",
-      showGloss: true,
       text: "",
       viewportHeight: null,
       viewportWidth: null,
@@ -63,13 +62,6 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
-      // this[ids].glossToggle.addEventListener("click", () => {
-      //   this[raiseChangeEvents] = true;
-      //   const { showGloss } = this[state];
-      //   this[setState]({ showGloss: !showGloss });
-      //   this[raiseChangeEvents] = false;
-      // });
-
       this[ids].grid.addEventListener("emoji-click", (event) => {
         addToInput(this, event.detail.emoji, event.detail.gloss);
       });
@@ -90,11 +82,6 @@ export default class EmojeseComposer extends ReactiveElement {
     if (changed.text) {
       const { text } = this[state];
       this[ids].gloss.value = text;
-    }
-
-    if (changed.showGloss) {
-      const { showGloss } = this[state];
-      this.toggleAttribute("show-gloss", showGloss);
     }
 
     if (changed.viewportHeight || changed.viewportWidth) {
@@ -121,7 +108,6 @@ export default class EmojeseComposer extends ReactiveElement {
       <style>
         :host {
           display: grid;
-          --emoji-entry-width: 1.5em;
           font-size: 24px;
           grid-template-rows: auto minmax(0, 1fr);
         }
@@ -137,6 +123,10 @@ export default class EmojeseComposer extends ReactiveElement {
           padding: 2px;
         }
 
+        #input {
+          font-size: 32px;
+        }
+
         #input::part(textarea) {
           background: transparent;
           border: none;
@@ -144,7 +134,6 @@ export default class EmojeseComposer extends ReactiveElement {
 
         #gloss {
           color: #666;
-          display: none;
           font-size: smaller;
           grid-column: 1 / span 2;
           grid-row: 2;
@@ -177,14 +166,6 @@ export default class EmojeseComposer extends ReactiveElement {
           margin: 2px;
           padding: 2px;
         }
-
-        :host([show-gloss]) {
-          --emoji-gloss-display: inline-block;
-          --emoji-entry-width: 4.5em;
-        }
-        :host([show-gloss]) #gloss {
-          display: block;
-        }
       </style>
       <div id="inputBar">
         <elix-auto-size-textarea id="input" minimum-rows="1"></elix-auto-size-textarea>
@@ -194,7 +175,6 @@ export default class EmojeseComposer extends ReactiveElement {
           <button id="copyButton">
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
           </button>
-          <!-- <button id="glossToggle">A</button> -->
           <a id="help" href="intro.html">
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
           </a>
