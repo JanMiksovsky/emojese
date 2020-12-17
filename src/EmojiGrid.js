@@ -102,6 +102,7 @@ export default class EmojiGrid extends ReactiveElement {
       <style>
         :host {
           display: grid;
+          grid-template-rows: min-content;
         }
         
         #grid {

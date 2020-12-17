@@ -18,6 +18,8 @@ import EmojiGrid from "./EmojiGrid.js";
 if (AutoSizeTextarea || EmojiGloss || EmojiGrid) {
 }
 
+const graphemer = new Graphemer();
+
 export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
@@ -98,8 +100,6 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (this[firstRender]) {
       viewportResized(this);
-
-      // setTimeout(() => this[ids].input.focus());
     }
   }
 
@@ -130,6 +130,7 @@ export default class EmojeseComposer extends ReactiveElement {
         #input::part(textarea) {
           background: transparent;
           border: none;
+          padding: 2px;
         }
 
         #gloss {
@@ -137,6 +138,7 @@ export default class EmojeseComposer extends ReactiveElement {
           font-size: smaller;
           grid-column: 1 / span 2;
           grid-row: 2;
+          min-height: 1.2em;
         }
 
         #commands {
@@ -189,23 +191,28 @@ export default class EmojeseComposer extends ReactiveElement {
 function addToInput(element, emoji, gloss) {
   const input = element[ids].input;
   const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
+  // We want to preserve spaces at the end of the prefix.
+  const endSpaceCount = prefix.length - prefix.trimRight().length;
+  const endSpaces = endSpaceCount > 0 ? prefix.slice(-endSpaceCount) : "";
   const start = input.selectionStart - prefix.length;
-  input.setRangeText(emoji, start, input.selectionEnd, "end");
+  input.setRangeText(emoji + endSpaces, start, input.selectionEnd, "end");
   element[setState]({ filter: "" });
   updateValueFromInput(element);
 }
 
 function getPrefixBeforeInsertionPoint(input) {
-  const text = input.value;
+  const text = input.value.toLowerCase();
   let prefix = "";
   const { selectionStart, selectionEnd } = input;
   if (selectionStart === selectionEnd) {
     // Selection is an insertion point (not a proper selection).
-    // See if we can find letters to the left.
+    // See if we can find letters to the left. Ignore spaces.
+    const left = text.substring(0, selectionStart);
+    const split = graphemer.splitGraphemes(left);
     let letters = [];
-    for (let i = selectionStart - 1; i >= 0; i--) {
-      const c = text[i].toLowerCase();
-      if (c >= "a" && c <= "z") {
+    for (let i = split.length - 1; i >= 0; i--) {
+      const c = split[i];
+      if ((c >= "a" && c <= "z") || c === " ") {
         letters.unshift(c);
       } else {
         break;
@@ -213,11 +220,15 @@ function getPrefixBeforeInsertionPoint(input) {
     }
     prefix = letters.join("");
   }
-  return prefix;
+  // Don't count leading spaces in prefix.
+  const trimmed = prefix.trimLeft();
+  return trimmed;
 }
 
 function handleTextInput(element) {
-  const filter = getPrefixBeforeInsertionPoint(element[ids].input);
+  const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
+  // Don't include spaces in filter.
+  const filter = prefix.replaceAll(" ", "");
   element[setState]({ filter });
   updateValueFromInput(element);
 }

@@ -9,7 +9,8 @@ function entriesFromEmojeseText(text) {
     const [emoji, gloss] = line.split("\t");
     return [emoji, gloss, "emojese"];
   });
-  return entries;
+  const nonEmpty = entries.filter((entry) => entry[0].length > 0);
+  return nonEmpty;
 }
 
 function entriesFromStandardText(text) {
@@ -28,7 +29,6 @@ const emojeseData = await fs.readFile(emojeseFileName, "utf-8");
 const emojeseEntries = entriesFromEmojeseText(String(emojeseData));
 
 const standardFileName = path.join(dirname, "emoji-test.txt");
-// const standardFileName = path.join(dirname, "head.txt");
 const standardData = await fs.readFile(standardFileName, "utf-8");
 const standardEntries = entriesFromStandardText(String(standardData));
 
