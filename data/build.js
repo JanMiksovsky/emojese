@@ -27,8 +27,8 @@ const emojeseFileName = path.join(dirname, "emojese.txt");
 const emojeseData = await fs.readFile(emojeseFileName, "utf-8");
 const emojeseEntries = entriesFromEmojeseText(String(emojeseData));
 
-// const emojiName = path.join(dirname, "emoji-test.txt");
-const standardFileName = path.join(dirname, "head.txt");
+const standardFileName = path.join(dirname, "emoji-test.txt");
+// const standardFileName = path.join(dirname, "head.txt");
 const standardData = await fs.readFile(standardFileName, "utf-8");
 const standardEntries = entriesFromStandardText(String(standardData));
 

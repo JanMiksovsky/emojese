@@ -3,19 +3,21 @@ import {
   defaultState,
   firstRender,
   ids,
+  raiseChangeEvents,
   render,
   setState,
   state,
+  stateEffects,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
-import EmojiButton from "./EmojiButton.js";
 
 export default class EmojiGrid extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       entries: emojis,
+      items: [],
       filter: null,
     });
   }
@@ -33,50 +35,36 @@ export default class EmojiGrid extends ReactiveElement {
     super[render](changed);
 
     if (this[firstRender]) {
-      this[ids].grid.addEventListener("emoji-click", (event) => {
-        // Reraise event
-        this.dispatchEvent(
-          new CustomEvent("emoji-click", {
-            bubbles: true,
-            detail: {
-              description: event.detail.description,
-              emoji: event.detail.emoji,
-            },
-          })
-        );
+      this[ids].grid.addEventListener("click", (event) => {
+        this[raiseChangeEvents] = true;
+        const target = event.target;
+        const button =
+          target instanceof HTMLButtonElement
+            ? target
+            : target.closest("button");
+        if (button) {
+          const emoji = button.querySelector(".emoji").textContent;
+          const gloss = button.querySelector(".gloss").textContent;
+          // Raise event
+          this.dispatchEvent(
+            new CustomEvent("emoji-click", {
+              bubbles: true,
+              detail: {
+                emoji,
+                gloss,
+              },
+            })
+          );
+        }
+        this[raiseChangeEvents] = false;
       });
     }
 
-    const { entries } = this[state];
-    if (changed.entries && entries) {
-      const buttons = [];
-      let referenceLetter = "";
-      for (const entry of entries) {
-        const [emoji, gloss, part] = entry;
-        // Add letter reference mark before first description that starts with
-        // that letter.
-        const entryLetter = part ? gloss[0].toUpperCase() : "⋯";
-        if (
-          ((entryLetter >= "A") & (entryLetter <= "Z") ||
-            entryLetter === "⋯") &&
-          entryLetter !== referenceLetter
-        ) {
-          const mark = document.createElement("div");
-          mark.classList.add("mark");
-          mark.textContent = entryLetter;
-          buttons.push(mark);
-          referenceLetter = entryLetter;
-        }
-
-        // Add button
-        const button = new EmojiButton();
-        button.description = gloss;
-        button.textContent = emoji;
-        buttons.push(button);
-      }
+    if (changed.items) {
+      const { items } = this[state];
       const grid = this[ids].grid;
       grid.innerHTML = "";
-      grid.append(...buttons);
+      grid.append(...items);
     }
 
     if (changed.filter) {
@@ -84,9 +72,7 @@ export default class EmojiGrid extends ReactiveElement {
       let matches;
       if (filter) {
         this.setAttribute("filter", filter);
-        matches = [
-          ...this[ids].grid.querySelectorAll(`[description^="${filter}"i]`),
-        ];
+        matches = [...this[ids].grid.querySelectorAll(`[gloss*="${filter}"i]`)];
       } else {
         this.removeAttribute("filter");
         matches = [];
@@ -95,6 +81,20 @@ export default class EmojiGrid extends ReactiveElement {
         child.classList.toggle("notMatch", filter && !matches.includes(child));
       });
     }
+  }
+
+  [stateEffects](state, changed) {
+    const effects = super[stateEffects]
+      ? super[stateEffects](state, changed)
+      : {};
+
+    if (changed.entries) {
+      const { entries } = state;
+      const items = gridItemsFromEntries(entries);
+      Object.assign(effects, { items });
+    }
+
+    return effects;
   }
 
   get [template]() {
@@ -114,6 +114,33 @@ export default class EmojiGrid extends ReactiveElement {
           touch-action: pan-y;
         }
 
+        button {
+          align-items: center;
+          background: none;
+          border: none;
+          display: inline-grid;
+          grid-template-columns: 1.5em auto;
+          font: inherit;
+          height: 1.5em;
+          justify-items: start;
+          overflow: hidden;
+          padding: 0;
+        }
+
+        .emoji {
+          overflow: hidden;
+          white-space: nowrap;
+          width: 1.5em;
+        }
+        
+        .gloss {
+          display: var(--emoji-gloss-display, none);
+          font-size: smaller;
+          margin-left: 0.25em;
+          text-align: left;
+          white-space: nowrap;
+        }
+        
         .mark {
           align-items: center;
           background: #ddd;
@@ -128,6 +155,37 @@ export default class EmojiGrid extends ReactiveElement {
       <div id="grid"></div>
     `;
   }
+}
+
+function gridItemsFromEntries(entries) {
+  const items = [];
+  let referenceLetter = "";
+  for (const entry of entries) {
+    const [emoji, gloss, part] = entry;
+    // Add letter reference mark before first gloss that starts with that
+    // letter.
+    const entryLetter = part ? gloss[0].toUpperCase() : "⋯";
+    if (
+      ((entryLetter >= "A") & (entryLetter <= "Z") || entryLetter === "⋯") &&
+      entryLetter !== referenceLetter
+    ) {
+      const mark = document.createElement("div");
+      mark.classList.add("mark");
+      mark.textContent = entryLetter;
+      items.push(mark);
+      referenceLetter = entryLetter;
+    }
+
+    // Add button
+    const button = document.createElement("button");
+    button.setAttribute("gloss", gloss);
+    button.innerHTML = `
+      <span class="emoji">${emoji}</span>
+      <span class="gloss">${gloss}</span>
+    `;
+    items.push(button);
+  }
+  return items;
 }
 
 customElements.define("emoji-grid", EmojiGrid);

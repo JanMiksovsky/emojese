@@ -71,7 +71,7 @@ export default class EmojeseComposer extends ReactiveElement {
       });
 
       this[ids].grid.addEventListener("emoji-click", (event) => {
-        addToInput(this, event.detail.emoji, event.detail.description);
+        addToInput(this, event.detail.emoji, event.detail.gloss);
       });
       this[ids].grid.addEventListener("mousedown", (event) => {
         event.preventDefault(); // Keep focus on input.
@@ -179,7 +179,7 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         :host([show-gloss]) {
-          --emoji-description-display: inline-block;
+          --emoji-gloss-display: inline-block;
           --emoji-entry-width: 4em;
         }
         :host([show-gloss]) #gloss {
@@ -206,13 +206,10 @@ export default class EmojeseComposer extends ReactiveElement {
   }
 }
 
-function addToInput(element, emoji, description) {
+function addToInput(element, emoji, gloss) {
   const input = element[ids].input;
   const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
-  let start = input.selectionStart;
-  if (prefix && description.toLowerCase().startsWith(prefix)) {
-    start -= prefix.length;
-  }
+  const start = input.selectionStart - prefix.length;
   input.setRangeText(emoji, start, input.selectionEnd, "end");
   element[setState]({ filter: "" });
   updateValueFromInput(element);
