@@ -130,6 +130,7 @@ export default class EmojeseComposer extends ReactiveElement {
         #input::part(textarea) {
           background: transparent;
           border: none;
+          color: #333;
           padding: 2px;
         }
 
