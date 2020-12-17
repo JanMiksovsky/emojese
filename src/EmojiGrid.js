@@ -44,7 +44,7 @@ export default class EmojiGrid extends ReactiveElement {
             : target.closest("button");
         if (button) {
           const emoji = button.querySelector(".emoji").textContent;
-          const gloss = button.querySelector(".gloss").textContent;
+          const gloss = button.querySelector(".gloss")?.textContent;
           // Raise event
           this.dispatchEvent(
             new CustomEvent("emoji-click", {
@@ -108,7 +108,7 @@ export default class EmojiGrid extends ReactiveElement {
           box-sizing: border-box;
           display: grid;
           gap: 2px 5px;
-          grid-template-columns: repeat(auto-fill, minmax(var(--emoji-entry-width), 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(1.5em, 1fr));
           grid-template-rows: min-content;
           overflow-y: auto;
           touch-action: pan-y;
@@ -127,8 +127,14 @@ export default class EmojiGrid extends ReactiveElement {
           padding: 0;
         }
 
+        .emojese,
+        .mark {
+          grid-column-end: span 3;
+        }
+
         .emoji {
           overflow: hidden;
+          text-align: left;
           white-space: nowrap;
           width: 1.5em;
         }
@@ -144,8 +150,16 @@ export default class EmojiGrid extends ReactiveElement {
         .mark {
           align-items: center;
           background: #ddd;
-          display: grid;
-          justify-items: center;
+          display: inline-grid;
+          grid-template-columns: 1.5em auto;
+        }
+
+        .letter {
+          margin-left: 0.25em;
+        }
+
+        .firstStandardItem {
+          grid-column: 1;
         }
 
         .notMatch {
@@ -160,18 +174,25 @@ export default class EmojiGrid extends ReactiveElement {
 function gridItemsFromEntries(entries) {
   const items = [];
   let referenceLetter = "";
+  let lastItemWasEmojese = false;
   for (const entry of entries) {
     const [emoji, gloss, part] = entry;
     // Add letter reference mark before first gloss that starts with that
     // letter.
-    const entryLetter = part ? gloss[0].toUpperCase() : "⋯";
+    const emojeseItem = !!part;
+    const firstStandardItem = lastItemWasEmojese && !emojeseItem;
+
+    const entryLetter = emojeseItem ? gloss[0].toUpperCase() : null;
     if (
-      ((entryLetter >= "A") & (entryLetter <= "Z") || entryLetter === "⋯") &&
+      (entryLetter >= "A") & (entryLetter <= "Z") &&
       entryLetter !== referenceLetter
     ) {
       const mark = document.createElement("div");
       mark.classList.add("mark");
-      mark.textContent = entryLetter;
+      mark.innerHTML = `
+        <span></span>
+        <span class="letter">${entryLetter}</span>
+      `;
       items.push(mark);
       referenceLetter = entryLetter;
     }
@@ -179,11 +200,17 @@ function gridItemsFromEntries(entries) {
     // Add button
     const button = document.createElement("button");
     button.setAttribute("gloss", gloss);
-    button.innerHTML = `
-      <span class="emoji">${emoji}</span>
-      <span class="gloss">${gloss}</span>
-    `;
+    button.classList.toggle("emojese", emojeseItem);
+    button.classList.toggle("firstStandardItem", firstStandardItem);
+    let html = `<span class="emoji">${emoji}</span>`;
+    if (part) {
+      html += `<span class="gloss">${gloss}</span>`;
+    }
+    button.innerHTML = html;
+
     items.push(button);
+
+    lastItemWasEmojese = emojeseItem;
   }
   return items;
 }
