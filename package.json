@@ -4,7 +4,7 @@
   "type": "module",
   "dependencies": {
     "@explorablegraph/eg": "0.0.2-e",
-    "@explorablegraph/symbols": "file:../ExplorableGraph/explorable/packages/symbols",
+    "@explorablegraph/symbols": "0.0.2-d",
     "elix": "14.1.1-a",
     "graphemer": "1.1.1"
   },
