@@ -1,5 +1,9 @@
 import emojis from "../data/emojis.js";
+import CursorAPIMixin from "../node_modules/elix/src/base/CursorAPIMixin.js";
+import CursorInViewMixin from "../node_modules/elix/src/base/CursorInViewMixin.js";
+import CursorSelectMixin from "../node_modules/elix/src/base/CursorSelectMixin.js";
 import {
+  closestAvailableItemIndex,
   defaultState,
   firstRender,
   ids,
@@ -10,10 +14,48 @@ import {
   stateEffects,
   template,
 } from "../node_modules/elix/src/base/internal.js";
+import ItemsCursorMixin from "../node_modules/elix/src/base/ItemsCursorMixin.js";
+import SingleSelectAPIMixin from "../node_modules/elix/src/base/SingleSelectAPIMixin.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 
-export default class EmojiGrid extends ReactiveElement {
+const Base = CursorAPIMixin(
+  CursorInViewMixin(
+    CursorSelectMixin(ItemsCursorMixin(SingleSelectAPIMixin(ReactiveElement)))
+  )
+);
+
+export default class EmojiGrid extends Base {
+  [closestAvailableItemIndex](state, options = {}) {
+    const direction = options.direction !== undefined ? options.direction : 1;
+    const index =
+      options.index !== undefined ? options.index : state.currentIndex;
+
+    const { filter, items } = state;
+    const count = items ? items.length : 0;
+
+    if (count === 0) {
+      // No items
+      return -1;
+    }
+
+    if (!filter) {
+      // Always matches.
+      return index;
+    }
+
+    // Search without wrapping.
+    for (let i = index; i >= 0 && i < count; i += direction) {
+      const item = items[i];
+      const gloss = item.getAttribute("title");
+      if (gloss?.includes(filter)) {
+        return i;
+      }
+    }
+
+    return -1; // No item found
+  }
+
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       entries: emojis,
@@ -67,6 +109,17 @@ export default class EmojiGrid extends ReactiveElement {
       grid.append(...items);
     }
 
+    if (changed.items || changed.currentIndex) {
+      // Show the current item as selected.
+      const { currentIndex, items } = this[state];
+      const filterStyles = this[ids].filterStyles;
+      const rule = filterStyles.sheet.rules[1];
+      rule.selectorText =
+        currentIndex >= 0
+          ? `#grid > :nth-child(${currentIndex + 1})`
+          : `.selected`;
+    }
+
     if (changed.filter) {
       const { filter } = this[state];
       const filterStyles = this[ids].filterStyles;
@@ -86,6 +139,21 @@ export default class EmojiGrid extends ReactiveElement {
       const { entries } = state;
       const items = gridItemsFromEntries(entries);
       Object.assign(effects, { items });
+    }
+
+    if (changed.filter) {
+      const { currentIndex, filter } = state;
+      if (!filter) {
+        // Resetting filter resets selection.
+        Object.assign(effects, { currentIndex: -1 });
+      } else {
+        // Changing filter selects an item by default. This will be the first
+        // matching item if there's no selection yet, or if there is a
+        // selection, the closest matching item.
+        const index = currentIndex < 0 ? 0 : currentIndex;
+        const closestIndex = this[closestAvailableItemIndex](state, { index });
+        Object.assign(effects, { currentIndex: closestIndex });
+      }
     }
 
     return effects;
@@ -122,6 +190,11 @@ export default class EmojiGrid extends ReactiveElement {
           padding: 0;
         }
 
+        /* button[selected] {
+          background: highlight;
+          color: highlighttext;
+        } */
+
         .emojese,
         .mark {
           grid-column-end: span 3;
@@ -157,9 +230,14 @@ export default class EmojiGrid extends ReactiveElement {
         }
       </style>
       <style id="filterStyles">
-        /* This rule is modified dynamically to filter the grid. */
+        /* These rules are modified dynamically to filter the grid. */
         .never {
           display: none;
+        }
+
+        .selected {
+          background: highlight;
+          color: highlighttext;
         }
       </style>
       <div id="grid"></div>

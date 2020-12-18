@@ -1,4 +1,3 @@
-import AutoSizeTextarea from "../node_modules/elix/define/AutoSizeTextarea.js";
 import {
   defaultState,
   firstRender,
@@ -14,8 +13,10 @@ import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 import EmojiGloss from "./EmojiGloss.js";
 import EmojiGrid from "./EmojiGrid.js";
+import EmojiTextarea from "./EmojiTextarea.js";
 
-if (AutoSizeTextarea || EmojiGloss || EmojiGrid) {
+// Force recognition of imports.
+if (EmojiGloss || EmojiGrid || EmojiTextarea) {
 }
 
 const graphemer = new Graphemer();
@@ -38,6 +39,16 @@ export default class EmojeseComposer extends ReactiveElement {
       this[ids].input.addEventListener("value-changed", () => {
         this[raiseChangeEvents] = true;
         handleTextInput(this);
+        this[raiseChangeEvents] = false;
+      });
+
+      this[ids].input.addEventListener("keydown", (event) => {
+        this[raiseChangeEvents] = true;
+        const handled = handleInputKeydown(this, event);
+        if (handled) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
         this[raiseChangeEvents] = false;
       });
 
@@ -171,7 +182,7 @@ export default class EmojeseComposer extends ReactiveElement {
         }
       </style>
       <div id="inputBar">
-        <elix-auto-size-textarea id="input" minimum-rows="1"></elix-auto-size-textarea>
+        <emoji-textarea id="input"></emoji-textarea>
         <div id="commands">
           <button id="shareButton">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
@@ -224,6 +235,55 @@ function getPrefixBeforeInsertionPoint(input) {
   // Don't count leading spaces in prefix.
   const trimmed = prefix.trimLeft();
   return trimmed;
+}
+
+function handleInputKeydown(element, event) {
+  let handled;
+  const grid = element[ids].grid;
+
+  // Ignore Left/Right keys when metaKey or altKey modifier is also pressed,
+  // as the user may be trying to navigate back or forward in the browser.
+  switch (event.key) {
+    case "ArrowDown":
+      handled = grid.goNext();
+      break;
+
+    // case "ArrowLeft":
+    //   if (horizontal && !event.metaKey && !event.altKey) {
+    //     handled = this[goLeft]();
+    //   }
+    //   break;
+
+    // case "ArrowRight":
+    //   if (horizontal && !event.metaKey && !event.altKey) {
+    //     handled = this[goRight]();
+    //   }
+    //   break;
+
+    case "ArrowUp":
+      handled = grid.goPrevious();
+      break;
+
+    case "End":
+      handled = grid.goLast();
+      break;
+
+    case "Enter":
+      const item = grid.currentItem;
+      if (item) {
+        const emoji = item.querySelector(".emoji").textContent;
+        const gloss = item.querySelector(".gloss")?.textContent;
+        addToInput(element, emoji, gloss);
+        handled = true;
+      }
+      break;
+
+    case "Home":
+      handled = grid.goFirst();
+      break;
+  }
+
+  return handled;
 }
 
 function handleTextInput(element) {
