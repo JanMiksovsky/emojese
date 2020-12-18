@@ -42,6 +42,10 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
+      this[ids].input.addEventListener("click", (event) => {
+        this[ids].grid.currentIndex = -1;
+      });
+
       this[ids].input.addEventListener("keydown", (event) => {
         this[raiseChangeEvents] = true;
         const handled = handleInputKeydown(this, event);
@@ -212,6 +216,12 @@ function addToInput(element, emoji, gloss) {
   updateValueFromInput(element);
 }
 
+function addItemToInput(element, item) {
+  const emoji = item.querySelector(".emoji").textContent;
+  const gloss = item.querySelector(".gloss")?.textContent;
+  addToInput(element, emoji, gloss);
+}
+
 function getPrefixBeforeInsertionPoint(input) {
   const text = input.value.toLowerCase();
   let prefix = "";
@@ -271,9 +281,7 @@ function handleInputKeydown(element, event) {
     case "Enter":
       const item = grid.currentItem;
       if (item) {
-        const emoji = item.querySelector(".emoji").textContent;
-        const gloss = item.querySelector(".gloss")?.textContent;
-        addToInput(element, emoji, gloss);
+        addItemToInput(element, item);
         handled = true;
       }
       break;
@@ -288,10 +296,19 @@ function handleInputKeydown(element, event) {
 
 function handleTextInput(element) {
   const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
-  // Don't include spaces in filter.
-  const filter = prefix.replaceAll(" ", "");
-  element[setState]({ filter });
-  updateValueFromInput(element);
+  const lastChar = prefix.slice(-1);
+  const autoAcceptChars = [" ", ".", "?", "!"];
+  const currentItem = element[ids].grid.currentItem;
+  if (autoAcceptChars.includes(lastChar) && currentItem) {
+    // Auto-accept the prefix.
+    addItemToInput(element, currentItem);
+  } else {
+    // Define filter from prefix.
+    // Don't include spaces in filter.
+    const filter = prefix.replaceAll(" ", "");
+    element[setState]({ filter });
+    updateValueFromInput(element);
+  }
 }
 
 function updateValueFromInput(element) {

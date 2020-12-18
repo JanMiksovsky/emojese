@@ -388,6 +388,7 @@ __↕	how much
 🐿️~	ready
 ◌○	real
 ⇈	really
+∵	reason
 📥	receive
 🏕️⛺⏰	recent
 🟥	red
@@ -415,11 +416,11 @@ __↕	how much
 🦯	sense
 ⤺📤	sent
 ９🌙	September
-⇒	shall
+	shall
 👩	she
 🛒	shop
 🤏	short
-⇒	should
+❗	should
 💁👀	show
 	sign
 ◑	since
@@ -431,7 +432,7 @@ __↕	how much
 🐜~	small
 🎓~	smart
 ⇈	so
-∴	so
+⇥	so
 ∃	some
 ∃👤	someone
 ∃♟	something
@@ -458,7 +459,7 @@ __↕	how much
 ☀️	sun
 ７☀️	Sunday
 🦸	super
-⇒	supposed
+❗	supposed
 👍	sure
 🍯~	sweet
 🏊‍♀️	swim
@@ -477,7 +478,7 @@ __↕	how much
 👥の	their
 👤👈	them
 👥👈	them
-⇥	then
+⇒	then
 📍👈	there
 👉👉	these
 👤	they
@@ -540,7 +541,7 @@ __📍	where
 〰️	while
 __👤	who
 	whole
-¿?	why
+__∵	why
 ⤻	will
 💯	win
 🧞	wish
