@@ -9,6 +9,7 @@ import {
   ids,
   raiseChangeEvents,
   render,
+  rendered,
   setState,
   state,
   stateEffects,
@@ -127,6 +128,25 @@ export default class EmojiGrid extends Base {
       rule.selectorText = filter
         ? `button:not([title*="${filter}"i])`
         : `.never`;
+    }
+  }
+
+  [rendered](changed) {
+    super[rendered](changed);
+
+    if (changed.filter) {
+      // By default, we'll select the first match, but if we can find a complete
+      // match, switch to that. We don't do this in stateEffects, because here
+      // we're directly inspecting the state of the DOM.
+      const { filter, items } = this[state];
+      const match = this[ids].grid.querySelector(`button[title="${filter}"]`);
+      if (match) {
+        const index = items.indexOf(match);
+        // Should always be true
+        if (index >= 0) {
+          this[setState]({ currentIndex: index });
+        }
+      }
     }
   }
 
