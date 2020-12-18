@@ -142,7 +142,7 @@ export default class EmojeseComposer extends ReactiveElement {
           background: transparent;
           border: none;
           color: #333;
-          padding: 2px;
+          padding: 2px 4px;
         }
 
         #gloss {

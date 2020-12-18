@@ -142,16 +142,15 @@ export default class EmojiGrid extends Base {
     }
 
     if (changed.filter) {
-      const { currentIndex, filter } = state;
+      const { currentIndex, items, filter } = state;
       if (!filter) {
         // Resetting filter resets selection.
         Object.assign(effects, { currentIndex: -1 });
-      } else {
-        // Changing filter selects an item by default. This will be the first
-        // matching item if there's no selection yet, or if there is a
-        // selection, the closest matching item.
-        const index = currentIndex < 0 ? 0 : currentIndex;
-        const closestIndex = this[closestAvailableItemIndex](state, { index });
+      } else if (items) {
+        // Changing filter selects the first matching item.
+        const closestIndex = this[closestAvailableItemIndex](state, {
+          index: 0,
+        });
         Object.assign(effects, { currentIndex: closestIndex });
       }
     }
@@ -189,11 +188,6 @@ export default class EmojiGrid extends Base {
           overflow: hidden;
           padding: 0;
         }
-
-        /* button[selected] {
-          background: highlight;
-          color: highlighttext;
-        } */
 
         .emojese,
         .mark {
@@ -273,7 +267,7 @@ function gridItemsFromEntries(entries) {
 
     // Add button
     const button = document.createElement("button");
-    button.setAttribute("title", gloss);
+    button.setAttribute("title", gloss.toLowerCase());
     button.classList.toggle("emojese", !!emojese);
     button.classList.toggle("firstStandardItem", firstStandardItem);
     let html = `<span class="emoji">${emoji}</span>`;
