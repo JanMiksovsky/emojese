@@ -59,7 +59,7 @@
 𐄚	both
 ⤺🛒	bought
 👦	boy
-🥥	break
+💥	break
 [🥞]	breakfast
 🎒	bring
 	btw
@@ -90,7 +90,7 @@
 🪟~	clear
 📖📕	close
 🏕️⛺	close
-👖	clothes
+[👖]	clothes
 🧊~	cold
 ↤	collect
 ←	come
@@ -116,6 +116,7 @@
 🍎🍊	different
 [🍲]	dinner
 ⟿	do
+🚫⟿	do not
 🐕	dog
 🏁	done
 ⬇️	down
@@ -133,6 +134,7 @@
 	either
 	else
 📧	email
+🖼️💬	Emojese
 🏁	end
 	enjoy
 ⍐	enough
@@ -236,7 +238,7 @@ __↕	how much
 🌐	internet
 ⇲	into
 =	is
-≠	isn't
+≠	is not
 ♟	it
 ♟の	its
 １🌙	January
