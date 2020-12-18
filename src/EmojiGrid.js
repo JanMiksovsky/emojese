@@ -72,7 +72,7 @@ export default class EmojiGrid extends ReactiveElement {
       let matches;
       if (filter) {
         this.setAttribute("filter", filter);
-        matches = [...this[ids].grid.querySelectorAll(`[gloss*="${filter}"i]`)];
+        matches = [...this[ids].grid.querySelectorAll(`[title*="${filter}"i]`)];
       } else {
         this.removeAttribute("filter");
         matches = [];
@@ -108,7 +108,7 @@ export default class EmojiGrid extends ReactiveElement {
         #grid {
           box-sizing: border-box;
           display: grid;
-          gap: 2px 5px;
+          gap: 2px 6px;
           grid-template-columns: repeat(auto-fill, minmax(1.5em, 1fr));
           grid-template-rows: min-content;
           overflow-y: auto;
@@ -200,7 +200,7 @@ function gridItemsFromEntries(entries) {
 
     // Add button
     const button = document.createElement("button");
-    button.setAttribute("gloss", gloss);
+    button.setAttribute("title", gloss);
     button.classList.toggle("emojese", emojeseItem);
     button.classList.toggle("firstStandardItem", firstStandardItem);
     let html = `<span class="emoji">${emoji}</span>`;

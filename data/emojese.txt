@@ -160,7 +160,7 @@
 🏁	finish
 1️⃣	first
 🐟	fish
-🐕‍🦺	follow
+↤🐕‍🦺	follow
 🥫	food
 ↬	for
 🧠💥	forget
@@ -222,6 +222,7 @@
 🏠	house
 🔨？	how
 🕑⤻🕓？	how long
+__↕	how much
 👇	I
 💡	idea
 	if
@@ -253,7 +254,7 @@
 🌃	late
 ⇈🌃	later
 🦥~	lazy
-	lead
+🐕‍🦺	lead
 	least
 🛫	leave
 ⤺🛫	left
@@ -355,6 +356,7 @@
 ⚙️	part
 💯	pass
 ☜	passive
+👣	path
 💸	pay
 🕊️~	peaceful
 👥	people
@@ -420,6 +422,7 @@
 	sign
 ◑	since
 🪑	sit
+↕	size
 🛌	sleep
 🦥~	sleepy
 🐌~	slow
