@@ -102,7 +102,8 @@ export default class EmojiGrid extends ReactiveElement {
       <style>
         :host {
           display: grid;
-          /* grid-template-rows: min-content; */
+          grid-template-rows: min-content;
+          overflow-y: auto;
         }
         
         #grid {
@@ -110,8 +111,6 @@ export default class EmojiGrid extends ReactiveElement {
           display: grid;
           gap: 2px 6px;
           grid-template-columns: repeat(auto-fill, minmax(1.5em, 1fr));
-          grid-template-rows: min-content;
-          overflow-y: auto;
           touch-action: pan-y;
         }
 
@@ -177,13 +176,12 @@ function gridItemsFromEntries(entries) {
   let referenceLetter = "";
   let lastItemWasEmojese = false;
   for (const entry of entries) {
-    const [emoji, gloss, part] = entry;
+    const [emoji, gloss, emojese] = entry;
     // Add letter reference mark before first gloss that starts with that
     // letter.
-    const emojeseItem = !!part;
-    const firstStandardItem = lastItemWasEmojese && !emojeseItem;
+    const firstStandardItem = lastItemWasEmojese && !emojese;
 
-    const entryLetter = emojeseItem ? gloss[0].toUpperCase() : null;
+    const entryLetter = emojese ? gloss[0].toUpperCase() : null;
     if (
       (entryLetter >= "A") & (entryLetter <= "Z") &&
       entryLetter !== referenceLetter
@@ -201,17 +199,17 @@ function gridItemsFromEntries(entries) {
     // Add button
     const button = document.createElement("button");
     button.setAttribute("title", gloss);
-    button.classList.toggle("emojese", emojeseItem);
+    button.classList.toggle("emojese", !!emojese);
     button.classList.toggle("firstStandardItem", firstStandardItem);
     let html = `<span class="emoji">${emoji}</span>`;
-    if (part) {
+    if (emojese) {
       html += `<span class="gloss">${gloss}</span>`;
     }
     button.innerHTML = html;
 
     items.push(button);
 
-    lastItemWasEmojese = emojeseItem;
+    lastItemWasEmojese = !!emojese;
   }
   return items;
 }

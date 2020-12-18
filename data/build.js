@@ -7,7 +7,7 @@ function entriesFromEmojeseText(text) {
   const lines = text.split("\n");
   const entries = lines.map((line) => {
     const [emoji, gloss] = line.split("\t");
-    return [emoji, gloss, "emojese"];
+    return [emoji, gloss, "*"];
   });
   const nonEmpty = entries.filter((entry) => entry[0].length > 0);
   return nonEmpty;
