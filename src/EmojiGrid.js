@@ -69,17 +69,11 @@ export default class EmojiGrid extends ReactiveElement {
 
     if (changed.filter) {
       const { filter } = this[state];
-      let matches;
-      if (filter) {
-        this.setAttribute("filter", filter);
-        matches = [...this[ids].grid.querySelectorAll(`[title*="${filter}"i]`)];
-      } else {
-        this.removeAttribute("filter");
-        matches = [];
-      }
-      [...this[ids].grid.children].forEach((child) => {
-        child.classList.toggle("notMatch", filter && !matches.includes(child));
-      });
+      const filterStyles = this[ids].filterStyles;
+      const rule = filterStyles.sheet.rules[0];
+      rule.selectorText = filter
+        ? `button:not([title*="${filter}"i])`
+        : `.never`;
     }
   }
 
@@ -161,8 +155,10 @@ export default class EmojiGrid extends ReactiveElement {
         .firstStandardItem {
           grid-column: 1;
         }
-
-        .notMatch {
+      </style>
+      <style id="filterStyles">
+        /* This rule is modified dynamically to filter the grid. */
+        .never {
           display: none;
         }
       </style>
@@ -186,7 +182,8 @@ function gridItemsFromEntries(entries) {
       (entryLetter >= "A") & (entryLetter <= "Z") &&
       entryLetter !== referenceLetter
     ) {
-      const mark = document.createElement("div");
+      const mark = document.createElement("button");
+      mark.disabled = true;
       mark.classList.add("mark");
       mark.innerHTML = `
         <span></span>
