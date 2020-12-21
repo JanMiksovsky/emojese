@@ -125,8 +125,10 @@ export default class EmojiGrid extends Base {
       const { filter } = this[state];
       const filterStyles = this[ids].filterStyles;
       const rule = filterStyles.sheet.rules[0];
+      // We start the search with a space so that we only match the beginning of
+      // words.
       rule.selectorText = filter
-        ? `button:not([title*="${filter}"i])`
+        ? `button:not([title*=" ${filter}"i])`
         : `.never`;
     }
   }
@@ -139,7 +141,7 @@ export default class EmojiGrid extends Base {
       // match, switch to that. We don't do this in stateEffects, because here
       // we're directly inspecting the state of the DOM.
       const { filter, items } = this[state];
-      const match = this[ids].grid.querySelector(`button[title="${filter}"]`);
+      const match = this[ids].grid.querySelector(`button[title=" ${filter}"]`);
       if (match) {
         const index = items.indexOf(match);
         // Should always be true
@@ -287,7 +289,8 @@ function gridItemsFromEntries(entries) {
 
     // Add button
     const button = document.createElement("button");
-    button.setAttribute("title", gloss.toLowerCase());
+    const title = " " + gloss.toLowerCase();
+    button.setAttribute("title", title);
     button.classList.toggle("emojese", !!emojese);
     button.classList.toggle("firstStandardItem", firstStandardItem);
     let html = `<span class="emoji">${emoji}</span>`;
