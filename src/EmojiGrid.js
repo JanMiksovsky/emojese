@@ -40,11 +40,6 @@ export default class EmojiGrid extends Base {
       return -1;
     }
 
-    if (!filter) {
-      // Always matches.
-      return index;
-    }
-
     // Search without wrapping.
     const filterWithSpace = " " + filter;
     for (let i = index; i >= 0 && i < count; i += direction) {
@@ -111,9 +106,9 @@ export default class EmojiGrid extends Base {
       grid.append(...items);
     }
 
-    if (changed.items || changed.currentIndex) {
+    if (changed.currentIndex) {
       // Show the current item as selected.
-      const { currentIndex, items } = this[state];
+      const { currentIndex } = this[state];
       const filterStyles = this[ids].filterStyles;
       const rule = filterStyles.sheet.rules[1];
       rule.selectorText =
@@ -165,7 +160,7 @@ export default class EmojiGrid extends Base {
     }
 
     if (changed.filter) {
-      const { currentIndex, items, filter } = state;
+      const { items, filter } = state;
       if (!filter) {
         // Resetting filter resets selection.
         Object.assign(effects, { currentIndex: -1 });

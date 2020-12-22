@@ -22,6 +22,7 @@ if (EmojiGloss || EmojiGrid || EmojiTextarea) {
 export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
+      currentItem: null,
       filter: "",
       text: "",
       viewportHeight: null,
@@ -34,7 +35,9 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (this[firstRender]) {
       this[ids].input.addEventListener("click", (event) => {
-        this[ids].grid.currentIndex = -1;
+        this[raiseChangeEvents] = true;
+        this[setState]({ currentItem: null });
+        this[raiseChangeEvents] = false;
       });
 
       this[ids].input.addEventListener("input", () => {
@@ -56,18 +59,8 @@ export default class EmojeseComposer extends ReactiveElement {
       this[ids].input.addEventListener("prefixchange", (event) => {
         this[raiseChangeEvents] = true;
         const prefix = this[ids].input.prefix;
-        // const lastChar = prefix.slice(-1);
-        // const autoAcceptChars = [" ", ".", "?", "!"];
-        // const currentItem = this[ids].grid.currentItem;
-        // if (autoAcceptChars.includes(lastChar) && currentItem) {
-        //   // Auto-accept the prefix.
-        //   addItemToInput(this, currentItem);
-        // } else {
-        // Define filter from prefix.
-        // Don't include spaces in filter.
         const filter = prefix.replaceAll(" ", "");
         this[setState]({ filter });
-        // }
         this[raiseChangeEvents] = false;
       });
 
@@ -94,6 +87,12 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
+      this[ids].grid.addEventListener("currentindexchange", () => {
+        this[raiseChangeEvents] = true;
+        const currentItem = this[ids].grid.currentItem;
+        this[setState]({ currentItem });
+        this[raiseChangeEvents] = false;
+      });
       this[ids].grid.addEventListener("emoji-click", (event) => {
         addToInput(this, event.detail.emoji, event.detail.gloss);
       });
@@ -104,6 +103,11 @@ export default class EmojeseComposer extends ReactiveElement {
       window.visualViewport.addEventListener("resize", () => {
         viewportResized(this);
       });
+    }
+
+    if (changed.currentItem) {
+      const { currentItem } = this[state];
+      this[ids].grid.currentItem = currentItem;
     }
 
     if (changed.filter) {
@@ -223,6 +227,7 @@ function addToInput(element, emoji, gloss) {
   element[ids].input.insertEmoji(emoji);
   element[setState]({ filter: "" });
   updateValueFromInput(element);
+  updateCurrentItemFromGrid(element);
 }
 
 function addItemToInput(element, item) {
@@ -240,6 +245,7 @@ function handleInputKeydown(element, event) {
   switch (event.key) {
     case "ArrowDown":
       handled = grid.goNext();
+      updateCurrentItemFromGrid(element);
       break;
 
     // case "ArrowLeft":
@@ -256,22 +262,17 @@ function handleInputKeydown(element, event) {
 
     case "ArrowUp":
       handled = grid.goPrevious();
+      updateCurrentItemFromGrid(element);
       break;
 
     case "End":
       handled = grid.goLast();
-      break;
-
-    case "Enter":
-      const item = grid.currentItem;
-      if (item) {
-        addItemToInput(element, item);
-        handled = true;
-      }
+      updateCurrentItemFromGrid(element);
       break;
 
     case "Home":
       handled = grid.goFirst();
+      updateCurrentItemFromGrid(element);
       break;
 
     case " ":
@@ -283,14 +284,21 @@ function handleInputKeydown(element, event) {
     case ".":
     case "(":
     case ")":
-      const currentItem = element[ids].grid.currentItem;
+    case "Enter":
+      const { currentItem } = element[state];
       if (currentItem) {
         addItemToInput(element, currentItem);
+        handled = true;
       }
       break;
   }
 
   return handled;
+}
+
+function updateCurrentItemFromGrid(element) {
+  const currentItem = element[ids].grid.currentItem;
+  element[setState]({ currentItem });
 }
 
 function updateValueFromInput(element) {
