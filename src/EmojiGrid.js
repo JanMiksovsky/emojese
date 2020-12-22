@@ -85,7 +85,7 @@ export default class EmojiGrid extends Base {
           target instanceof HTMLButtonElement
             ? target
             : target.closest("button");
-        if (button) {
+        if (button && !button.disabled) {
           const emoji = button.querySelector(".emoji").textContent;
           const gloss = button.querySelector(".gloss")?.textContent;
           // Raise event
@@ -193,7 +193,7 @@ export default class EmojiGrid extends Base {
           box-sizing: border-box;
           display: grid;
           gap: 2px 6px;
-          grid-template-columns: repeat(auto-fill, minmax(1.5em, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(4.5em, 1fr));
           touch-action: pan-y;
         }
 
@@ -211,14 +211,9 @@ export default class EmojiGrid extends Base {
           padding: 0;
         }
 
-        .emojese,
-        .mark {
-          grid-column-end: span 3;
-        }
-
         .emoji {
           overflow: hidden;
-          text-align: left;
+          text-align: right;
           white-space: nowrap;
           width: 1.5em;
         }
@@ -226,7 +221,6 @@ export default class EmojiGrid extends Base {
         .gloss {
           font-size: smaller;
           margin-left: 0.25em;
-          text-align: left;
           white-space: nowrap;
         }
         
@@ -239,10 +233,6 @@ export default class EmojiGrid extends Base {
 
         .letter {
           margin-left: 0.25em;
-        }
-
-        .firstStandardItem {
-          grid-column: 1;
         }
       </style>
       <style id="filterStyles">
@@ -271,9 +261,13 @@ function gridItemsFromEntries(entries) {
     // letter.
     const firstStandardItem = lastItemWasEmojese && !emojese;
 
-    const entryLetter = emojese ? gloss[0].toUpperCase() : null;
+    const entryLetter = emojese
+      ? gloss[0].toUpperCase()
+      : firstStandardItem
+      ? "⋯"
+      : "";
     if (
-      (entryLetter >= "A") & (entryLetter <= "Z") &&
+      ((entryLetter >= "A") & (entryLetter <= "Z") || entryLetter === "⋯") &&
       entryLetter !== referenceLetter
     ) {
       const mark = document.createElement("button");
@@ -292,12 +286,7 @@ function gridItemsFromEntries(entries) {
     const title = " " + gloss.toLowerCase();
     button.setAttribute("title", title);
     button.classList.toggle("emojese", !!emojese);
-    button.classList.toggle("firstStandardItem", firstStandardItem);
-    let html = `<span class="emoji">${emoji}</span>`;
-    if (emojese) {
-      html += `<span class="gloss">${gloss}</span>`;
-    }
-    button.innerHTML = html;
+    button.innerHTML = `<span class="emoji">${emoji}</span><span class="gloss">${gloss}</span>`;
 
     items.push(button);
 
