@@ -8,9 +8,7 @@ import {
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
-
-// Graphemer is defined in window global.
-const graphemer = new Graphemer();
+import graphemer from "./graphemer.js";
 
 export default class EmojiTextarea extends AutoSizeTextarea {
   get [defaultState]() {

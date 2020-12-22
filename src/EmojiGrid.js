@@ -132,8 +132,16 @@ export default class EmojiGrid extends Base {
   [rendered](changed) {
     super[rendered](changed);
 
+    let raiseIndexChangeEvent = false;
+
+    if (changed.currentIndex && this[raiseChangeEvents]) {
+      raiseIndexChangeEvent = true;
+    }
+
     if (changed.filter) {
-      let updated = false;
+      // Changing the filter implies a change in currentIndex, but the page
+      // won't know that, so we'll raise the event.
+      raiseIndexChangeEvent = true;
 
       // By default, we'll select the first match, but if we can find a complete
       // match, switch to that. We don't do this in stateEffects, because here
@@ -144,19 +152,17 @@ export default class EmojiGrid extends Base {
         const index = items.indexOf(match);
         if (index >= 0 && index !== currentIndex) {
           // Update index to a new match.
-          // Raise change event, since page doesn't know what's going on.
-          this[raiseChangeEvents] = true;
           this[setState]({ currentIndex: index });
-          this[raiseChangeEvents] = false;
-          updated = true;
+          // The above call updates the state in time for the new currentIndex
+          // to be available when the event below is raised.
         }
       }
+    }
 
-      if (changed.currentIndex && !updated) {
-        // Filter caused currentIndex to change, which page doesn't know about,
-        // so we raise a change event.
-        this.dispatchEvent(new CustomEvent("currentindexchange"));
-      }
+    if (raiseIndexChangeEvent) {
+      // Filter caused currentIndex to change, which page doesn't know about,
+      // so we raise a change event.
+      this.dispatchEvent(new CustomEvent("currentindexchange"));
     }
   }
 

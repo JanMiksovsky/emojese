@@ -290,7 +290,11 @@ function handleInputKeydown(element, event) {
       const { currentItem } = element[state];
       if (currentItem) {
         addItemToInput(element, currentItem);
-        handled = true;
+        // We also want to add the character that was typed, so we generally
+        // don't mark the event as handled. However, if the Enter key results in
+        // adding a character, we *don't* want to add a return, so we do mark
+        // the event as handled.
+        handled = event.key === "Enter";
       }
       break;
   }

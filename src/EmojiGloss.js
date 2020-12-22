@@ -55,7 +55,7 @@ async function getEmojiMap() {
     emojiMap = new Map();
     longestEntryLength = 0;
     for (const entry of emojis) {
-      const [emoji, gloss, part] = entry;
+      const [emoji, gloss] = entry;
       // Take first gloss as the primary gloss.
       if (!emojiMap.get(emoji)) {
         emojiMap.set(emoji, gloss);
