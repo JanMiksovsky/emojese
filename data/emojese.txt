@@ -58,7 +58,6 @@
 📕	book
 𐄚	both
 ⤺🛒	bought
-👦	boy
 💥	break
 [🥞]	breakfast
 🎒	bring
@@ -76,7 +75,6 @@
 🚗	car
 🧑‍⚕️	care
 🎒	carry
-🐈	cat
 🕸️	catch
 [	category
 ]	category end
@@ -84,7 +82,7 @@
 🐛🦋	change
 ☑	check
 ⌥	choose
-🧑‍🏫	class
+🧑‍🏫📍	class
 （	clause
 ）	clause end
 🪟~	clear
@@ -104,7 +102,7 @@
 💥	crash
 ✂️	cut
 🧸	cute
-👨‍👧	dad
+👨‍🍼	dad
 ☠️	dangerous
 📅	date
 ☀️	day
@@ -117,7 +115,6 @@
 [🍲]	dinner
 ⟿	do
 🚫⟿	do not
-🐕	dog
 🏁	done
 ⬇️	down
 🥛	drink
@@ -146,7 +143,6 @@
 💦	exhausted
 🤰	expect
 🍁	fall down
-👪	family
 ⛺🏕️	far
 💨	fast
 👨‍🍼	father
@@ -161,7 +157,6 @@
 👍	fine
 🏁	finish
 1️⃣	first
-🐟	fish
 ↤🐕‍🦺	follow
 🥫	food
 ↬	for
@@ -179,7 +174,6 @@
 😀	fun
 ↤	get
 🐿️	get ready
-🙍‍♀️	girl
 ↦	give
 →	go
 🔱	god
@@ -201,12 +195,12 @@
 🪵~	hard
 💁	has
 💁	have
-🙍‍♂️	he
+👨	he
 👤	head
 👂	hear
 👋	hello
 🚑	help
-🙍‍♀️の	her
+👩の	her
 👉📍	here
 👋	hey
 👋	hi
@@ -219,9 +213,7 @@
 🏠	home
 	hope
 ♨️	hot
-🏨	hotel
 🕑	hour
-🏠	house
 🔨？	how
 🕑⤻🕓？	how long
 __↕	how much
@@ -249,7 +241,6 @@ __↕	how much
 	just
 🔐	keep
 🗡️	kill
-💋	kiss
 🎓	know
 🐘~	large
 🏁~	last
@@ -262,7 +253,6 @@ __↕	how much
 ⤺🛫	left
 🔎🔍	left
 ⇊	less
-🧑‍🏫	lesson
 ↦	let
 [🌱]	life
 💚	like
@@ -304,7 +294,7 @@ __↕	how much
 🧠	mind
 👇の	mine
 💔	miss
-👩‍👦	mom
+👩‍🍼	mom
 １☀️	Monday
 💵	money
 🌙	moon
@@ -384,7 +374,7 @@ __↕	how much
 ⇈	quite
 🌧️	rain
 🛬	reach
-📚	read
+📚⟿	read
 🐿️~	ready
 ◌○	real
 ⇈	really
