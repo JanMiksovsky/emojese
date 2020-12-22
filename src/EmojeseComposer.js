@@ -19,8 +19,6 @@ import EmojiTextarea from "./EmojiTextarea.js";
 if (EmojiGloss || EmojiGrid || EmojiTextarea) {
 }
 
-const graphemer = new Graphemer();
-
 export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
@@ -35,15 +33,14 @@ export default class EmojeseComposer extends ReactiveElement {
     super[render](changed);
 
     if (this[firstRender]) {
-      // TODO: event name should be value-change
-      this[ids].input.addEventListener("value-changed", () => {
-        this[raiseChangeEvents] = true;
-        handleTextInput(this);
-        this[raiseChangeEvents] = false;
-      });
-
       this[ids].input.addEventListener("click", (event) => {
         this[ids].grid.currentIndex = -1;
+      });
+
+      this[ids].input.addEventListener("input", () => {
+        this[raiseChangeEvents] = true;
+        updateValueFromInput(this);
+        this[raiseChangeEvents] = false;
       });
 
       this[ids].input.addEventListener("keydown", (event) => {
@@ -52,6 +49,24 @@ export default class EmojeseComposer extends ReactiveElement {
         if (handled) {
           event.preventDefault();
           event.stopImmediatePropagation();
+        }
+        this[raiseChangeEvents] = false;
+      });
+
+      this[ids].input.addEventListener("prefixchange", (event) => {
+        this[raiseChangeEvents] = true;
+        const prefix = this[ids].input.prefix;
+        const lastChar = prefix.slice(-1);
+        const autoAcceptChars = [" ", ".", "?", "!"];
+        const currentItem = this[ids].grid.currentItem;
+        if (autoAcceptChars.includes(lastChar) && currentItem) {
+          // Auto-accept the prefix.
+          addItemToInput(this, currentItem);
+        } else {
+          // Define filter from prefix.
+          // Don't include spaces in filter.
+          const filter = prefix.replaceAll(" ", "");
+          this[setState]({ filter });
         }
         this[raiseChangeEvents] = false;
       });
@@ -205,13 +220,7 @@ export default class EmojeseComposer extends ReactiveElement {
 }
 
 function addToInput(element, emoji, gloss) {
-  const input = element[ids].input;
-  const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
-  // We want to preserve spaces at the end of the prefix.
-  const endSpaceCount = prefix.length - prefix.trimRight().length;
-  const endSpaces = endSpaceCount > 0 ? prefix.slice(-endSpaceCount) : "";
-  const start = input.selectionStart - prefix.length;
-  input.setRangeText(emoji + endSpaces, start, input.selectionEnd, "end");
+  element[ids].input.insertEmoji(emoji);
   element[setState]({ filter: "" });
   updateValueFromInput(element);
 }
@@ -220,31 +229,6 @@ function addItemToInput(element, item) {
   const emoji = item.querySelector(".emoji").textContent;
   const gloss = item.querySelector(".gloss")?.textContent;
   addToInput(element, emoji, gloss);
-}
-
-function getPrefixBeforeInsertionPoint(input) {
-  const text = input.value.toLowerCase();
-  let prefix = "";
-  const { selectionStart, selectionEnd } = input;
-  if (selectionStart === selectionEnd) {
-    // Selection is an insertion point (not a proper selection).
-    // See if we can find letters to the left. Ignore spaces.
-    const left = text.substring(0, selectionStart);
-    const split = graphemer.splitGraphemes(left);
-    let letters = [];
-    for (let i = split.length - 1; i >= 0; i--) {
-      const c = split[i];
-      if ((c >= "a" && c <= "z") || c === " ") {
-        letters.unshift(c);
-      } else {
-        break;
-      }
-    }
-    prefix = letters.join("");
-  }
-  // Don't count leading spaces in prefix.
-  const trimmed = prefix.trimLeft();
-  return trimmed;
 }
 
 function handleInputKeydown(element, event) {
@@ -292,23 +276,6 @@ function handleInputKeydown(element, event) {
   }
 
   return handled;
-}
-
-function handleTextInput(element) {
-  const prefix = getPrefixBeforeInsertionPoint(element[ids].input);
-  const lastChar = prefix.slice(-1);
-  const autoAcceptChars = [" ", ".", "?", "!"];
-  const currentItem = element[ids].grid.currentItem;
-  if (autoAcceptChars.includes(lastChar) && currentItem) {
-    // Auto-accept the prefix.
-    addItemToInput(element, currentItem);
-  } else {
-    // Define filter from prefix.
-    // Don't include spaces in filter.
-    const filter = prefix.replaceAll(" ", "");
-    element[setState]({ filter });
-    updateValueFromInput(element);
-  }
 }
 
 function updateValueFromInput(element) {
