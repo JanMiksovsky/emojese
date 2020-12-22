@@ -46,10 +46,11 @@ export default class EmojiGrid extends Base {
     }
 
     // Search without wrapping.
+    const filterWithSpace = " " + filter;
     for (let i = index; i >= 0 && i < count; i += direction) {
       const item = items[i];
       const gloss = item.getAttribute("title");
-      if (gloss?.includes(filter)) {
+      if (gloss?.includes(filterWithSpace)) {
         return i;
       }
     }
