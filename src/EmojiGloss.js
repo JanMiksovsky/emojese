@@ -9,9 +9,10 @@ import {
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
+import graphemer from "./graphemer.js";
 
 let emojiMap;
-let longestEntryLength;
+let maxGraphemeCount;
 
 export default class EmojiGloss extends ReactiveElement {
   get [defaultState]() {
@@ -53,15 +54,17 @@ export default class EmojiGloss extends ReactiveElement {
 async function getEmojiMap() {
   if (!emojiMap) {
     emojiMap = new Map();
-    longestEntryLength = 0;
+    maxGraphemeCount = 0;
+    let longestEmoji = "";
     for (const entry of emojis) {
       const [emoji, gloss] = entry;
       // Take first gloss as the primary gloss.
       if (!emojiMap.get(emoji)) {
         emojiMap.set(emoji, gloss);
       }
-      if (emoji.length > longestEntryLength) {
-        longestEntryLength = emoji.length;
+      const graphemes = graphemer.splitGraphemes(emoji);
+      if (graphemes.length > maxGraphemeCount) {
+        maxGraphemeCount = graphemes.length;
       }
     }
   }
@@ -71,29 +74,36 @@ async function getEmojiMap() {
 async function gloss(text) {
   const map = await getEmojiMap();
   let result = "";
-  let remaining = text;
-  while (remaining) {
+  let remaining = graphemer.splitGraphemes(text);
+  while (remaining.length > 0) {
     const { meaning, rest } = longestMatch(map, remaining);
-    result += meaning + " ";
+    if (meaning) {
+      result += meaning + " ";
+    } else {
+      // Show next grapheme as is.
+      const grapheme = remaining[0];
+      result += grapheme;
+    }
+    // Work on rest of graphemes.
     remaining = rest;
   }
   return result;
 }
 
 // Find the longest match in the map
-function longestMatch(map, text) {
-  for (let length = longestEntryLength; length > 0; length--) {
-    const candidate = text.substring(0, length);
+function longestMatch(map, graphemes) {
+  for (let length = maxGraphemeCount; length > 0; length--) {
+    const candidate = graphemes.slice(0, length).join("");
     const meaning = map.get(candidate);
     if (meaning) {
-      const rest = text.slice(length);
+      const rest = graphemes.slice(length);
       return { meaning, rest };
     }
   }
-  // No match, skip character and return empty meaning.
-  // TODO: Use https://github.com/flmnt/graphemer
-  const rest = text.slice(1);
-  return { meaning: "", rest };
+  // No match, skip grapheme and return empty meaning.
+  const meaning = null;
+  const rest = graphemes.slice(1);
+  return { meaning, rest };
 }
 
 customElements.define("emoji-gloss", EmojiGloss);

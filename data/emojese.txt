@@ -105,8 +105,6 @@
 🧑‍⚕️	care
 🎒	carry
 🕸️	catch
-[	category
-]	category end
 	ceiling
 ⏀	center
 🐛🦋	change
@@ -117,8 +115,6 @@
 	circle
 🏙	city
 🧑‍🏫📍	class
-（	clause
-）	clause end
 🪟~	clear
 🕰	clock
 📖📕	close
@@ -463,7 +459,7 @@ __↕	how much
 	note
 🚫♟	nothing
 １１🌙	November
-👉 ⏰	now
+👉⏰	now
 #	number
 	ocean
 １０🌙	October
@@ -673,7 +669,6 @@ __↕	how much
 	sugar
 ↦💬	suggest
 	summer
-☀️	sun
 ７☀️	Sunday
 🦸	super
 ❗	supposed
