@@ -56,18 +56,18 @@ export default class EmojeseComposer extends ReactiveElement {
       this[ids].input.addEventListener("prefixchange", (event) => {
         this[raiseChangeEvents] = true;
         const prefix = this[ids].input.prefix;
-        const lastChar = prefix.slice(-1);
-        const autoAcceptChars = [" ", ".", "?", "!"];
-        const currentItem = this[ids].grid.currentItem;
-        if (autoAcceptChars.includes(lastChar) && currentItem) {
-          // Auto-accept the prefix.
-          addItemToInput(this, currentItem);
-        } else {
-          // Define filter from prefix.
-          // Don't include spaces in filter.
-          const filter = prefix.replaceAll(" ", "");
-          this[setState]({ filter });
-        }
+        // const lastChar = prefix.slice(-1);
+        // const autoAcceptChars = [" ", ".", "?", "!"];
+        // const currentItem = this[ids].grid.currentItem;
+        // if (autoAcceptChars.includes(lastChar) && currentItem) {
+        //   // Auto-accept the prefix.
+        //   addItemToInput(this, currentItem);
+        // } else {
+        // Define filter from prefix.
+        // Don't include spaces in filter.
+        const filter = prefix.replaceAll(" ", "");
+        this[setState]({ filter });
+        // }
         this[raiseChangeEvents] = false;
       });
 
@@ -272,6 +272,21 @@ function handleInputKeydown(element, event) {
 
     case "Home":
       handled = grid.goFirst();
+      break;
+
+    case " ":
+    case ",":
+    case ";":
+    case ":":
+    case "!":
+    case "?":
+    case ".":
+    case "(":
+    case ")":
+      const currentItem = element[ids].grid.currentItem;
+      if (currentItem) {
+        addItemToInput(element, currentItem);
+      }
       break;
   }
 
