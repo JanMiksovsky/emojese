@@ -2,7 +2,7 @@ import { template } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 
-export default class EmojiNavBar extends ReactiveElement {
+export default class EmojeseNavBar extends ReactiveElement {
   get [template]() {
     return templateFrom.html`
       <style>
@@ -19,4 +19,4 @@ export default class EmojiNavBar extends ReactiveElement {
   }
 }
 
-customElements.define("emoji-nav-bar", EmojiNavBar);
+customElements.define("emojese-nav-bar", EmojeseNavBar);

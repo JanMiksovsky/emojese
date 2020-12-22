@@ -14,7 +14,7 @@ import graphemer from "./graphemer.js";
 let emojiMap;
 let maxGraphemeCount;
 
-export default class EmojiGloss extends ReactiveElement {
+export default class EmojeseGloss extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       value: "",
@@ -106,4 +106,4 @@ function longestMatch(map, graphemes) {
   return { meaning, rest };
 }
 
-customElements.define("emoji-gloss", EmojiGloss);
+customElements.define("emojese-gloss", EmojeseGloss);

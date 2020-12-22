@@ -17,7 +17,7 @@ import {
 } from "../node_modules/elix/src/base/internal.js";
 import ItemsCursorMixin from "../node_modules/elix/src/base/ItemsCursorMixin.js";
 import SingleSelectAPIMixin from "../node_modules/elix/src/base/SingleSelectAPIMixin.js";
-import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
+import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 
 const Base = CursorAPIMixin(
@@ -26,7 +26,7 @@ const Base = CursorAPIMixin(
   )
 );
 
-export default class EmojiGrid extends Base {
+export default class EmojeseGrid extends Base {
   [closestAvailableItemIndex](state, options = {}) {
     const direction = options.direction !== undefined ? options.direction : 1;
     const index =
@@ -88,7 +88,7 @@ export default class EmojiGrid extends Base {
           const gloss = button.querySelector(".gloss")?.textContent;
           // Raise event
           this.dispatchEvent(
-            new CustomEvent("emoji-click", {
+            new CustomEvent("emojese-click", {
               bubbles: true,
               detail: {
                 emoji,
@@ -324,4 +324,4 @@ function gridItemsFromEntries(entries) {
   return items;
 }
 
-customElements.define("emoji-grid", EmojiGrid);
+customElements.define("emojese-grid", EmojeseGrid);

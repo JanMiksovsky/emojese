@@ -11,12 +11,12 @@ import {
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
-import EmojiGloss from "./EmojiGloss.js";
-import EmojiGrid from "./EmojiGrid.js";
-import EmojiTextarea from "./EmojiTextarea.js";
+import EmojeseGloss from "./EmojeseGloss.js";
+import EmojeseGrid from "./EmojeseGrid.js";
+import EmojeseTextarea from "./EmojeseTextarea.js";
 
 // Force recognition of imports.
-if (EmojiGloss || EmojiGrid || EmojiTextarea) {
+if (EmojeseGloss || EmojeseGrid || EmojeseTextarea) {
 }
 
 export default class EmojeseComposer extends ReactiveElement {
@@ -93,7 +93,7 @@ export default class EmojeseComposer extends ReactiveElement {
         this[setState]({ currentItem });
         this[raiseChangeEvents] = false;
       });
-      this[ids].grid.addEventListener("emoji-click", (event) => {
+      this[ids].grid.addEventListener("emojese-click", (event) => {
         addToInput(this, event.detail.emoji, event.detail.gloss);
       });
       this[ids].grid.addEventListener("mousedown", (event) => {
@@ -197,6 +197,10 @@ export default class EmojeseComposer extends ReactiveElement {
           padding: 0;
         }
 
+        button:disabled {
+          opacity: 0.25;
+        }
+
         #glossToggle {
           font-weight: bold !important;
         }
@@ -207,7 +211,7 @@ export default class EmojeseComposer extends ReactiveElement {
         }
       </style>
       <div id="inputBar">
-        <emoji-textarea id="input"></emoji-textarea>
+        <emojese-textarea id="input"></emojese-textarea>
         <div id="commands">
           <button id="shareButton">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
@@ -218,9 +222,9 @@ export default class EmojeseComposer extends ReactiveElement {
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
           </a>
         </div>
-        <emoji-gloss id="gloss"></emoji-gloss>
+        <emojese-gloss id="gloss"></emojese-gloss>
       </div>
-      <emoji-grid id="grid"></emoji-grid>
+      <emojese-grid id="grid"></emojese-grid>
     `;
   }
 }

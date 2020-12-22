@@ -10,7 +10,7 @@ import {
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import graphemer from "./graphemer.js";
 
-export default class EmojiTextarea extends AutoSizeTextarea {
+export default class EmojeseTextarea extends AutoSizeTextarea {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       prefix: "",
@@ -97,4 +97,4 @@ function getPrefixBeforeInsertionPoint(state) {
   return trimmed;
 }
 
-customElements.define("emoji-textarea", EmojiTextarea);
+customElements.define("emojese-textarea", EmojeseTextarea);
