@@ -5,8 +5,10 @@ import {
   rendered,
   state,
   stateEffects,
+  template,
 } from "../node_modules/elix/src/base/internal.js";
 import KeyboardMixin from "../node_modules/elix/src/base/KeyboardMixin.js";
+import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 
 // Graphemer is defined in window global.
 const graphemer = new Graphemer();
@@ -32,8 +34,9 @@ export default class EmojiTextarea extends Base {
     // We want to preserve spaces at the end of the prefix.
     const endSpaceCount = prefix.length - prefix.trimRight().length;
     const endSpaces = endSpaceCount > 0 ? prefix.slice(-endSpaceCount) : "";
-    const start = this.selectionStart - prefix.length;
-    this.setRangeText(emoji + endSpaces, start, this.selectionEnd, "end");
+    const end = this.selectionStart;
+    const start = end - prefix.length;
+    this.setRangeText(emoji + endSpaces, start, end, "end");
   }
 
   get prefix() {
@@ -60,6 +63,21 @@ export default class EmojiTextarea extends Base {
       }
     }
     return effects;
+  }
+
+  get [template]() {
+    const result = super[template];
+
+    result.content.append(fragmentFrom.html`
+      <style>
+        #inner,
+        #copyContainer {
+          line-height: 1.3;
+        }
+      </style>
+    `);
+
+    return result;
   }
 }
 
