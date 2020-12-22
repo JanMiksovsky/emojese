@@ -33,7 +33,7 @@
 ４🌙	April
 =	are
 🎖	army
-~	around
+⥁	around
 🛬	arrive
 	art
 	artist
@@ -780,6 +780,7 @@ __↕	how much
 ❄️~	weak
 👖⟿	wear
 	wear
+[☀️🌧️]	weather
 	wedding
 ３☀️	Wednesday
 ⓻☀️	week

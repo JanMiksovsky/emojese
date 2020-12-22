@@ -133,17 +133,29 @@ export default class EmojiGrid extends Base {
     super[rendered](changed);
 
     if (changed.filter) {
+      let updated = false;
+
       // By default, we'll select the first match, but if we can find a complete
       // match, switch to that. We don't do this in stateEffects, because here
       // we're directly inspecting the state of the DOM.
-      const { filter, items } = this[state];
+      const { currentIndex, filter, items } = this[state];
       const match = this[ids].grid.querySelector(`button[title=" ${filter}"]`);
       if (match) {
         const index = items.indexOf(match);
-        // Should always be true
-        if (index >= 0) {
+        if (index >= 0 && index !== currentIndex) {
+          // Update index to a new match.
+          // Raise change event, since page doesn't know what's going on.
+          this[raiseChangeEvents] = true;
           this[setState]({ currentIndex: index });
+          this[raiseChangeEvents] = false;
+          updated = true;
         }
+      }
+
+      if (changed.currentIndex && !updated) {
+        // Filter caused currentIndex to change, which page doesn't know about,
+        // so we raise a change event.
+        this.dispatchEvent(new CustomEvent("currentindexchange"));
       }
     }
   }
