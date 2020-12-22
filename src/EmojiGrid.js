@@ -55,9 +55,11 @@ export default class EmojiGrid extends Base {
 
   get [defaultState]() {
     return Object.assign(super[defaultState], {
+      currentIndexCopy: null,
       entries: emojis,
-      items: [],
       filter: null,
+      items: [],
+      previousIndex: null,
     });
   }
 
@@ -108,13 +110,18 @@ export default class EmojiGrid extends Base {
 
     if (changed.currentIndex) {
       // Show the current item as selected.
-      const { currentIndex } = this[state];
-      const filterStyles = this[ids].filterStyles;
-      const rule = filterStyles.sheet.rules[1];
-      rule.selectorText =
-        currentIndex >= 0
-          ? `#grid > :nth-child(${currentIndex + 1})`
-          : `.selected`;
+      const { currentIndex, items } = this[state];
+      if (currentIndex !== null && currentIndex >= 0) {
+        items[currentIndex].classList.add("selected");
+      }
+    }
+
+    if (changed.previousIndex) {
+      // Stop showing the previous item as selected.
+      const { previousIndex, items } = this[state];
+      if (previousIndex !== null && previousIndex >= 0) {
+        items[previousIndex].classList.remove("selected");
+      }
     }
 
     if (changed.filter) {
@@ -191,6 +198,13 @@ export default class EmojiGrid extends Base {
       }
     }
 
+    if (changed.currentIndex && state.currentIndexCopy !== state.currentIndex) {
+      Object.assign(effects, {
+        currentIndexCopy: state.currentIndex,
+        previousIndex: state.currentIndexCopy,
+      });
+    }
+
     return effects;
   }
 
@@ -248,6 +262,11 @@ export default class EmojiGrid extends Base {
         .letter {
           margin-left: 0.25em;
         }
+
+        .selected {
+          background: highlight;
+          color: highlighttext;
+        }
       </style>
       <style id="filterStyles">
         /* These rules are modified dynamically to filter the grid. */
@@ -255,10 +274,6 @@ export default class EmojiGrid extends Base {
           display: none;
         }
 
-        .selected {
-          background: highlight;
-          color: highlighttext;
-        }
       </style>
       <div id="grid"></div>
     `;
