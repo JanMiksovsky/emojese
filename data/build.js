@@ -21,6 +21,20 @@ function entriesFromStandardText(text) {
     const { emoji, gloss } = match.groups;
     entries.push([emoji, gloss]);
   }
+
+  // Sort entries by gloss.
+  entries.sort((a, b) => {
+    const gloss1 = a[1].toLowerCase();
+    const gloss2 = b[1].toLowerCase();
+    if (gloss1 < gloss2) {
+      return -1;
+    } else if (gloss1 > gloss2) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+
   return entries;
 }
 
