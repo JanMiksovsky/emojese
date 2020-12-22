@@ -71,7 +71,7 @@ export default class EmojiTextarea extends AutoSizeTextarea {
 
 function getPrefixBeforeInsertionPoint(state) {
   const { selectionEnd, selectionStart, value } = state;
-  if (!selectionEnd || !selectionStart || value === null) {
+  if (selectionEnd === null || selectionStart === null || value === null) {
     return null;
   }
   const text = value.toLowerCase();
