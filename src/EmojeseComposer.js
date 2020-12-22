@@ -134,6 +134,8 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (this[firstRender]) {
       viewportResized(this);
+
+      this[ids].input.focus();
     }
   }
 

@@ -7,22 +7,12 @@ import {
   stateEffects,
   template,
 } from "../node_modules/elix/src/base/internal.js";
-import KeyboardMixin from "../node_modules/elix/src/base/KeyboardMixin.js";
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 
 // Graphemer is defined in window global.
 const graphemer = new Graphemer();
 
-const Base = KeyboardMixin(AutoSizeTextarea);
-
-export default class EmojiTextarea extends Base {
-  // // TODO: event name should be value-change
-  // this[ids].input.addEventListener("value-changed", () => {
-  //   this[raiseChangeEvents] = true;
-  //   handleTextInput(this);
-  //   this[raiseChangeEvents] = false;
-  // });
-
+export default class EmojiTextarea extends AutoSizeTextarea {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       prefix: "",
