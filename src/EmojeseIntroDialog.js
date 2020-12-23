@@ -18,7 +18,12 @@ export default class EmojeseIntroDialog extends PlainDialog {
         this.close();
         this[raiseChangeEvents] = false;
       });
-      this[ids].okButton.addEventListener("click", () => {
+      // This button listens to mousedown instead of click. If we use the normal
+      // click event on iOS, when when the user scrolls down to the button and
+      // taps it the first time, the dialog just scrolls back to the top instead
+      // of closing; a second tap is required to actaully close the dialog. As a
+      // workaround, we use mousedown instead.
+      this[ids].okButton.addEventListener("mousedown", () => {
         this[raiseChangeEvents] = true;
         this.close();
         this[raiseChangeEvents] = false;
@@ -34,13 +39,14 @@ export default class EmojeseIntroDialog extends PlainDialog {
       defaultSlot.append(fragmentFrom.html`
         <style>
           [part="frame"] {
-            max-height: 90vh;
-            max-width: min(90vw, 500px);     
+            max-height: 90%;
+            max-width: min(90%, 500px);     
+            overflow: auto; /* For Safari */
           }
 
           #frameContent {
             display: block;
-            overflow: auto;
+            overflow: auto; /* For Chrome */
             padding: 1em 2em 1em 1em;
           }
           
@@ -52,10 +58,15 @@ export default class EmojeseIntroDialog extends PlainDialog {
             padding-right: 1em;
             white-space: nowrap;
           }
+
+          button {
+            background: #eee;
+            border: 1px solid gray;
+            font: inherit;
+          }
        
           #closeButton {
             display: grid;
-            font-family: inherit;
             font-size: 24px;
             font-weight: bold;
             padding: 0;
@@ -67,14 +78,11 @@ export default class EmojeseIntroDialog extends PlainDialog {
           }
 
           #okButtonParagraph {
-            padding: 2em;
+            padding: 1em;
             text-align: center;
           }
 
           #okButton {
-            font: inherit;
-            font-size: larger;
-            font-weight: bold;
             padding: 0.5em 1.5em;
           }
         </style>
@@ -311,7 +319,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
         </table>
         <p>Use <b>spaces</b> to make a message easier to read.</p>
         <p id="okButtonParagraph">
-          <button id="okButton">OK</button>
+          <button id="okButton">Close</button>
         </p>
       `);
     }

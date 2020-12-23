@@ -55,7 +55,6 @@ async function getEmojiMap() {
   if (!emojiMap) {
     emojiMap = new Map();
     maxGraphemeCount = 0;
-    let longestEmoji = "";
     for (const entry of emojis) {
       const [emoji, gloss] = entry;
       // Take first gloss as the primary gloss.

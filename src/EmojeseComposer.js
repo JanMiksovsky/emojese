@@ -144,6 +144,14 @@ export default class EmojeseComposer extends ReactiveElement {
       viewportResized(this);
 
       this[ids].input.focus();
+
+      // Show intro dialog first time app is used.
+      const showedIntro = localStorage.getItem("showedIntro");
+      if (!showedIntro) {
+        const dialog = new EmojeseIntroDialog();
+        dialog.open();
+        localStorage.setItem("showedIntro", "true");
+      }
     }
   }
 
@@ -183,10 +191,10 @@ export default class EmojeseComposer extends ReactiveElement {
           font-size: smaller;
           grid-column: 1 / span 2;
           grid-row: 2;
-          min-height: 1.2em;
         }
 
         #commands {
+          align-self: center;
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           margin-left: 2px;
