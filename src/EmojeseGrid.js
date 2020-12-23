@@ -16,13 +16,18 @@ import {
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import ItemsCursorMixin from "../node_modules/elix/src/base/ItemsCursorMixin.js";
+import KeyboardPagedCursorMixin from "../node_modules/elix/src/base/KeyboardPagedCursorMixin.js";
 import SingleSelectAPIMixin from "../node_modules/elix/src/base/SingleSelectAPIMixin.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 
 const Base = CursorAPIMixin(
   CursorInViewMixin(
-    CursorSelectMixin(ItemsCursorMixin(SingleSelectAPIMixin(ReactiveElement)))
+    CursorSelectMixin(
+      ItemsCursorMixin(
+        KeyboardPagedCursorMixin(SingleSelectAPIMixin(ReactiveElement))
+      )
+    )
   )
 );
 

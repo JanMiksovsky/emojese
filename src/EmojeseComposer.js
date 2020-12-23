@@ -270,18 +270,6 @@ function handleInputKeydown(element, event) {
       updateCurrentItemFromGrid(element);
       break;
 
-    // case "ArrowLeft":
-    //   if (horizontal && !event.metaKey && !event.altKey) {
-    //     handled = this[goLeft]();
-    //   }
-    //   break;
-
-    // case "ArrowRight":
-    //   if (horizontal && !event.metaKey && !event.altKey) {
-    //     handled = this[goRight]();
-    //   }
-    //   break;
-
     case "ArrowUp":
       handled = grid.goPrevious();
       updateCurrentItemFromGrid(element);
@@ -295,6 +283,14 @@ function handleInputKeydown(element, event) {
     case "Home":
       handled = grid.goFirst();
       updateCurrentItemFromGrid(element);
+      break;
+
+    case "PageDown":
+      handled = grid.pageDown();
+      break;
+
+    case "PageUp":
+      handled = grid.pageUp();
       break;
 
     case " ":
