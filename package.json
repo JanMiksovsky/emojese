@@ -3,15 +3,14 @@
   "version": "0.0.1",
   "type": "module",
   "dependencies": {
-    "@explorablegraph/eg": "0.0.2-e",
     "elix": "14.1.1-b",
+    "express": "4.17.1",
     "graphemer": "1.1.1"
   },
   "scripts": {
     "build": "node data/build.js",
     "browserify": "npx browserify src/browserify/graphemer.js > src/browserify/loadGraphemer.js",
-    "eg": "eg",
-    "start": "eg 'serve(Files(.))'"
+    "start": "node app.js"
   },
   "engines": {
     "node": "v14.15.0"
