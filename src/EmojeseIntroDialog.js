@@ -38,6 +38,10 @@ export default class EmojeseIntroDialog extends PlainDialog {
     if (defaultSlot) {
       defaultSlot.append(fragmentFrom.html`
         <style>
+          :host {
+            font-size: 18px;
+          }
+
           [part="frame"] {
             max-height: 90%;
             max-width: min(90%, 500px);     
@@ -115,7 +119,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
 
         <p>
           The <b>past</b> is to the <b>left</b>; the <b>future</b> to the
-          <b>right</b>:
+          <b>right</b>, and is indicated with arrows (not emoji direction).
         </p>
         <table>
           <tr>
@@ -285,10 +289,10 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>The girl who is tired went home.</td>
           </tr>
         </table>
-        <p><b>Conditions</b> use ⇥</p>
+        <p><b>Conditions</b> use ⇒</p>
         <table>
           <tr>
-            <td>🚫🌧️ ⇥ 👇⤻🏃</td>
+            <td>🚫🌧️ ⇒ 👇⤻🏃</td>
             <td>If [it’s] not raining, then I will run.</td>
           </tr>
         </table>
@@ -317,6 +321,16 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>Maybe get takeout?</td>
           </tr>
         </table>
+        <p>
+          <b>If no emoji exists</b> for a thing, you can try to describe it. The possessive の can be useful, as can categories.
+        </p>
+        <table>
+          <tr>
+            <td>[🥞]の🌾</td>
+            <td>breakfast cereal (grain)</td>
+          </tr>
+        </table>
+        <p>Drop <b>articles</b> like "the", "a", and "an".</p>
         <p>Use <b>spaces</b> to make a message easier to read.</p>
         <p id="okButtonParagraph">
           <button id="okButton">Close</button>
