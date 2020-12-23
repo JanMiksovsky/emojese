@@ -17,7 +17,7 @@ import {
 } from "../node_modules/elix/src/base/internal.js";
 import ItemsCursorMixin from "../node_modules/elix/src/base/ItemsCursorMixin.js";
 import SingleSelectAPIMixin from "../node_modules/elix/src/base/SingleSelectAPIMixin.js";
-import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals";
+import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 
 const Base = CursorAPIMixin(
