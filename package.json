@@ -4,7 +4,7 @@
   "type": "module",
   "dependencies": {
     "@explorablegraph/eg": "0.0.2-e",
-    "elix": "14.1.1-a",
+    "elix": "14.1.1-b",
     "graphemer": "1.1.1"
   },
   "scripts": {
