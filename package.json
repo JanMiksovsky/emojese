@@ -10,9 +10,9 @@
     "rollup-plugin-terser": "7.0.2"
   },
   "scripts": {
-    "buildAll": "npm run buildData; npm run buildGraphemer; npm run build",
+    "buildAll": "npm run buildEmojis; npm run buildGraphemer; npm run build",
     "build": "rollup --config",
-    "buildData": "node data/buildData.js",
+    "buildEmojis": "node data/buildEmojis.js",
     "buildGraphemer": "npx browserify src/browserify/graphemer.js > static/loadGraphemer.js",
     "start": "node app.js"
   },

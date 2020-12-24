@@ -38,8 +38,9 @@
 	art
 	artist
 ⚖️	as
-💬	ask
+🗣	ask
 🛌	asleep
+	assistant
 @	at
 	attack
 8🌙	August
@@ -114,6 +115,7 @@
 ◯	circle
 🏙	city
 🧑‍🏫⏰	class
+🧼~	clean
 🪟~	clear
 🕰	clock
 📖📕	close
@@ -132,25 +134,24 @@
 👍	cool
 	copper
 Ꚙ	copy
-	corn
-	corner
+⟓	corner
 ⤺💪	could
 	count
 💥	crash
-	crowd
-	cry
+👥👥	crowd
+😭⟿	cry
 🥃	cup
-	curved
+⌒	curve
 ✂️	cut
 🧸	cute
 👨‍🍼	dad
 ☠️	dangerous
 	dark
 📅	date
-	daughter
+👧	daughter
 ☀️	day
 ⚰️~	dead
-	deaf
+🧏	deaf
 ⚰️	death
 １２🌙	December
 ⌥	decide
@@ -162,14 +163,14 @@
 ⛏️	dig
 [🍲]	dinner
 🧭	direction
-	dirty
+🚫🧼~	dirty
 	disease
 ⟿	do
 🚫⟿	do not
 🧑‍⚕️	doctor
 🏁	done
 ⬇️	down
-	draw
+✍️🖼	draw
 💤💭	dream
 🥛⟿	drink
 🚗	drive
@@ -187,7 +188,6 @@
 ⥤🧭	east
 	easy
 🍴	eat
-	edge
 	either
 	election
 	else
@@ -212,6 +212,7 @@
 	face
 🍁⏰	fall
 🍁	fall (down)
+⊥	false
 ⇲📰の	famous
 ⇲🏟️	fan
 ⛺🏕️	far
@@ -256,7 +257,7 @@
 ⛽	gasoline
 ↤	get
 🐿️	get ready
-	gift
+🎁	gift
 ↦	give
 →	go
 🔱	god
@@ -264,12 +265,12 @@
 👍	good
 👋	goodbye
 ⤺↤	got
-	grandfather
-	grandmother
+◐👨‍🍼	grandfather
+◐👩‍🍼	grandmother
 	grass
 🦸	great
 	ground
-	group
+⟨ ⟩	group
 🌱	grow
 🔮	guess
 🔫	gun
@@ -308,8 +309,8 @@
 	hope
 ♨️	hot
 🕑	hour
-🔨？	how
-🕑⤻🕓？	how long
+__🔨	how
+__🕑🕓	how long
 __↕	how much
 💍の👨	husband
 👇	I
@@ -324,7 +325,7 @@ __↕	how much
 	injury
 ▣	inside
 [🎻]	instrument
-	interested
+	interesting
 🌐	internet
 ⇲	into
 =	is
@@ -333,7 +334,7 @@ __↕	how much
 ♟	it
 ♟の	its
 1🌙	January
-🏢	job
+🛠️🏢	job
 🤝	join
 7🌙	July
 🐇⟿	jump
@@ -366,11 +367,11 @@ __↕	how much
 ↦	let
 🇦	letter
 📚📍	library
-	lie
+🗣⊥	lie
 [🌱]	life
-	lift
-	light
-	light
+🏋️	lift
+🪶~	light
+💡~	light
 💚	like
 👂	listen
 🐜~	little
@@ -384,7 +385,7 @@ __↕	how much
 💸	lose
 ⤺💸	lost
 ✖️✖️	lot
-👂💣	loud
+📢	loud
 ❤️	love
 	low
 🍀	luck
@@ -407,8 +408,7 @@ __↕	how much
 🎲	maybe
 👇	me
 	mean
-	means
-	medicine
+⚕️	medicine
 🤝	meet
 🤝	meeting
 ✉️	message
@@ -437,13 +437,12 @@ __↕	how much
 ❗	must
 👇の	my
 📛	name
-	narrow
-	nature
+⇥⇤	narrow
+[🏔🍃]	nature
 🏕️⛺	near
 	neck
 ❤️‍🔥↤	need
 	neighbor
-	network
 🚫⏰	never
 🐣~	new
 ⏭️	next
@@ -474,7 +473,7 @@ __↕	how much
 	only
 📕📖	open
 ↔️	or
-	other
+𐄛・	other
 👇👇の	our
 ⎋	out
 ⎋	outside
@@ -491,7 +490,7 @@ __↕	how much
 ☜	passive
 👣	path
 	patient
-	pattern
+▥	pattern
 💸	pay
 🕊️~	peaceful
 👥	people
@@ -504,7 +503,7 @@ __↕	how much
 📍	place
 🗺	plan
 	plant
-	plastic
+♳	plastic
 	plate
 [🤾]	play
 	player
@@ -515,7 +514,7 @@ __↕	how much
 👮	police
 	pool
 	poor
-	pray
+🛐⟿	pray
 🐿️	prepare
 🎁	present
 	president
@@ -548,17 +547,17 @@ __↕	how much
 📥	receive
 🏕️⛺⏰	recent
 🟥	red
-	religion
+🛐	religion
 🎓↤	remember
 	reporter
 	rest
-	restaurant
+🥡📍	restaurant
 💲の	rich
 ✅	right
 ↱	right
 	ring
 🌅	rise
-	river
+💧𐤛	river
 	roof
 🏠◱	room
 	root
@@ -574,11 +573,10 @@ __↕	how much
 🗣	say
 🗣	says
 🏫	school
-	science
+⚗️	science
 	screen
 	sea
-	season
-	secretary
+🌷🍁⏰	season
 👀	see
 	seed
 🪞	seem
@@ -594,7 +592,6 @@ __↕	how much
 	shallow
 👩	she
 	shirt
-	shoes
 	shoot
 🛒	shop
 🤏	short
@@ -602,8 +599,7 @@ __↕	how much
 	shoulder
 💁👀	show
 	sick
-	side
-	sign
+⚆	side
 	sign
 ◑	since
 	sister
@@ -617,9 +613,9 @@ __↕	how much
 🐌~	slow
 🐜~	small
 🎓~	smart
-	smell
+👃⟿	smell
 	smile
-	snow
+❄️	snow
 ⇈	so
 ⇥	so
 	soft
@@ -750,17 +746,17 @@ __↕	how much
 	valley
 ⇈	very
 	victim
-	voice
+🗣👂	voice
 ⏳	wait
 	waiter
 🛌🛏	wake
 🚶	walk
 	wall
 ❤️‍🔥	want
-	war
-	warm
+⚔️	war
+🤏♨️	warm
 ⤺=	was
-	wash
+🧼⟿	wash
 👀	watch
 💧	water
 🌊	wave
@@ -788,7 +784,7 @@ __📍	where
 __👤	who
 	whole
 __∵	why
-	wide
+|⟷|	wide
 💍の👩	wife
 ⤻	will
 💯	win
