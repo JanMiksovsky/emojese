@@ -108,9 +108,11 @@ export default class EmojeseComposer extends ReactiveElement {
         event.preventDefault(); // Keep focus on input.
       });
 
-      window.visualViewport.addEventListener("resize", () => {
-        viewportResized(this);
-      });
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", () => {
+          viewportResized(this);
+        });
+      }
     }
 
     if (changed.currentItem) {
@@ -141,7 +143,9 @@ export default class EmojeseComposer extends ReactiveElement {
     super[rendered](changed);
 
     if (this[firstRender]) {
-      viewportResized(this);
+      if (window.visualViewport) {
+        viewportResized(this);
+      }
 
       this[ids].input.focus();
 
