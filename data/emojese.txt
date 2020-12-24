@@ -14,7 +14,7 @@
 ◑🕛	afternoon
 ⟲	again
 ⚔️~	aggressive
-	alive
+🚫⚰️	alive
 ∀	all
 ↦	allow
 	already
@@ -23,7 +23,7 @@
 =	am
 	an
 &	and
-	animal
+[🐘🐁]	animal
 	another
 ∃	any
 ∃👤	anyone
@@ -69,7 +69,6 @@
 ⇈👍	better
 ⧲	between
 	beverage
-🚲	bicycle
 🐘~	big
 🎂	birthday
 😇	blessed
@@ -110,11 +109,11 @@
 🐛🦋	change
 	cheap
 ☑	check
-	child
+🧒	child
 ⌥	choose
-	circle
+◯	circle
 🏙	city
-🧑‍🏫📍	class
+🧑‍🏫⏰	class
 🪟~	clear
 🕰	clock
 📖📕	close
@@ -128,7 +127,7 @@
 ☑	confirm
 📞	contact
 〰	continue
-	contract
+⚖️📜	contract
 🍳	cook
 👍	cool
 	copper
@@ -150,8 +149,9 @@
 📅	date
 	daughter
 ☀️	day
+⚰️~	dead
 	deaf
-	death
+⚰️	death
 １２🌙	December
 ⌥	decide
 	deep
@@ -159,22 +159,22 @@
 ⤺	did
 ⚰️	die
 🍎🍊	different
-	dig
+⛏️	dig
 [🍲]	dinner
-	direction
+🧭	direction
 	dirty
 	disease
 ⟿	do
 🚫⟿	do not
-	doctor
+🧑‍⚕️	doctor
 🏁	done
 ⬇️	down
 	draw
-	dream
-🥛	drink
+💤💭	dream
+🥛⟿	drink
 🚗	drive
 🍁	drop
-	drug
+💊	drug
 	dry
 🪨~	dumb
 🕑⤻🕓	duration
@@ -183,8 +183,8 @@
 	each
 ⇈🌅	earlier
 🌅	early
-	Earth
-	east
+🌍	Earth
+⥤🧭	east
 	easy
 🍴	eat
 	edge
@@ -194,31 +194,32 @@
 📧	email
 🖼️💬	Emojese
 🏁	end
-	energy
+⚡	energy
 	engine
 	enjoy
 ⍐	enough
 ⏸	even
-	evening
+🌃	evening
 ∀	every
 ∀👤	everyone
 ∀♟	everything
 🧪	exam
-	exercise
+[🏃]	exercise
 💦	exhausted
 🤰	expect
-	expensive
+⇈💲	expensive
 	explode
 	face
-🍁	fall down
-	famous
-	fan
+🍁⏰	fall
+🍁	fall (down)
+⇲📰の	famous
+⇲🏟️の	fan
 ⛺🏕️	far
-	farm
+🧑‍🌾📍	farm
 💨	fast
 👨‍🍼	father
 ２🌙	February
-	feed
+↦🥫	feed
 [😀]	feel
 [😀]⟿	feeling
 ♀️	female
@@ -271,7 +272,7 @@
 	group
 🌱	grow
 🔮	guess
-	gun
+🔫	gun
 👨	guy
 ⤺💁	had
 🤣	haha
@@ -311,6 +312,7 @@
 🔨？	how
 🕑⤻🕓？	how long
 __↕	how much
+💍の👨	husband
 👇	I
 💡	idea
 	if
@@ -340,8 +342,8 @@ __↕	how much
 	just
 🔐	keep
 🗡️	kill
-	king
-	kitchen
+🤴	king
+🍳📍	kitchen
 	knee
 	knife
 🎓	know
@@ -396,7 +398,6 @@ __↕	how much
 	main
 🔨	make
 ♂	male
-👨	man
 	manager
 ✖️✖️	many
 ３🌙	March
@@ -417,7 +418,7 @@ __↕	how much
 	metal
 ⏀	middle
 ⤺🎲	might
-	milk
+🥛	milk
 🧠	mind
 👇の	mine
 💔	miss
@@ -434,8 +435,8 @@ __↕	how much
 🚛	move
 🎞️	movie
 ⇈	much
-	murder
-	music
+🗡️	murder
+🎵	music
 ❗	must
 👇の	my
 📛	name
@@ -444,30 +445,28 @@ __↕	how much
 🏕️⛺	near
 	neck
 ❤️‍🔥↤	need
-	needle
 	neighbor
 	network
 🚫⏰	never
 🐣~	new
 ⏭️	next
 😇	nice
-	nice
 🌃	night
 👎	no
-	north
+⥣🧭	north
 🚫	not
-	note
+📝	note
 🚫♟	nothing
 １１🌙	November
 👉⏰	now
 #	number
-	ocean
+🌊📍	ocean
 １０🌙	October
 	of
 ↥	off
 🏢	office
 😲	oh
-	oil
+🛢	oil
 🆗	OK
 🆗	okay
 🧓~	old
@@ -484,13 +483,12 @@ __↕	how much
 ⎋	outside
 ◓	over
 💁‍♀️	own
-	page
-	pain
-	paint
+📄	page
+💥😬	pain
+🎨	paint
 📄	paper
-	parent
-👩‍👦👨‍👧	parents
-	park
+🧑‍🍼	parent
+🏞	park
 ⚙️	part
 💯	pass
 ☜	passive
@@ -505,7 +503,7 @@ __↕	how much
 📱	phone
 	photograph
 ⌥	pick
-	piece
+⚙️	piece
 📍	place
 🗺	plan
 	plant
@@ -516,14 +514,16 @@ __↕	how much
 🙏🏻	please
 ➕	plus
 	pocket
-	poison
-	police
+☠️🧪	poison
+👮	police
 	pool
 	poor
 	pray
 🐿️	prepare
 🎁	present
 	president
+🦢~	pretty
+⇈	pretty (quite)
 ⏮️	previous
 	price
 	priest
@@ -534,14 +534,13 @@ __↕	how much
 	pull
 👐	push
 📦⬇️	put
-	queen
+👸	queen
 ？	question
 ¿	question
 	quiet
 ⇈	quite
 	race
-	race
-	radio
+📻	radio
 🌧️	rain
 🛬	reach
 📚⟿	read
@@ -557,7 +556,7 @@ __↕	how much
 	reporter
 	rest
 	restaurant
-	rich
+💲の	rich
 ✅	right
 🔍🔎	right
 	ring
@@ -640,12 +639,12 @@ __↕	how much
 🙇	sorry
 👂	sound
 	soup
-	south
+⥥🧭	south
 	space
 ⭐️	special
 💸	spend
 [⚽]	sport
-	spring
+🌷⏰	spring
 	square
 	stain
 🧍	stand
@@ -668,7 +667,7 @@ __↕	how much
 🧪	substance
 	sugar
 ↦💬	suggest
-	summer
+☀️⏰	summer
 ７☀️	Sunday
 🦸	super
 ❗	supposed
@@ -685,7 +684,6 @@ __↕	how much
 	tea
 🧑‍🏫	teacher
 	team
-	tear
 	technology
 	telephone
 🗣	tell
@@ -744,10 +742,10 @@ __↕	how much
 ２☀️	Tuesday
 	turn
 ⌨️	type
-	ugly
+🤢	ugly
 ◒	under
 💡	understand
-	university
+🎓📍	university
 🔓	unlock
 ◐	until
 ⬆️	up
@@ -768,23 +766,22 @@ __↕	how much
 ⤺=	was
 	wash
 👀	watch
-	water
-	wave
+💧	water
+🌊	wave
 🛣️	way
 👇👇	we
 ❄️~	weak
 👖⟿	wear
-	wear
 [☀️🌧️]	weather
-	wedding
+💒	wedding
 ３☀️	Wednesday
 ⓻☀️	week
-	weight
+⚖️↕	weight
 👍	well
 ⤺→	went
 ⤺=	were
-	west
-	wet
+⥢🧭	west
+💧~	wet
 __	what
 __🕓	when
 __📍	where
@@ -796,18 +793,17 @@ __👤	who
 	whole
 __∵	why
 	wide
-	wife
+💍の👩	wife
 ⤻	will
 💯	win
-	wind
-	window
-	wine
-	winter
+🌬️	wind
+🪟	window
+🍷	wine
+❄️⏰	winter
 🧞	wish
 🧑‍🤝‍🧑	with
 🚫🧑‍🤝‍🧑	without
 🛌🛏	woke
-👩	woman
 😍	wonderful
 💬	word
 🛠️	work
