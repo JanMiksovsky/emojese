@@ -30,7 +30,7 @@
 ∃♟	anything
 	anyway
 	apartment
-４🌙	April
+4🌙	April
 =	are
 🎖	army
 ⥁	around
@@ -42,7 +42,7 @@
 🛌	asleep
 @	at
 	attack
-８🌙	August
+8🌙	August
 	author
 ⛺🏕️	away
 ◐📍	back
@@ -213,12 +213,12 @@
 🍁⏰	fall
 🍁	fall (down)
 ⇲📰の	famous
-⇲🏟️の	fan
+⇲🏟️	fan
 ⛺🏕️	far
 🧑‍🌾📍	farm
 💨	fast
 👨‍🍼	father
-２🌙	February
+2🌙	February
 ↦🥫	feed
 [😀]	feel
 [😀]⟿	feeling
@@ -233,18 +233,18 @@
 1️⃣	first
 	flat
 	floor
-	fly
+🦅⟿	fly
 ↤🐕‍🦺	follow
 🥫	food
 ↬	for
-	forest
+🌲🌳	forest
 🧠💥	forget
 ⤺🧠💥	forgot
 	fork
 ⬚	form
 ⤺🔍	found
 ０💵	free
-５☀️	Friday
+5☀️	Friday
 🫂	friend
 ↫	from
 ◑📍	front
@@ -260,7 +260,7 @@
 ↦	give
 →	go
 🔱	god
-	gold
+🥇🧪	gold
 👍	good
 👋	goodbye
 ⤺↤	got
@@ -288,9 +288,9 @@
 👨	he
 👤	head
 👂	hear
-	heaven
+👼📍	heaven
 	heavy
-	hell
+👿📍	hell
 👋	hello
 🚑	help
 👩の	her
@@ -298,8 +298,7 @@
 👋	hey
 👋	hi
 ⛰️~	high
-	high
-	hill
+🐜~🏔	hill
 🙍‍♂️	him
 🙍‍♂️の	his
 👊	hit
@@ -316,7 +315,7 @@ __↕	how much
 👇	I
 💡	idea
 	if
-	image
+🖼	image
 ‼️	important
 ⇲	in
 ◑	in front
@@ -324,28 +323,28 @@ __↕	how much
 🗣	inform
 	injury
 ▣	inside
-	instrument
+[🎻]	instrument
 	interested
 🌐	internet
 ⇲	into
 =	is
 ≠	is not
-	island
+🏝	island
 ♟	it
 ♟の	its
-１🌙	January
+1🌙	January
 🏢	job
 🤝	join
-７🌙	July
-	jump
-６🌙	June
+7🌙	July
+🐇⟿	jump
+6🌙	June
 	just
 🔐	keep
 🗡️	kill
 🤴	king
 🍳📍	kitchen
 	knee
-	knife
+🔪	knife
 🎓	know
 	lake
 	lamp
@@ -353,21 +352,20 @@ __↕	how much
 🏁~	last
 🌃	late
 ⇈🌃	later
-	laugh
-	lawyer
+🤣⟿	laugh
+⚖️🧑	lawyer
 🦥~	lazy
 🐕‍🦺	lead
-	leaf
-	learn
+🍃	leaf
+🎓↤	learn
 	least
 🛫	leave
 ⤺🛫	left
-🔎🔍	left
-	left
+↰	left
 ⇊	less
 ↦	let
-	letter
-	library
+🇦	letter
+📚📍	library
 	lie
 [🌱]	life
 	lift
@@ -386,7 +384,7 @@ __↕	how much
 💸	lose
 ⤺💸	lost
 ✖️✖️	lot
-	loud
+👂💣	loud
 ❤️	love
 	low
 🍀	luck
@@ -400,12 +398,11 @@ __↕	how much
 ♂	male
 	manager
 ✖️✖️	many
-３🌙	March
-	market
+3🌙	March
 	marriage
 	marry
 🧪	material
-５🌙	May
+5🌙	May
 🎲	may
 🎲	maybe
 👇	me
@@ -424,7 +421,7 @@ __↕	how much
 💔	miss
 	mix
 👩‍🍼	mom
-１☀️	Monday
+1☀️	Monday
 💵	money
 🌙	moon
 ⇈	more
@@ -457,11 +454,11 @@ __↕	how much
 🚫	not
 📝	note
 🚫♟	nothing
-１１🌙	November
+11🌙	November
 👉⏰	now
 #	number
 🌊📍	ocean
-１０🌙	October
+10🌙	October
 	of
 ↥	off
 🏢	office
@@ -489,7 +486,7 @@ __↕	how much
 📄	paper
 🧑‍🍼	parent
 🏞	park
-⚙️	part
+◔	part
 💯	pass
 ☜	passive
 👣	path
@@ -531,7 +528,7 @@ __↕	how much
 🔮🤷	probably
 🧩	problem
 	program
-	pull
+⛓️	pull
 👐	push
 📦⬇️	put
 👸	queen
@@ -558,7 +555,7 @@ __↕	how much
 	restaurant
 💲の	rich
 ✅	right
-🔍🔎	right
+↱	right
 	ring
 🌅	rise
 	river
@@ -571,7 +568,7 @@ __↕	how much
 ⤺🗣	said
 ⚖️	same
 	sand
-６☀️	Saturday
+6☀️	Saturday
 💾	save
 ⤺👀	saw
 🗣	say
@@ -590,7 +587,7 @@ __↕	how much
 📤	send
 🦯	sense
 ⤺📤	sent
-９🌙	September
+9🌙	September
 	sex
 	shake
 	shall
@@ -638,9 +635,8 @@ __↕	how much
 🤏⏰	soon
 🙇	sorry
 👂	sound
-	soup
 ⥥🧭	south
-	space
+🌌	space
 ⭐️	special
 💸	spend
 [⚽]	sport
@@ -668,7 +664,7 @@ __↕	how much
 	sugar
 ↦💬	suggest
 ☀️⏰	summer
-７☀️	Sunday
+7☀️	Sunday
 🦸	super
 ❗	supposed
 👍	sure
@@ -714,7 +710,7 @@ __↕	how much
 ⤺💭	thought
 ⤃	through
 🏈	throw
-４☀️	Thursday
+4☀️	Thursday
 	tight
 ◐	till
 ⏰	time
@@ -739,7 +735,7 @@ __↕	how much
 	truck
 ⊨	true
 🧗	try
-２☀️	Tuesday
+2☀️	Tuesday
 	turn
 ⌨️	type
 🤢	ugly
@@ -774,7 +770,7 @@ __↕	how much
 👖⟿	wear
 [☀️🌧️]	weather
 💒	wedding
-３☀️	Wednesday
+3☀️	Wednesday
 ⓻☀️	week
 ⚖️↕	weight
 👍	well
@@ -788,7 +784,7 @@ __📍	where
 ⌥	whether
 ⌥	which
 〰️	while
-	white
+◻️	white
 __👤	who
 	whole
 __∵	why
@@ -797,7 +793,6 @@ __∵	why
 ⤻	will
 💯	win
 🌬️	wind
-🪟	window
 🍷	wine
 ❄️⏰	winter
 🧞	wish
