@@ -251,10 +251,14 @@ export default class EmojeseGrid extends Base {
           width: 1.5em;
         }
         
-        .gloss {
+        .gloss{
           font-size: smaller;
           margin-left: 0.25em;
           white-space: nowrap;
+        }
+
+        .preferred {
+          color: #888;
         }
         
         .mark {
@@ -290,13 +294,13 @@ function gridItemsFromEntries(entries) {
   let referenceLetter = "";
   let lastItemWasEmojese = false;
   for (const entry of entries) {
-    const [emoji, gloss, emojese] = entry;
+    const [emoji, glosses, emojese] = entry;
     // Add letter reference mark before first gloss that starts with that
     // letter.
     const firstStandardItem = lastItemWasEmojese && !emojese;
 
     const entryLetter = emojese
-      ? gloss[0].toUpperCase()
+      ? glosses[0].toUpperCase()
       : firstStandardItem
       ? "⋯"
       : "";
@@ -317,10 +321,15 @@ function gridItemsFromEntries(entries) {
 
     // Add button
     const button = document.createElement("button");
+    const [gloss, preferred] = glosses.split("/");
     const title = " " + gloss.toLowerCase();
     button.setAttribute("title", title);
     button.classList.toggle("emojese", !!emojese);
-    button.innerHTML = `<span class="emoji">${emoji}</span><span class="gloss">${gloss}</span>`;
+    const preferredSpan = preferred
+      ? `<span class="preferred"> ${preferred}</span>`
+      : "";
+    let html = `<span class="emoji">${emoji}</span><span class="gloss">${gloss}${preferredSpan}</span>`;
+    button.innerHTML = html;
 
     items.push(button);
 

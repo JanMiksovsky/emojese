@@ -14,6 +14,8 @@ import graphemer from "./graphemer.js";
 let emojiMap;
 let maxGraphemeCount;
 
+const punctuation = [",", ";", ":", "!", "?", ".", "(", ")"];
+
 export default class EmojeseGloss extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
@@ -56,10 +58,10 @@ function getEmojiMap() {
     emojiMap = new Map();
     maxGraphemeCount = 0;
     for (const entry of emojis) {
-      const [emoji, gloss] = entry;
+      const [emoji, glosses] = entry;
       // Take first gloss as the primary gloss.
       if (!emojiMap.get(emoji)) {
-        emojiMap.set(emoji, gloss);
+        emojiMap.set(emoji, glosses);
       }
       const graphemes = graphemer.splitGraphemes(emoji);
       if (graphemes.length > maxGraphemeCount) {
@@ -82,7 +84,11 @@ function gloss(text) {
   while (remaining.length > 0) {
     const { meaning, rest } = longestMatch(map, remaining);
     if (meaning) {
-      result += meaning + " ";
+      result += meaning;
+      const peekAhead = rest[0];
+      if (!punctuation.includes(peekAhead)) {
+        result += " ";
+      }
     } else {
       // Show next grapheme as is.
       const grapheme = remaining[0];
@@ -98,8 +104,10 @@ function gloss(text) {
 function longestMatch(map, graphemes) {
   for (let length = maxGraphemeCount; length > 0; length--) {
     const candidate = graphemes.slice(0, length).join("");
-    const meaning = map.get(candidate);
-    if (meaning) {
+    const glosses = map.get(candidate);
+    if (glosses) {
+      const [gloss, preferred] = glosses.split("/");
+      const meaning = preferred || gloss;
       const rest = graphemes.slice(length);
       return { meaning, rest };
     }

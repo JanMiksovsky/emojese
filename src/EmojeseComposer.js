@@ -258,7 +258,10 @@ function addToInput(element, emoji, gloss) {
 
 function addItemToInput(element, item) {
   const emoji = item.querySelector(".emoji").textContent;
-  const gloss = item.querySelector(".gloss")?.textContent;
+  const preferredSpan = item.querySelector(".preferred");
+  const gloss = preferredSpan
+    ? preferredSpan.textContent
+    : item.querySelector(".gloss")?.textContent;
   addToInput(element, emoji, gloss);
 }
 
