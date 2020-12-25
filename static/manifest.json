@@ -1,7 +1,7 @@
 {
   "name": "Emojese",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "https://www.emojese.org",
   "scope": "https://www.emojese.org",
   "display": "standalone",
   "icons": [
