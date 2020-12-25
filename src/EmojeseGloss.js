@@ -26,8 +26,8 @@ export default class EmojeseGloss extends ReactiveElement {
 
     if (changed.value) {
       const { value } = this[state];
-      setTimeout(async () => {
-        this[ids].gloss.textContent = await gloss(value);
+      setTimeout(() => {
+        this[ids].gloss.textContent = gloss(value);
       }, 100);
     }
   }
@@ -51,7 +51,7 @@ export default class EmojeseGloss extends ReactiveElement {
   }
 }
 
-async function getEmojiMap() {
+function getEmojiMap() {
   if (!emojiMap) {
     emojiMap = new Map();
     maxGraphemeCount = 0;
@@ -70,8 +70,13 @@ async function getEmojiMap() {
   return emojiMap;
 }
 
-async function gloss(text) {
-  const map = await getEmojiMap();
+function gloss(text) {
+  if (!text) {
+    // Show help message
+    return "Type a message (or paste one to read it)";
+  }
+
+  const map = getEmojiMap();
   let result = "";
   let remaining = graphemer.splitGraphemes(text);
   while (remaining.length > 0) {
