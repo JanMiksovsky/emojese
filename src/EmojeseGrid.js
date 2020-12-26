@@ -214,6 +214,9 @@ export default class EmojeseGrid extends Base {
   }
 
   get [template]() {
+    // Note: We'd like to use display: inline-grid styling for the buttons, but
+    // as of December 2020, Safari on iPad won't render that correctly. So we
+    // use flexbox instead.
     return templateFrom.html`
       <style>
         :host {
@@ -235,16 +238,17 @@ export default class EmojeseGrid extends Base {
           background: none;
           border: none;
           color: inherit;
-          display: inline-grid;
-          grid-template-columns: 1.5em auto;
+          display: flex;
           font: inherit;
           height: 1.5em;
           justify-items: start;
           overflow: hidden;
           padding: 0;
+          text-align: left;
         }
 
         .emoji {
+          display: inline-block;
           overflow: hidden;
           text-align: right;
           white-space: nowrap;
@@ -252,8 +256,11 @@ export default class EmojeseGrid extends Base {
         }
         
         .gloss{
+          display: inline-block;
+          flex: 1;
           font-size: smaller;
           margin-left: 0.25em;
+          min-width: 0;
           white-space: nowrap;
         }
 
@@ -262,14 +269,7 @@ export default class EmojeseGrid extends Base {
         }
         
         .mark {
-          align-items: center;
           background: #ddd;
-          display: inline-grid;
-          grid-template-columns: 1.5em auto;
-        }
-
-        .letter {
-          margin-left: 0.25em;
         }
 
         .selected {
@@ -312,8 +312,8 @@ function gridItemsFromEntries(entries) {
       mark.disabled = true;
       mark.classList.add("mark");
       mark.innerHTML = `
-        <span></span>
-        <span class="letter">${entryLetter}</span>
+        <span class="emoji"></span>
+        <span class="gloss">${entryLetter}</span>
       `;
       items.push(mark);
       referenceLetter = entryLetter;
