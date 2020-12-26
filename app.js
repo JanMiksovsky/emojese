@@ -4,12 +4,13 @@ const port = process.env.PORT || 5000;
 const app = express();
 
 app.get("*", (request, response, next) => {
+  // Redirect http to https, and www to root.
   if (
-    request.headers["x-forwarded-proto"] &&
-    request.headers["x-forwarded-proto"] !== "https"
+    (request.headers["x-forwarded-proto"] &&
+      request.headers["x-forwarded-proto"] !== "https") ||
+    request.hostname === "www.emojese.org"
   ) {
-    // Redirect http to https.
-    const url = `https://${request.hostname}${request.url}`;
+    const url = `https://emojese.org${request.url}`;
     response.redirect(301, url);
   } else {
     next();
