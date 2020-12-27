@@ -775,7 +775,7 @@ __↕	how much
 ⥢🧭	west
 💧~	wet
 __	what
-__🕓	when
+__⏰	when
 __📍	where
 ⌥	whether/choose
 ⌥	which/choose
