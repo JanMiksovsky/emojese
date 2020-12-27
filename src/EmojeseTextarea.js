@@ -1,13 +1,16 @@
 import AutoSizeTextarea from "../node_modules/elix/src/base/AutoSizeTextarea.js";
 import {
   defaultState,
+  firstRender,
   raiseChangeEvents,
+  render,
   rendered,
   state,
   stateEffects,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
+import emojiFromShortNames from "./emojiFromShortNames.js";
 import graphemer from "./graphemer.js";
 
 export default class EmojeseTextarea extends AutoSizeTextarea {
@@ -29,6 +32,28 @@ export default class EmojeseTextarea extends AutoSizeTextarea {
 
   get prefix() {
     return this[state].prefix;
+  }
+
+  [render](changed) {
+    super[render](changed);
+
+    if (this[firstRender]) {
+      this.addEventListener("paste", (event) => {
+        this[raiseChangeEvents] = true;
+        const text = (event.clipboardData || window.clipboardData).getData(
+          "text"
+        );
+        const translated = emojiFromShortNames(text);
+        this.setRangeText(
+          translated,
+          this.selectionStart,
+          this.selectionEnd,
+          "end"
+        );
+        event.preventDefault();
+        this[raiseChangeEvents] = false;
+      });
+    }
   }
 
   [rendered](changed) {

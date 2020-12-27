@@ -294,7 +294,7 @@ function gridItemsFromEntries(entries) {
   let referenceLetter = "";
   let lastItemWasEmojese = false;
   for (const entry of entries) {
-    const [emoji, glosses, emojese] = entry;
+    const [emoji, glosses, shortNames, emojese] = entry;
     // Add letter reference mark before first gloss that starts with that
     // letter.
     const firstStandardItem = lastItemWasEmojese && !emojese;
