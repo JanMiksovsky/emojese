@@ -38,13 +38,48 @@ function entriesFromStandardText(text) {
   return entries;
 }
 
+function entriesFromStandardData(data) {
+  const entries = [];
+  for (const entry of data) {
+    const { unified, short_name } = entry;
+    const hexCodePoints = unified.split("-");
+    const codePoints = hexCodePoints.map((hexCodePoint) =>
+      Number.parseInt(hexCodePoint, 16)
+    );
+    const emoji = String.fromCodePoint(...codePoints);
+    const gloss = short_name.replace(/[_-]/g, " ");
+    entries.push([emoji, gloss]);
+  }
+
+  // Sort entries by gloss.
+  entries.sort((a, b) => {
+    const gloss1 = a[1].toLowerCase();
+    const gloss2 = b[1].toLowerCase();
+    if (gloss1 < gloss2) {
+      return -1;
+    } else if (gloss1 > gloss2) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+
+  return entries;
+}
 const emojeseFileName = path.join(dirname, "emojese.txt");
 const emojeseData = await fs.readFile(emojeseFileName, "utf-8");
 const emojeseEntries = entriesFromEmojeseText(String(emojeseData));
 
-const standardFileName = path.join(dirname, "emoji-test.txt");
-const standardData = await fs.readFile(standardFileName, "utf-8");
-const standardEntries = entriesFromStandardText(String(standardData));
+// const standardFileName = path.join(dirname, "emoji-test.txt");
+// const standardData = await fs.readFile(standardFileName, "utf-8");
+// const standardEntries = entriesFromStandardText(String(standardData));
+const standardFileName = path.join(
+  dirname,
+  "../node_modules/emoji-datasource/emoji.json"
+);
+const standardText = await fs.readFile(standardFileName, "utf-8");
+const standardData = JSON.parse(standardText);
+const standardEntries = entriesFromStandardData(standardData);
 
 const combinedEntries = [...emojeseEntries, ...standardEntries];
 const json = JSON.stringify(combinedEntries);
