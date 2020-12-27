@@ -1,2 +1,6 @@
 node_modules
+
+# Files created by the `build` command
+data/emojis.js
+src/browserify/loadGraphemer.js
 static/build.js
