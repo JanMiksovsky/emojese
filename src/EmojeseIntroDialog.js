@@ -335,6 +335,9 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <p id="okButtonParagraph">
           <button id="okButton">Close</button>
         </p>
+        <p>
+          <a href="https://github.com/JanMiksovsky/emojese">GitHub project</a>
+        </p>
       `);
     }
 
