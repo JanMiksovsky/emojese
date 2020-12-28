@@ -281,7 +281,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <p>Parenthesis clarify <b>phrases</b>:</p>
         <table>
           <tr>
-            <td>👩‍👧💭 (🍴🥗)</td>
+            <td>👩‍🍼💭 (🍴🥗)</td>
             <td>Mom thinks we should eat salad.</td>
           </tr>
           <tr>
@@ -293,7 +293,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <table>
           <tr>
             <td>🚫🌧️ ⇒ 👇⤻🏃</td>
-            <td>If [it’s] not raining, then I will run.</td>
+            <td>[If it’s] not raining, then I will run.</td>
           </tr>
         </table>
         <p>

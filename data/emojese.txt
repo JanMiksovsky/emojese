@@ -651,7 +651,7 @@ __↕	how much
 🏬	store
 	straight
 	street
-💪	strong/can
+💪~	strong
 	student
 🔬	study
 ♟♟	stuff/things

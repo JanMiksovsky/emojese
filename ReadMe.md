@@ -15,6 +15,7 @@ Emojese is one attempt at an emoji language rich enough for interesting communic
 
 - Strive for easy recognition and recall. Try to minimize the amount of what must be learned.
 - Be a natural extension of current emoji use.
+- Start with basic words friends use in text messages.
 - Be usable on existing devices. Pick emoji already in use (or arriving imminently). Use emoji as is; they cannot be rotated, resized, etc.
 
 ## Be inclusive
@@ -24,7 +25,7 @@ Emojese is one attempt at an emoji language rich enough for interesting communic
 - Avoid using text to convey meaning. Avoid emoji with words, with the exception of the word “OK” (which is nearly universally understood). Text for proper nouns is fine.
 - In cases where gender is irrelevant, use the default “person” emojis rather than gendered alternatives. Messages about specific people can use more specific genders.
 - Likewise, generally use the default yellow skin tone. Messages about specific people can use more specific depictions.
-- Be family-friendly. Adding entries like 🍆 might not actually make this more fun, and you can always just type "eggplant" to pick that emoji if you want to include it.
+- Be family-friendly. It's unclear whether adding entries like 🍆 would actually make this more fun. For now, you can always just type "eggplant" to pick that emoji if you want to include it.
 
 ## Evolve naturally
 
@@ -34,7 +35,38 @@ Emojese is one attempt at an emoji language rich enough for interesting communic
 
 # Contributing
 
-If there's general interest in this project, we can work out some processes for reviewing and accepting suggestions. For now, submit a pull request.
+If there's general interest in this project, we can work out some processes for reviewing and accepting suggestions. For now, submit a pull request. Please recognize that an emoji definition that seems obvious or perfect to you may not be so clear to other people.
+
+## Definitions
+
+Emojese fixes some standard meanings to a list of ~700 common English words. Some words are drawn from the [Swadesh list](https://en.wikipedia.org/wiki/Swadesh_list), although that's intended for comparative linguistics. Another, somewhat more relevant source was the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
+
+The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file.
+
+That file also contains common words for which definitions are desired but do not have definitions yet. If you're interested in contributing words, those are a good place to start. As of this writing, words without definitions include:
+
+- already
+- body
+- brother
+- cheap
+- easy
+- happen
+- hope
+- interesting
+- lake
+- main
+- poor
+- roof
+- sister
+- sky
+- street
+- toe
+- valley
+- wall
+- waiter
+- whole
+
+You're also welcome to submit alternatives for words that already have definitions if you feel you've found an emoji sequence that might be clearer.
 
 ## Choosing emoji
 
@@ -43,7 +75,7 @@ If there's general interest in this project, we can work out some processes for 
 - Reserve arrows for the most common words or constructions. It is tempting to use the hundreds of Unicode arrows to suggest a wide range of actions, but relying too heavily on subtly-different arrows produces visually confusing results.
 - Big, obvious distinctions are better than small, subtle ones. When sent in a messaging application, emojis can appear very small, making fine details hard to discern.
 - Choose emoji which, if not obvious, are at least recognizable, memorable, and sensible in retrospect. Few people would type 🐛🦋 for “become” on their own, but hopefully in retrospect the choice of those emoji makes sense.
-- The more common an idea is, the shorter its emoji expression should be.
-- Don't reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat".
-- Be aware that emoji representations vary from platform to platform.
-- Use [Emojipedia](https://emojipedia.org/) as the definitive emoji reference.
+- The more common an idea is, ideally the shorter its emoji expression should be.
+- There's no need to reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat", and typing "cat" in the app already produces that emoji.
+- Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
+- [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
