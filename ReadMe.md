@@ -39,7 +39,7 @@ If there's general interest in this project, we can work out some processes for 
 
 ## Definitions
 
-Emojese fixes some standard meanings to a list of ~700 common English words. Some words are drawn from the [Swadesh list](https://en.wikipedia.org/wiki/Swadesh_list), although that's intended for comparative linguistics. Another, somewhat more relevant source was the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
+Emojese fixes some standard meanings to a list of ~700 common English words. These were drawn from various sources, including the [Swadesh list](https://en.wikipedia.org/wiki/Swadesh_list), the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf), and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
 
 The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file.
 
