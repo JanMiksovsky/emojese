@@ -35,7 +35,7 @@ Emojese is one attempt at an emoji language rich enough for interesting communic
 
 # Contributing
 
-If there's general interest in this project, we can work out some processes for reviewing and accepting suggestions. For now, submit a pull request. Please recognize that an emoji definition that seems obvious or perfect to you may not be so clear to other people.
+You can [contribute or update a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/). For other contributions, please submit a pull request. Please recognize that an emoji definition that seems obvious or perfect to you may not be so clear to other people.
 
 ## Definitions
 
