@@ -56,6 +56,7 @@
 ♾️=	be
 	beat
 🦋~	beautiful
+⤺🐛🦋	became
 ∵	because
 🐛🦋	become
 	bedroom
@@ -87,10 +88,13 @@
 [🥞]	breakfast
 🌉	bridge
 🎒	bring/carry
+⤺💥	broke/crashed
 	brother
+⤺🎒	brought/carried
 	btw
 🔨	build/make
 	building
+⤺🔨	built/made
 	burn
 🚌	bus
 🐝~	busy
@@ -104,6 +108,7 @@
 🚗	car
 [🃏]	card
 🧑‍⚕️	care/doctor
+⤺🎒	carried
 🎒	carry
 🕸️	catch
 	ceiling
@@ -139,6 +144,7 @@
 ⤺💪	could
 	count
 💥	crash
+⤺💥	crashed
 👥👥	crowd
 😭⟿	cry
 🥃	cup
@@ -221,9 +227,11 @@
 💨	fast
 👨‍🍼	father
 2🌙	February
+⤺↦🥫	fed
 ↦🥫	feed
 [😀]	feel
 [😀]⟿	feeling
+⤺[😀]	felt
 ♀️	female
 ⠇	few
 ⚔️	fight
@@ -234,6 +242,7 @@
 🏁	finish/end
 1️⃣	first
 	flat
+⤺🦅⟿	flew
 	floor
 🦅⟿	fly
 ↤🐕‍🦺	follow
@@ -256,6 +265,7 @@
 	game
 	garden
 ⛽	gasoline
+⤺↦	gave
 ↤	get
 🐿️	get ready/prepare
 🎁	gift
@@ -270,6 +280,7 @@
 ◐👩‍🍼	grandmother
 	grass
 🦸	great/super
+⤺🌱	grew
 	ground
 ⟨ ⟩	group
 🌱	grow
@@ -290,6 +301,7 @@
 👨	he/man
 	head
 👂	hear
+⤺👂	heard
 👼📍	heaven
 	heavy
 👿📍	hell
@@ -346,6 +358,7 @@ __↕	how much
 🤴	king
 🍳📍	kitchen
 	knee
+⤺🎓	knew
 🔪	knife
 🎓	know
 	lake
@@ -391,6 +404,7 @@ __↕	how much
 🍀	luck
 🍀~	lucky
 [🥪]	lunch
+⤺🔨	made
 ⤺🔨	made
 	magazine
 ✉️	mail/message
@@ -567,6 +581,7 @@ __↕	how much
 ⤺🗣	said
 ⚖️	same
 	sand
+⤺🪑	sat
 6☀️	Saturday
 💾	save
 ⤺👀	saw
@@ -640,12 +655,13 @@ __↕	how much
 	square
 	stain
 🧍	stand
-	stand
 1️⃣	start/first
 ⤓	stay
 🦝	steal
 〰	still
+⤺🦝	stole
 	stone
+⤺🧍	stood
 🛑	stop
 🏬	store
 	straight
@@ -663,6 +679,7 @@ __↕	how much
 🦸	super
 ❗	supposed/must
 👍	sure/good
+⤺🏊‍♀️	swam
 💦	sweat
 🍯~	sweet
 🏊‍♀️	swim
@@ -720,6 +737,7 @@ __↕	how much
 👉🌃	tonight
 ⇈	too/more
 ⤺↤	took/got
+⤺↤	took/got
 	tool
 	top
 	town
@@ -735,6 +753,7 @@ __↕	how much
 🤢	ugly
 ◒	under
 💡⟿	understand
+⤺💡⟿	understood
 🎓📍	university
 🔓	unlock
 ◐	until
@@ -769,6 +788,7 @@ __↕	how much
 ⚖️↕	weight
 👍	well/good
 ⤺→	went
+⤺→	went
 ⤺=	were/was
 ⥢🧭	west
 💧~	wet
@@ -792,8 +812,10 @@ __∵	why
 🧞	wish
 🧑‍🤝‍🧑	with
 🚫🧑‍🤝‍🧑	without
+⤺🛌🛏	woke
 😍	wonderful
 💬	word
+⤺👖⟿	wore
 🛠️	work
 🌎	world
 😟	worry
@@ -801,6 +823,7 @@ __∵	why
 🤩	wow
 ✍️	write
 ❌	wrong
+⤺✍️	wrote
 👍	yeah/good
 365📅	year
 🗯️	yell
