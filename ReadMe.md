@@ -79,3 +79,7 @@ You're also welcome to submit alternatives for words that already have definitio
 - There's no need to reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat", and typing "cat" in the app already produces that emoji.
 - Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
 - [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
+
+## Languages
+
+If you're a native/fluent speaker of a language other than English, and would be interested in coming up with translations for that language, please file an issue. It would be very interesting to try using Emojese to exchange simple messages between people who don't share a common natural language.
