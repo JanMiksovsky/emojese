@@ -50,7 +50,7 @@ export default class EmojeseGrid extends Base {
     for (let i = index; i >= 0 && i < count; i += direction) {
       const item = items[i];
       const gloss = item.getAttribute("title");
-      if (gloss?.includes(filterWithSpace)) {
+      if (gloss && gloss.includes(filterWithSpace)) {
         return i;
       }
     }
@@ -90,7 +90,8 @@ export default class EmojeseGrid extends Base {
             : target.closest("button");
         if (button && !button.disabled) {
           const emoji = button.querySelector(".emoji").textContent;
-          const gloss = button.querySelector(".gloss")?.textContent;
+          const glossSpan = button.querySelector(".gloss");
+          const gloss = glossSpan ? glossSpan.textContent : null;
           // Raise event
           this.dispatchEvent(
             new CustomEvent("emojese-click", {

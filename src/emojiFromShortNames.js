@@ -11,7 +11,7 @@ let shortNamesMap;
 export default function emojiFromShortNames(text) {
   const map = getShortNamesMap();
   const shortNameRegex = /:([a-z-_+\d]+):/g;
-  const translated = text.replaceAll(shortNameRegex, (match, textInColons) => {
+  const translated = text.replace(shortNameRegex, (match, textInColons) => {
     const normalized = textInColons.replace(/[_-]/g, " ");
     return map.get(normalized) || match;
   });

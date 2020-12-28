@@ -60,7 +60,7 @@ export default class EmojeseComposer extends ReactiveElement {
       this[ids].input.addEventListener("prefixchange", (event) => {
         this[raiseChangeEvents] = true;
         const prefix = this[ids].input.prefix;
-        const filter = prefix.replaceAll(" ", "");
+        const filter = prefix.replace(/ /g, "");
         this[setState]({ filter });
         this[raiseChangeEvents] = false;
       });
@@ -259,9 +259,13 @@ function addToInput(element, emoji, gloss) {
 function addItemToInput(element, item) {
   const emoji = item.querySelector(".emoji").textContent;
   const preferredSpan = item.querySelector(".preferred");
+  const glossSpan = item.querySelector(".gloss");
+
   const gloss = preferredSpan
     ? preferredSpan.textContent
-    : item.querySelector(".gloss")?.textContent;
+    : glossSpan
+    ? glossSpan.textContent
+    : "";
   addToInput(element, emoji, gloss);
 }
 
