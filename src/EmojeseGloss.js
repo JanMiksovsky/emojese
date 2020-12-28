@@ -14,7 +14,7 @@ import graphemer from "./graphemer.js";
 let emojiMap;
 let maxGraphemeCount;
 
-const punctuation = [",", ";", ":", "!", "?", ".", "(", ")"];
+const punctuation = [",", ";", "!", "?", ".", "(", ")"];
 
 export default class EmojeseGloss extends ReactiveElement {
   get [defaultState]() {

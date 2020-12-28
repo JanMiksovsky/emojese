@@ -65,7 +65,7 @@
 ◐⏰	before
 1️⃣	begin/first
 ◐📍	behind
-🗿	believe
+💭	believe/think
 ◒	below/under
 	bend
 💯	best
@@ -700,6 +700,7 @@ __↕	how much
 🙏🙏	thank/thanks
 🙏🙏	thanks
 👈	that
+:	that
 	the
 	theater
 👤の	their
@@ -800,6 +801,7 @@ __📍	where
 〰️	while
 ◻️	white
 __👤	who
+:	who/that
 	whole
 __∵	why
 |⟷|	wide
