@@ -36,7 +36,7 @@
 🎖	army
 ⥁	around
 🛬	arrive
-	art
+🖼️	art
 	artist
 ⚖️	as/same
 🗣	ask/say
@@ -75,7 +75,7 @@
 🎂	birthday
 😇	blessed
 🦯~	blind
-	boat
+[🛥️]	boat
 	body
 📕	book
 𐄚	both
@@ -102,7 +102,7 @@
 💪	can
 🚫💪	cannot
 🚗	car
-	card
+[🃏]	card
 🧑‍⚕️	care/doctor
 🎒	carry
 🕸️	catch
@@ -575,7 +575,7 @@ __↕	how much
 🏫	school
 ⚗️	science
 	screen
-	sea
+🌊📍	sea
 🌷🍁⏰	season
 👀	see/look
 	seed
@@ -642,7 +642,6 @@ __↕	how much
 🧍	stand
 	stand
 1️⃣	start/first
-	station
 ⤓	stay
 🦝	steal
 〰	still
@@ -657,23 +656,22 @@ __↕	how much
 ♟♟	stuff/things
 ↦	submit
 🧪	substance
-	sugar
+◻️🍯	sugar
 ↦💬	suggest
 ☀️⏰	summer
 7☀️	Sunday
 🦸	super
 ❗	supposed/must
 👍	sure/good
-	sweat
+💦	sweat
 🍯~	sweet
 🏊‍♀️	swim
-	t-shirt
 	table
 ↤	take/get
 🗣	talk/say
 	tall
 	taste
-	tea
+🫖	tea
 🧑‍🏫	teacher
 	team
 	technology
