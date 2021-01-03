@@ -45,26 +45,27 @@ The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/e
 
 That file also contains common words for which definitions are desired but do not have definitions yet. If you're interested in contributing words, those are a good place to start. As of this writing, words without definitions include:
 
-- already
+- apartment
+- back
+- ball
 - body
-- brother
-- cheap
+- dust
+- each
 - easy
-- happen
-- hope
-- interesting
-- lake
-- main
-- poor
-- roof
-- sister
-- sky
+- engine
+- face
+- finger
+- fork
+- hang
+- loose
+- metal
+- program
+- sell
 - street
 - toe
 - valley
 - wall
 - waiter
-- whole
 
 You're also welcome to submit alternatives for words that already have definitions if you feel you've found an emoji sequence that might be clearer.
 
