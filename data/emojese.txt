@@ -52,7 +52,7 @@
 👎	bad
 🛍	bag
 	ball
-◒🏠	basement
+🏠◒	basement
 🛁	bathe
 ♾️=	be
 	beat
@@ -284,7 +284,7 @@
 🟩🌾	grass
 🦸	great/super
 ⤺🌱	grew
-🌍の◓	ground
+🌍◓	ground
 ⟨ ⟩	group
 🌱	grow
 🔮	guess
@@ -573,9 +573,9 @@ __↕	how much
 ✅	right
 🌅	rise/morning
 💧𐤛	river
-◓🏠	roof
+🏠◓	roof
 🏠◱	room
-◒🪴	root
+🪴◒	root
 🏃	run
 😢	sad
 🦺	safe
@@ -697,7 +697,7 @@ __↕	how much
 ⟨👥⟩	team
 [💻]	technology
 🗣	tell/say
-__🌡️	temperature
+🌡️↕	temperature
 ⌨️	text/type
 ﹥	than
 🙏🙏	thank/thanks
