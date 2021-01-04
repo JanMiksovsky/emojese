@@ -52,7 +52,7 @@
 👎	bad
 🛍	bag
 [🎾🧶]	ball
-🏠◒	basement
+🏠◡	basement
 🛁	bathe
 ♾️=	be
 	beat
@@ -579,9 +579,9 @@ __↕	how much
 ✅	right
 🌅	rise/morning
 💧𐤛	river
-🏠◓	roof
+🏠◠	roof
 🏠◱	room
-🪴◒	root
+🪴◡	root
 🏃	run
 😢	sad
 🦺	safe
