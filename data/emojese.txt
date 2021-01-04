@@ -1,7 +1,6 @@
 ⟿	-ing
 ~	-ish
 の	(possessive)
-🌍◓	🌍◠
 	a
 💪	able/can
 ⥁	about/around
@@ -287,6 +286,7 @@
 🟩🌾	grass
 🦸	great/super
 ⤺🌱	grew
+🌍◠	ground
 ⟨ ⟩	group
 🌱	grow
 🔮	guess
