@@ -3,7 +3,7 @@
 の	(possessive)
 	a
 💪	able/can
-	about
+⥁	about/around
 ◓	above/over
 💥	accident/crash
 ⤼	across
@@ -78,7 +78,7 @@
 😇	blessed
 🦯~	blind
 [🛥️]	boat
-	body
+👤◕	body
 📕	book
 𐄚	both
 🍾	bottle
@@ -218,7 +218,7 @@
 🤰	expect
 ⇈💲	expensive
 	explode
-	face
+👤◑	face
 🍁	fall
 🍁⏰	fall
 ⊥	false
@@ -280,7 +280,9 @@
 👋👋	goodbye
 ⤺↤	got
 ◐👨‍🍼	grandfather
+◐👩‍🍼	grandma/grandmother
 ◐👩‍🍼	grandmother
+◐👨‍🍼	grandpa/grandfather
 🟩🌾	grass
 🦸	great/super
 ⤺🌱	grew
@@ -357,6 +359,7 @@ __↕	how much
 6🌙	June
 	just
 🔐	keep
+🦵⚽️⟿	kick
 🗡️	kill
 🤴	king
 🍳📍	kitchen
@@ -441,7 +444,7 @@ __↕	how much
 🌙	moon
 ⇈	more
 🌅	morning
-⇈の	most
+◕の	most (of)
 👩‍🍼	mother
 👄	mouth
 🚛	move
