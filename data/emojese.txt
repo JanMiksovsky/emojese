@@ -1,6 +1,7 @@
 ⟿	-ing
 ~	-ish
 の	(possessive)
+🌍◓	🌍◠
 	a
 💪	able/can
 ⥁	about/around
@@ -24,12 +25,12 @@
 	an
 &	and
 [🐘🐁]	animal
-	another
+Ꚙの	another
 ∃	any/some
 ∃👤	anyone/someone
 ∃♟	anything/something
 	anyway
-	apartment
+🏢◱	apartment
 🪞	appear
 4🌙	April
 =	are/is
@@ -37,7 +38,6 @@
 ⥁	around
 🛬	arrive
 🖼️	art
-🎨👤	artist
 ⚖️	as/same
 🗣	ask/say
 🛌~	asleep
@@ -51,7 +51,7 @@
 	back
 👎	bad
 🛍	bag
-	ball
+[🎾🧶]	ball
 🏠◒	basement
 🛁	bathe
 ♾️=	be
@@ -60,8 +60,8 @@
 ⤺🐛🦋	became
 ∵	because
 🐛🦋	become
-	bedroom
-	beef
+🏠◱:🛏	bedroom
+🐄🍖	beef
 	been
 ◐⏰	before
 1️⃣	begin/first
@@ -82,7 +82,7 @@
 📕	book
 𐄚	both
 🍾	bottle
-	bottom
+◡	bottom
 ⤺🛒	bought
 📦	box
 💥	break/crash
@@ -94,9 +94,9 @@
 ⤺🎒	brought/carried
 	btw
 🔨	build/make
-	building
+🏢	building
 ⤺🔨	built/made
-	burn
+🔥⟿	burn
 🚌	bus
 🐝~	busy
 ⇤	but
@@ -112,7 +112,7 @@
 ⤺🎒	carried
 🎒	carry
 🕸️	catch
-🏠◱の◓	ceiling
+🏠◱◠	ceiling
 ⏀	center
 🐛🦋	change/become
 ⇊💲	cheap
@@ -195,7 +195,7 @@
 🌅	early/morning
 🌍	Earth/world
 ⥤🧭	east
-	easy
+🚫🧩	easy
 🍴	eat
 	either
 🗳⏰	election
@@ -246,12 +246,13 @@
 1️⃣の	first
 🚫〰	flat
 ⤺🦅⟿	flew
-🏠◱の◒	floor
+🏠◱◡	floor
 🦅⟿	fly
 ↤🐕‍🦺	follow
 🥫	food
 ↬	for/to
 🌲🌳	forest
+⤻⤻	forever/always
 🧠💥	forget
 ⤺🧠💥	forgot
 	fork
@@ -286,7 +287,6 @@
 🟩🌾	grass
 🦸	great/super
 ⤺🌱	grew
-🌍◓	ground
 ⟨ ⟩	group
 🌱	grow
 🔮	guess
@@ -358,7 +358,7 @@ __↕	how much
 🐇⟿	jump
 6🌙	June
 	just
-🔐	keep
+💾	keep/save
 🦵⚽️⟿	kick
 🗡️	kill
 🤴	king
@@ -419,6 +419,7 @@ __↕	how much
 ◓👤	manager
 ✖️✖️	many
 3🌙	March
+⚭	married
 💍⟿	marry
 🧪	material/substance
 🎲	may
@@ -426,11 +427,13 @@ __↕	how much
 🎲	maybe
 👇	me/I
 👺~	mean
+🍖	meat
 ⚕️	medicine
+⏀	medium/center
 🤝	meet
 🤝	meeting/meet
 ✉️	message
-	metal
+🪙🧪	metal
 ⏀	middle/center
 ⤺🎲	might
 🥛	milk
@@ -479,7 +482,7 @@ __↕	how much
 10🌙	October
 	of
 ↥	off
-🏢	office
+🛠️🏢📍	office
 😲	oh
 🛢	oil
 🆗	OK
@@ -545,7 +548,7 @@ __↕	how much
 🔒⛓️📍	prison
 🔮🤷	probably
 🧩	problem
-	program
+💻0️⃣1️⃣	program
 ⛓️	pull
 👐	push
 📦⬇️	put
@@ -588,6 +591,7 @@ __↕	how much
 ⤺🪑	sat
 6☀️	Saturday
 💾	save
+💾	save
 ⤺👀	saw
 🗣	say
 🗣	says/say
@@ -610,7 +614,7 @@ __↕	how much
 	shall
 ⌊💧	shallow
 👩	she/woman
-	shirt
+[👕]	shirt
 🔫⟿	shoot
 🛒	shop
 🤏	short
@@ -674,7 +678,6 @@ __↕	how much
 🚫⌒	straight
 	street
 💪~	strong
-	student
 🔬	study
 ♟♟	stuff/things
 ↦	submit
@@ -708,7 +711,7 @@ __↕	how much
 👈	that
 :	that
 	the
-	theater
+🎭📍	theater
 👤の	their
 👥の	their
 👤👈	them
@@ -745,14 +748,14 @@ __↕	how much
 ⇈	too/more
 ⤺↤	took/got
 ⤺↤	took/got
-	tool
-	top
+[🔧]	tool
+◠	top
 🖐⟿	touch
-	town
+⏀🏙️	town
 🚞	train
-	transportation
+[🚌🚗]	transportation
 🌳	tree
-	truck
+🚚	truck
 ⊨	true
 🧗	try
 2☀️	Tuesday
@@ -768,15 +771,15 @@ __↕	how much
 ⬆️	up
 👇👇	us
 💪	use/can
-	valley
+🏔📍🏔	valley
 ⇈	very/more
 	victim
 🗣👂	voice
 ⏳	wait
-	waiter
+🥡👤	waiter
 🛌🛏	wake
 🚶	walk
-	wall
+🧱‖	wall
 ❤️‍🔥	want
 ⚔️	war/fight
 🤏♨️	warm

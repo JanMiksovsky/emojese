@@ -45,25 +45,28 @@ The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/e
 
 That file also contains common words for which definitions are desired but do not have definitions yet. If you're interested in contributing words, those are a good place to start. As of this writing, words without definitions include:
 
-- apartment
+- assistant
 - back
-- ball
 - dust
 - each
-- easy
 - engine
 - finger
 - fork
 - hang
 - loose
-- metal
-- program
+- neck
+- plate
+- pocket
 - sell
+- shake
+- skin
+- soil
+- stain
 - street
+- table
 - toe
-- valley
+- victim
 - wall
-- waiter
 
 You're also welcome to submit alternatives for words that already have definitions if you feel you've found an emoji sequence that might be clearer.
 
