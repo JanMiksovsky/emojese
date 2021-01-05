@@ -105,6 +105,7 @@
 ⤺←	came
 💪	can
 🚫💪	cannot
+🚫💪	cant/cannot
 🚗	car
 [🃏]	card
 🧑‍⚕️	care/doctor
@@ -151,7 +152,7 @@
 ⌒	curve
 ✂️	cut
 🧸	cute
-👨‍🍼	dad
+👨‍🍼	dad/father
 ☠️	dangerous
 	dark
 📅	date
@@ -349,6 +350,7 @@ __↕	how much
 =	is
 ≠	is not
 🏝	island
+≠	isnt/is not
 ♟	it
 ♟の	its
 1🌙	January
@@ -441,7 +443,7 @@ __↕	how much
 👇の	mine/my
 💔	miss
 ⤭	mix
-👩‍🍼	mom
+👩‍🍼	mom/mother
 1☀️	Monday
 💵	money
 🌙	moon
