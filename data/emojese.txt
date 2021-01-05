@@ -330,7 +330,7 @@
 __🔨	how
 __🕑🕓	how long
 __↕	how much
-💍の👨	husband
+💍👨	husband
 👇	I
 💡	idea
 	if
@@ -601,7 +601,7 @@ __↕	how much
 🌊📍	sea
 🌷🍁⏰	season
 👀	see/look
-🪴の🥚	seed
+🪴🥚	seed
 🪞	seem/appear
 	self
 	sell
@@ -815,7 +815,7 @@ __👤	who
 ∀◔	whole
 __∵	why
 |⟷|	wide
-💍の👩	wife
+💍👩	wife
 ⤻	will
 💯	win/best
 🌬️	wind
