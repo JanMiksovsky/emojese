@@ -18,6 +18,6 @@
     "start": "node app.js"
   },
   "engines": {
-    "node": "v14.15.0"
+    "node": "v15.5.0"
   }
 }
