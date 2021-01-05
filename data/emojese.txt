@@ -24,7 +24,7 @@
 	an
 &	and
 [🐘🐁]	animal
-Ꚙの	another
+⧉の	another
 ∃	any/some
 ∃👤	anyone/someone
 ∃♟	anything/something
@@ -137,9 +137,9 @@
 〰	continue
 ⚖️📜	contract
 🍳	cook
-👍	cool/good
+😎	cool
 	copper
-Ꚙ	copy
+⧉	copy
 ⟓	corner
 ⤺💪	could
 🔢⟿	count
@@ -187,7 +187,7 @@
 🚫💧~	dry
 🪨~	dumb
 🕑⤻🕓	duration
-〰️	during
+〰️	during/continue
 	dust
 	each
 ⇈🌅	earlier
@@ -610,7 +610,7 @@ __↕	how much
 ⤺📤	sent
 9🌙	September
 🛌🎆	sex
-	shake
+⧛ ⧚	shake
 	shall
 ⌊💧	shallow
 👩	she/woman
@@ -669,7 +669,7 @@ __↕	how much
 1️⃣	start/first
 ⤓	stay
 🦝	steal
-〰	still
+〰	still/continue
 ⤺🦝	stole
 🪨	stone/rock
 ⤺🧍	stood
@@ -759,7 +759,7 @@ __↕	how much
 ⊨	true
 🧗	try
 2☀️	Tuesday
-	turn
+➿	turn
 ⌨️	type
 🤢	ugly
 ◒	under
@@ -808,7 +808,7 @@ __⏰	when
 __📍	where
 ⌥	whether/choose
 ⌥	which/choose
-〰️	while
+〰️	while/continue
 ◻️	white
 __👤	who
 :	who/that
