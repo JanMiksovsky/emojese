@@ -130,6 +130,7 @@
 [👖]	clothes
 	club
 🧥	coat
+☕	coffee
 🧊~	cold
 ↤	collect/get
 ←	come
