@@ -78,10 +78,6 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
-      if (!navigator.share) {
-        this[ids].shareButton.disabled = true;
-      }
-
       this[ids].copyButton.addEventListener("click", async () => {
         this[raiseChangeEvents] = true;
         const { text } = this[state];
@@ -130,7 +126,10 @@ export default class EmojeseComposer extends ReactiveElement {
     if (changed.text) {
       const { text } = this[state];
       this[ids].gloss.value = text;
-      this[ids].copyButton.disabled = text.length === 0;
+
+      const empty = text.length === 0;
+      this[ids].shareButton.disabled = empty || !navigator.share;
+      this[ids].copyButton.disabled = empty;
     }
 
     if (changed.viewportHeight || changed.viewportWidth) {
