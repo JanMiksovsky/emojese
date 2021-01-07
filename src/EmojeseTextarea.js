@@ -2,6 +2,7 @@ import AutoSizeTextarea from "../node_modules/elix/src/base/AutoSizeTextarea.js"
 import {
   defaultState,
   firstRender,
+  ids,
   raiseChangeEvents,
   render,
   rendered,
@@ -53,6 +54,11 @@ export default class EmojeseTextarea extends AutoSizeTextarea {
         event.preventDefault();
         this[raiseChangeEvents] = false;
       });
+
+      this[ids].inner.setAttribute(
+        "aria-label",
+        "Type a message, or paste one to read it"
+      );
     }
   }
 
