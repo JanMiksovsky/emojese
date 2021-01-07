@@ -243,7 +243,7 @@ export default class EmojeseComposer extends ReactiveElement {
         </div>
       </elix-toast>
       <div id="inputBar">
-        <emojese-textarea id="input" aria-label="Type a message, or paste one to read it"></emojese-textarea>
+        <emojese-textarea id="input"></emojese-textarea>
         <div id="commands">
           <button id="shareButton" title="Share">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
