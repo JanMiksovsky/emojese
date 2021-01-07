@@ -1,3 +1,4 @@
+import Toast from "../node_modules/elix/define/Toast.js";
 import {
   defaultState,
   firstRender,
@@ -17,7 +18,7 @@ import EmojeseIntroDialog from "./EmojeseIntroDialog.js";
 import EmojeseTextarea from "./EmojeseTextarea.js";
 
 // Force recognition of imports.
-if (EmojeseGloss || EmojeseGrid || EmojeseTextarea) {
+if (EmojeseGloss || EmojeseGrid || EmojeseTextarea || Toast) {
 }
 
 export default class EmojeseComposer extends ReactiveElement {
@@ -85,6 +86,7 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = true;
         const { text } = this[state];
         await navigator.clipboard.writeText(text);
+        this[ids].copyToast.open();
         this[raiseChangeEvents] = false;
       });
 
@@ -128,6 +130,7 @@ export default class EmojeseComposer extends ReactiveElement {
     if (changed.text) {
       const { text } = this[state];
       this[ids].gloss.value = text;
+      this[ids].copyButton.disabled = text.length === 0;
     }
 
     if (changed.viewportHeight || changed.viewportWidth) {
@@ -229,7 +232,16 @@ export default class EmojeseComposer extends ReactiveElement {
           margin: 2px;
           padding: 2px;
         }
+
+        #toastContent {
+          padding: 1em;
+        }
       </style>
+      <elix-toast id="copyToast" duration="750" from-edge="top-right">
+        <div id="toastContent">
+          Copied to clipboard
+        </div>
+      </elix-toast>
       <div id="inputBar">
         <emojese-textarea id="input"></emojese-textarea>
         <div id="commands">
