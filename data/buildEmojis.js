@@ -21,7 +21,12 @@ function entriesFromStandardText(text) {
   const emojiRegex = /^.+; fully-qualified\s+#\s(?<emoji>.+)\sE\d+.\d+\s(?<gloss>.+)$/gm;
   const matches = text.matchAll(emojiRegex);
   for (const match of matches) {
-    const { emoji, gloss } = match.groups;
+    const { emoji } = match.groups;
+    let { gloss } = match.groups;
+    // Replace "flag: <country>" with "<country>".
+    if (gloss.startsWith("flag: ")) {
+      gloss = gloss.slice(6);
+    }
     const entry = [emoji, gloss];
     const shortNames = getShortNames(emoji, gloss);
     if (shortNames.length > 0) {
