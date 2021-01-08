@@ -101,7 +101,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <p><b>Word order</b> is Subject–Verb–Object as in English:</p>
         <table>
           <tr>
-            <td>👨💚🚴‍♂️</td>
+            <td>👨💙🚴‍♂️</td>
             <td>He likes bikes.</td>
           </tr>
         </table>
@@ -274,7 +274,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>the boy with the hat</td>
           </tr>
           <tr>
-            <td>🙍‍♀️:💚⚽️</td>
+            <td>👧:💚⚽️</td>
             <td>the girl who likes soccer</td>
           </tr>
         </table>
@@ -285,7 +285,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>Mom thinks we should eat salad.</td>
           </tr>
           <tr>
-            <td>(🙍‍♀️:🥱) ⤺→🏠</td>
+            <td>(👧:🥱) ⤺→🏠</td>
             <td>The girl who is tired went home.</td>
           </tr>
         </table>
