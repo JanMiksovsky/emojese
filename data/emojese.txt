@@ -264,8 +264,8 @@
 🫂	friend
 ↫	from
 ◑📍	front
+⍐	full / enough
 。	full stop
-⍐	full/enough
 😀	fun
 [🎲🃏]	game
 🪴📍	garden
@@ -425,8 +425,8 @@ __↕	how much
 ⚭	married
 💍⟿	marry
 🧪	material/substance
-🎲	may
 5🌙	May
+🎲	may/maybe
 🎲	maybe
 👇	me/I
 👺~	mean

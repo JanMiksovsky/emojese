@@ -6,7 +6,9 @@ const dirname = path.dirname(fileURLToPath(import.meta.url));
 function entriesFromEmojeseText(text) {
   const lines = text.split("\n");
   const entries = lines.map((line) => {
-    const [emoji, gloss] = line.split("\t");
+    const parts = line.split("\t");
+    const emoji = parts[0].trim();
+    const gloss = parts[1]?.trim();
     const shortNames = getShortNames(emoji, gloss);
     return [emoji, gloss, shortNames, "*"];
   });
