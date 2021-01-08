@@ -67,7 +67,7 @@
 ◐📍	behind
 💭	believe/think
 ◒	below/under
-	bend
+🔨⌒	bend
 💯	best
 ⇈👍	better
 ⧲	between
@@ -79,6 +79,7 @@
 [🛥️]	boat
 👤◕	body
 📕	book
+🥱	boring
 𐄚	both
 🍾	bottle
 ◡	bottom
@@ -114,7 +115,7 @@
 🕸️	catch
 🏠◱◠	ceiling
 ⏀	center
-🐛🦋	change/become
+🔄	change
 ⇊💲	cheap
 ☑	check
 🧒	child
@@ -378,7 +379,7 @@ __↕	how much
 ⇈🌃	later
 🤣⟿	laugh
 ⚖️🧑	lawyer
-🦥~	lazy/sleepy
+🦥~	lazy
 🐕‍🦺	lead
 🍃	leaf
 🎓↤	learn
@@ -466,7 +467,7 @@ __↕	how much
 🏕️⛺	near
 	neck
 ❤️‍🔥↤	need
-⏭️🏠の👤	neighbor
+⏭️🏠👤	neighbor
 🚫⏰	never
 🐣~	new
 ⏭️	next
@@ -503,7 +504,7 @@ __↕	how much
 ⎋	out
 ⎋	outside/out
 ◓	over
-💁‍♀️	own
+💁	own/has
 📄	page/paper
 💥😬	pain
 🎨	paint
@@ -512,7 +513,6 @@ __↕	how much
 🏞	park
 ◔	part
 💯	pass/best
-☜	passive
 👣	path
 🤒👤	patient
 ▥	pattern
@@ -582,6 +582,7 @@ __↕	how much
 ✅	right
 🌅	rise/morning
 💧𐤛	river
+	road
 🏠◠	roof
 🏠◱	room
 🪴◡	root
@@ -638,7 +639,7 @@ __↕	how much
 	skirt
 🟦☁️	sky
 🛌	sleep
-🦥~	sleepy
+😴	sleepy
 🐌~	slow
 🐜~	small/little
 🎓~	smart
@@ -739,7 +740,7 @@ __↕	how much
 ◐	till/until
 ⏰	time
 	tire
-🥱	tired
+😴	tired/sleepy
 ↬	to
 ♾️	to (infinitive)
 👉☀️	today
