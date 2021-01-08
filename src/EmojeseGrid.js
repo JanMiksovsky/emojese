@@ -138,7 +138,7 @@ export default class EmojeseGrid extends Base {
       // words.
       rule.selectorText = filter
         ? `button:not([title*=" ${filter}"i])`
-        : `.never`;
+        : `button`;
     }
   }
 
@@ -280,10 +280,9 @@ export default class EmojeseGrid extends Base {
       </style>
       <style id="filterStyles">
         /* These rules are modified dynamically to filter the grid. */
-        .never {
+        button {
           display: none;
         }
-
       </style>
       <div id="grid"></div>
     `;
