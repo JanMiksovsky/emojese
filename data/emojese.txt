@@ -486,7 +486,7 @@ __↕	how much
 10🌙	October
 	of
 ↥	off
-🛠️🏢📍	office
+🛠️📍	office
 😲	oh
 🛢	oil
 🆗	OK
@@ -630,7 +630,7 @@ __↕	how much
 🤒	sick
 ⚆	side
 	sign
-◑	since/front
+↫⏰	since
 🗣🎶	sing
 ⚖️🧑‍🍼の👧	sister
 🪑	sit
@@ -737,7 +737,7 @@ __↕	how much
 🏈	throw
 4☀️	Thursday
 ⇥⇤	tight/narrow
-◐	till/until
+↬⏰	till/until
 ⏰	time
 	tire
 😴	tired/sleepy
@@ -771,7 +771,7 @@ __↕	how much
 ⤺💡⟿	understood
 🎓📍	university
 🔓	unlock
-◐	until
+↬⏰	until
 ⬆️	up
 👇👇	us
 💪	use/can
