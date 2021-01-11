@@ -14,7 +14,7 @@ import graphemer from "./graphemer.js";
 let emojiMap;
 let maxGraphemeCount;
 
-const punctuation = [",", ";", "!", "?", ".", "(", ")"];
+const punctuation = [" ", ",", ";", "!", "?", ".", "(", ")"];
 
 export default class EmojeseGloss extends ReactiveElement {
   get [defaultState]() {
@@ -55,7 +55,7 @@ export default class EmojeseGloss extends ReactiveElement {
         }
 
         .base {
-          font-size: 36px;
+          font-size: 40px;
           line-height: 1em;
         }
 
@@ -97,8 +97,8 @@ function getEmojiMap() {
 
 function gloss(text) {
   if (!text) {
-    // Show help message
-    return "Type a message (or paste one to read it)";
+    // Return empty item.
+    return `<div class="word"><div class="base">&nbsp;</div><div class="ruby">&nbsp;</div></div>`;
   }
 
   const map = getEmojiMap();
@@ -109,12 +109,12 @@ function gloss(text) {
     const ruby = meaning ?? "";
     const base = match;
     result += `<div class="word"><div class="base">${base}</div><div class="ruby">${ruby}</div></div>`;
-    if (meaning) {
-      const peekAhead = rest[0];
-      if (!punctuation.includes(peekAhead)) {
-        result += ` `;
-      }
-    }
+    // if (meaning) {
+    //   const peekAhead = rest[0];
+    //   if (!punctuation.includes(peekAhead)) {
+    //     result += ` `;
+    //   }
+    // }
 
     // Work on rest of graphemes.
     remaining = rest;

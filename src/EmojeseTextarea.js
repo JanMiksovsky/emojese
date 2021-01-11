@@ -55,10 +55,7 @@ export default class EmojeseTextarea extends AutoSizeTextarea {
         this[raiseChangeEvents] = false;
       });
 
-      this[ids].inner.setAttribute(
-        "aria-label",
-        "Type a message, or paste one to read it"
-      );
+      this[ids].inner.setAttribute("aria-label", "Type or paste a message");
     }
   }
 

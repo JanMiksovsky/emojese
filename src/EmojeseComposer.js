@@ -26,7 +26,7 @@ export default class EmojeseComposer extends ReactiveElement {
     return Object.assign(super[defaultState], {
       currentItem: null,
       filter: "",
-      text: "🎲 👉 = 👍",
+      text: "",
       viewportHeight: null,
       viewportWidth: null,
     });
@@ -172,22 +172,23 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         #gloss {
-          margin: 1em;
+          margin: 0.5em;
         }
 
         #inputBar {
-          align-items: start;
+          align-items: center;
           background: white;
           border: 1px solid gray;
           box-sizing: border-box;
           display: grid;
           grid-template-columns: 1fr auto;
-          margin: 0 1em 1em 1em;
+          margin: 0.5em 0.5em 0.5em;
+          margin-top: 0;
           padding: 2px;
         }
 
         #input {
-          font-size: 24px;
+          font-size: 20px;
         }
 
         #input::part(textarea) {
@@ -233,6 +234,20 @@ export default class EmojeseComposer extends ReactiveElement {
         #toastContent {
           padding: 1em;
         }
+
+        @media (min-width: 800px) {
+          #gloss {
+            margin: 1em;
+          }
+
+          #inputBar {
+            margin: 1em;
+          }
+          
+          #input {
+            font-size: 24px;
+          }
+        }
       </style>
       <elix-toast id="copyToast" duration="750" from-edge="top-right">
         <div id="toastContent">
@@ -241,7 +256,7 @@ export default class EmojeseComposer extends ReactiveElement {
       </elix-toast>
       <emojese-gloss id="gloss"></emojese-gloss>
       <div id="inputBar">
-        <emojese-textarea id="input"></emojese-textarea>
+        <emojese-textarea id="input" placeholder="Type or paste a message"></emojese-textarea>
         <div id="commands">
           <button id="shareButton" title="Share">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
