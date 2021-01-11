@@ -26,7 +26,7 @@ export default class EmojeseComposer extends ReactiveElement {
     return Object.assign(super[defaultState], {
       currentItem: null,
       filter: "",
-      text: "",
+      text: "🎲 👉 = 👍",
       viewportHeight: null,
       viewportWidth: null,
     });
@@ -125,6 +125,7 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (changed.text) {
       const { text } = this[state];
+      this[ids].input.value = text;
       this[ids].gloss.value = text;
 
       const empty = text.length === 0;
@@ -167,7 +168,11 @@ export default class EmojeseComposer extends ReactiveElement {
         :host {
           display: grid;
           font-size: 24px;
-          grid-template-rows: auto minmax(0, 1fr);
+          grid-template-rows: auto auto minmax(0, 1fr);
+        }
+
+        #gloss {
+          margin: 1em;
         }
 
         #inputBar {
@@ -177,12 +182,12 @@ export default class EmojeseComposer extends ReactiveElement {
           box-sizing: border-box;
           display: grid;
           grid-template-columns: 1fr auto;
-          margin: 2px;
+          margin: 0 1em 1em 1em;
           padding: 2px;
         }
 
         #input {
-          font-size: 32px;
+          font-size: 24px;
         }
 
         #input::part(textarea) {
@@ -190,13 +195,6 @@ export default class EmojeseComposer extends ReactiveElement {
           border: none;
           color: #333;
           padding: 2px 4px;
-        }
-
-        #gloss {
-          color: #666;
-          font-size: smaller;
-          grid-column: 1 / span 2;
-          grid-row: 2;
         }
 
         #commands {
@@ -241,6 +239,7 @@ export default class EmojeseComposer extends ReactiveElement {
           Copied to clipboard
         </div>
       </elix-toast>
+      <emojese-gloss id="gloss"></emojese-gloss>
       <div id="inputBar">
         <emojese-textarea id="input"></emojese-textarea>
         <div id="commands">
@@ -253,7 +252,6 @@ export default class EmojeseComposer extends ReactiveElement {
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
           </button>
         </div>
-        <emojese-gloss id="gloss"></emojese-gloss>
       </div>
       <emojese-grid id="grid"></emojese-grid>
     `;

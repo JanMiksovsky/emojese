@@ -29,7 +29,7 @@ export default class EmojeseGloss extends ReactiveElement {
     if (changed.value) {
       const { value } = this[state];
       setTimeout(() => {
-        this[ids].gloss.textContent = gloss(value);
+        this[ids].gloss.innerHTML = gloss(value);
       }, 100);
     }
   }
@@ -39,6 +39,29 @@ export default class EmojeseGloss extends ReactiveElement {
       <style>
         :host {
           display: block;
+        }
+
+        #gloss {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.25em;
+          justify-content: center;
+        }
+
+        .word {
+          display: inline-grid;
+          grid-template-rows: auto auto;
+          justify-items: center;
+        }
+
+        .base {
+          font-size: 36px;
+          line-height: 1em;
+        }
+
+        .ruby {
+          color: #666;
+          font-size: 18px;
         }
       </style>
       <div id="gloss"></div>
@@ -82,18 +105,17 @@ function gloss(text) {
   let result = "";
   let remaining = graphemer.splitGraphemes(text);
   while (remaining.length > 0) {
-    const { meaning, rest } = longestMatch(map, remaining);
+    const { match, meaning, rest } = longestMatch(map, remaining);
+    const ruby = meaning ?? "";
+    const base = match;
+    result += `<div class="word"><div class="base">${base}</div><div class="ruby">${ruby}</div></div>`;
     if (meaning) {
-      result += meaning;
       const peekAhead = rest[0];
       if (!punctuation.includes(peekAhead)) {
-        result += " ";
+        result += ` `;
       }
-    } else {
-      // Show next grapheme as is.
-      const grapheme = remaining[0];
-      result += grapheme;
     }
+
     // Work on rest of graphemes.
     remaining = rest;
   }
@@ -103,19 +125,20 @@ function gloss(text) {
 // Find the longest match in the map
 function longestMatch(map, graphemes) {
   for (let length = maxGraphemeCount; length > 0; length--) {
-    const candidate = graphemes.slice(0, length).join("");
-    const glosses = map.get(candidate);
+    const match = graphemes.slice(0, length).join("");
+    const glosses = map.get(match);
     if (glosses) {
       const [gloss, preferred] = glosses.split("/");
       const meaning = preferred || gloss;
       const rest = graphemes.slice(length);
-      return { meaning, rest };
+      return { match, meaning, rest };
     }
   }
-  // No match, skip grapheme and return empty meaning.
+  // No match, return first grapheme as is.
+  const match = graphemes[0];
   const meaning = null;
   const rest = graphemes.slice(1);
-  return { meaning, rest };
+  return { match, meaning, rest };
 }
 
 customElements.define("emojese-gloss", EmojeseGloss);
