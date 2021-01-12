@@ -322,7 +322,13 @@ function gridItemsFromEntries(entries) {
     // Add button
     const button = document.createElement("button");
     const [gloss, preferred] = glosses.split("/");
-    const title = " " + gloss.toLowerCase();
+
+    // Title is alphabetic lowercase gloss.
+    // Prepend a space to enable word-boundary match on the first word.
+    const notAlpha = /[^a-z0-9]/g;
+    const glossText = gloss.toLowerCase().replaceAll(notAlpha, "");
+    const title = " " + glossText;
+
     button.setAttribute("title", title);
     button.classList.toggle("emojese", !!emojese);
     const preferredSpan = preferred
