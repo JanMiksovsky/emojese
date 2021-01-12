@@ -102,43 +102,65 @@ function gloss(text) {
   }
 
   const map = getEmojiMap();
+  let unrecognized = "";
   let result = "";
   let remaining = graphemer.splitGraphemes(text);
-  while (remaining.length > 0) {
-    const { match, meaning, rest } = longestMatch(map, remaining);
-    const ruby = meaning ?? "";
-    const base = match;
-    result += `<div class="word"><div class="base">${base}</div><div class="ruby">${ruby}</div></div>`;
-    // if (meaning) {
-    //   const peekAhead = rest[0];
-    //   if (!punctuation.includes(peekAhead)) {
-    //     result += ` `;
-    //   }
-    // }
 
-    // Work on rest of graphemes.
-    remaining = rest;
+  while (remaining.length > 0) {
+    const match = longestMatch(map, remaining);
+    if (match) {
+      if (unrecognized) {
+        result += createRuby(unrecognized, "");
+        unrecognized = "";
+      }
+
+      const { text, meaning, rest } = match;
+      result += createRuby(text, meaning);
+      // if (meaning) {
+      //   const peekAhead = rest[0];
+      //   if (!punctuation.includes(peekAhead)) {
+      //     result += ` `;
+      //   }
+      // }
+
+      // Work on rest of graphemes.
+      remaining = rest;
+    } else {
+      // No match; add to unrecognized text under construction.
+      unrecognized += remaining[0];
+      remaining = remaining.slice(1);
+    }
   }
+
+  if (unrecognized) {
+    result += createRuby(unrecognized, "");
+  }
+
   return result;
+}
+
+function createRuby(base, ruby) {
+  return `
+    <div class="word">
+      <div class="base">${base}</div>
+      <div class="ruby">${ruby || "&nbsp;"}</div>
+    </div>
+  `;
 }
 
 // Find the longest match in the map
 function longestMatch(map, graphemes) {
   for (let length = maxGraphemeCount; length > 0; length--) {
-    const match = graphemes.slice(0, length).join("");
-    const glosses = map.get(match);
+    const text = graphemes.slice(0, length).join("");
+    const glosses = map.get(text);
     if (glosses) {
       const [gloss, preferred] = glosses.split("/");
       const meaning = preferred || gloss;
       const rest = graphemes.slice(length);
-      return { match, meaning, rest };
+      return { text, meaning, rest };
     }
   }
-  // No match, return first grapheme as is.
-  const match = graphemes[0];
-  const meaning = null;
-  const rest = graphemes.slice(1);
-  return { match, meaning, rest };
+  return null;
 }
 
 customElements.define("emojese-gloss", EmojeseGloss);
