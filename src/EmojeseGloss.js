@@ -143,7 +143,7 @@ function createRuby(base, ruby) {
   return `
     <div class="word">
       <div class="base">${base}</div>
-      <div class="ruby">${ruby || "&nbsp;"}</div>
+      <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
     </div>
   `;
 }

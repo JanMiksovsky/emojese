@@ -66,6 +66,8 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
+      this[ids].gridToggle.addEventListener("click", () => {});
+
       this[ids].shareButton.addEventListener("click", async () => {
         this[raiseChangeEvents] = true;
         const { text } = this[state];
@@ -168,7 +170,6 @@ export default class EmojeseComposer extends ReactiveElement {
         :host {
           box-sizing: border-box;
           display: grid;
-          font-size: 24px;
           grid-template-rows: auto auto minmax(0, 1fr);
           padding: 0.5em 0.5em 0 0.5em;
         }
@@ -184,7 +185,6 @@ export default class EmojeseComposer extends ReactiveElement {
           box-sizing: border-box;
           display: grid;
           grid-template-columns: 1fr auto;
-          padding: 2px;
         }
 
         #input {
@@ -201,7 +201,8 @@ export default class EmojeseComposer extends ReactiveElement {
         #commands {
           align-self: center;
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          font-size: 24px;
+          grid-template-columns: repeat(4, 1fr);
           margin-left: 2px;
         }
 
@@ -222,21 +223,27 @@ export default class EmojeseComposer extends ReactiveElement {
           opacity: 0.25;
         }
 
-        #glossToggle {
-          font-weight: bold !important;
+        #downIcon {
+          fill: currentColor;
+          height: 0.7em;
+          width: 0.7em;
         }
 
         #toastContent {
           padding: 1em;
         }
 
+        #grid {
+          font-size: 24px;
+        }
+
         @media (min-width: 800px) {
           :host {
-            padding: 1em 1em 0 1em;
+            padding: 2em 2em 0 2em;
           }
 
           #gloss {
-            margin-bottom: 1em;
+            margin-bottom: 2em;
           }
           
           #input {
@@ -253,6 +260,11 @@ export default class EmojeseComposer extends ReactiveElement {
       <div id="inputBar">
         <emojese-textarea id="input" placeholder="Type or paste a message"></emojese-textarea>
         <div id="commands">
+          <button id="gridToggle">
+            <svg id="downIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
+              <path d="M 0 0 l5 5 5 -5 z" />
+            </svg>
+          </button>
           <button id="shareButton" title="Share">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
           <button id="copyButton" title="Copy to clipboard">

@@ -166,6 +166,7 @@
 12🌙	December
 ⌥	decide/choose
 ⌈💧	deep
+😋	delicious
 🛫	depart/leave
 ⤺	did
 ⚰️	die
@@ -312,6 +313,7 @@
 ⤺👂	heard
 👼📍	heaven
 🏋️の	heavy
+⤺🤲	held
 👿📍	hell
 👋	hello
 🚑	help
@@ -320,6 +322,7 @@
 👋	hey/hello
 👋	hi/hello
 ⌈	high
+🥾⟿	hike
 🐜~🏔	hill
 🙍‍♂️	him
 🙍‍♂️の	his
@@ -595,7 +598,6 @@ __↕	how much
 ⤺🪑	sat
 6☀️	Saturday
 💾	save
-💾	save
 ⤺👀	saw
 🗣	say
 🗣	says/say
@@ -610,7 +612,7 @@ __↕	how much
 	self
 	sell
 📤	send
-🦯	sense
+	sense
 ⤺📤	sent
 9🌙	September
 🛌🎆	sex
@@ -751,7 +753,6 @@ __↕	how much
 👉🌃	tonight
 ⇈	too/more
 ⤺↤	took/got
-⤺↤	took/got
 [🔧]	tool
 ◠	top
 🖐⟿	touch
@@ -774,7 +775,7 @@ __↕	how much
 ↬⏰	until
 ⬆️	up
 👇👇	us
-💪	use/can
+	use
 🏔📍🏔	valley
 ⇈	very/more
 	victim
@@ -802,7 +803,6 @@ __↕	how much
 ⓻☀️	week
 ⚖️↕	weight
 👍	well/good
-⤺→	went
 ⤺→	went
 ⤺=	were/was
 ⥢🧭	west
