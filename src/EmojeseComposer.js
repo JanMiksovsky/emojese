@@ -99,6 +99,12 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
+      this[ids].gridToggle.addEventListener("click", () => {
+        this[raiseChangeEvents] = true;
+        this[setState]({ showGrid: true });
+        this[raiseChangeEvents] = false;
+      });
+
       this[ids].grid.addEventListener("currentindexchange", () => {
         this[raiseChangeEvents] = true;
         const currentItem = this[ids].grid.currentItem;
@@ -128,7 +134,9 @@ export default class EmojeseComposer extends ReactiveElement {
     }
 
     if (changed.showGrid) {
-      this[ids].grid.style.display = this[state].showGrid ? "" : "none";
+      const { showGrid } = this[state];
+      this[ids].gridToggle.style.display = showGrid ? "none" : "";
+      this[ids].grid.style.display = showGrid ? "" : "none";
     }
 
     if (changed.text) {
@@ -176,9 +184,10 @@ export default class EmojeseComposer extends ReactiveElement {
       : {};
 
     // Only show grid when we have an active prefix in the textarea.
+    // Clearing the text also implies hiding the grid.
     // Hiding the grid also implies clearing the selection.
-    if (changed.prefix) {
-      const showGrid = state.prefix.length > 0;
+    if (changed.prefix || changed.text) {
+      const showGrid = state.prefix !== "" && state.text !== "";
       Object.assign(effects, { showGrid });
       if (!showGrid && state.currentItem) {
         Object.assign(effects, {
@@ -228,7 +237,7 @@ export default class EmojeseComposer extends ReactiveElement {
           align-self: center;
           display: grid;
           font-size: 24px;
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           margin-left: 2px;
         }
 
@@ -259,6 +268,14 @@ export default class EmojeseComposer extends ReactiveElement {
           padding: 1em;
         }
 
+        #gridToggle {
+          background: transparent;
+          border: none;
+          display: grid;
+          font-size: 24px;
+          justify-content: end;
+        }
+
         #grid {
           font-size: 24px;
         }
@@ -286,11 +303,6 @@ export default class EmojeseComposer extends ReactiveElement {
       <div id="inputBar">
         <emojese-textarea id="input" placeholder="Type or paste a message"></emojese-textarea>
         <div id="commands">
-          <button id="gridToggle">
-            <svg id="downIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
-              <path d="M 0 0 l5 5 5 -5 z" />
-            </svg>
-          </button>
           <button id="shareButton" title="Share">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>          </button>
           <button id="copyButton" title="Copy to clipboard">
@@ -301,6 +313,11 @@ export default class EmojeseComposer extends ReactiveElement {
           </button>
         </div>
       </div>
+      <button id="gridToggle">
+        <svg id="downIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
+          <path d="M 0 0 l5 5 5 -5 z" />
+        </svg>
+      </button>
       <emojese-grid id="grid"></emojese-grid>
     `;
   }
@@ -308,7 +325,12 @@ export default class EmojeseComposer extends ReactiveElement {
 
 function addToInput(element, emoji, gloss) {
   element[ids].input.insertEmoji(emoji);
-  element[setState]({ prefix: "" });
+  // Setting prefix to empty implies setting showGrid to false in stateEffects.
+  // To cover case where prefix is already empty, we explicitly hide the grid.
+  element[setState]({
+    prefix: "",
+    showGrid: false,
+  });
   updateValueFromInput(element);
   updateCurrentItemFromGrid(element);
 }
