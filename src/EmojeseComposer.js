@@ -8,6 +8,7 @@ import {
   rendered,
   setState,
   state,
+  stateEffects,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
@@ -25,7 +26,8 @@ export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       currentItem: null,
-      filter: "",
+      prefix: "",
+      showGrid: false,
       text: "",
       viewportHeight: null,
       viewportWidth: null,
@@ -61,8 +63,10 @@ export default class EmojeseComposer extends ReactiveElement {
       this[ids].input.addEventListener("prefixchange", (event) => {
         this[raiseChangeEvents] = true;
         const prefix = this[ids].input.prefix;
-        const filter = prefix.replace(/ /g, "");
-        this[setState]({ filter });
+        const prefixWithoutSpaces = prefix.replace(/ /g, "");
+        this[setState]({
+          prefix: prefixWithoutSpaces,
+        });
         this[raiseChangeEvents] = false;
       });
 
@@ -116,13 +120,15 @@ export default class EmojeseComposer extends ReactiveElement {
     }
 
     if (changed.currentItem) {
-      const { currentItem } = this[state];
-      this[ids].grid.currentItem = currentItem;
+      this[ids].grid.currentItem = this[state].currentItem;
     }
 
-    if (changed.filter) {
-      const { filter } = this[state];
-      this[ids].grid.filter = filter;
+    if (changed.prefix) {
+      this[ids].grid.filter = this[state].prefix;
+    }
+
+    if (changed.showGrid) {
+      this[ids].grid.style.display = this[state].showGrid ? "" : "none";
     }
 
     if (changed.text) {
@@ -162,6 +168,26 @@ export default class EmojeseComposer extends ReactiveElement {
         localStorage.setItem("showedIntro", "true");
       }
     }
+  }
+
+  [stateEffects](state, changed) {
+    const effects = super[stateEffects]
+      ? super[stateEffects](state, changed)
+      : {};
+
+    // Only show grid when we have an active prefix in the textarea.
+    // Hiding the grid also implies clearing the selection.
+    if (changed.prefix) {
+      const showGrid = state.prefix.length > 0;
+      Object.assign(effects, { showGrid });
+      if (!showGrid && state.currentItem) {
+        Object.assign(effects, {
+          currentItem: null,
+        });
+      }
+    }
+
+    return effects;
   }
 
   get [template]() {
@@ -282,7 +308,7 @@ export default class EmojeseComposer extends ReactiveElement {
 
 function addToInput(element, emoji, gloss) {
   element[ids].input.insertEmoji(emoji);
-  element[setState]({ filter: "" });
+  element[setState]({ prefix: "" });
   updateValueFromInput(element);
   updateCurrentItemFromGrid(element);
 }

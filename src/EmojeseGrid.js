@@ -138,7 +138,7 @@ export default class EmojeseGrid extends Base {
       // words.
       rule.selectorText = filter
         ? `button:not([title*=" ${filter}"i])`
-        : `button`;
+        : `.never`;
     }
   }
 
