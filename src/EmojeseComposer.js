@@ -208,11 +208,11 @@ export default class EmojeseComposer extends ReactiveElement {
           box-sizing: border-box;
           display: grid;
           grid-template-rows: auto auto minmax(0, 1fr);
-          padding: 0.5em 0.5em 0 0.5em;
+          padding: 2em 0.5em 0 0.5em;
         }
 
         #gloss {
-          margin-bottom: 0.5em;
+          margin-bottom: 2em;
         }
 
         #inputBar {
@@ -225,7 +225,7 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         #input {
-          font-size: 20px;
+          font-size: 18px;
         }
 
         #input::part(textarea) {
@@ -291,13 +291,16 @@ export default class EmojeseComposer extends ReactiveElement {
           font-size: 24px;
         }
 
+        @media (min-width: 350px) {
+          #input {
+            font-size: 20px;
+          }
+        }
+
         @media (min-width: 800px) {
           :host {
-            padding: 2em 2em 0 2em;
-          }
-
-          #gloss {
-            margin-bottom: 2em;
+            padding-left: 2em;
+            padding-right: 2em;
           }
           
           #input {
