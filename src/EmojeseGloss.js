@@ -116,12 +116,6 @@ function gloss(text) {
 
       const { text, meaning, rest } = match;
       result += createRuby(text, meaning);
-      // if (meaning) {
-      //   const peekAhead = rest[0];
-      //   if (!punctuation.includes(peekAhead)) {
-      //     result += ` `;
-      //   }
-      // }
 
       // Work on rest of graphemes.
       remaining = rest;
@@ -142,7 +136,7 @@ function gloss(text) {
 function createRuby(base, ruby) {
   return `
     <div class="word">
-      <div class="base">${base}</div>
+      <div class="base">${base || "&nbsp;"}</div>
       <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
     </div>
   `;
