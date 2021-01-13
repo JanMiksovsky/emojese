@@ -7,6 +7,7 @@ import {
   state,
   template,
 } from "../node_modules/elix/src/base/internal.js";
+import ResizeMixin from "../node_modules/elix/src/base/ResizeMixin.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
 import graphemer from "./graphemer.js";
@@ -16,7 +17,7 @@ let maxGraphemeCount;
 
 const punctuation = [" ", ",", ";", "!", "?", ".", "(", ")"];
 
-export default class EmojeseGloss extends ReactiveElement {
+export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
       value: "",
@@ -50,19 +51,19 @@ export default class EmojeseGloss extends ReactiveElement {
 
         .word {
           display: inline-grid;
+          font-size: 40px;
           grid-template-rows: auto auto;
           justify-items: center;
         }
 
         .base {
-          font-size: 40px;
           line-height: 1em;
           min-height: 1em;
         }
 
         .ruby {
           color: #666;
-          font-size: 18px;
+          font-size: 0.45em;
         }
       </style>
       <div id="gloss"></div>
