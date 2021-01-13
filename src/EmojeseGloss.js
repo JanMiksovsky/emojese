@@ -98,8 +98,8 @@ function getEmojiMap() {
 
 function gloss(text) {
   if (!text) {
-    // Return empty item.
-    return `<div class="word"><div class="base">&nbsp;</div><div class="ruby">&nbsp;</div></div>`;
+    // Return default item.
+    return createRuby("🖼️💬", "Emojese");
   }
 
   const map = getEmojiMap();
