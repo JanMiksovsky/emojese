@@ -57,6 +57,7 @@ export default class EmojeseGloss extends ReactiveElement {
         .base {
           font-size: 40px;
           line-height: 1em;
+          min-height: 1em;
         }
 
         .ruby {
