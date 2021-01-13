@@ -136,6 +136,7 @@
 ↤	collect/get
 ←	come
 ☑	confirm/check
+😕	confused
 📞	contact/call
 〰	continue
 ⚖️📜	contract
@@ -374,7 +375,7 @@ __↕	how much
 ⤺🎓	knew
 🔪	knife
 🎓	know
-⏀🌊📍	lake
+🤏🌊📍	lake
 💡⚙️	lamp
 🐘~	large/big
 🏁の	last
@@ -401,7 +402,7 @@ __↕	how much
 🪶~	light
 💙	like
 👂	listen/hear
-🐜~	little
+🤏	little/small
 🕊️	live
 🔒	lock
 🤣	lol
@@ -580,6 +581,7 @@ __↕	how much
 📰✍️👤	reporter
 	rest
 🥡📍	restaurant
+↩	return
 💲の	rich
 ↱	right
 ✅	right
@@ -623,8 +625,8 @@ __↕	how much
 [👕]	shirt
 🔫⟿	shoot
 🛒	shop
-🤏	short
 ⌊	short/low
+🤏	short/small
 ⤺🔫⟿	shot
 ❗	should/must
 	shoulder
@@ -643,7 +645,7 @@ __↕	how much
 🛌	sleep
 😴	sleepy
 🐌~	slow
-🐜~	small/little
+🤏	small
 🎓~	smart
 👃⟿	smell
 	smile
@@ -756,7 +758,7 @@ __↕	how much
 [🔧]	tool
 ◠	top
 🖐⟿	touch
-⏀🏙️	town
+🤏🏙️	town
 🚞	train
 [🚌🚗]	transportation
 🌳	tree
