@@ -330,57 +330,60 @@ function handleInputKeydown(element, event) {
   let handled;
   const grid = element[ids].grid;
 
-  // Ignore Left/Right keys when metaKey or altKey modifier is also pressed,
-  // as the user may be trying to navigate back or forward in the browser.
-  switch (event.key) {
-    case "ArrowDown":
-      handled = grid.goNext();
-      updateCurrentItemFromGrid(element);
-      break;
+  // Only handle keys when grid is shown.
+  if (element[state].showGrid) {
+    // Ignore Left/Right keys when metaKey or altKey modifier is also pressed,
+    // as the user may be trying to navigate back or forward in the browser.
+    switch (event.key) {
+      case "ArrowDown":
+        handled = grid.goNext();
+        updateCurrentItemFromGrid(element);
+        break;
 
-    case "ArrowUp":
-      handled = grid.goPrevious();
-      updateCurrentItemFromGrid(element);
-      break;
+      case "ArrowUp":
+        handled = grid.goPrevious();
+        updateCurrentItemFromGrid(element);
+        break;
 
-    case "End":
-      handled = grid.goLast();
-      updateCurrentItemFromGrid(element);
-      break;
+      case "End":
+        handled = grid.goLast();
+        updateCurrentItemFromGrid(element);
+        break;
 
-    case "Home":
-      handled = grid.goFirst();
-      updateCurrentItemFromGrid(element);
-      break;
+      case "Home":
+        handled = grid.goFirst();
+        updateCurrentItemFromGrid(element);
+        break;
 
-    case "PageDown":
-      handled = grid.pageDown();
-      break;
+      case "PageDown":
+        handled = grid.pageDown();
+        break;
 
-    case "PageUp":
-      handled = grid.pageUp();
-      break;
+      case "PageUp":
+        handled = grid.pageUp();
+        break;
 
-    case " ":
-    case ",":
-    case ";":
-    case ":":
-    case "!":
-    case "?":
-    case ".":
-    case "(":
-    case ")":
-    case "Enter":
-      const { currentItem } = element[state];
-      if (currentItem) {
-        addItemToInput(element, currentItem);
-        // We also want to add the character that was typed, so we generally
-        // don't mark the event as handled. However, if the Enter key results in
-        // adding a character, we *don't* want to add a return, so we do mark
-        // the event as handled.
-        handled = event.key === "Enter";
-      }
-      break;
+      case " ":
+      case ",":
+      case ";":
+      case ":":
+      case "!":
+      case "?":
+      case ".":
+      case "(":
+      case ")":
+      case "Enter":
+        const { currentItem } = element[state];
+        if (currentItem) {
+          addItemToInput(element, currentItem);
+          // We also want to add the character that was typed, so we generally
+          // don't mark the event as handled. However, if the Enter key results in
+          // adding a character, we *don't* want to add a return, so we do mark
+          // the event as handled.
+          handled = event.key === "Enter";
+        }
+        break;
+    }
   }
 
   return handled;
