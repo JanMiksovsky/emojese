@@ -28,7 +28,7 @@
 ⧉の	another
 ∃	any/some
 ∃👤	anyone/someone
-∃♟	anything/something
+∃⬚	anything/something
 	anyway
 🏢◱	apartment
 🪞	appear
@@ -58,7 +58,7 @@
 	beat
 🦋~	beautiful
 ⤺🐛🦋	became
-∵	because
+∵	because/reason
 🐛🦋	become
 🏠◱:🛏	bedroom
 🐄🍖	beef
@@ -216,7 +216,7 @@
 🌃	evening/night
 ∀	every/all
 ∀👤	everyone
-∀♟	everything
+∀⬚	everything
 	exam
 [🏃]	exercise
 💦	exhausted
@@ -261,7 +261,7 @@
 🧠💥	forget
 ⤺🧠💥	forgot
 	fork
-⬚	form
+[○□]	form/shape
 ⤺🔍	found
 ０💵	free
 5☀️	Friday
@@ -359,8 +359,8 @@ __↕	how much
 ≠	is not
 🏝	island
 ≠	isnt/is not
-♟	it
-♟の	its
+⬚	it
+⬚の	its
 1🌙	January
 🛠️🏢	job
 🤝	join/meet
@@ -484,7 +484,7 @@ __↕	how much
 🚫	not
 🚫⟢	not yet
 📝	note
-🚫♟	nothing
+🚫⬚	nothing
 11🌙	November
 👉⏰	now
 #	number
@@ -574,7 +574,7 @@ __↕	how much
 🐿️~	ready
 ◌○	real
 ⇈	really/more
-∵	reason/because
+∵	reason
 📥	receive
 🏕️⛺⏰	recent
 🟥	red
@@ -623,6 +623,7 @@ __↕	how much
 ⧛ ⧚	shake
 	shall
 ⌊💧	shallow
+[○□]	shape
 👩	she/woman
 [👕]	shirt
 🔫⟿	shoot
@@ -659,7 +660,7 @@ __↕	how much
 🪖👤	soldier
 ∃	some
 ∃👤	someone
-∃♟	something
+∃⬚	something
 ∃⏰	sometime
 ∃📍	somewhere
 👦	son/boy
@@ -689,7 +690,7 @@ __↕	how much
 	street
 💪~	strong
 🔬	study
-♟♟	stuff/things
+⬚⬚	stuff/things
 ↦	submit
 🧪	substance
 ◻️🍯	sugar
@@ -733,8 +734,8 @@ __↕	how much
 👤	they/person
 |⟷|	thick/wide
 ⇥⇤	thin/narrow
-♟	thing/it
-♟♟	things
+⬚	thing/it
+⬚⬚	things
 💭	think
 👉	this
 👈👈	those
