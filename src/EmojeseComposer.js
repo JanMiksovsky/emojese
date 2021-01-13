@@ -135,7 +135,7 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (changed.showGrid) {
       const { showGrid } = this[state];
-      this[ids].gridToggle.style.display = showGrid ? "none" : "";
+      this[ids].gridToggleContainer.style.display = showGrid ? "none" : "";
       this[ids].grid.style.display = showGrid ? "" : "none";
     }
 
@@ -268,12 +268,21 @@ export default class EmojeseComposer extends ReactiveElement {
           padding: 1em;
         }
 
-        #gridToggle {
-          background: transparent;
-          border: none;
+        #gridToggleContainer {
+          align-items: flex-start;
           display: grid;
-          font-size: 24px;
           justify-content: end;
+          padding: 0 1em;
+        }
+
+        #gridToggle {
+          background: #ddd;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          border: none;
+          font-size: 24px;
+          margin: 0;
+          padding: 0 8px;
         }
 
         #grid {
@@ -313,11 +322,13 @@ export default class EmojeseComposer extends ReactiveElement {
           </button>
         </div>
       </div>
-      <button id="gridToggle">
-        <svg id="downIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
-          <path d="M 0 0 l5 5 5 -5 z" />
-        </svg>
-      </button>
+      <div id="gridToggleContainer">
+        <button id="gridToggle">
+          <svg id="downIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
+            <path d="M 0 0 l5 5 5 -5 z" />
+          </svg>
+        </button>
+      </div>
       <emojese-grid id="grid"></emojese-grid>
     `;
   }
