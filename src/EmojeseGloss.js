@@ -10,6 +10,7 @@ import {
 import ResizeMixin from "../node_modules/elix/src/base/ResizeMixin.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
+import customEmoji from "./customEmoji.js";
 import graphemer from "./graphemer.js";
 
 let emojiMap;
@@ -58,7 +59,15 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
 
         .base {
           line-height: 1em;
-          min-height: 1em;
+          height: 1em;
+        }
+
+        .base img,
+        .base svg {
+          height: 100%;
+          object-fit: contain;
+          object-position: center;
+          width: 1em;
         }
 
         .ruby {
@@ -136,9 +145,11 @@ function gloss(text) {
 }
 
 function createRuby(base, ruby) {
+  const custom = customEmoji[base];
+  const resolvedBase = custom?.image ?? base;
   return `
     <div class="word">
-      <div class="base">${base || "&nbsp;"}</div>
+      <div class="base">${resolvedBase || "&nbsp;"}</div>
       <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
     </div>
   `;
@@ -148,7 +159,7 @@ function createRuby(base, ruby) {
 function longestMatch(map, graphemes) {
   for (let length = maxGraphemeCount; length > 0; length--) {
     const text = graphemes.slice(0, length).join("");
-    const glosses = map.get(text);
+    const glosses = customEmoji[text]?.gloss ?? map.get(text);
     if (glosses) {
       const [gloss, preferred] = glosses.split("/");
       const meaning = preferred || gloss;
