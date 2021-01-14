@@ -234,7 +234,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>he</td>
           </tr>
           <tr>
-            <td>♟</td>
+            <td>⬚</td>
             <td>it</td>
           </tr>
           <tr>
