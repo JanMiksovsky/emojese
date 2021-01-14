@@ -57,7 +57,8 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
     return templateFrom.html`
       <style>
         :host {
-          display: block;
+          align-items: center;
+          display: grid;
         }
 
         #gloss {
@@ -65,6 +66,7 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
           flex-wrap: wrap;
           font-size: 40px;
           justify-content: center;
+          row-gap: 0.2em;
         }
 
         .word {

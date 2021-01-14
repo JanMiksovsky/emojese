@@ -207,12 +207,12 @@ export default class EmojeseComposer extends ReactiveElement {
         :host {
           box-sizing: border-box;
           display: grid;
-          grid-template-rows: auto auto minmax(0, 1fr);
+          grid-template-rows: minmax(0, 1fr) minmax(0, auto) minmax(0, 3fr);
           padding: 2em 0.5em 0 0.5em;
         }
 
         #gloss {
-          margin-bottom: 2em;
+          overflow: scroll;
         }
 
         #inputBar {
