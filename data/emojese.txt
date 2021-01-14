@@ -708,7 +708,8 @@ __↕	how much
 🏊‍♀️	swim
 	table
 ↤	take/get
-🗣	talk/say
+🗣💬	talk
+⤺🗣💬	talked
 ⌈	tall/high
 👅⟿	taste
 🫖	tea
