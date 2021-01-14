@@ -130,7 +130,7 @@
 📖📕	close
 🏕️⛺	close/near
 [👖]	clothes
-	club
+🎤📍	club
 🧥	coat
 ☕	coffee
 🧊~	cold
@@ -158,7 +158,7 @@
 🧸	cute
 👨‍🍼	dad/father
 ☠️	dangerous
-	dark
+🚫💡	dark
 📅	date
 👧	daughter/girl
 ☀️	day
@@ -195,7 +195,7 @@
 🕑⤻🕓	duration
 〰️	during/continue
 	dust
-	each
+⤓⤓	each
 ⇈🌅	earlier
 🌅	early/morning
 🌍	Earth/world
@@ -222,7 +222,7 @@
 💦	exhausted
 🤰	expect
 ⇈💲	expensive
-	explode
+💣💥	explode
 👤◑	face
 🍁	fall
 🍁⏰	fall
@@ -250,9 +250,9 @@
 🏁	finish/end
 1️⃣の	first
 🚫〰	flat
-⤺🦅⟿	flew
+⤺🛩⟿	flew
 🏠◱◡	floor
-🦅⟿	fly
+🛩⟿	fly
 ↤🐕‍🦺	follow
 🥫	food
 ↬	for/to
@@ -303,7 +303,7 @@
 💇‍♀️	hair
 ½	half
 🤚	hand
-	hang
+🪝⟿	hang
 ⟢	happen
 😄	happy
 🪵🖐	hard
@@ -349,7 +349,7 @@ __↕	how much
 ◑	in front/front
 🗳	include
 🗣	inform/say
-	injury
+🩹😬	injury
 ▣	inside
 [🎻]	instrument
 🤔~	interesting
@@ -543,6 +543,7 @@ __↕	how much
 	pocket
 ☠️🧪	poison
 👮	police
+🪧🪧	politics
 💧🔲	pool
 🚫💲の	poor
 🛐⟿	pray
@@ -553,7 +554,7 @@ __↕	how much
 ⇈	pretty/more
 ⏮️	previous
 💵↕	price
-	priest
+🛐👤	priest
 🔒⛓️📍	prison
 🔮🤷	probably
 🧩	problem
@@ -636,7 +637,7 @@ __↕	how much
 💁👀	show
 🤒	sick
 ⚆	side
-	sign
+[🛑]	sign
 ↫⏰	since
 🗣🎶	sing
 ⚖️🧑‍🍼の👧	sister
@@ -854,3 +855,4 @@ __∵	why
 👆	you
 🐣~	young
 👆の	your
+‍	zero-width-joiner
