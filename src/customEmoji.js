@@ -1,5 +1,8 @@
 // Define custom images that should be used for specific emoji sequences.
 
+const imageFolder =
+  window.location.origin === "http://localhost" ? "static/custom" : "custom";
+
 export default {
   "👇‍👤": {
     gloss: "I",
@@ -13,6 +16,6 @@ export default {
   "👆‍👤": {
     gloss: "you",
     // from https://www.unicode.org/L2/L2020/20212-index-pointing-at-viewer.pdf
-    image: `<img src="images/indexPointing.png">`,
+    image: `<img src="${imageFolder}/indexPointing.png">`,
   },
 };
