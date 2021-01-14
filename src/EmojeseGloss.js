@@ -5,6 +5,7 @@ import {
   render,
   setState,
   state,
+  stateEffects,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import ResizeMixin from "../node_modules/elix/src/base/ResizeMixin.js";
@@ -21,6 +22,7 @@ const punctuation = [" ", ",", ";", "!", "?", ".", "(", ")"];
 export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
+      fontSize: "",
       value: "",
     });
   }
@@ -28,12 +30,27 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   [render](changed) {
     super[render](changed);
 
-    if (changed.value) {
-      const { value } = this[state];
+    if (changed && (changed.fontSize || changed.value)) {
       setTimeout(() => {
+        // Apply gloss and font size at same time.
+        const { fontSize, value } = this[state];
         this[ids].gloss.innerHTML = gloss(value);
+        this[ids].gloss.style.fontSize = fontSize;
       }, 100);
     }
+  }
+
+  [stateEffects](state, changed) {
+    const effects = super[stateEffects]
+      ? super[stateEffects](state, changed)
+      : {};
+
+    if (changed.clientHeight || changed.clientWidth || changed.value) {
+      const fontSize = pickFontSize(state.clientWidth, state.value);
+      Object.assign(effects, { fontSize });
+    }
+
+    return effects;
   }
 
   get [template]() {
@@ -46,13 +63,12 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
         #gloss {
           display: flex;
           flex-wrap: wrap;
-          gap: 0.25em;
+          font-size: 40px;
           justify-content: center;
         }
 
         .word {
           display: inline-grid;
-          font-size: 40px;
           grid-template-rows: auto auto;
           justify-items: center;
         }
@@ -85,6 +101,39 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   set value(value) {
     this[setState]({ value });
   }
+}
+
+// Heuristic to pick font size for the given client width and text. Up to a
+// point, the narrower the window and/or the longer the text, the smaller the
+// font will be.
+function pickFontSize(width, text) {
+  const removeSpaces = text.replaceAll(" ", "");
+  const length = graphemer.splitGraphemes(removeSpaces).length;
+  const averageGraphemeWidth = 50; // Just a guess, in pixels
+  const graphemesPerLine = width / averageGraphemeWidth;
+  const maxFontSize = 40; // In pixels
+  const minFontSize = 28;
+  const beginRampLength = graphemesPerLine; // When do we start reducing size?
+  const endRampLength = 3 * graphemesPerLine; // When do we stop reducing size?
+  if (length <= graphemesPerLine || length <= beginRampLength) {
+    return ""; // Let CSS define font size.
+  } else if (length >= endRampLength) {
+    return `${minFontSize}px`;
+  } else {
+    const rampFactor =
+      (length - beginRampLength) / (endRampLength - beginRampLength);
+    const fontSize = maxFontSize - rampFactor * (maxFontSize - minFontSize);
+    return `${fontSize}px`;
+  }
+}
+
+function createRuby(base, ruby) {
+  const custom = customEmoji[base];
+  const resolvedBase = custom ? custom.image : base;
+  return `<div class="word">
+    <div class="base">${resolvedBase || "&nbsp;"}</div>
+    <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
+  </div>`;
 }
 
 function getEmojiMap() {
@@ -144,22 +193,12 @@ function gloss(text) {
   return result;
 }
 
-function createRuby(base, ruby) {
-  const custom = customEmoji[base];
-  const resolvedBase = custom?.image ?? base;
-  return `
-    <div class="word">
-      <div class="base">${resolvedBase || "&nbsp;"}</div>
-      <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
-    </div>
-  `;
-}
-
 // Find the longest match in the map
 function longestMatch(map, graphemes) {
   for (let length = maxGraphemeCount; length > 0; length--) {
     const text = graphemes.slice(0, length).join("");
-    const glosses = customEmoji[text]?.gloss ?? map.get(text);
+    const custom = customEmoji[text];
+    const glosses = custom ? custom.gloss : map.get(text);
     if (glosses) {
       const [gloss, preferred] = glosses.split("/");
       const meaning = preferred || gloss;
