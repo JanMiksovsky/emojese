@@ -207,7 +207,7 @@ export default class EmojeseComposer extends ReactiveElement {
         :host {
           box-sizing: border-box;
           display: grid;
-          grid-template-rows: minmax(0, 1fr) minmax(0, auto) minmax(0, 3fr);
+          grid-template-rows: minmax(0, 2fr) minmax(0, auto) minmax(0, 5fr);
           padding: 0 0.5em;
         }
 
