@@ -60,7 +60,7 @@
 ⤺🐛🦋	became
 ∵	because/reason
 🐛🦋	become
-🏠◱:🛏	bedroom
+🛏◱	bedroom
 🐄🍖	beef
 	been
 ◐⏰	before
@@ -78,7 +78,7 @@
 😇	blessed
 🦯~	blind
 [🛥️]	boat
-👤◕	body
+👤∀	body
 📕	book
 🥱	boring
 𐄚	both
@@ -173,6 +173,7 @@
 ⤺	did
 ⚰️	die
 🍎🍊	different
+🧩~	difficult
 ⛏️	dig
 [🍲]	dinner
 🧭	direction
@@ -184,7 +185,7 @@
 🏁	done/end
 ⬇️	down
 ✍️🖼	draw
-💤💭	dream
+🛌💭	dream
 🥛⟿	drink
 [🥛]	drink/beverage
 🚗⟿	drive
@@ -201,7 +202,7 @@
 🌍	Earth/world
 ⥤🧭	east
 🚫🧩	easy
-🍴	eat
+🍽️	eat
 	either
 🗳⏰	election
 	else
@@ -209,7 +210,7 @@
 🖼️💬	Emojese
 🏁	end
 ⚡	energy
-	engine
+⚙️	engine/machine
 	enjoy
 ⍐	enough
 ⏸	even
@@ -236,9 +237,9 @@
 2🌙	February
 ⤺↦🥫	fed
 ↦🥫	feed
-[😀]	feel
+[😀]⟿	feel
 🖐⟿	feel/touch
-[😀]⟿	feeling
+[😀]	feeling
 ⤺[😀]	felt
 ♀️	female
 ⠇	few
@@ -246,7 +247,7 @@
 🏁	finally/end
 🔍	find
 👍	fine/good
-	finger
+✋◔	finger
 🏁	finish/end
 1️⃣の	first
 🚫〰	flat
@@ -272,7 +273,7 @@
 。	full stop
 😀	fun
 [🎲🃏]	game
-🪴📍	garden
+🌱📍	garden
 ⛽	gasoline
 ⤺↦	gave
 ↤	get
@@ -291,16 +292,16 @@
 ◐👨‍🍼	grandpa/grandfather
 🟩🌾	grass
 🦸	great/super
-⤺🌱	grew
+⤺🌱🌳	grew
 🌍◠	ground
 ⟨ ⟩	group
-🌱	grow
+🌱🌳	grow
 🔮	guess
 🔫	gun
 👨	guy/man
 ⤺💁	had
 🤣	haha/lol
-💇‍♀️	hair
+💇‍♀️🧪	hair
 ½	half
 🤚	hand
 🪝⟿	hang
@@ -349,7 +350,7 @@ __↕	how much
 ◑	in front/front
 🗳	include
 🗣	inform/say
-🩹😬	injury
+🤕	injury
 ▣	inside
 [🎻]	instrument
 🤔~	interesting
@@ -372,7 +373,7 @@ __↕	how much
 🦵⚽️⟿	kick
 🗡️	kill
 🤴	king
-🍳📍	kitchen
+🍳◱	kitchen
 🦵⏀	knee
 ⤺🎓	knew
 🔪	knife
@@ -386,7 +387,7 @@ __↕	how much
 🤣⟿	laugh
 ⚖️🧑	lawyer
 🦥~	lazy
-🐕‍🦺	lead
+🦮	lead
 🍃	leaf
 🎓↤	learn
 ⇊の	least
@@ -405,7 +406,7 @@ __↕	how much
 💙	like
 👂	listen/hear
 🤏	little/small
-🕊️	live
+🕊️⟿	live
 🔒	lock
 🤣	lol
 🐍~	long
@@ -420,6 +421,7 @@ __↕	how much
 🍀	luck
 🍀~	lucky
 [🥪]	lunch
+⚙️	machine
 ⤺🔨	made
 ⇥⇤📕	magazine
 ✉️	mail/message
@@ -530,7 +532,7 @@ __↕	how much
 📱	phone
 📷🖼	photograph
 ⌥	pick/choose
-⚙️	piece
+◔	piece/part
 📍	place
 🗺	plan
 🪴	plant
@@ -571,7 +573,7 @@ __↕	how much
 📻	radio
 🌧️	rain
 🛬	reach/arrive
-📚⟿	read
+📖⟿	read
 🐿️~	ready
 ◌○	real
 ⇈	really/more
