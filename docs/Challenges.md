@@ -15,7 +15,7 @@ But, given sufficient interest and organization, this state of affairs can be ch
 
 ## Words without obvious emoji
 
-To motivate the current situation with concrete examples, here’s a list of very common English words which Emojese struggles to express in emoji. The Frequency number gives the word’s position in a list of 500 most frequent words in the [Oxford English Corpus](https://en.wikipedia.org/wiki/Oxford_English_Corpus). (Frequency analysis by [sketchengine.eu](https://www.sketchengine.eu/english-word-list/).) While the OEC may not be representative of contemporary text messages that include emoji, if a word is in the OEC’s top 500, it’s an extremely common English word.
+To motivate the current situation with concrete examples, here’s a list of very common English words which Emojese struggles to express in emoji. The Frequency number gives the word’s position in a list of 500 most frequent words in the [Oxford English Corpus](https://en.wikipedia.org/wiki/Oxford_English_Corpus). (Frequency analysis by [sketchengine.eu](https://www.sketchengine.eu/english-word-list/).) While the OEC may not be representative of contemporary text messages that include emoji, if a word is in the OEC’s top 500, it’s an _extremely_ common English word.
 
 |English word|Freq #|Analysis|Emojese solution|
 |------------|----|--------|----------------|
@@ -48,7 +48,7 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |dream||Dreaming seems like it could be represented by sleeping and thinking/imagining something, but no such emoji exists. Emojese combines 🛌 Person in Bed and 💭 Thought Balloon.|🛌💭|
 |dry||See “dirty” regarding emoji with no antonyms. Emojese: “not wet”.|🚫💧~|
 |dumb||🤪 Zany Face and other faces don’t quite capture the nuance of stupidity. Emojese: “rock-ish”.|🪨~|
-|easy|332|No obvious emoji. Emoji like 🥧 Pie to suggest the simile “easy as pie” are likely meaningless outside English-speaking cultures. Icons for <a ="https://thenounproject.com/search/?q=easy">easy</a> include a number of snapping fingers, which is not yet represented by emoji. Emojese: “not a problem”|🚫🧩|
+|easy|332|No obvious emoji. Emoji like 🥧 Pie to suggest the simile “easy as pie” are likely meaningless outside English-speaking cultures. Icons for <a href="https://thenounproject.com/search/?q=easy">easy</a> include a number of snapping fingers, which is not yet represented by emoji. Emojese: “not a problem”|🚫🧩|
 |eat||Emoji like 🍽️ Fork and Knife with Plate come close, but don’t suggest action. An icon like <a href="https://thenounproject.com/search/?q=consume&i=1305039">Apple Bite</a> that included a mouth + something with a bite out of it would better convey the act of eating.|🍽️|
 |end|199|No obvious emoji. Emojese uses 🏁 Chequered Flag for its association with the end of an auto race, but this meaning may be lost on many people.|🏁|
 |expect||🤰 Pregnant Woman seems the closest, although the direct meaning of pregnancy likely distracts from the abstract notion of expecting something.|🤰|
