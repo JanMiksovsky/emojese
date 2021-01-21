@@ -315,7 +315,7 @@
 👂	hear
 ⤺👂	heard
 👼📍	heaven
-🏋️の	heavy
+🏋️~	heavy
 ⤺🤲	held
 👿📍	hell
 👋	hello
@@ -746,7 +746,7 @@ __↕	how much
 👈👈	those
 ⤺💭	thought
 ⤃	through
-🏈	throw
+⚾⟿	throw
 4☀️	Thursday
 ⇥⇤	tight/narrow
 ↬⏰	till/until
@@ -756,7 +756,7 @@ __↕	how much
 ↬	to
 ♾️	to (infinitive)
 👉☀️	today
-	toe
+🦶◔	toe
 🧑‍🤝‍🧑	together/with
 ⤺🗣	told/said
 ⏭☀️	tomorrow
