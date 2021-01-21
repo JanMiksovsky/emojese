@@ -111,7 +111,7 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |push||No obvious emoji. Emojese uses 👐 Open Hands, as they are positioned in a way that might be pushing something.|👐|
 |put|203|No obvious emoji. Emojese combines 📦 Package and ⬇️ Down Arrow to suggest a box being put down.|📦⬇️|
 |reach (for)||No obvious emoji.||
-|read|217|There are multiple book emoji, but none being read. 📖 Open Book comes the closest; Emojese adds ⇝ Rightwards Squiggle Arrow to convey action.|📚⟿|
+|read|217|There are multiple book emoji, but none being read. 📖 Open Book comes the closest; Emojese adds ⇝ Rightwards Squiggle Arrow to convey action.|📖⟿|
 |ready||As with “big”, Emojese uses an animal that characterizes a noteworthy quality. Here, 🐿️ Chipmunk is used as a stand-in for a squirrel, known in some temperate climates as an animal that prepares for winter by gathering nuts. Emojese add a tilde (“-ish”) to form an adjective.|🐿️~|
 |real|244|A hard concept to express visually. Emojese uses a resultative complement (see “become”), with ◌ Dotted Circle transitioning to ○ White Circle to suggest something becoming more real.|◌○|
 |restaurant||Given the prevalence of food emoji, it’s surprising there is no obvious emoji for a location that serves food. Emojese uses 🥡 Takeout Box, adding 📍 Round Pushpin for “place”: “takeout food place”. This unfortunately focuses too much on ordering food to go.|🥡📍|
