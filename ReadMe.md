@@ -41,16 +41,13 @@ You can [contribute or update a definition](https://docs.google.com/forms/d/1-TF
 
 Emojese fixes some standard meanings to a list of ~700 common English words. These were drawn from various sources, including the [Swadesh list](https://en.wikipedia.org/wiki/Swadesh_list), the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf), and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
 
-The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file.
+Identifying meaningful [emoji for some of the most common words is challenging](docs/Challenges.md).
 
-That file also contains common words for which definitions are desired but do not have definitions yet. If you're interested in contributing words, those are a good place to start. As of this writing, words without definitions include:
+The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file. That file also contains common words for which definitions are desired but do not have definitions yet. If you're interested in contributing words, those are a good place to start. As of this writing, words without definitions include:
 
 - assistant
-- back
 - dust
 - each
-- engine
-- finger
 - fork
 - hang
 - loose
@@ -64,9 +61,7 @@ That file also contains common words for which definitions are desired but do no
 - stain
 - street
 - table
-- toe
 - victim
-- wall
 
 You're also welcome to submit alternatives for words that already have definitions if you feel you've found an emoji sequence that might be clearer.
 
