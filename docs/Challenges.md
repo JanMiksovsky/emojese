@@ -1,23 +1,23 @@
 # Challenges creating a visual language with emoji
 
-Are there enough contemporary Unicode emoji to support visual communication of real sentences entirely in emoji?
+Are there enough contemporary Unicode emoji to support visual communication of complex ideas entirely in emoji?
 
-No. Or, at least — not yet. Too much is missing.
+No — at least, not yet. Too much is missing.
 
-The [Emojese](https://emojese.org) project takes a shot at assigning meanings to a number of emoji and Unicode symbols. In many cases, that was easy. In many other cases, however, it was difficult or impossible.
+The [Emojese](https://emojese.org) project takes a shot at assigning intuitive emoji representations of a reasonably large vocabulary for general communication (over 850 words). There are already enough emoji to make that possible, but many common words have no obvious representation emoji.
 
-1. While there are some 1300 emoji (not counting skin tones), they are over-concentrated in a few areas, particularly facial expressions and nouns representing things people like.
+1. While there are some 1300 emoji (not counting skin tones), they are over-concentrated in a few areas, particularly facial expressions, things many people tend to like, and cultural touchstones.
 2. There are very few verbs, adjectives, adverbs, prepositions, or pronouns. Setting aside the fact that there is no widely-understood grammar that could tie these together — there simply aren’t enough basic building blocks to express many common thoughts in emoji.
 3. Reviewing lists of common English words, emoji is missing obvious representations of the many of the most common words found in English (and, presumably, most other languages).
 4. The current emoji submission process does not seem driven by a process likely to fill in the missing pieces soon, or in a systematic manner.
 
-But, given sufficient interest and a bit of organization, this state of affairs can be changed.
+But, given sufficient interest and organization, this state of affairs can be changed.
 
 ## Words without obvious emoji
 
-To motivate the current situation with concrete examples, here’s a list of extremely common English words which Emojese struggles to express in emoji. The Frequency number gives the word’s position in a list of 500 most frequent words in the [Oxford English Corpus](https://en.wikipedia.org/wiki/Oxford_English_Corpus). (Frequency analysis by [sketchengine.eu](https://www.sketchengine.eu/english-word-list/).) While the OEC may not be representative of contemporary text messages that include emoji, if a word is in the OEC’s top 500, it’s a very frequent English word.
+To motivate the current situation with concrete examples, here’s a list of very common English words which Emojese struggles to express in emoji. The Frequency number gives the word’s position in a list of 500 most frequent words in the [Oxford English Corpus](https://en.wikipedia.org/wiki/Oxford_English_Corpus). (Frequency analysis by [sketchengine.eu](https://www.sketchengine.eu/english-word-list/).) While the OEC may not be representative of contemporary text messages that include emoji, if a word is in the OEC’s top 500, it’s an extremely common English word.
 
-|English word|Freq|Analysis|Emojese solution|
+|English word|Freq #|Analysis|Emojese solution|
 |------------|----|--------|----------------|
 |above|426|No obvious emoji. As with all prepositions, Emojese settles for a Unicode character that can at least suggest a spatial arrangement, here ◓ Circle with Upper Half Black.|◓|
 |animal||There are many specific animals, but nothing to represent animals generally. Emojese introduces square brackets as a category, then uses two obviously different animal emoji to represent a broad category of animals.|[🐘🐟]|
