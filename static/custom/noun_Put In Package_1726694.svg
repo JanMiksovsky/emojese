@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 60" x="0px" y="0px">
+	<g>
+		<path d="M42,20s0,0,0-.08a1,1,0,0,0-.13-.38s0-.05,0-.06l-4-6A1,1,0,0,0,37,13H33a1,1,0,0,0,0,2h3.46l2.67,4H8.87l2.67-4H15a1,1,0,0,0,0-2H11a1,1,0,0,0-.83.45l-4,6s0,0,0,.06a1,1,0,0,0-.13.38s0,.05,0,.08,0,0,0,0V42a1,1,0,0,0,1,1H41a1,1,0,0,0,1-1V20S42,20,42,20ZM40,41H8V21H40Z" />
+		<path d="M23.29,16.71a1,1,0,0,0,1.42,0l4-4a1,1,0,0,0-1.42-1.42L25,13.59V6a1,1,0,0,0-2,0v7.59l-2.29-2.3a1,1,0,0,0-1.42,1.42Z" />
+		<path d="M33,37h2a1,1,0,0,0,0-2H33a1,1,0,0,0,0,2Z" />
+	</g>
+	<!--
+	<text x="0" y="63" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
+	Created by Deemak Daksina
+	</text>
+	<text x="0" y="68" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
+	from the Noun Project
+	</text>
+	-->
+</svg>

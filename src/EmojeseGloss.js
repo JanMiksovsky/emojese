@@ -22,9 +22,17 @@ const punctuation = [" ", ",", ";", "!", "?", ".", "(", ")"];
 export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
+      enableCustomEmoji: false,
       fontSize: "",
       value: "",
     });
+  }
+
+  get enableCustomEmoji() {
+    return this[state].enableCustomEmoji;
+  }
+  set enableCustomEmoji(enableCustomEmoji) {
+    this[setState]({ enableCustomEmoji });
   }
 
   [render](changed) {
@@ -34,7 +42,7 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
       setTimeout(() => {
         // Apply gloss and font size at same time.
         const { fontSize, value } = this[state];
-        this[ids].gloss.innerHTML = gloss(value);
+        this[ids].gloss.innerHTML = gloss(value, this[state].enableCustomEmoji);
         this[ids].gloss.style.fontSize = fontSize;
       }, 100);
     }
@@ -80,12 +88,23 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
           height: 1em;
         }
 
-        .base img,
-        .base svg {
+        .base img {
           height: 100%;
           object-fit: contain;
           object-position: center;
           width: 1em;
+        }
+
+        /* SVGs from The Noun Project are a little short */
+        .base img[src$=".svg"] {
+          /*
+           * We want to set fill: #444 on the SVG in the img.
+           * We can approximate that with a CSS filter using the tool at
+           * https://codepen.io/sosuke/pen/Pjoqqp
+           */
+          filter: invert(25%) sepia(23%) saturate(20%) hue-rotate(326deg) brightness(93%) contrast(93%);
+          transform: scale(1.25);
+          transform-origin: top;
         }
 
         .ruby {
@@ -129,9 +148,9 @@ function pickFontSize(width, text) {
   }
 }
 
-function createRuby(base, ruby) {
-  const custom = customEmoji[base];
-  const resolvedBase = custom ? custom.image : base;
+function createRuby(base, ruby, showCustomEmoji) {
+  const custom = showCustomEmoji && customEmoji[base];
+  const resolvedBase = custom || base;
   return `<div class="word">
     <div class="base">${resolvedBase || "&nbsp;"}</div>
     <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
@@ -157,10 +176,10 @@ function getEmojiMap() {
   return emojiMap;
 }
 
-function gloss(text) {
+function gloss(text, showCustomEmoji) {
   if (!text) {
     // Return default item.
-    return createRuby("🖼️💬", "Emojese");
+    return createRuby("🖼️💬", "Emojese", showCustomEmoji);
   }
 
   const map = getEmojiMap();
@@ -172,12 +191,12 @@ function gloss(text) {
     const match = longestMatch(map, remaining);
     if (match) {
       if (unrecognized) {
-        result += createRuby(unrecognized, "");
+        result += createRuby(unrecognized, "", showCustomEmoji);
         unrecognized = "";
       }
 
       const { text, meaning, rest } = match;
-      result += createRuby(text, meaning);
+      result += createRuby(text, meaning, showCustomEmoji);
 
       // Work on rest of graphemes.
       remaining = rest;
@@ -189,7 +208,7 @@ function gloss(text) {
   }
 
   if (unrecognized) {
-    result += createRuby(unrecognized, "");
+    result += createRuby(unrecognized, "", showCustomEmoji);
   }
 
   return result;
@@ -199,8 +218,7 @@ function gloss(text) {
 function longestMatch(map, graphemes) {
   for (let length = maxGraphemeCount; length > 0; length--) {
     const text = graphemes.slice(0, length).join("");
-    const custom = customEmoji[text];
-    const glosses = custom ? custom.gloss : map.get(text);
+    const glosses = map.get(text);
     if (glosses) {
       const [gloss, preferred] = glosses.split("/");
       const meaning = preferred || gloss;

@@ -24,8 +24,10 @@ if (EmojeseGloss || EmojeseGrid || EmojeseTextarea || Toast) {
 
 export default class EmojeseComposer extends ReactiveElement {
   get [defaultState]() {
+    const enableCustomEmoji = location.hash.includes("experimental");
     return Object.assign(super[defaultState], {
       currentItem: null,
+      enableCustomEmoji,
       prefix: "",
       showGrid: false,
       text: "",
@@ -129,6 +131,10 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (changed.currentItem) {
       this[ids].grid.currentItem = this[state].currentItem;
+    }
+
+    if (changed.enableCustomEmoji) {
+      this[ids].gloss.enableCustomEmoji = this[state].enableCustomEmoji;
     }
 
     if (changed.prefix) {
