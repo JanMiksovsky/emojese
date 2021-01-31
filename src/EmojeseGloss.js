@@ -90,8 +90,9 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
 
         .base img {
           height: 100%;
-          object-fit: contain;
-          object-position: center;
+          /* Want to use object-fit, but Mobile Safari has problems with it. */
+          /* object-fit: contain; */
+          /* object-position: center; */
           width: 1em;
         }
 
