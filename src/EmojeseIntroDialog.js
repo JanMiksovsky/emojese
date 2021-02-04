@@ -1,14 +1,25 @@
 import {
+  defaultState,
   firstRender,
   ids,
   raiseChangeEvents,
   render,
+  setState,
+  state,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import PlainDialog from "../node_modules/elix/src/plain/PlainDialog.js";
 
 export default class EmojeseIntroDialog extends PlainDialog {
+  get [defaultState]() {
+    const experimentalEmoji =
+      localStorage.getItem("experimentalEmoji") === "true";
+    return Object.assign(super[defaultState], {
+      experimentalEmoji,
+    });
+  }
+
   [render](changed) {
     super[render](changed);
 
@@ -18,6 +29,16 @@ export default class EmojeseIntroDialog extends PlainDialog {
         this.close();
         this[raiseChangeEvents] = false;
       });
+
+      this[ids].experimentalCheckBox.addEventListener("change", () => {
+        this[raiseChangeEvents] = true;
+        const experimentalEmoji = this[ids].experimentalCheckBox.checked;
+        this[setState]({
+          experimentalEmoji,
+        });
+        this[raiseChangeEvents] = false;
+      });
+
       // This button listens to mousedown instead of click. If we use the normal
       // click event on iOS, when when the user scrolls down to the button and
       // taps it the first time, the dialog just scrolls back to the top instead
@@ -28,6 +49,13 @@ export default class EmojeseIntroDialog extends PlainDialog {
         this.close();
         this[raiseChangeEvents] = false;
       });
+    }
+
+    if (changed.experimentalEmoji) {
+      const experimentalEmoji = this[state].experimentalEmoji;
+      this[ids].experimentalCheckBox.checked = experimentalEmoji;
+      // Also save experimental flag in local storage.
+      localStorage.setItem("experimentalEmoji", String(experimentalEmoji));
     }
   }
 
@@ -46,11 +74,6 @@ export default class EmojeseIntroDialog extends PlainDialog {
             max-height: 90%;
             max-width: min(90%, 500px);     
             overflow: auto; /* For Safari */
-          }
-
-          #frameContent {
-            display: block;
-            overflow: auto; /* For Chrome */
             padding: 1em 2em 1em 1em;
           }
           
@@ -79,6 +102,12 @@ export default class EmojeseIntroDialog extends PlainDialog {
             top: 0.5em;
             user-select: none;
             z-index: 1;
+          }
+
+          hr {
+            border-top: 1px solid #ccc;
+            width: 100%;
+            margin: 1em 0;
           }
 
           #okButtonParagraph {
@@ -332,11 +361,25 @@ export default class EmojeseIntroDialog extends PlainDialog {
         </table>
         <p>Drop <b>articles</b> like "the", "a", and "an".</p>
         <p>Use <b>spaces</b> to make a message easier to read.</p>
-        <p id="okButtonParagraph">
-          <button id="okButton">Close</button>
+        <hr>
+        <p>
+          <label>
+            <input id="experimentalCheckBox" type="checkbox">
+            Display message using experimental emoji
+          </label>
+        </p>
+        <p>
+          The experimental emoji explore whether icons for common
+          words could make it easier to communicate more ideas in emoji.
+          These experimental emoji cannot be sent directly, but if the
+          recipient pastes a received message into this app, they can 
+          opt to view the message using the experimental emoji.
         </p>
         <p>
           <a href="https://github.com/JanMiksovsky/emojese">GitHub project</a>
+        </p>
+        <p id="okButtonParagraph">
+          <button id="okButton">Close</button>
         </p>
       `);
     }

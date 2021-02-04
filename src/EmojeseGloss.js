@@ -22,27 +22,27 @@ const punctuation = [" ", ",", ";", "!", "?", ".", "(", ")"];
 export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   get [defaultState]() {
     return Object.assign(super[defaultState], {
-      enableCustomEmoji: false,
+      experimentalEmoji: false,
       fontSize: "",
       value: "",
     });
   }
 
-  get enableCustomEmoji() {
-    return this[state].enableCustomEmoji;
+  get experimentalEmoji() {
+    return this[state].experimentalEmoji;
   }
-  set enableCustomEmoji(enableCustomEmoji) {
-    this[setState]({ enableCustomEmoji });
+  set experimentalEmoji(experimentalEmoji) {
+    this[setState]({ experimentalEmoji });
   }
 
   [render](changed) {
     super[render](changed);
 
-    if (changed && (changed.fontSize || changed.value)) {
+    if (changed.experimentalEmoji || changed.fontSize || changed.value) {
       setTimeout(() => {
         // Apply gloss and font size at same time.
         const { fontSize, value } = this[state];
-        this[ids].gloss.innerHTML = gloss(value, this[state].enableCustomEmoji);
+        this[ids].gloss.innerHTML = gloss(value, this[state].experimentalEmoji);
         this[ids].gloss.style.fontSize = fontSize;
       }, 100);
     }

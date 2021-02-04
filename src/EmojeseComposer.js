@@ -23,11 +23,22 @@ if (EmojeseGloss || EmojeseGrid || EmojeseTextarea || Toast) {
 }
 
 export default class EmojeseComposer extends ReactiveElement {
+  constructor() {
+    super();
+
+    // If the #experimental hash exists, set the experimental state.
+    if (location.hash.includes("experimental")) {
+      localStorage.setItem("experimentalEmoji", "true");
+    }
+  }
+
   get [defaultState]() {
-    const enableCustomEmoji = location.hash.includes("experimental");
+    // Otherwise, look in local storage.
+    const experimentalEmoji =
+      localStorage.getItem("experimentalEmoji") === "true";
     return Object.assign(super[defaultState], {
       currentItem: null,
-      enableCustomEmoji,
+      experimentalEmoji,
       prefix: "",
       showGrid: false,
       text: "",
@@ -98,8 +109,7 @@ export default class EmojeseComposer extends ReactiveElement {
 
       this[ids].helpButton.addEventListener("click", async () => {
         this[raiseChangeEvents] = true;
-        const dialog = new EmojeseIntroDialog();
-        await dialog.open();
+        showIntroDialog(this);
         this[raiseChangeEvents] = false;
       });
 
@@ -133,8 +143,8 @@ export default class EmojeseComposer extends ReactiveElement {
       this[ids].grid.currentItem = this[state].currentItem;
     }
 
-    if (changed.enableCustomEmoji) {
-      this[ids].gloss.enableCustomEmoji = this[state].enableCustomEmoji;
+    if (changed.experimentalEmoji) {
+      this[ids].gloss.experimentalEmoji = this[state].experimentalEmoji;
     }
 
     if (changed.prefix) {
@@ -179,9 +189,7 @@ export default class EmojeseComposer extends ReactiveElement {
       // Show intro dialog first time app is used.
       const showedIntro = localStorage.getItem("showedIntro");
       if (!showedIntro) {
-        const dialog = new EmojeseIntroDialog();
-        dialog.open();
-        localStorage.setItem("showedIntro", "true");
+        showIntroDialog(this);
       }
     }
   }
@@ -431,6 +439,19 @@ function handleInputKeydown(element, event) {
   }
 
   return handled;
+}
+
+function showIntroDialog(element) {
+  const dialog = new EmojeseIntroDialog();
+  dialog.open();
+  dialog.whenClosed().then(() => {
+    // The user may have changed the experimental preference, so refresh that
+    // state.
+    const experimentalEmoji =
+      localStorage.getItem("experimentalEmoji") === "true";
+    element[setState]({ experimentalEmoji });
+  });
+  localStorage.setItem("showedIntro", "true");
 }
 
 function updateCurrentItemFromGrid(element) {
