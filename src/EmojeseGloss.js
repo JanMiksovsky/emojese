@@ -11,7 +11,7 @@ import {
 import ResizeMixin from "../node_modules/elix/src/base/ResizeMixin.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
-import customEmoji from "./customEmoji.js";
+import experimental from "./experimentalEmoji.js";
 import graphemer from "./graphemer.js";
 
 let emojiMap;
@@ -125,35 +125,41 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
   }
 }
 
-// Heuristic to pick font size for the given client width and text. Up to a
-// point, the narrower the window and/or the longer the text, the smaller the
-// font will be.
-function pickFontSize(width, text) {
-  const removeSpaces = text.replaceAll(" ", "");
-  const length = graphemer.splitGraphemes(removeSpaces).length;
-  const averageGraphemeWidth = 50; // Just a guess, in pixels
-  const graphemesPerLine = width / averageGraphemeWidth;
-  const maxFontSize = 40; // In pixels
-  const minFontSize = 28;
-  const beginRampLength = graphemesPerLine; // When do we start reducing size?
-  const endRampLength = 3 * graphemesPerLine; // When do we stop reducing size?
-  if (length <= graphemesPerLine || length <= beginRampLength) {
-    return ""; // Let CSS define font size.
-  } else if (length >= endRampLength) {
-    return `${minFontSize}px`;
-  } else {
-    const rampFactor =
-      (length - beginRampLength) / (endRampLength - beginRampLength);
-    const fontSize = maxFontSize - rampFactor * (maxFontSize - minFontSize);
-    return `${fontSize}px`;
+function applyExperimentalEmoji(text) {
+  // HACK: To avoid applying experimental "day" emoji in words like "Monday" ("1 Day"),
+  // don't apply emoji if the text starts with a digit.
+  if (text.match(/^\d/)) {
+    return text;
   }
+
+  // For now, assume there is no more than one experimental emoji in the text.
+  for (const key in experimental) {
+    const index = text.indexOf(key);
+    if (index >= 0) {
+      // Found an experimental emoji.
+      const value = experimental[key];
+      const start = text.slice(0, index);
+      const end = text.slice(index + key.length);
+      let result = "";
+      if (start) {
+        result += `<span>${start}</span>`;
+      }
+      result += value;
+      if (end) {
+        result += `<span>${end}</span>`;
+      }
+      return result;
+    }
+  }
+  return text;
 }
 
-function createRuby(base, ruby, showCustomEmoji) {
-  const custom = showCustomEmoji && customEmoji[base];
-  const resolvedBase = custom || base;
+function createRuby(base, ruby, showExperimentalEmoji) {
+  const displayBase = showExperimentalEmoji
+    ? applyExperimentalEmoji(base)
+    : base;
   return `<div class="word">
-    <div class="base">${resolvedBase || "&nbsp;"}</div>
+    <div class="base">${displayBase || "&nbsp;"}</div>
     <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
   </div>`;
 }
@@ -228,6 +234,30 @@ function longestMatch(map, graphemes) {
     }
   }
   return null;
+}
+
+// Heuristic to pick font size for the given client width and text. Up to a
+// point, the narrower the window and/or the longer the text, the smaller the
+// font will be.
+function pickFontSize(width, text) {
+  const removeSpaces = text.replaceAll(" ", "");
+  const length = graphemer.splitGraphemes(removeSpaces).length;
+  const averageGraphemeWidth = 50; // Just a guess, in pixels
+  const graphemesPerLine = width / averageGraphemeWidth;
+  const maxFontSize = 40; // In pixels
+  const minFontSize = 28;
+  const beginRampLength = graphemesPerLine; // When do we start reducing size?
+  const endRampLength = 3 * graphemesPerLine; // When do we stop reducing size?
+  if (length <= graphemesPerLine || length <= beginRampLength) {
+    return ""; // Let CSS define font size.
+  } else if (length >= endRampLength) {
+    return `${minFontSize}px`;
+  } else {
+    const rampFactor =
+      (length - beginRampLength) / (endRampLength - beginRampLength);
+    const fontSize = maxFontSize - rampFactor * (maxFontSize - minFontSize);
+    return `${fontSize}px`;
+  }
 }
 
 customElements.define("emojese-gloss", EmojeseGloss);

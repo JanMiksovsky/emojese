@@ -346,7 +346,7 @@ __↕	how much
 	if
 🖼	image
 ‼️	important
-⇲	in
+📥	in
 ◑	in front/front
 🗳	include
 🗣	inform/say
@@ -456,6 +456,7 @@ __↕	how much
 👩‍🍼	mom/mother
 1☀️	Monday
 💵	money
+🗓️	month
 🌙	moon
 ⇈	more
 🌅	morning
@@ -509,7 +510,7 @@ __↕	how much
 ↔️	or
 𐄛・	other
 👇👇の	our
-⎋	out
+📤	out
 ⎋	outside/out
 ◓	over
 💁	own/has
