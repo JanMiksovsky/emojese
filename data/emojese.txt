@@ -388,6 +388,7 @@ __↕	how much
 ⚖️🧑	lawyer
 🦥~	lazy
 🦮	lead
+⤺🦮	led
 🍃	leaf
 🎓↤	learn
 ⇊の	least
@@ -785,7 +786,7 @@ __↕	how much
 🔓	unlock
 ↬⏰	until
 ⬆️	up
-👇👇	us
+👇👇	us/we
 	use
 🏔📍🏔	valley
 ⇈	very/more
@@ -805,7 +806,7 @@ __↕	how much
 💧	water
 🌊	wave
 🛣️	way
-👇👇	we/us
+👇👇	we
 ❄️~	weak
 👖⟿	wear
 [☀️🌧️]	weather

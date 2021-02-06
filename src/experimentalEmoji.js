@@ -1,7 +1,9 @@
 // Define custom images that should be used for specific emoji sequences.
 
 const imageFolder =
-  window.location.origin === "http://localhost" ? "static/custom" : "custom";
+  window.location.origin === "http://localhost"
+    ? "static/experimental"
+    : "experimental";
 
 // This should be sorted from longest keys to shortest.
 export default {
@@ -49,6 +51,8 @@ export default {
   "🪨~": `<img src="${imageFolder}/noun_dumb_108112.svg">`,
   "🪴🥚": `<img src="${imageFolder}/noun_seeding_3541933.svg">`,
   "⚾⟿": `<img src="${imageFolder}/noun_Throw_2012636.svg">`,
+  "👇👇": `<img src="${imageFolder}/noun_together_1742410.svg">`,
+  "🥛⟿": `<img src="${imageFolder}/noun_drinking_154888.svg">`,
 
   // 1 characters
   "↤": `<img src="${imageFolder}/noun_get_1899024.svg">`,
