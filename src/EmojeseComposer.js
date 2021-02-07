@@ -13,6 +13,7 @@ import {
 } from "../node_modules/elix/src/base/internal.js";
 import { templateFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import ReactiveElement from "../node_modules/elix/src/core/ReactiveElement.js";
+import EmojeseExperimentDialog from "./EmojeseExperimentDialog.js";
 import EmojeseGloss from "./EmojeseGloss.js";
 import EmojeseGrid from "./EmojeseGrid.js";
 import EmojeseIntroDialog from "./EmojeseIntroDialog.js";
@@ -80,7 +81,7 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
-      this[ids].gridToggle.addEventListener("click", () => {});
+      this[ids].showGridLink.addEventListener("click", () => {});
 
       this[ids].shareButton.addEventListener("click", async () => {
         this[raiseChangeEvents] = true;
@@ -104,13 +105,20 @@ export default class EmojeseComposer extends ReactiveElement {
         this[raiseChangeEvents] = false;
       });
 
-      this[ids].helpButton.addEventListener("click", async () => {
+      this[ids].showIntroLink.addEventListener("click", async () => {
         this[raiseChangeEvents] = true;
-        showIntroDialog(this);
+        const dialog = new EmojeseIntroDialog();
+        dialog.open();
         this[raiseChangeEvents] = false;
       });
 
-      this[ids].gridToggle.addEventListener("click", () => {
+      this[ids].showExperimentLink.addEventListener("click", async () => {
+        this[raiseChangeEvents] = true;
+        showExperimentDialog(this);
+        this[raiseChangeEvents] = false;
+      });
+
+      this[ids].showGridLink.addEventListener("click", () => {
         this[raiseChangeEvents] = true;
         this[setState]({ showGrid: true });
         this[raiseChangeEvents] = false;
@@ -150,7 +158,7 @@ export default class EmojeseComposer extends ReactiveElement {
 
     if (changed.showGrid) {
       const { showGrid } = this[state];
-      this[ids].gridToggleContainer.style.display = showGrid ? "none" : "";
+      this[ids].overview.style.display = showGrid ? "none" : "";
       this[ids].grid.style.display = showGrid ? "" : "none";
     }
 
@@ -182,12 +190,6 @@ export default class EmojeseComposer extends ReactiveElement {
       }
 
       this[ids].input.focus();
-
-      // Show intro dialog first time app is used.
-      const showedIntro = localStorage.getItem("showedIntro");
-      if (!showedIntro) {
-        showIntroDialog(this);
-      }
     }
   }
 
@@ -250,7 +252,7 @@ export default class EmojeseComposer extends ReactiveElement {
           align-self: center;
           display: grid;
           font-size: 24px;
-          grid-template-columns: repeat(3, 1fr);
+          grid-template-columns: repeat(2, 1fr);
           margin-left: 2px;
         }
 
@@ -281,21 +283,16 @@ export default class EmojeseComposer extends ReactiveElement {
           padding: 1em;
         }
 
-        #gridToggleContainer {
-          align-items: flex-start;
-          display: grid;
-          justify-content: end;
-          padding: 0 1em;
+        #overview {
+          font-size: 18px;
         }
 
-        #gridToggle {
-          background: #ddd;
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-          border: none;
-          font-size: 24px;
-          margin: 0;
-          padding: 0 8px;
+        #overview ul {
+          padding-left: 1em;
+        }
+
+        #overview li {
+          margin-bottom: 0.5em;
         }
 
         #grid {
@@ -333,17 +330,18 @@ export default class EmojeseComposer extends ReactiveElement {
           <button id="copyButton" title="Copy to clipboard">
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
           </button>
-          <button id="helpButton" title="Help">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
-          </button>
         </div>
       </div>
-      <div id="gridToggleContainer">
-        <button id="gridToggle">
-          <svg id="downIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
-            <path d="M 0 0 l5 5 5 -5 z" />
-          </svg>
-        </button>
+      <div id="overview">
+        <p>
+          Emojese helps you write messages entirely in emoji. It assigns standard emoji to many common words.
+        </p>
+        <ul>
+          <li><a id="showIntroLink" href="javascript:">How to write in Emojese</a></li>
+          <li><a id="showGridLink" href="javascript:">Full list of words</a></li>
+          <li><a id="showExperimentLink" href="javascript:">Experimental emoji</a></li>
+          <li><a href="https://github.com/JanMiksovsky/emojese">Project info</a></li>
+        </ul>
       </div>
       <emojese-grid id="grid"></emojese-grid>
     `;
@@ -438,8 +436,8 @@ function handleInputKeydown(element, event) {
   return handled;
 }
 
-function showIntroDialog(element) {
-  const dialog = new EmojeseIntroDialog();
+function showExperimentDialog(element) {
+  const dialog = new EmojeseExperimentDialog();
   dialog.open();
   dialog.whenClosed().then(() => {
     // The user may have changed the experimental preference, so refresh that
@@ -448,7 +446,6 @@ function showIntroDialog(element) {
       localStorage.getItem("experimentalEmoji") === "true";
     element[setState]({ experimentalEmoji });
   });
-  localStorage.setItem("showedIntro", "true");
 }
 
 function updateCurrentItemFromGrid(element) {

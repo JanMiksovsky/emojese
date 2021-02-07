@@ -1,25 +1,14 @@
 import {
-  defaultState,
   firstRender,
   ids,
   raiseChangeEvents,
   render,
-  setState,
-  state,
   template,
 } from "../node_modules/elix/src/base/internal.js";
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
 import PlainDialog from "../node_modules/elix/src/plain/PlainDialog.js";
 
 export default class EmojeseIntroDialog extends PlainDialog {
-  get [defaultState]() {
-    const experimentalEmoji =
-      localStorage.getItem("experimentalEmoji") === "true";
-    return Object.assign(super[defaultState], {
-      experimentalEmoji,
-    });
-  }
-
   [render](changed) {
     super[render](changed);
 
@@ -27,15 +16,6 @@ export default class EmojeseIntroDialog extends PlainDialog {
       this[ids].closeButton.addEventListener("click", () => {
         this[raiseChangeEvents] = true;
         this.close();
-        this[raiseChangeEvents] = false;
-      });
-
-      this[ids].experimentalCheckBox.addEventListener("change", () => {
-        this[raiseChangeEvents] = true;
-        const experimentalEmoji = this[ids].experimentalCheckBox.checked;
-        this[setState]({
-          experimentalEmoji,
-        });
         this[raiseChangeEvents] = false;
       });
 
@@ -49,13 +29,6 @@ export default class EmojeseIntroDialog extends PlainDialog {
         this.close();
         this[raiseChangeEvents] = false;
       });
-    }
-
-    if (changed.experimentalEmoji) {
-      const experimentalEmoji = this[state].experimentalEmoji;
-      this[ids].experimentalCheckBox.checked = experimentalEmoji;
-      // Also save experimental flag in local storage.
-      localStorage.setItem("experimentalEmoji", String(experimentalEmoji));
     }
   }
 
@@ -123,9 +96,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
         <p>
-          <b>Emojese</b> is a language for emoji messages. It includes a basic
-          grammar, standardized meanings for certain emoji and symbols, and this app
-          for writing and reading messages.
+          <b>How to write in Emojese</b>
         </p>
         <p><b>Word order</b> is Subject–Verb–Object as in English:</p>
         <table>
@@ -361,23 +332,6 @@ export default class EmojeseIntroDialog extends PlainDialog {
         </table>
         <p>Drop <b>articles</b> like "the", "a", and "an".</p>
         <p>Use <b>spaces</b> to make a message easier to read.</p>
-        <hr>
-        <p>
-          <label>
-            <input id="experimentalCheckBox" type="checkbox">
-            Display message using experimental emoji
-          </label>
-        </p>
-        <p>
-          The experimental emoji explore whether icons for common
-          words could make it easier to communicate more ideas in emoji.
-          These experimental emoji cannot be sent directly, but if the
-          recipient pastes a received message into this app, they can 
-          opt to view the message using the experimental emoji.
-        </p>
-        <p>
-          <a href="https://github.com/JanMiksovsky/emojese">GitHub project</a>
-        </p>
         <p id="okButtonParagraph">
           <button id="okButton">Close</button>
         </p>
