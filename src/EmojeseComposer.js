@@ -23,19 +23,16 @@ if (EmojeseGloss || EmojeseGrid || EmojeseTextarea || Toast) {
 }
 
 export default class EmojeseComposer extends ReactiveElement {
-  constructor() {
-    super();
-
+  get [defaultState]() {
     // If the #experimental hash exists, set the experimental state.
+    let experimentalEmoji = false;
     if (location.hash.includes("experimental")) {
       localStorage.setItem("experimentalEmoji", "true");
+      experimentalEmoji = true;
+    } else {
+      // Otherwise, look in local storage.
+      experimentalEmoji = localStorage.getItem("experimentalEmoji") === "true";
     }
-  }
-
-  get [defaultState]() {
-    // Otherwise, look in local storage.
-    const experimentalEmoji =
-      localStorage.getItem("experimentalEmoji") === "true";
     return Object.assign(super[defaultState], {
       currentItem: null,
       experimentalEmoji,
