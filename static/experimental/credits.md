@@ -33,6 +33,7 @@ noun_dig_2981747 dig by jokokerto from the Noun Project
 noun_dirt_113123 dirt by Shawn Erdely from the Noun Project
 noun_dirty_2406754 dirty by Smalllike from the Noun Project
 noun_dreaming_2071010 dreaming by Adrien Coquet from the Noun Project
+noun_drinking_154888 drinking by Luis Prado from the Noun Project
 noun_dumb_108112 dumb by Vipul Malhotra from the Noun Project
 noun_easy_3428320 easy by SBTS from the Noun Project
 noun_falling_1887964 falling by Luis Prado from the Noun Project
