@@ -288,7 +288,8 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         #overview ul {
-          padding-left: 1em;
+          list-style-type: none;
+          padding-left: 0;
         }
 
         #overview li {
@@ -334,7 +335,7 @@ export default class EmojeseComposer extends ReactiveElement {
       </div>
       <div id="overview">
         <p>
-          Emojese helps you write messages entirely in emoji. It assigns standard emoji to many common words.
+          Emojese lets you write messages entirely in emoji by picking standard emoji for many common words.
         </p>
         <ul>
           <li><a id="showIntroLink" href="javascript:">How to write in Emojese</a></li>

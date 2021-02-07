@@ -1,7 +1,8 @@
 // Define custom images that should be used for specific emoji sequences.
 
+const origin = window.location.origin;
 const imageFolder =
-  window.location.origin === "http://localhost"
+  origin === "http://localhost" || origin.includes(".local")
     ? "static/experimental"
     : "experimental";
 

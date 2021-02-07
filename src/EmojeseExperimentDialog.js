@@ -62,6 +62,8 @@ export default class EmojeseExperimentDialog extends PlainDialog {
           }
 
           [part="frame"] {
+            /* HACK for Safari */
+            display: block;
             max-height: 90%;
             max-width: min(90%, 500px);     
             overflow: auto; /* For Safari */
