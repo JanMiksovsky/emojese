@@ -77,6 +77,11 @@ You're also welcome to submit alternatives for words that already have definitio
 - Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
 - [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
 
+## Experimental emoji
+
+Emoji sentences would be much clearer if there were more emoji for common words for abstract things such as pronouns, prepositions, and actions. The Emojese application includes experimental emoji that could fill that role, particularly
+for <a href="https://docs.google.com/document/d/1Lkfpwm_BLYZiUEgtFUQ6OXYiLGlM9Jo8j44sR58Xn_I/edit">common words without obvious emoji</a>.
+
 ## Languages
 
 If you're a native/fluent speaker of a language other than English, and would be interested in coming up with translations for that language, please file an issue. It would be very interesting to try using Emojese to exchange simple messages between people who don't share a common natural language.

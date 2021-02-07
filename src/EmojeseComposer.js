@@ -335,7 +335,8 @@ export default class EmojeseComposer extends ReactiveElement {
       </div>
       <div id="overview">
         <p>
-          Emojese lets you write messages entirely in emoji by picking standard emoji for many common words.
+          Emojese picks standard emoji for many common words so you can write
+          messages entirely in emoji.
         </p>
         <ul>
           <li><a id="showIntroLink" href="javascript:">How to write in Emojese</a></li>

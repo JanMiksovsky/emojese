@@ -86,6 +86,12 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
           height: 1em;
         }
 
+        .base div {
+          display: inline-block;
+          height: 100%;
+          vertical-align: top;
+        }
+
         .base img {
           height: 100%;
           /* Want to use object-fit, but Mobile Safari has problems with it. */
@@ -102,7 +108,7 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
            * https://codepen.io/sosuke/pen/Pjoqqp
            */
           filter: invert(25%) sepia(23%) saturate(20%) hue-rotate(326deg) brightness(93%) contrast(93%);
-          transform: scale(1.25);
+          transform: scale(1.1);
           transform-origin: top;
         }
 
@@ -126,9 +132,9 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
 function applyExperimentalEmoji(text) {
   // HACK: To avoid applying experimental "day" emoji in words like "Monday" ("1 Day"),
   // don't apply emoji if the text starts with a digit.
-  if (text.match(/^\d/)) {
-    return text;
-  }
+  // if (text.match(/^\d/)) {
+  //   return text;
+  // }
 
   // For now, assume there is no more than one experimental emoji in the text.
   for (const key in experimental) {
@@ -140,11 +146,11 @@ function applyExperimentalEmoji(text) {
       const end = text.slice(index + key.length);
       let result = "";
       if (start) {
-        result += `<span>${start}</span>`;
+        result += `<div>${start}</div>`;
       }
-      result += value;
+      result += `<div>${value}</div>`;
       if (end) {
-        result += `<span>${end}</span>`;
+        result += `<div>${end}</div>`;
       }
       return result;
     }

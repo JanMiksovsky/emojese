@@ -59,6 +59,7 @@ noun_learn_483403 learn by Icon Island from the Noun Project
 noun_magazine_15905 magazine by Diego Naive from the Noun Project
 noun_me_1408780 me by Ignat from the Noun Project
 noun_mood_1415339 mood by Creative Mania from the Noun Project
+noun_over_2900915 over by Adrien Coquet from the Noun Project
 noun_own_3067162 own by corpus delicti from the Noun Project
 noun_path_1925573 path by Melissa Schmitt from the Noun Project
 noun_pull_3117274 pull by Adrien Coquet from the Noun Project
