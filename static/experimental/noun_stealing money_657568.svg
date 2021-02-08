@@ -12,12 +12,5 @@
 		<path d="M189.901,54.157c0.402,0,0.809-0.121,1.162-0.373L261.193,3.7c0.897-0.644,1.107-1.892,0.465-2.792   c-0.642-0.897-1.892-1.106-2.79-0.465L188.736,50.53c-0.898,0.642-1.107,1.892-0.465,2.789   C188.662,53.866,189.277,54.157,189.901,54.157z" />
 		<path d="M287.684,58.816c-0.247-1.077-1.318-1.751-2.396-1.505l-84.016,19.193c-1.077,0.247-1.75,1.32-1.505,2.397   c0.212,0.925,1.035,1.553,1.947,1.554c0.148,0,0.298-0.017,0.448-0.052l84.016-19.192   C287.256,60.965,287.929,59.891,287.684,58.816z" />
 	</g>
-	<!--
-	<text x="0" y="206.66" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Gan Khoon Lay
-	</text>
-	<text x="0" y="211.66" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Gan Khoon Lay -->
 </svg>

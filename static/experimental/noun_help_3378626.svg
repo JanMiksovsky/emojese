@@ -4,12 +4,5 @@
 		<path d="M314.343,161.5a8,8,0,0,0,0,11.314l24,24A8,8,0,1,0,349.657,185.5l-24-24A8,8,0,0,0,314.343,161.5Z" />
 		<path d="M282.343,129.5a8,8,0,0,0,0,11.314l8,8A8,8,0,1,0,301.657,137.5l-8-8A8,8,0,0,0,282.343,129.5Z" />
 	</g>
-	<!--
-	<text x="0" y="527" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by supalerk laipawat
-	</text>
-	<text x="0" y="532" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by supalerk laipawat -->
 </svg>

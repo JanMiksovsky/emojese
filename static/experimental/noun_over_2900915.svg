@@ -11,12 +11,5 @@
 			<path d="M67,56H43.1c-1.8,0-3.3,1.5-3.3,3.3v17.8c0,1.8,1.5,3.3,3.3,3.3H67c1.8,0,3.3-1.5,3.3-3.3V59.3C70.3,57.5,68.8,56,67,56z     " />
 		</g>
 	</g>
-	<!--
-	<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Adrien Coquet
-	</text>
-	<text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Adrien Coquet -->
 </svg>

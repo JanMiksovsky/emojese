@@ -12,12 +12,5 @@
 			<ellipse transform="matrix(0.1082 -0.9941 0.9941 0.1082 46.4059 87.2063)" cx="71.8" cy="17.7" rx="8.5" ry="8.5" />
 		</g>
 	</g>
-	<!--
-	<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Adrien Coquet
-	</text>
-	<text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Adrien Coquet -->
 </svg>

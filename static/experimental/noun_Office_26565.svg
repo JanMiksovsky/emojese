@@ -14,12 +14,5 @@
 		<rect x="31.868" y="30.924" width="1.267" height="6.991" />
 		<path d="M42.835,37.953c-0.498-1.228-1.839-3.623-4.678-3.519c-1.71,0.062-2.008,2.418-2.056,3.519H42.835z" />
 	</g>
-	<!--
-	<text x="0" y="65.4" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Luis Prado
-	</text>
-	<text x="0" y="70.4" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Luis Prado -->
 </svg>

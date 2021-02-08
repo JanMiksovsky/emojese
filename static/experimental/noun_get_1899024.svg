@@ -6,12 +6,5 @@
 			<path d="M68,29.7l-4.1-4.1c-0.7-0.7-1.8-0.7-2.5,0l-6.7,6.7V8.3c0-1-0.8-1.8-1.8-1.8h-5.8c-1,0-1.8,0.8-1.8,1.8v23.9l-6.7-6.7     c-0.7-0.7-1.8-0.7-2.5,0L32,29.7c-0.7,0.7-0.7,1.8,0,2.5l16.8,16.8c0.7,0.7,1.8,0.7,2.5,0L68,32.2C68.7,31.5,68.7,30.4,68,29.7z" />
 		</g>
 	</g>
-	<!--
-	<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Adrien Coquet
-	</text>
-	<text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Adrien Coquet -->
 </svg>

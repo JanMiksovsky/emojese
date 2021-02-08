@@ -20,7 +20,7 @@ export default {
   "🟩🌾": `<img src="${imageFolder}/noun_grass_2939117.svg">`,
   "⓻☀️": `<img src="${imageFolder}/noun_week_247256.svg">`,
   "◐📍": `<img src="${imageFolder}/noun_Behind_984396.svg" >`,
-  "◑📍": `<img src="${imageFolder}/noun_Bring to Front_3502493.svg">`,
+  "◑📍": `<img src="${imageFolder}/noun_ahead_984397.svg">`,
   "◻️🍯": `<img src="${imageFolder}/noun_sugar_2913365.svg">`,
   "⛺🏕️": `<img src="${imageFolder}/noun_far_3014025.svg">`,
   "✋◔": `<img src="${imageFolder}/noun_finger_2645941.svg">`,

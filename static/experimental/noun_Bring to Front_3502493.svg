@@ -2,12 +2,5 @@
 	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		<path d="M45.5,5 C47.9852814,5 50,7.01471863 50,9.5 L50,22.5 L73,22.5 C75.4852814,22.5 77.5,24.5147186 77.5,27 L77.5,50 L90.5,50 C92.9852814,50 95,52.0147186 95,54.5 L95,90.5 C95,92.9852814 92.9852814,95 90.5,95 L54.5,95 C52.0147186,95 50,92.9852814 50,90.5 L50,77.5 L27,77.5 C24.5147186,77.5 22.5,75.4852814 22.5,73 L22.5,50 L9.5,50 C7.01471863,50 5,47.9852814 5,45.5 L5,9.5 C5,7.01471863 7.01471863,5 9.5,5 L45.5,5 Z M86,59 L77.5,59 L77.5,73 C77.5,75.4852814 75.4852814,77.5 73,77.5 L59,77.5 L59,86 L86,86 L86,59 Z M41,14 L14,14 L14,41 L22.5,41 L22.5,27 C22.5,24.5147186 24.5147186,22.5 27,22.5 L41,22.5 L41,14 Z" fill="#000000" fill-rule="nonzero" />
 	</g>
-	<!--
-	<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Gelso Designs
-	</text>
-	<text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Gelso Designs -->
 </svg>

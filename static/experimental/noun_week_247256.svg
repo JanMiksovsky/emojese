@@ -215,12 +215,5 @@
 		<path display="inline" d="M42.9,68.5h-5.3c-0.6,0-1.2-0.5-1.2-1.2v-5.3c0-0.6,0.5-1.2,1.2-1.2h5.3c0.6,0,1.2,0.5,1.2,1.2v5.3   C44.1,68,43.6,68.5,42.9,68.5z" />
 		<path display="inline" d="M52.9,68.5h-5.3c-0.6,0-1.2-0.5-1.2-1.2v-5.3c0-0.6,0.5-1.2,1.2-1.2h5.3c0.6,0,1.2,0.5,1.2,1.2v5.3   C54.1,68,53.6,68.5,52.9,68.5z" />
 	</g>
-	<!--
-	<text x="0" y="105" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Rohit Arun Rao
-	</text>
-	<text x="0" y="110" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Rohit Arun Rao -->
 </svg>

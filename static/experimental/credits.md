@@ -19,6 +19,7 @@ noun_Theater_145066 Theater by stephanie wauters from the Noun Project
 noun_Throw_2012636 Throw by Adrien Coquet from the Noun Project
 noun_Town_1367604 Town by Made by Made from the Noun Project
 noun_above_967196.svg above by Tomasz Pasternak from the Noun Project
+noun_ahead_984397 ahead by Tomasz Pasternak from the Noun Project
 noun_bedroom_1122147 bedroom by Awesome from the Noun Project
 noun_below_2900924 below by Adrien Coquet from the Noun Project
 noun_body_2952668 body by Adrien Coquet from the Noun Project

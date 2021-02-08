@@ -7,12 +7,5 @@
 		<path d="M98.932,52.01c0.005-3.612-2.45-6.294-6.632-6.284H34.144v21.335l64.789-0.001L98.932,52.01L98.932,52.01z" />
 	</g>
 	<path d="M80.149,42.662h6.591l-4.78-16.655c-0.813-2.44-3.742-6.865-9.11-6.865H59.862c-5.419,0-8.134,4.392-8.842,6.865  L47.064,36.34l-10.445-0.01c-4.891,0.03-4.9,6.305-0.007,6.301l12.769,0.013l0.002-0.01c1.24-0.018,2.495-0.77,3.048-2.475  l3.963-10.328h2.15l-3.287,12.832h20.346h1.438L74.11,29.831h2.477L80.149,42.662z" />
-	<!--
-	<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	Created by Luis Prado
-	</text>
-	<text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
-	from the Noun Project
-	</text>
-	-->
+	<!-- Created by Luis Prado -->
 </svg>
