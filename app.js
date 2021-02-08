@@ -17,6 +17,12 @@ app.get("*", (request, response, next) => {
   }
 });
 
+// Cache all responses for 5 minutes.
+app.get("*", (request, response, next) => {
+  response.set("Cache-Control", "public, max-age=300");
+  next();
+});
+
 app.use(express.static("static"));
 
 app.listen(port, () => {
