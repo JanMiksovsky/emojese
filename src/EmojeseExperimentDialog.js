@@ -51,8 +51,6 @@ export default class EmojeseExperimentDialog extends PlainDialog {
         this.close();
         this[raiseChangeEvents] = false;
       });
-
-      this[ids].experiments.innerHTML = experimentList();
     }
 
     if (changed.experimentalEmoji) {
@@ -68,7 +66,7 @@ export default class EmojeseExperimentDialog extends PlainDialog {
 
     const defaultSlot = result.content.querySelector("slot:not([name])");
     if (defaultSlot) {
-      defaultSlot.append(fragmentFrom.html`
+      const fragment = fragmentFrom.html`
         <style>
           :host {
             font-size: 18px;
@@ -169,29 +167,34 @@ export default class EmojeseExperimentDialog extends PlainDialog {
         <p id="okButtonParagraph">
           <button id="okButton">Close</button>
         </p>
-      `);
+      `;
+
+      const experiments = fragment.querySelector("#experiments");
+      experiments.innerHTML = getExperimentalEmojiList();
+
+      defaultSlot.append(fragment);
     }
 
     return result;
   }
 }
 
-function experimentList() {
-  let result = "";
+function getExperimentalEmojiList() {
+  let html = "";
   for (const entry of emojis) {
     const [emoji, glosses, shortNames, emojese] = entry;
     const experimentalEmoji = experimentalEmojis[emoji];
     if (emojese && experimentalEmoji) {
       const [gloss, preferred] = glosses.split("/");
       if (!preferred) {
-        result += `<div class="word">
-          <div class="base">${experimentalEmoji}</div>
-          <div class="ruby">${gloss}</div>
-        </div>`;
+        html += `<div class="word">
+        <div class="base">${experimentalEmoji}</div>
+        <div class="ruby">${gloss}</div>
+      </div>`;
       }
     }
   }
-  return result;
+  return html;
 }
 
 customElements.define("emojese-experiment-dialog", EmojeseExperimentDialog);
