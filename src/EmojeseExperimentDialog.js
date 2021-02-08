@@ -107,9 +107,9 @@ export default class EmojeseExperimentDialog extends PlainDialog {
           </label>
         </p>
         <p>
-          The experimental emoji explore whether icons for common
-          words could make it easier to communicate more ideas in emoji.
-          These experimental emoji cannot be sent directly, but if the
+          These experiments explore whether new icons for common words ("give",
+          "get", "I", "we", and more) could help communicate more ideas in emoji.
+          Experimental emoji cannot be sent directly, but if the
           recipient pastes a received message into this app, they can 
           opt to view the message using the experimental emoji.
         </p>
