@@ -1,3 +1,4 @@
+import emojis from "../data/emojis.js";
 import {
   defaultState,
   firstRender,
@@ -10,6 +11,7 @@ import {
 } from "../node_modules/elix/src/base/internal";
 import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals";
 import PlainDialog from "../node_modules/elix/src/plain/PlainDialog";
+import experimentalEmojis from "./experimentalEmoji.js";
 
 export default class EmojeseExperimentDialog extends PlainDialog {
   get [defaultState]() {
@@ -38,6 +40,19 @@ export default class EmojeseExperimentDialog extends PlainDialog {
         });
         this[raiseChangeEvents] = false;
       });
+
+      // This button listens to mousedown instead of click. If we use the normal
+      // click event on iOS, when when the user scrolls down to the button and
+      // taps it the first time, the dialog just scrolls back to the top instead
+      // of closing; a second tap is required to actaully close the dialog. As a
+      // workaround, we use mousedown instead.
+      this[ids].okButton.addEventListener("mousedown", () => {
+        this[raiseChangeEvents] = true;
+        this.close();
+        this[raiseChangeEvents] = false;
+      });
+
+      this[ids].experiments.innerHTML = experimentList();
     }
 
     if (changed.experimentalEmoji) {
@@ -96,6 +111,35 @@ export default class EmojeseExperimentDialog extends PlainDialog {
             user-select: none;
             z-index: 1;
           }
+
+          .word {
+            display: inline-grid;
+            grid-template-rows: auto auto;
+            justify-items: center;
+            margin-bottom: 1em;
+            margin-right: 0.75em;
+          }
+
+          .base {
+            height: 40px;
+          }
+
+          #experiments img {
+            height: 100%;
+          }
+
+          #experiments img[src$=".svg"] {
+            filter: invert(25%) sepia(23%) saturate(20%) hue-rotate(326deg) brightness(93%) contrast(93%);
+          }
+
+          #okButtonParagraph {
+            padding: 1em;
+            text-align: center;
+          }
+
+          #okButton {
+            padding: 0.5em 1.5em;
+          }
         </style>
         <button id="closeButton">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
@@ -109,15 +153,45 @@ export default class EmojeseExperimentDialog extends PlainDialog {
         <p>
           These experiments explore whether new icons for common words ("give",
           "get", "I", "we", and more) could help communicate more ideas in emoji.
+        </p>
+        <p id="experiments"></p>
+        <p>
+          The icons are just <em>ideas</em>, mostly from
+          <a href="https://thenounproject.com">thenounproject.com</a>. Any
+          real proposals would need to go through a length design and
+          approval process.
+        </p>
+        <p>
           Experimental emoji cannot be sent directly, but if the
           recipient pastes a received message into this app, they can 
           opt to view the message using the experimental emoji.
+        </p>
+        <p id="okButtonParagraph">
+          <button id="okButton">Close</button>
         </p>
       `);
     }
 
     return result;
   }
+}
+
+function experimentList() {
+  let result = "";
+  for (const entry of emojis) {
+    const [emoji, glosses, shortNames, emojese] = entry;
+    const experimentalEmoji = experimentalEmojis[emoji];
+    if (emojese && experimentalEmoji) {
+      const [gloss, preferred] = glosses.split("/");
+      if (!preferred) {
+        result += `<div class="word">
+          <div class="base">${experimentalEmoji}</div>
+          <div class="ruby">${gloss}</div>
+        </div>`;
+      }
+    }
+  }
+  return result;
 }
 
 customElements.define("emojese-experiment-dialog", EmojeseExperimentDialog);

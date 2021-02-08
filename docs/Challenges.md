@@ -39,7 +39,6 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |choose||Another missing action verb. Emojese uses ⌥ Option Key to suggest choosing one of two options.|⌥|
 |close|476|There is 🌂 Closed Umbrella and 📕 Closed Book, but these are static and do not focus on the action of closing. Emojese uses a resultative complement; see “belong”.|📖📕|
 |cup||Of the 5 “glass” emoji like 🥃 Tumbler Glass, 4 seem all or partially focused on alcoholic drinks. The one exception is 🥛 Glass of Milk. It is unfortunate there is nothing that is clearly a cup that does not suggest a specific liquid.|🥃|
-|day|114|One of the most common English nouns, but emoji like ☀️ Sun focus on the sun specifically rather than a 24-hour diurnal cycle. See also the missing “month”, “week”, and “year”.|☀️|
 |deep||There is 🌊 Water Wave, but that focuses on the water surface, not the depths below. The fish emoji focus more on fish than the deep, while 🤿 Diving Mask focuses on a sport. Emojese uses ⌈ Left Ceiling for “high” + 💧 Droplet.|⌈💧|
 |difficult||No obvious emoji. 🏋️ Person Lifting Weights suggests difficulty, but Emojese already capitalizes on that for “heavy”. Emojese uses 🧩 Jigsaw Puzzle Piece for “problem”, plus a tilde (“-ish”) to form an adjective. (See “big”.)|🧩~|
 |dig||There is ⛏️ Pick but no shovel, nor a construction worker digging.|⛏️|
@@ -94,7 +93,7 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |low|488|As discussed at “high”, there is no good emoji to indicate a low-lying place or object. Emojese uses ⌊ Left Floor, a visual opposite of ⌈ Left Ceiling for “high”.|⌊|
 |magazine||No obvious emoji. Emojese uses the combination ⇥⇤ for “narrow” or “thin”, so “thin book”.|⇥⇤📕|
 |material/substance||Hard to express visually. Emojese uses 🧪 Test Tube to suggest a substance or material. (See “hair”.)|🧪|
-|month|494|As with “day”, “week”, and “year”, there is no emoji for this division of time. There are a number of moon emoji, but none show more than one phase. Emojese picks 🌙 Crescent Moon to represent a month, although a reader could easily be misled to thinking it means “night”.|🌙|
+|month|494|As with “week” and “year”, there is no emoji for this division of time. There are a number of moon emoji, but none show more than one phase. Emojese picks 🌙 Crescent Moon to represent a month, although a reader could easily be misled to thinking it means “night”.|🌙|
 |narrow/thin||No obvious emoji. Emojese uses the combination of ⇥ Rightwards Arrow To Bar and ⇤ Leftwards Arrow To Bar to visually represent two lines close together.|⇥⇤|
 |near||See “far”, which uses the same emoji in the opposite order.|🏕️⛺|
 |north/south/east/west||No obvious emoji. The 🧭 Compass points northwest, so Emojese adds an arrow glyph to point in the appropriate map direction, e.g., up for "north".|⥣🧭|
@@ -144,10 +143,10 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |valley||There is ⛰️ Mountain, but no valley. Emojese paints a small geographic picture, with 📍 Round Pushpin: “place between mountains”.|🏔📍🏔|
 |wall||There is 🧱Brick and 🪵 Wood, but no wall to make with them. Emojese uses the former, adding ‖ Double Vertical Line to suggest a wall.|🧱‖|
 |wear||There are various emoji for articles of clothing, but nothing for the action of getting dressed. Emojese uses 👖 Jeans with ⇝ Rightwards Squiggle Arrow to convey action. |👖⟿|
-|week|263|As with “day”, “month”, and “year”, there is no emoji for this division of time. Icons for <a href="https://thenounproject.com/search/?ek">week</a> often highlight a single row in a month calendar. Emojese uses ☀️ Sun for “day”, adding ⓻ Double Circled Digit Seven: “seven days”.|⓻☀️|
+|week|263|As with “month” and “year”, there is no emoji for this division of time. Icons for <a href="https://thenounproject.com/search/?ek">week</a> often highlight a single row in a month calendar. Emojese uses ☀️ Sun for “day”, adding ⓻ Double Circled Digit Seven: “seven days”.|⓻☀️|
 |wide/thick||No obvious emoji. As with “narrow”, Emojese uses lines and arrows to suggest width. Here: ⟷ Long Left Right Arrow between two instances of \| Light Vertical Bar.|\|⟷\||
 |winter||See “fall” (season). Emojese uses ❄️ Snowflake: “snow time”.|❄️⏰|
-|year|121|As with “day”, “month”, and “year”, there is no emoji for this division of time. One icon for <a href="https://thenounproject.com/search/?ar">year</a> shows a complete <a href="https://thenounproject.com/search/?q=year&i=2612190">orbit around the sun</a>. Emojese accomplishes the latter via ⥁ Clockwise Closed Circle Arrow around the ☀️ Sun.|⥁☀️|
+|year|121|As with “week” and “month”, there is no emoji for this division of time. One icon for <a href="https://thenounproject.com/search/?ar">year</a> shows a complete <a href="https://thenounproject.com/search/?q=year&i=2612190">orbit around the sun</a>. Emojese accomplishes the latter via ⥁ Clockwise Closed Circle Arrow around the ☀️ Sun.|⥁☀️|
 
 If you’d like to suggest an improvement to an Emojese solution, please [contribute a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/).
 
