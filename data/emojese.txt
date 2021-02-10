@@ -47,7 +47,7 @@
 8🌙	August
 ✍️👤	author
 ⛺🏕️	away
-◐📍	back
+◐	back
 	back
 👎	bad
 🛍	bag
@@ -65,7 +65,7 @@
 	been
 ◐⏰	before
 1️⃣	begin/first
-◐📍	behind
+◐	behind/back
 💭	believe/think
 ◒	below/under
 🔨⌒	bend
@@ -268,7 +268,7 @@
 5☀️	Friday
 🫂	friend
 ↫	from
-◑📍	front
+◑	front
 ⍐	full / enough
 。	full stop
 😀	fun
@@ -697,7 +697,7 @@ __↕	how much
 💪~	strong
 🔬	study
 ⬚⬚	stuff/things
-↦	submit
+↦	submit/give
 🧪	substance
 ◻️🍯	sugar
 ↦💬	suggest
