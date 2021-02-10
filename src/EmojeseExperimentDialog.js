@@ -156,7 +156,7 @@ export default class EmojeseExperimentDialog extends PlainDialog {
         <p>
           The icons are just <em>ideas</em>, mostly from
           <a href="https://thenounproject.com">thenounproject.com</a>. Any
-          real proposals would need to go through a length design and
+          real proposals would need to go through a lengthy design and
           approval process.
         </p>
         <p>
