@@ -149,4 +149,4 @@ To motivate the current situation with concrete examples, here’s a list of ver
 
 If you’d like to suggest an improvement to an Emojese solution, please [contribute a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/).
 
-If you’re interested in working on improving emoji as a visual language, send a message to [@JanMiksovsky](https://twitter.com/JanMiksovsky).
+If you’re interested in working on improving emoji as a visual language, send a message to [@JanMiksovsky](https://fosstodon.org/@JanMiksovsky).
