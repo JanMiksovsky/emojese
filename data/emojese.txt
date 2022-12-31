@@ -178,6 +178,7 @@
 [🍲]	dinner
 🧭	direction
 🚫🧼~	dirty
+🫥	disappear
 🤒🦠	disease
 🚫⟿	do not
 ⟿	do/-ing
@@ -356,6 +357,7 @@ __↕	how much
 🤔~	interesting
 🌐	internet
 ⇲	into/in
+🫥	invisible
 =	is
 ≠	is not
 🏝	island
@@ -753,7 +755,7 @@ __↕	how much
 ⇥⇤	tight/narrow
 ↬⏰	till/until
 ⏰	time
-	tire
+🛞	tire
 😴	tired/sleepy
 ↬	to
 ♾️	to (infinitive)
@@ -858,7 +860,7 @@ __∵	why
 👍	yes/good
 ⏮️☀️	yesterday
 👋	yo/hello
-👆	you
+🫵	you
 🐣~	young
-👆の	your
+🫵の	your
 ‍	zero-width-joiner
