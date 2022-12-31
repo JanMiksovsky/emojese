@@ -5,9 +5,8 @@
   "dependencies": {
     "elix": "elix/elix",
     "emoji-datasource": "4.1.0",
-    "graphemer": "1.1.1",
-    "rollup": "2.33.3",
-    "rollup-plugin-terser": "7.0.2"
+    "graphemer": "1.4.0",
+    "rollup": "3.9.0"
   },
   "scripts": {
     "build": "npm run buildEmojis; npm run buildGraphemer; npm run buildApp",
