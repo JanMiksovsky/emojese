@@ -667,6 +667,7 @@ __↕	how much
 	soil
 🪖👤	soldier
 ∃	some
+∃☀️	someday
 ∃👤	someone
 ∃⬚	something
 ∃⏰	sometime
@@ -755,7 +756,6 @@ __↕	how much
 ⇥⇤	tight/narrow
 ↬⏰	till/until
 ⏰	time
-🛞	tire
 😴	tired/sleepy
 ↬	to
 ♾️	to (infinitive)
