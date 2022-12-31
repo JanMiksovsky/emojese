@@ -44,6 +44,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
           }
 
           [part="frame"] {
+            display: block; /* HACK, not sure why necessary */
             max-height: 90%;
             max-width: min(90%, 500px);     
             overflow: auto; /* For Safari */
@@ -222,7 +223,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>I’m going home!</td>
           </tr>
           <tr>
-            <td>👆</td>
+            <td>🫵</td>
             <td>you</td>
           </tr>
           <tr>
