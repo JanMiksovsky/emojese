@@ -4,7 +4,7 @@
   "type": "module",
   "dependencies": {
     "elix": "elix/elix",
-    "emoji-datasource": "4.1.0",
+    "emoji-datasource": "14.0.0",
     "graphemer": "1.4.0",
     "rollup": "3.9.0"
   },

@@ -18,7 +18,8 @@ function entriesFromEmojeseText(text) {
 
 function entriesFromStandardText(text) {
   const entries = [];
-  const emojiRegex = /^.+; fully-qualified\s+#\s(?<emoji>.+)\sE\d+.\d+\s(?<gloss>.+)$/gm;
+  const emojiRegex =
+    /^.+; fully-qualified\s+#\s(?<emoji>.+)\sE\d+.\d+\s(?<gloss>.+)$/gm;
   const matches = text.matchAll(emojiRegex);
   for (const match of matches) {
     const { emoji } = match.groups;
@@ -99,7 +100,7 @@ const emojeseFileName = path.join(dirname, "emojese.txt");
 const emojeseData = await fs.readFile(emojeseFileName, "utf-8");
 const emojeseEntries = entriesFromEmojeseText(String(emojeseData));
 
-// We use the emoji-test.txt file from https://unicode.org/Public/emoji/13.1/
+// We use the emoji-test.txt file from https://unicode.org/Public/emoji/<version>/
 // as the definitive source for the standard emojis and their names.
 const standardFileName = path.join(dirname, "emoji-test.txt");
 const standardData = await fs.readFile(standardFileName, "utf-8");
