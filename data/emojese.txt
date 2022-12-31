@@ -28,10 +28,11 @@
 ⧉の	another
 ∃	any/some
 ∃👤	anyone/someone
+∃⏰	anytime/sometime
 ∃⬚	anything/something
-	anyway
+∃⌥	anyway
 🏢◱	apartment
-🪞	appear
+🫥😐	appear
 4🌙	April
 =	are/is
 🎖	army
@@ -178,7 +179,7 @@
 [🍲]	dinner
 🧭	direction
 🚫🧼~	dirty
-🫥	disappear
+😐🫥	disappear
 🤒🦠	disease
 🚫⟿	do not
 ⟿	do/-ing
@@ -619,7 +620,7 @@ __↕	how much
 🌷🍁⏰	season
 👀	see/look
 🪴🥚	seed
-🪞	seem/appear
+🪞	seem
 	self
 	sell
 📤	send
