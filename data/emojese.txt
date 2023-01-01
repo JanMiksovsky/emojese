@@ -825,8 +825,8 @@ __↕	how much
 __	what
 __⏰	when
 __📍	where
-⌥	whether/choose
-⌥	which/choose
+	whether
+__⌥	which
 〰️	while/continue
 ◻️	white
 __👤	who
