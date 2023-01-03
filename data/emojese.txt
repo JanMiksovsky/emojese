@@ -76,7 +76,7 @@
 [🥛]	beverage
 🐘~	big
 🎂	birthday
-😇	blessed
+😇	blessed/nice
 🦯~	blind
 [🛥️]	boat
 👤∀	body
