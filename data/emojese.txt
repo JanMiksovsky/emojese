@@ -28,8 +28,8 @@
 ⧉の	another
 ∃	any/some
 ∃👤	anyone/someone
-∃⏰	anytime/sometime
 ∃⬚	anything/something
+∃⏰	anytime/sometime
 ∃⌥	anyway
 🏢◱	apartment
 🫥😐	appear
@@ -210,6 +210,7 @@
 	else
 📧	email
 🖼️💬	Emojese
+🪺🪹	empty
 🏁	end
 ⚡	energy
 ⚙️	engine/machine
@@ -393,11 +394,11 @@ __↕	how much
 ⚖️🧑	lawyer
 🦥~	lazy
 🦮	lead
-⤺🦮	led
 🍃	leaf
 🎓↤	learn
 ⇊の	least
 🛫	leave
+⤺🦮	led
 ↰	left
 ⤺🛫	left
 ⇊	less
@@ -557,6 +558,7 @@ __↕	how much
 🪧🪧	politics
 💧🔲	pool
 🚫💲の	poor
+🫗	pour
 🛐⟿	pray
 🐿️	prepare
 🎁	present/gift
