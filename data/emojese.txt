@@ -343,6 +343,7 @@ __🔨	how
 __🕑🕓	how long
 __↕	how much
 	hungry
+🤕	hurt
 💍👨	husband
 👇	I
 💡	idea
@@ -620,6 +621,7 @@ __↕	how much
 ⚗️	science
 ▦	screen
 🌊📍	sea
+🔍	search/find
 🌷🍁⏰	season
 👀	see/look
 🪴🥚	seed
