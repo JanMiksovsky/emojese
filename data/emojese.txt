@@ -111,7 +111,7 @@
 🚫💪	cant/cannot
 🚗	car
 [🃏]	card
-🧑‍⚕️	care/doctor
+🧑‍⚕️⟿	care
 ⤺🎒	carried
 🎒	carry
 🕸️	catch
@@ -220,6 +220,7 @@
 ∀	every/all
 ∀👤	everyone
 ∀⬚	everything
+∀📍	everywhere
 	exam
 [🏃]	exercise
 💦	exhausted
@@ -464,7 +465,7 @@ __↕	how much
 🌙	moon
 ⇈	more
 🌅	morning
-◕の	most (of)
+◕	most
 👩‍🍼	mother
 👄	mouth
 🚛	move
@@ -487,6 +488,7 @@ __↕	how much
 😇	nice
 🌃	night
 👎	no/bad
+🚫👤	nobody
 ⥣🧭	north
 🚫	not
 🚫⟢	not yet
@@ -494,6 +496,7 @@ __↕	how much
 🚫⬚	nothing
 11🌙	November
 👉⏰	now
+🚫📍	nowhere
 #	number
 🌊📍	ocean
 10🌙	October
