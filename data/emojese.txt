@@ -188,12 +188,14 @@
 ⬇️	down
 ✍️🖼	draw
 🛌💭	dream
+⤺✍️🖼	drew
 🥛⟿	drink
 [🥛]	drink/beverage
 🚗⟿	drive
 🍁	drop/fall
 💊	drug
 🚫💧~	dry
+⤺⛏️	dug
 🪨~	dumb
 🕑⤻🕓	duration
 〰️	during/continue
@@ -343,6 +345,7 @@
 __🔨	how
 __🕑🕓	how long
 __↕	how much
+⤺🪝⟿	hung
 	hungry
 🤕	hurt
 💍👨	husband
@@ -452,6 +455,7 @@ __↕	how much
 🤝	meet
 🤝	meeting/meet
 ✉️	message
+⤺🤝	met
 🪙🧪	metal
 ⏀	middle/center
 ⤺🎲	might
@@ -613,6 +617,7 @@ __↕	how much
 ⤺🗣	said
 ⚖️	same
 🏜️🧪	sand
+⤺🗣🎶	sang
 ⤺🪑	sat
 6☀️	Saturday
 💾	save
@@ -663,6 +668,7 @@ __↕	how much
 🟦☁️	sky
 🛌	sleep
 😴	sleepy
+⤺🛌	slept
 🐌~	slow
 🤏	small
 🎓~	smart
@@ -758,6 +764,7 @@ __↕	how much
 👉	this
 👈👈	those
 ⤺💭	thought
+⤺⚾⟿	threw
 ⤃	through
 ⚾⟿	throw
 4☀️	Thursday
@@ -812,6 +819,7 @@ __↕	how much
 🤏♨️	warm
 ⤺=	was
 🧼⟿	wash
+⤺≠	wasn't
 👀	watch/look
 💧	water
 🌊	wave
