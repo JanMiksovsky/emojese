@@ -86,7 +86,7 @@
 𐄚	both
 🍾	bottle
 ◡	bottom
-⤺🛒	bought
+⤺💵↹⬚	bought
 📦	box
 💥	break/crash
 [🥞]	breakfast
@@ -103,7 +103,7 @@
 🚌	bus
 🐝~	busy
 ⇤	but
-🛒	buy
+💵↹⬚	buy
 ⩕	by
 📞	call
 ⤺←	came
@@ -153,6 +153,7 @@
 🔢⟿	count
 💥	crash
 ⤺💥	crashed
+🤪	crazy
 👥👥	crowd
 😭⟿	cry
 🥃	cup
@@ -188,6 +189,7 @@
 🧑‍⚕️	doctor
 🏁	done/end
 ⬇️	down
+🔋🪫	drain
 ✍️🖼	draw
 🛌💭	dream
 ⤺✍️🖼	drew
@@ -217,6 +219,7 @@
 🪺🪹	empty
 🏁	end
 ⚡	energy
+⚡	energy/power
 ⚙️	engine/machine
 	enjoy
 ⍐	enough
@@ -253,6 +256,7 @@
 ⠇	few
 ⚔️	fight
 ⤺⚔️	fight
+🪫🔋	fill
 🏁	finally/end
 🔍	find
 👍	fine/good
@@ -271,7 +275,7 @@
 ♾️	forever/always
 🧠💥	forget
 ⤺🧠💥	forgot
-	fork
+🍴−🔪	fork
 [○□]	form/shape
 ⤺🔍	found
 ０💵	free
@@ -304,7 +308,7 @@
 🟩🌾	grass
 🦸	great/super
 ⤺🌱🌳	grew
-🌍◠	ground
+🌍∯	ground
 ⟨ ⟩	group
 🌱🌳	grow
 🔮	guess
@@ -391,7 +395,7 @@ __↕	how much
 🦵⏀	knee
 ⤺🎓	knew
 🔪	knife
-🎓	know
+🎓♾️	know
 🤏🌊📍	lake
 💡⚙️	lamp
 🐘~	large/big
@@ -427,8 +431,8 @@ __↕	how much
 🐍~	long
 👀	look
 	loose
-💸	lose
-⤺💸	lost
+🚫🎓📍	lose
+⤺🚫🎓📍	lost
 ✖️✖️	lot/many
 📢	loud
 ❤️	love
@@ -540,7 +544,7 @@ __↕	how much
 🏞	park
 ◔	part
 💯	pass/best
-👣	path
+|👣|	path
 🤒👤	patient
 ▥	pattern
 💸	pay/lose
@@ -556,7 +560,7 @@ __↕	how much
 🗺	plan
 🪴	plant
 ♳	plastic
-	plate
+🍽−🍴	plate
 [🤾]	play
 🤾👤	player
 🙏🏻	please
@@ -569,6 +573,7 @@ __↕	how much
 💧🔲	pool
 🚫💲の	poor
 🫗	pour
+⚡	power
 🛐⟿	pray
 🐿️	prepare
 🎁	present/gift
@@ -604,7 +609,7 @@ __↕	how much
 🏕️⛺⏰	recent
 🟥	red
 🛐	religion
-🎓↤	remember/learn
+💭🎓	remember
 📰✍️👤	reporter
 	rest
 🥡📍	restaurant
@@ -614,7 +619,7 @@ __↕	how much
 ✅	right
 🌅	rise/morning
 💧𐤛	river
-	road
+|🛞|	road
 🏠◠	roof
 🏠◱	room
 🪴◡	root
@@ -641,7 +646,7 @@ __↕	how much
 🪴🥚	seed
 🪞	seem
 	self
-	sell
+⬚↹💵	sell
 📤	send
 	sense
 ⤺📤	sent
@@ -670,7 +675,7 @@ __↕	how much
 🪑	sit
 🌐📍	site
 ↕	size
-	skin
+👤∯	skin
 	skirt
 🟦☁️	sky
 🛌	sleep
@@ -686,6 +691,7 @@ __↕	how much
 ⇈	so/more
 🪶🖐	soft
 	soil
+⤺⬚↹💵	soldier
 🪖👤	soldier
 ∃	some
 ∃☀️	someday
@@ -701,7 +707,8 @@ __↕	how much
 ⥥🧭	south
 🌌	space
 ⭐️	special
-💸	spend/lose
+💸	spend
+⤺💸	spent
 [⚽]	sport
 🌷⏰	spring
 ◻~	square
@@ -717,6 +724,7 @@ __↕	how much
 🛑	stop
 🏬	store
 🚫⌒	straight
+👾	strange/weird
 	street
 💪~	strong
 🔬	study
@@ -730,11 +738,12 @@ __↕	how much
 🦸	super
 ❗	supposed/must
 👍	sure/good
+∯	surface
 ⤺🏊‍♀️	swam
 💦	sweat
 🍯~	sweet
 🏊‍♀️	swim
-	table
+┳┳	table
 ↤	take/get
 🗣💬	talk
 ⤺🗣💬	talked
@@ -746,6 +755,7 @@ __↕	how much
 [💻]	technology
 🗣	tell/say
 🌡️↕	temperature
+📄☐☑	test
 ⌨️	text/type
 ﹥	than
 🙏🙏	thank/thanks
@@ -793,6 +803,7 @@ __↕	how much
 ◠	top
 🖐⟿	touch
 🤏🏙️	town
+⬚↹⬚	trade
 🚞	train
 [🚌🚗]	transportation
 🌳	tree
@@ -839,6 +850,7 @@ __↕	how much
 3☀️	Wednesday
 ⓻☀️	week
 ⚖️↕	weight
+👾	weird
 👍	well/good
 ⤺→	went
 ⤺=	were/was

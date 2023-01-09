@@ -23,7 +23,7 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |animal||There are many specific animals, but nothing to represent animals generally. Emojese introduces square brackets as a category, then uses two obviously different animal emoji to represent a broad category of animals.|[🐘🐟]|
 |apartment||For a rapidly-urbanizing world, there is only one generic large building, 🏢 Office Building. An apartment building could be distinguished with balconies, perhaps. The Emojese solution adds ◱ White Square With Lower Left Quadrant to suggest a room.|🏢◱|
 |back (direction)|110|See “above”. Emojese solution uses ◐ Circle with Left Half Black to represent “behind” and 📍 Round Pushpin for “place”: “behind place”.|◐📍|
-|back (body)|110|No obvious emoji.||
+|back (body)|110|No obvious emoji. Emojese uses 👤 Bust in Silhouette with ◐ Circle with Left Half Black (cf. "back", above).|👤◐|
 |become|254|There are almost no abstract action emoji, but such words are among our most common words. Emojese settles for a Mandarin-style <a href="https://eastasiastudent.net/china/mandarin/result-complement-detail-explanation/">resultative complement</a>, contrasting two states and focusing on the second, to suggest “become”.|🐛🦋|
 |bedroom||There do not appear to be any emoji to represent the common rooms of a house or apartment. To 🛌 Person in Bed, Emojese adds ◱ White Square With Lower Left Quadrant for “room”.|🛏◱|
 |below||See notes for “above”. Here ◒ Circle with Lower Half Black represents being beneath something else.|◒|
@@ -32,7 +32,8 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |bottom||No obvious emoji. As with all prepositions (“above”, etc.), Emojese settles for a Unicode character that can at least suggest a spatial arrangement. Here: ◡ Lower Half Circle.|◡|
 |bring|478|People often talk about moving things around in the word, but there is no useful emoji to express holding something or carrying something. The few emoji like 🏌️Person Golfing that show something holding something focus too much on a specific activity.|🎒|
 |brother||Mother is well-represented by 👩‍🍼 Woman Feeding Baby, and father by 👨‍🍼 Man Feeding Baby, but there is no good “brother” emoji. Emojese: “same parent’s boy”.|⚖️🧑‍🍼の👦|
-|buy|326|Numerous emoji like 💵 Banknote with Dollar Sign express money, but not specifically the spending of it. Emojese uses 🛒 Shopping Cart, although that focuses on the shopping instead of the purchase. See also “sell”.|🛒|
+|buy|326|Numerous emoji like 💵 Banknote with Dollar Sign express money, but not specifically the spending of it. There is also 🛒 Shopping Cart, but that focuses on the act of shopping instead of the purchase. Emojese uses 
+💵 Dollar Banknote, ↹ Leftwards Arrow To Bar Over Rightwards Arrow To Bar, and ⬚ Dotted Square to denote exchanging money to acquire a thing. See also “sell”.|🛒|
 |can (verb)|29|This extremely common abstract notion is admittedly difficult to represent visually. Emojese uses Flexed Biceps to represent potential (and as a nod to Rosie the Riveter, “We can do it”).|💪|
 |care (verb)|246|There is 🧑‍⚕️ Health Worker, but nothing to direct represent one person caring for another — applying a bandage or listening with a stethoscope, say.|🧑‍⚕️|
 |catch||There are balls like ⚾ Baseball, but sadly no catcher’s mitt, or anything else to directly show someone catching something. Emojese uses 🕸️ Spider Web to at least suggest catching something.|🕸️|
@@ -57,15 +58,15 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |farm||There is 🧑‍🌾 Farmer and 🚜 Tractor, but no farm. Emojese takes the former and adds 📍 Round Pushpin for “place”: “farmer place”.|🧑‍🌾📍|
 |feel|216|Another challenging abstract concept. There are many emoji for feelings, but none to represent the general state or concept of feeling thing. Emojese uses categorization brackets (see “animal” above) to represent the general category of feelings, plus ⇝ Rightwards Squiggle Arrow to convey action.|[😀]⟿|
 |finger||Another missing body part (see “back”). Emojese uses ◔ Circle with Upper Right Quadrant Black, adding this to ✋ Raised Hand: “hand part”.|✋◔|
-|fork||There’s 🍴 Fork and Knife and 🔪 Kitchen Knife, but no fork.||
+|fork||There’s 🍴 Fork and Knife and 🔪 Kitchen Knife, but no fork. Emojese resorts to a rebus, using − Minus Sign to subtract the knife from the fork and knife.|🍴−🔪|
 |front||Same problem as “back”. Emojese generally uses right to express direction into the future or otherwise away from the speaker, so here uses ◑ Circle with Right Half Black to focuses on the right. To this is adds 📍 Round Pushpin for “place”.|◑📍|
 |garden||There’s 🌱 Seedling and several other plant emoji, but none for a place with plants. Emojese adds 📍 Round Pushpin for “place”: “seedling place”.|🌱📍|
 |get|71|No obvious emoji for this common action. Numerous icons for <a href="https://thenounproject.com/search/?q=get">get</a> include something moving into a person’s hands. Emojese uses ↤ Leftwards Arrow from Bar to suggest something coming toward the speaker (represented to the left).|↤|
 |give|190|Essentially the same problem as “get” above. 🎁 Wrapped Gift suggests giving, but is ambiguous as to whether the gift is being given or received. Emojese uses ↦ Rightwards Arrow from Bar, the opposite of the glyph for “get”.|↦|
 |grandfather||There is 👴 Old Man, but nothing specific for a grandfather. Admittedly, this is hard to represent visually. Emojese: “before father”|◐👨‍🍼|
 |grandmother||Same as “grandfather” above. Emojese: “before mother”|◐👩‍🍼|
-|grass||No obvious emoji.||
-|ground||No obvious emoji.||
+|grass||No obvious emoji. Emojese uses 🟩 Green Square and 🌾 Sheaf of Rice.|🟩🌾|
+|ground||No obvious emoji. Emojese uses 🌍 Globe Showing Europe-Africa and ∯ Surface Integral. The metaphoric meaning of the latter will not be apparent to the average person, but the oval part of that glyph does at least suggest a surface.|🌍∯|
 |grow||🌱 Seedling comes closest, but there’s no action to it. Emojese uses a resultative complement (see “before”) to contrast the seeding with a full-grown 🌳 Deciduous Tree.|🌱🌳|
 |hair||💇 Haircut focuses on that specific activity rather than the concept of hair generally. Emojese generally uses 🧪 Test Tube to suggest “substance”, applying that to focus on the hair instead of the haircut.|💇‍♀️🧪|
 |hang||🪝 Hook implies hanging. Emojese adds ⇝ Rightwards Squiggle Arrow to convey action (see “feel”).|🪝⟿|
@@ -102,23 +103,23 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |open|292|See “close”, which uses the same emoji in the opposite order.|📕📖|
 |pain||Emoji like 😬 Grimacing Face convey discomfort, but not necessarily physical or emotional discomfort. Emojese adds 💥 Collision to suggest an accident, blowup, crash, etc., that leads to discomfort.|💥😬|
 |part|154|A very common word. There’s 🧩 Jigsaw Puzzle Piece, but Emojese uses that for “problem”. Emojese uses ◔ Circle with Upper Right Quadrant Black instead.|◔|
-|path||For a world dominated by roads, sidewalks, and other types of physical or metaphorical paths, there are almost no emoji to suggest “path”. 🛣️ Motorway comes closest, but all forms of that emoji are overwhelmed by a giant road sign. Emojese uses 👣 Footprints, although those unfortunately imply walking barefoot.|👣|
-|plate||Like the fork in 🍽️ Fork and Knife with Plate, the plate itself gets no love.||
+|path||For a world dominated by roads, sidewalks, and other types of physical or metaphorical paths, there are almost no emoji to suggest “path”. 🛣️ Motorway comes closest, but all forms of that emoji are overwhelmed by a giant road sign. Emojese uses 👣 Footprints between two \| Vertical Bar characters. See also "road".|\|👣\||
+|plate||Like the fork in 🍽️ Fork and Knife with Plate, the plate itself gets no love. As with "fork", Emojese resorts to a rebus to subtract 🍴 from the fork and knife with plate.|🍽−🍴|
 |pool||No obvious emoji, which is odd given the presence of many other leisure emoji like 🏖️ Beach with Umbrella. Emojese: “water square”.|💧🔲|
 |pretty||As with “big”, Emojese uses an animal that characterizes a noteworthy quality — here, attractiveness — and add a tilde (“-ish”) to form an adjective.|🦢~|
 |pull||No obvious emoji. Emojese uses ⛓️ Chains to suggest something being lifted or hauled.|⛓️|
 |push||No obvious emoji. Emojese uses 👐 Open Hands, as they are positioned in a way that might be pushing something.|👐|
 |put|203|No obvious emoji. Emojese combines 📦 Package and ⬇️ Down Arrow to suggest a box being put down.|📦⬇️|
-|reach (for)||No obvious emoji.||
+|reach||Emojese uses 🛬 Airplane Arrival.|🛬|
 |read|217|There are multiple book emoji, but none being read. 📖 Open Book comes the closest; Emojese adds ⇝ Rightwards Squiggle Arrow to convey action.|📖⟿|
 |ready||As with “big”, Emojese uses an animal that characterizes a noteworthy quality. Here, 🐿️ Chipmunk is used as a stand-in for a squirrel, known in some temperate climates as an animal that prepares for winter by gathering nuts. Emojese add a tilde (“-ish”) to form an adjective.|🐿️~|
 |real|244|A hard concept to express visually. Emojese uses a resultative complement (see “become”), with ◌ Dotted Circle transitioning to ○ White Circle to suggest something becoming more real.|◌○|
 |restaurant||Given the prevalence of food emoji, it’s surprising there is no obvious emoji for a location that serves food. Emojese uses 🥡 Takeout Box, adding 📍 Round Pushpin for “place”: “takeout food place”. This unfortunately focuses too much on ordering food to go.|🥡📍|
 |river/stream||As with “lake”, there is no emoji for this common geographical feature. Sadly, it appears that a proposal for <a href="http://www.unicode.org/L2/L2019/19334-river-emoji.pdf">River</a> was rejected. Emojese uses 💧 Droplet for “water”, plus 𐤛 Phoenician Number Three to suggest a flowing river.|💧𐤛|
-|road||No obvious emoji for this common physical feature and metaphor. 🛣️ Motorway is hard to read, and does not seem appropriate to represent typical roads.||
+|road||No obvious emoji for this common physical feature and metaphor. 🛣️ Motorway is hard to read, and does not seem appropriate to represent typical roads. Emojese uses 🛞 Wheel between two \| Vertical Bar characters. See also "path".|\|🛞\||
 |safe (adjective)||No obvious emoji for this admittedly challenging abstract concept. Emojese uses 🦺 Safety Vest, although that has a nuance of mitigating the s of a dangerous situation, rather than the intended meaning of being safe from harm. An <a href="https://thenounproject.com/search/?q=safety&i=1490820">icon</a> showing someone or thing being protected might be clearer.|🦺|
 |seed||There is 🌱 Seedling but no generic seed. While 🥜 Peanuts and 🌰 Chestnut both represent seeds, neither seems sufficiently generic. (Putting both into a category would likely suggest nuts specifically.) An icon <a href="https://thenounproject.com/search/?q=seed">seed</a> might show a seed being planted. Emojese uses 🪴 Potted Plant and 🥚 Egg: “plant egg”.|🪴🥚|
-|sell||As with “buy”, there is no obvious emoji for the selling side of a financial transaction.||
+|sell||As with “buy”, there is no obvious emoji for the selling side of a financial transaction. Emojese uses ⬚ Dotted Square, ↹ Leftwards Arrow To Bar Over Rightwards Arrow To Bar, and 💵 Dollar Banknote to denote exchanging a thing to acquire money.|⬚↹💵|
 |shallow||No obvious emoji. See also “deep”. Emojese uses ⌊ Left Floor for “low”, and 💧 Droplet for “water”: so “low water”.|⌊💧|
 |side|294|No obvious emoji to express something on the side, or to the side, of something or some place. Emojese uses ⚆ White Circle with Dot Right.|⚆|
 |sister||No obvious emoji; see “brother”. Emojese: “same parent’s girl”.|⚖️🧑‍🍼の👧|
@@ -129,9 +130,9 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |store/shop (noun)||No obvious emoji for a common one-story retail business. Icons for <a href="https://thenounproject.com/search/?q=store">store</a> frequently  a one-story building with an awning. There is 🏬 Department Store, which not only seems too big, it doesn’t obviously seem to be a store. 🏪 Convenience Store focuses on 24-hour business. Emojese settles for the former.|🏬|
 |sugar||No obvious emoji for this ubiquitous substance. Emojese uses ◻️ White Medium Square and 🍯 Honey Pot.|◻️🍯|
 |summer||See “fall” (season). Emojese uses ☀️ Sun: “sun time”.|☀️⏰|
-|table||There is 🪑 Chair, but no table to put the chair at.||
+|table||There is 🪑 Chair, but no table to put the chair at. Echoing the popular table-flipping kaomoji, Emojese adopts two copies of ┳ Box Drawings Heavy Down and Horizontal to visually depict a table.|┳┳|
 |team|234|No obvious emoji for a multi-person team of people in an organization (as opposed to a family). Icons for <a href="https://thenounproject.com/search/?q=team">team</a> usually show at least three people, often with circles or lines to suggest an organizational chart. The two brackets, ⟨ Mathematical Left Angle Bracket and ⟩ Mathematical Right Angle Bracket, are used in some mathematical concepts for a group, so Emojese adopts those brackets generally to mean “group”. Here Emojese adds 👥 Busts in Silhouette for “people”: “group of people”.|⟨👥⟩|
-|test||No obvious emoji. Icons for <a href="https://thenounproject.com/search/?q=test">test</a> often show a clipboard with correct and incorrect answers. The existing 📋 Clipboard shows instead lines of text.||
+|test||No obvious emoji. Icons for <a href="https://thenounproject.com/search/?q=test">test</a> often show a clipboard with correct and incorrect answers. The existing 📋 Clipboard shows instead lines of text. Emojese uses 📄 Page Facing Up with ☐ Ballot Box and ☑ Ballot Box with Check. Although Sweden and Finland uses a check mark for an incorrect answer rather than a correct answer, the use of a check mark still seems appropriate (if less upbeat).|📄☐☑|
 |theater||🎭 Performing Arts suggests theater as an activity or profession, but not the physical building. Emojese adds 📍 Round Pushpin for “place”: “theater place”.|🎭📍|
 |thing|221|No obvious emoji for the admittedly highly abstract concept of a thing. Emojese uses ⬚ Dotted Square.|⬚|
 |throw||There are emoji like ⚾ Baseball to represent specific things which are thrown, but no emoji for the action. Emojese adds ⇝ Rightwards Squiggle Arrow to convey action.|⚾⟿|
