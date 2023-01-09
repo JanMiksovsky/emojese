@@ -44,6 +44,7 @@
 🛌~	asleep
 	assistant
 @	at
+⤺🍽️	ate
 👊	attack/hit
 8🌙	August
 ✍️👤	author
