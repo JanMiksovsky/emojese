@@ -32,6 +32,7 @@
 ∃⏰	anytime/sometime
 ∃⌥	anyway
 🏢◱	apartment
+📱🧮	app
 🫥😐	appear
 4🌙	April
 =	are/is
@@ -42,7 +43,7 @@
 ⚖️	as/same
 🗣	ask/say
 🛌~	asleep
-	assistant
+👤↦🚑	assistant/helper
 @	at
 ⤺🍽️	ate
 👊	attack/hit
@@ -60,7 +61,7 @@
 💓	beat
 🦋~	beautiful
 ⤺🐛🦋	became
-∵	because/reason
+∵⇒	because
 🐛🦋	become
 🛏◱	bedroom
 🐄🍖	beef
@@ -146,7 +147,6 @@
 ⚖️📜	contract
 🍳	cook
 😎	cool
-	copper
 ⧉	copy
 ⟓	corner
 ⤺💪	could
@@ -221,7 +221,7 @@
 ⚡	energy
 ⚡	energy/power
 ⚙️	engine/machine
-	enjoy
+😄⟿	enjoy
 ⍐	enough
 ⏸	even
 🌃	evening/night
@@ -229,7 +229,7 @@
 ∀👤	everyone
 ∀⬚	everything
 ∀📍	everywhere
-	exam
+📄☐☑	exam/test
 [🏃]	exercise
 💦	exhausted
 🤰	expect
@@ -335,6 +335,7 @@
 👿📍	hell
 👋	hello
 🚑	help
+👤↦🚑	helper
 👩の	her
 👉📍	here
 👋	hey/hello
@@ -355,7 +356,7 @@ __🔨	how
 __🕑🕓	how long
 __↕	how much
 ⤺🪝⟿	hung
-	hungry
+❤️‍🔥🍽️	hungry
 🤕	hurt
 💍👨	husband
 👇	I
@@ -389,7 +390,8 @@ __↕	how much
 	just
 💾	keep/save
 🦵⚽️⟿	kick
-🗡️	kill
+↦💀	kill
+👤↦💀	killer
 🤴	king
 🍳◱	kitchen
 🦵⏀	knee
@@ -430,7 +432,7 @@ __↕	how much
 🤣	lol
 🐍~	long
 👀	look
-	loose
+|⟷|	loose/wide
 🚫🎓📍	lose
 ⤺🚫🎓📍	lost
 ✖️✖️	lot/many
@@ -449,6 +451,7 @@ __↕	how much
 ♂	male
 ◓👤	manager
 ✖️✖️	many
+🗺️	map
 3🌙	March
 ⚭	married
 💍⟿	marry
@@ -491,6 +494,7 @@ __↕	how much
 ❗	must
 👇の	my
 📛	name
+🤏🛌	nap
 ⇥⇤	narrow
 [🏔🍃]	nature
 🏕️⛺	near
@@ -577,7 +581,6 @@ __↕	how much
 🛐⟿	pray
 🐿️	prepare
 🎁	present/gift
-	president
 ◠🏛️👤	president
 🦢~	pretty
 ⇈	pretty/more
@@ -587,7 +590,7 @@ __↕	how much
 🔒⛓️📍	prison
 🔮🤷	probably
 🧩	problem
-💻0️⃣1️⃣	program
+💻🧮	program
 ⛓️	pull
 👐	push
 📦⬇️	put
@@ -611,7 +614,8 @@ __↕	how much
 🛐	religion
 💭🎓	remember
 📰✍️👤	reporter
-	rest
+🤏🛌	rest/nap
+𐄛・	rest/other
 🥡📍	restaurant
 ↩	return
 💲の	rich
@@ -691,7 +695,7 @@ __↕	how much
 ⇈	so/more
 🪶🖐	soft
 	soil
-⤺⬚↹💵	soldier
+⤺⬚↹💵	sold
 🪖👤	soldier
 ∃	some
 ∃☀️	someday
@@ -817,15 +821,16 @@ __↕	how much
 ◒	under
 💡⟿	understand
 ⤺💡⟿	understood
+∃1の	unique/only
 🎓📍	university
 🔓	unlock
 ↬⏰	until
 ⬆️	up
 👇👇	us/we
-	use
+🖐⬚⟿	use
 🏔📍🏔	valley
 ⇈	very/more
-	victim
+👤↤💀	victim
 🗣👂	voice
 ⏳	wait
 🥡👤	waiter
