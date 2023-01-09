@@ -20,7 +20,7 @@
 ↦	allow/give
 ⤺⟢	already
 &	also/and
-⤻⤻	always
+♾️	always
 =	am/is
 	an
 &	and
@@ -50,7 +50,7 @@
 ✍️👤	author
 ⛺🏕️	away
 ◐	back
-	back
+👤◐	back
 👎	bad
 🛍	bag
 [🎾🧶]	ball
@@ -267,7 +267,7 @@
 🥫	food
 ↬	for/to
 🌲🌳	forest
-⤻⤻	forever/always
+♾️	forever/always
 🧠💥	forget
 ⤺🧠💥	forgot
 	fork
@@ -295,6 +295,7 @@
 👍	good
 👋👋	goodbye
 ⤺↤	got
+🏛️	government
 ◐👨‍🍼	grandfather
 ◐👩‍🍼	grandma/grandmother
 ◐👩‍🍼	grandmother
@@ -529,7 +530,7 @@ __↕	how much
 📤	out
 ⎋	outside/out
 ◓	over
-💁	own/has
+💁♾️	own
 📄	page/paper
 💥😬	pain
 🎨	paint
@@ -562,6 +563,7 @@ __↕	how much
 	pocket
 ☠️🧪	poison
 👮	police
+🏛️👤	politician
 🪧🪧	politics
 💧🔲	pool
 🚫💲の	poor
@@ -570,6 +572,7 @@ __↕	how much
 🐿️	prepare
 🎁	present/gift
 	president
+◠🏛️👤	president
 🦢~	pretty
 ⇈	pretty/more
 ⏮️	previous
