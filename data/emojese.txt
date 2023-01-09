@@ -251,6 +251,7 @@
 ♀️	female
 ⠇	few
 ⚔️	fight
+⤺⚔️	fight
 🏁	finally/end
 🔍	find
 👍	fine/good
@@ -258,6 +259,7 @@
 🏁	finish/end
 1️⃣の	first
 🚫〰	flat
+⤺🛩⟿	flew
 ⤺🛩⟿	flew
 🏠◱◡	floor
 🛩⟿	fly
