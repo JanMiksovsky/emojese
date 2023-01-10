@@ -58,7 +58,7 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |farm||There is 🧑‍🌾 Farmer and 🚜 Tractor, but no farm. Emojese takes the former and adds 📍 Round Pushpin for “place”: “farmer place”.|🧑‍🌾📍|
 |feel|216|Another challenging abstract concept. There are many emoji for feelings, but none to represent the general state or concept of feeling thing. Emojese uses categorization brackets (see “animal” above) to represent the general category of feelings, plus ⇝ Rightwards Squiggle Arrow to convey action.|[😀]⟿|
 |finger||Another missing body part (see “back”). Emojese uses ◔ Circle with Upper Right Quadrant Black, adding this to ✋ Raised Hand: “hand part”.|✋◔|
-|fork||There’s 🍴 Fork and Knife and 🔪 Kitchen Knife, but no fork. Emojese resorts to a rebus, using − Minus Sign to subtract the knife from the fork and knife.|🍴−🔪|
+|fork||There’s 🍴 Fork and Knife and 🔪 Kitchen Knife, but no fork. Emojese resorts to a rebus, using ➖ Minus Sign to subtract the knife from the fork and knife.|🍴➖🔪|
 |front||Same problem as “back”. Emojese generally uses right to express direction into the future or otherwise away from the speaker, so here uses ◑ Circle with Right Half Black to focuses on the right. To this is adds 📍 Round Pushpin for “place”.|◑📍|
 |garden||There’s 🌱 Seedling and several other plant emoji, but none for a place with plants. Emojese adds 📍 Round Pushpin for “place”: “seedling place”.|🌱📍|
 |get|71|No obvious emoji for this common action. Numerous icons for <a href="https://thenounproject.com/search/?q=get">get</a> include something moving into a person’s hands. Emojese uses ↤ Leftwards Arrow from Bar to suggest something coming toward the speaker (represented to the left).|↤|
@@ -104,7 +104,7 @@ To motivate the current situation with concrete examples, here’s a list of ver
 |pain||Emoji like 😬 Grimacing Face convey discomfort, but not necessarily physical or emotional discomfort. Emojese adds 💥 Collision to suggest an accident, blowup, crash, etc., that leads to discomfort.|💥😬|
 |part|154|A very common word. There’s 🧩 Jigsaw Puzzle Piece, but Emojese uses that for “problem”. Emojese uses ◔ Circle with Upper Right Quadrant Black instead.|◔|
 |path||For a world dominated by roads, sidewalks, and other types of physical or metaphorical paths, there are almost no emoji to suggest “path”. 🛣️ Motorway comes closest, but all forms of that emoji are overwhelmed by a giant road sign. Emojese uses 👣 Footprints between two \| Vertical Bar characters. See also "road".|\|👣\||
-|plate||Like the fork in 🍽️ Fork and Knife with Plate, the plate itself gets no love. As with "fork", Emojese resorts to a rebus to subtract 🍴 from the fork and knife with plate.|🍽−🍴|
+|plate||Like the fork in 🍽️ Fork and Knife with Plate, the plate itself gets no love. As with "fork", Emojese resorts to a rebus to subtract 🍴 from the fork and knife with plate.|🍽➖🍴|
 |pool||No obvious emoji, which is odd given the presence of many other leisure emoji like 🏖️ Beach with Umbrella. Emojese: “water square”.|💧🔲|
 |pretty||As with “big”, Emojese uses an animal that characterizes a noteworthy quality — here, attractiveness — and add a tilde (“-ish”) to form an adjective.|🦢~|
 |pull||No obvious emoji. Emojese uses ⛓️ Chains to suggest something being lifted or hauled.|⛓️|
