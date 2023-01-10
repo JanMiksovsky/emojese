@@ -45,37 +45,15 @@ Identifying meaningful [emoji for some of the most common words is challenging](
 
 The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file. That file also contains common words for which definitions are desired but do not have definitions yet. If you're interested in contributing words, those are a good place to start. As of this writing, words without definitions include:
 
-- assistant
 - dust
-- each
-- fork
-- hang
-- loose
 - neck
-- plate
 - pocket
-- sell
-- shake
-- skin
 - soil
 - stain
-- street
-- table
-- victim
 
 You're also welcome to submit alternatives for words that already have definitions if you feel you've found an emoji sequence that might be clearer.
 
-## Choosing emoji
-
-- Consider the full range of Unicode, not just emoji characters.
-- Make judicious use of mathematical symbols, including numbers. Recognize that few people will know the precise meaning of obscure mathematical symbols; it's best if the symbols are suggestive of their meanings.
-- Reserve arrows for the most common words or constructions. It is tempting to use the hundreds of Unicode arrows to suggest a wide range of actions, but relying too heavily on subtly-different arrows produces visually confusing results.
-- Big, obvious distinctions are better than small, subtle ones. When sent in a messaging application, emojis can appear very small, making fine details hard to discern.
-- Choose emoji which, if not obvious, are at least recognizable, memorable, and sensible in retrospect. Few people would type 🐛🦋 for “become” on their own, but hopefully in retrospect the choice of those emoji makes sense.
-- The more common an idea is, ideally the shorter its emoji expression should be.
-- There's no need to reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat", and typing "cat" in the app already produces that emoji.
-- Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
-- [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
+See [Strategies for representing words with emojis](docs/Strategies.md).
 
 ## Experimental emoji
 
