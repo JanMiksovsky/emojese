@@ -42,7 +42,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ↤       | get                                                                |
 | ↦       | give                                                               |
 | 🏛️      | government, politics                                               |
-| ⟨       | ⟩ group                                                            |
+| ⟨ ⟩     | group                                                              |
 | 🖐      | hand, touching                                                     |
 | ⌈       | high                                                               |
 | 🌐      | internet                                                           |
@@ -178,6 +178,18 @@ Emojese adopts the hiragana の (“no”) as a possessive, one of its uses in J
 | ------- | ------- |
 | 🏁 の   | last    |
 | ⇊ の    | least   |
+
+## Mathematical, scientific, and musical notation
+
+In a few cases, math, science, and music may have a notation with an existing meaning that can play a useful role in an Emojese word. The meaning may only be known to people with prior knowledge of that field, so this technique is used sparingly. That said, since some concepts are fundamentally abstract, _any_ emoji representation might be challenging to understand; it seems preferable to at least adopt an existing notation for such a concept.
+
+| Emojese | Meaning           |
+| ------- | ----------------- |
+| ∀       | all               |
+| ∃       | any, some, exists |
+| ∵       | because           |
+| ∯       | surface           |
+| ⇒       | then              |
 
 ## Emoji pictures
 
