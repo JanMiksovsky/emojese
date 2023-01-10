@@ -19,16 +19,16 @@ Because a wide number of words have no obvious emoji representation (see [challe
 
 Emojis tend to be things, which leads to interpreting them as nouns. These indicators can emphasize that a different part of speech is intended. Such an indicator may not always be required.
 
-| Emoji | Part of speech |
-| ----- | -------------- |
-| ~     | adjective      |
-| ⟿     | verb           |
+| Emojese | Meaning   |
+| ------- | --------- |
+| ~       | adjective |
+| ⟿       | verb      |
 
 ## Abstract concepts and combining forms
 
 Emojese tries to identify certain emoji as representative of a broader concept, then use this in combination with other emojis to create new words.
 
-| Emoji       | Concept                                                            |
+| Emojese     | Meaning                                                            |
 | ----------- | ------------------------------------------------------------------ |
 | ∀           | all                                                                |
 | ∃           | any, some, exists                                                  |
@@ -86,32 +86,32 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 
 These generally use Unicode symbols that suggest a position or relationship.
 
-| Emoji | Preposition  |
-| ----- | ------------ |
-| ◓     | above, over  |
-| ⤼     | across       |
-| ⥁     | around       |
-| ◑     | after        |
-| @     | at           |
-| ◐     | back, behind |
-| ◒     | below, under |
-| ⧲     | between      |
-| ⩕     | by           |
-| ⬇️    | down         |
-| ↫     | from         |
-| ◑     | front        |
-| 📥    | in           |
-| ⚆     | inside       |
-| ⇲     | into         |
-| ↥     | off          |
-| ⊻     | on           |
-| 📤    | out          |
-| ⧂     | outside      |
-| ◓     | over         |
-| ⤃     | through      |
-| ↬     | to, for      |
-| ⬆️    | up           |
-| 🧑‍🤝‍🧑    | with         |
+| Emojese | Meaning      |
+| ------- | ------------ |
+| ◓       | above, over  |
+| ⤼       | across       |
+| ⥁       | around       |
+| ◑       | after        |
+| @       | at           |
+| ◐       | back, behind |
+| ◒       | below, under |
+| ⧲       | between      |
+| ⩕       | by           |
+| ⬇️      | down         |
+| ↫       | from         |
+| ◑       | front        |
+| 📥      | in           |
+| ⚆       | inside       |
+| ⇲       | into         |
+| ↥       | off          |
+| ⊻       | on           |
+| 📤      | out          |
+| ⧂       | outside      |
+| ◓       | over         |
+| ⤃       | through      |
+| ↬       | to, for      |
+| ⬆️      | up           |
+| 🧑‍🤝‍🧑      | with         |
 
 ## Arrows
 
@@ -119,18 +119,20 @@ Although arrows are effective at communicating action, Emojese tries to avoid us
 
 Generally speaking, action toward the speaker is to the left; action away from the speaker is to the right.
 
-← come
-↬ for
-↫ from
-↤ get
-↦ give
-→ go
-↰ left
-⇊ less
-⇈ more
-⤺ (past tense)
-↩ return
-↱ right
+| Emojese | Meaning      |
+| ------- | ------------ |
+| ←       | come         |
+| ↬       | for          |
+| ↫       | from         |
+| ↤       | get          |
+| ↦       | give         |
+| →       | go           |
+| ↰       | left         |
+| ⇊       | less         |
+| ⇈       | more         |
+| ⤺       | (past tense) |
+| ↩       | return       |
+| ↱       | right        |
 
 ## Comparison (resultative complement)
 
