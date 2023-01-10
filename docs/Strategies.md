@@ -188,6 +188,7 @@ In a few cases, math, science, and music may have a notation with an existing me
 | ∀       | all               |
 | ∃       | any, some, exists |
 | ∵       | because           |
+| ⟨ ⟩     | group             |
 | ∯       | surface           |
 | ⇒       | then              |
 
