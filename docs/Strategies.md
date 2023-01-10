@@ -19,68 +19,68 @@ Because a wide number of words have no obvious emoji representation (see [challe
 
 Emojis tend to be things, which leads to interpreting them as nouns. These indicators can emphasize that a different part of speech is intended. Such an indicator may not always be required.
 
-| Emojese | Meaning   |
-| ------- | --------- |
-| ~       | adjective |
-| ⟿       | verb      |
+| Emojese | Meaning            |
+| ------- | ------------------ |
+| ~       | adjective ("-ish") |
+| ⟿       | verb               |
 
 ## Abstract concepts and combining forms
 
 Emojese tries to identify certain emoji as representative of a broader concept, then use this in combination with other emojis to create new words.
 
-| Emojese     | Meaning                                                            |
-| ----------- | ------------------------------------------------------------------ |
-| ∀           | all                                                                |
-| ∃           | any, some, exists                                                  |
-| ◡           | bottom                                                             |
-| 〰️          | continuation                                                       |
-| ☀️          | day, day of week                                                   |
-| 💀          | death                                                              |
-| 🧭          | direction                                                          |
-| ♾️          | forever                                                            |
-| ↤           | get                                                                |
-| ↦           | give                                                               |
-| 🏛️          | government, politics                                               |
-| ⟨           | ⟩ group                                                            |
-| 🖐          | hand, touching                                                     |
-| ⌈           | high                                                               |
-| 🌐          | internet                                                           |
-| 🎓          | knowledge                                                          |
-| ⇊           | less                                                               |
-| ⌊           | low                                                                |
-| ⚙️          | machine, device                                                    |
-| 🔨          | make                                                               |
-| 💍          | marriage                                                           |
-| 💭          | mental activity                                                    |
-| 🍖          | meat (combine with animal for type)                                |
-| 🎖️          | military                                                           |
-| 💵          | money                                                              |
-| 🌙          | month                                                              |
-| ⇈           | more                                                               |
-| ⏭️          | next                                                               |
-| 🚫          | not, negate                                                        |
-| \#          | number                                                             |
-| 👥          | people (multiple)                                                  |
-| 👤          | person (abstract concept)                                          |
-| 🧑          | person (combining form for an occupation without a specific emoji) |
-| 📍          | place                                                              |
-| ⏮️          | previous                                                           |
-| 🛐          | religion                                                           |
-| ◱           | room                                                               |
-| 🗣           | say, talk                                                          |
-| 👀          | see, look                                                          |
-| 🤏          | small                                                              |
-| 🧪          | substance                                                          |
-| ∯           | surface                                                            |
-| 👈          | that                                                               |
-| ⬚           | thing                                                              |
-| 👉          | this                                                               |
-| ⏰          | time                                                               |
-| ◠           | top                                                                |
-| ↹           | transaction                                                        |
-| \|\_\_ what |
-| 💬          | words                                                              |
-| 🌍          | world                                                              |
+| Emojese | Meaning                                                            |
+| ------- | ------------------------------------------------------------------ |
+| ∀       | all                                                                |
+| ∃       | any, some, exists                                                  |
+| ◡       | bottom                                                             |
+| 〰️      | continuation                                                       |
+| ☀️      | day, day of week                                                   |
+| 💀      | death                                                              |
+| 🧭      | direction                                                          |
+| ♾️      | forever                                                            |
+| ↤       | get                                                                |
+| ↦       | give                                                               |
+| 🏛️      | government, politics                                               |
+| ⟨       | ⟩ group                                                            |
+| 🖐      | hand, touching                                                     |
+| ⌈       | high                                                               |
+| 🌐      | internet                                                           |
+| 🎓      | knowledge                                                          |
+| ⇊       | less                                                               |
+| ⌊       | low                                                                |
+| ⚙️      | machine, device                                                    |
+| 🔨      | make                                                               |
+| 💍      | marriage                                                           |
+| 💭      | mental activity                                                    |
+| 🍖      | meat (combine with animal for type)                                |
+| 🎖️      | military                                                           |
+| 💵      | money                                                              |
+| 🌙      | month                                                              |
+| ⇈       | more                                                               |
+| ⏭️      | next                                                               |
+| 🚫      | not, negate                                                        |
+| \#      | number                                                             |
+| 👥      | people (multiple)                                                  |
+| 👤      | person (abstract concept)                                          |
+| 🧑      | person (combining form for an occupation without a specific emoji) |
+| 📍      | place                                                              |
+| ⏮️      | previous                                                           |
+| 🛐      | religion                                                           |
+| ◱       | room                                                               |
+| 🗣       | say, talk                                                          |
+| 👀      | see, look                                                          |
+| 🤏      | small                                                              |
+| 🧪      | substance                                                          |
+| ∯       | surface                                                            |
+| 👈      | that                                                               |
+| ⬚       | thing                                                              |
+| 👉      | this                                                               |
+| ⏰      | time                                                               |
+| ◠       | top                                                                |
+| ↹       | transaction                                                        |
+| \_\_    | what                                                               |
+| 💬      | words                                                              |
+| 🌍      | world                                                              |
 
 ## Prepositions
 
@@ -115,24 +115,25 @@ These generally use Unicode symbols that suggest a position or relationship.
 
 ## Arrows
 
-Although arrows are effective at communicating action, Emojese tries to avoid using too many different types of arrows.
+Although arrows are effective at communicating action and there are many Unicode arrows, they can be hard to tell apart and a row of different arrows is very hard to visually read. Emojese tries to avoid using too many different types of arrows.
 
 Generally speaking, action toward the speaker is to the left; action away from the speaker is to the right.
 
-| Emojese | Meaning      |
-| ------- | ------------ |
-| ←       | come         |
-| ↬       | for          |
-| ↫       | from         |
-| ↤       | get          |
-| ↦       | give         |
-| →       | go           |
-| ↰       | left         |
-| ⇊       | less         |
-| ⇈       | more         |
-| ⤺       | (past tense) |
-| ↩       | return       |
-| ↱       | right        |
+| Emojese | Meaning        |
+| ------- | -------------- |
+| ←       | come           |
+| ↬       | for            |
+| ↫       | from           |
+| ⤻       | (future tense) |
+| ↤       | get            |
+| ↦       | give           |
+| →       | go             |
+| ↰       | left           |
+| ⇊       | less           |
+| ⇈       | more           |
+| ⤺       | (past tense)   |
+| ↩       | return         |
+| ↱       | right          |
 
 ## Comparison (resultative complement)
 
@@ -154,6 +155,19 @@ Categories appear in brackets.
 | [🥞]    | breakfast |
 | [🐈🐕]  | pet       |
 | [⚽]    | sports    |
+
+## Metaphors
+
+Emoji such as animals can be used for their metaphoric or symbolic value, often in combination with the "~" (-ish) adjective indicator.
+
+| Emojese | Meaning |
+| ------- | ------- |
+| 🐘~     | big     |
+| 🐝~     | busy    |
+| 🪨~     | dumb    |
+| 🦥~     | lazy    |
+| 🪶~     | light   |
+| 🐿️      | prepare |
 
 ## Possessive marker
 

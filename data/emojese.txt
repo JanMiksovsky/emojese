@@ -15,7 +15,7 @@
 ⟲	again
 🎂#	age
 ⚔️~	aggressive
-🗣️👍👍	agree
+👥👍👍	agree
 🚫💀	alive
 ∀	all
 ↦	allow/give
@@ -35,6 +35,7 @@
 🏢◱	apartment
 📱🧮	app
 🫥😐	appear
+🗣👍	approve
 4🌙	April
 =	are/is
 🪖🎖️	army
@@ -188,8 +189,9 @@
 [🍲]	dinner
 🧭	direction
 🚫🧼~	dirty
-🗣️👍👎	disagree
+👥👍👎	disagree
 😐🫥	disappear
+🗣👎	disapprove
 🤒🦠	disease
 🚫⟿	do not
 ⟿	do/-ing
@@ -856,6 +858,7 @@ __↕	how much
 ⇈	very/more
 🧑↤💀	victim
 🗣👂	voice
+🗳️	vote
 ⏳	wait
 🥡🧑	waiter
 🛌🛏	wake
