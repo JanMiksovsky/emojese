@@ -39,7 +39,7 @@ You can [contribute or update a definition](https://docs.google.com/forms/d/1-TF
 
 ## Definitions
 
-Emojese fixes some standard meanings to a list of ~850 common English words. These were drawn from various sources, including the [Swadesh list](https://en.wikipedia.org/wiki/Swadesh_list), the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf), and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
+Emojese fixes some standard meanings to a list of ~930 common English words. These were drawn from various sources, including the [Swadesh list](https://en.wikipedia.org/wiki/Swadesh_list), the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf), and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
 
 Identifying meaningful [emoji for some of the most common words is challenging](docs/Challenges.md).
 
