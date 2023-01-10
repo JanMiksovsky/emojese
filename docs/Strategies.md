@@ -33,6 +33,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ∀       | all                                                                |
 | ∃       | any, some, exists                                                  |
 | ◡       | bottom                                                             |
+| 🎨      | color                                                              |
 | 〰️      | continuation                                                       |
 | ☀️      | day, day of week                                                   |
 | 💀      | death                                                              |
@@ -61,7 +62,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | 🚫      | not, negate                                                        |
 | \#      | number                                                             |
 | 👥      | people (multiple)                                                  |
-| 👤      | person (abstract concept)                                          |
+| 👤      | person (abstract concept), the human body                          |
 | 🧑      | person (combining form for an occupation without a specific emoji) |
 | 📍      | place                                                              |
 | ⏮️      | previous                                                           |

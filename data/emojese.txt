@@ -7,8 +7,11 @@
 ◓	above/over
 💥	accident/crash
 ⤼	across
+🎭⟿	act/perform
+🎭🧑	actor
 	actually
 ➕	add
+[~]	adjective
 👱~	adult
 ◑⏰	after
 ◑🕛	afternoon
@@ -16,6 +19,8 @@
 🎂#	age
 ⚔️~	aggressive
 👥👍👍	agree
+💨	air
+✈️📍	airport
 🚫💀	alive
 ∀	all
 ↦💪	allow
@@ -35,13 +40,15 @@
 🏢◱	apartment
 📱🧮	app
 🫥😐	appear
+🍎	apple
 🗣👍	approve
 4🌙	April
 =	are/is
+👤💪	arm
 🪖🎖️	army
 ⥁	around
 🛬	arrive
-🖼️	art
+[🖼️]	art
 ⚖️	as/same
 🗣？	ask
 🛌~	asleep
@@ -57,9 +64,14 @@
 👎	bad
 🛍	bag
 [🎾🧶]	ball
+🎶👥	band
+🍻📍	bar
 🏠◡	basement
 🛁	bathe
+🚻	bathroom/restroom
 ♾️=	be
+🏖️📍	beach
+👤🧔‍♂️◔	beard
 💓	beat
 🦋~	beautiful
 ⤺🐛🦋	became
@@ -67,6 +79,7 @@
 🐛🦋	become
 🛏◱	bedroom
 🐄🍖	beef
+🍺	beer
 ◐⏰	before
 1️⃣	begin/first
 ◐	behind/back
@@ -80,12 +93,17 @@
 ⧲	between
 [🥛]	beverage
 🐘~	big
-🎂	birthday
+📄💵	bill
+🎂☀️	birthday
+⬛	black
 😇	blessed/nice
 🦯~	blind
+🩸	blood
+🟦	blue
 [🛥️]	boat
 👤∀	body
 📕	book
+📘	book
 🥱	boring
 𐄚	both
 🍾	bottle
@@ -99,6 +117,7 @@
 ⤺💥	broke/crashed
 ⚖️🧑‍🍼の👦	brother
 ⤺🎒	brought/carried
+🟫	brown
 	btw
 🔨⟿	build/make
 🏢	building
@@ -109,11 +128,14 @@
 ⇤	but
 💵↹⬚	buy
 ⩕	by
+🎂	cake
 📞	call
 ⤺←	came
+🏕️📍	camp
 💪	can
 🚫💪	cannot
 🚫💪	cant/cannot
+🚗	car
 🚗	car
 [🃏]	card
 🧑‍⚕️⟿	care
@@ -121,31 +143,39 @@
 🎒	carry
 🕸️	catch
 🏠◱◠	ceiling
+👤🦠	cell
 ⏀	center
 🧗	challenge
 🔄	change
 ⇊💵	cheap
 ☑	check
+🧀	cheese
 🧒	child
 ⌥	choose
 ◯	circle
 🏙	city
 🧑‍🏫⏰	class
+🧱🧪	clay
 🧼~	clean
+🧼⟿	clean
 🪟~	clear
 🕰	clock
 📖📕	close
 🏕️⛺	close/near
 [👖]	clothes
+[👖]	clothing/clothes
 🎤📍	club
 🧥	coat
 ☕	coffee
 🧊~	cold
 ↤	collect/get
+🎨	color
 ←	come
+💻	computer
 ☑	confirm/check
 😕	confused
 💭	consider/think
+🪵🔊	consonant
 📞	contact/call
 〰	continue
 ⚖️📜	contract
@@ -255,7 +285,7 @@
 ⇲🏟️	fan
 ⛺🏕️	far
 🧑‍🌾📍	farm
-💨	fast
+💨~	fast
 👨‍🍼	father
 2🌙	February
 ⤺↦🥫	fed
@@ -529,6 +559,7 @@ __↕	how much
 🚫⟢	not yet
 📝	note
 🚫⬚	nothing
+[⬚]	noun
 🏝	noun
 11🌙	November
 👉⏰	now
@@ -572,6 +603,7 @@ __↕	how much
 💸	pay/lose
 🕊️~	peaceful
 👥	people
+🎭⟿	perform
 👤	person
 [🐈🐕]	pet
 📱	phone
@@ -611,6 +643,7 @@ __↕	how much
 🧩	problem
 🔨⟿	produce/make
 💻🧮	program
+🍻📍	pub/bar
 ⛓️	pull
 👐	push
 📦⬇️	put
@@ -729,7 +762,7 @@ __↕	how much
 🎶	song
 🤏⏰	soon
 🙇	sorry
-👂	sound/hear
+🔊	sound
 ⥥🧭	south
 🌌	space
 ⭐️	special
@@ -856,6 +889,7 @@ __↕	how much
 👇👇	us/we
 🖐⬚⟿	use
 🏔📍🏔	valley
+[⟿]	verb
 ⇈	very/more
 🧑↤💀	victim
 🗣👂	voice
@@ -866,10 +900,11 @@ __↕	how much
 🚶	walk
 🧱‖	wall
 ❤️‍🔥	want
-⚔️	war/fight
+🎖️⚔️	war
 🤏♨️	warm
+🗣️⚠️	warn
 ⤺=	was
-🧼⟿	wash
+🧼⟿	wash/clean
 ⤺≠	wasn't
 👀	watch/look
 💧	water
