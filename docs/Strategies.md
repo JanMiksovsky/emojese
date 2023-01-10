@@ -14,11 +14,12 @@ Because a wide number of words have no obvious emoji representation (see [challe
 ◡ bottom
 〰️ continuation
 ☀️ day, day of week
+💀 death
 🧭 direction
-↹ exchange
 ♾️ forever
 ↤ get
 ↦ give
+🏛️ government, politics
 ⟨ ⟩ group
 🖐 hand, touching
 ⌈ high
@@ -54,6 +55,7 @@ Because a wide number of words have no obvious emoji representation (see [challe
 👉 this
 ⏰ time
 ◠ top
+↹ transaction
 \_\_ what
 💬 words
 🌍 world
@@ -120,3 +122,22 @@ Categories appear in brackets.
 
 ⇥⇤ narrow
 ┳┳ table
+
+## Arrows
+
+Although arrows are effective at communicating action, Emojese tries to avoid using too many different types of arrows.
+
+Generally speaking, action toward the speaker is to the left; action away from the speaker is to the right.
+
+← come
+↬ for
+↫ from
+↤ get
+↦ give
+→ go
+↰ left
+⇊ less
+⇈ more
+⤺ (past tense)
+↩ return
+↱ right

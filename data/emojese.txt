@@ -15,6 +15,7 @@
 ⟲	again
 🎂#	age
 ⚔️~	aggressive
+🗣️👍👍	agree
 🚫💀	alive
 ∀	all
 ↦	allow/give
@@ -41,9 +42,9 @@
 🛬	arrive
 🖼️	art
 ⚖️	as/same
-🗣	ask/say
+🗣？	ask
 🛌~	asleep
-🧑↦🚑	assistant/helper
+🛠️🧑‍🤝‍🧑🧑	assistant/helper
 @	at
 ⤺🍽️	ate
 👊	attack/hit
@@ -65,11 +66,10 @@
 🐛🦋	become
 🛏◱	bedroom
 🐄🍖	beef
-	been
 ◐⏰	before
 1️⃣	begin/first
 ◐	behind/back
-💭	believe/think
+💭♾️	believe
 ◒	below/under
 🔨⌒	bend
 🔨⌒~	bent
@@ -144,6 +144,7 @@
 ←	come
 ☑	confirm/check
 😕	confused
+💭	consider/think
 📞	contact/call
 〰	continue
 ⚖️📜	contract
@@ -153,9 +154,11 @@
 ⟓	corner
 ⤺💪	could
 🔢⟿	count
+⬇️◓	cover
 💥	crash
 ⤺💥	crashed
 🤪	crazy
+✍️⟿	create
 👥👥	crowd
 😭⟿	cry
 🥃	cup
@@ -176,6 +179,7 @@
 ⌈💧	deep
 😋	delicious
 🛫	depart
+🔨⟿	develop/make
 ⤺	did
 💀⟿	die
 🍎🍊	different
@@ -184,6 +188,7 @@
 [🍲]	dinner
 🧭	direction
 🚫🧼~	dirty
+🗣️👍👎	disagree
 😐🫥	disappear
 🤒🦠	disease
 🚫⟿	do not
@@ -237,6 +242,7 @@
 💦	exhausted
 🤰	expect
 ⇈💵	expensive
+↦🎓	explain
 💣💥	explode
 👤◑	face
 🍁	fall
@@ -304,6 +310,7 @@
 👋👋	goodbye
 ⤺↤	got
 🏛️	government
+🏛️の	governmental
 ◐👨‍🍼	grandfather
 ◐👩‍🍼	grandma/grandmother
 ◐👩‍🍼	grandmother
@@ -337,8 +344,8 @@
 ⤺🤲	held
 👿📍	hell
 👋	hello
-🚑	help
-👤↦🚑	helper
+🛠️🧑‍🤝‍🧑	help
+🛠️🧑‍🤝‍🧑🧑	helper
 👩の	her
 👉📍	here
 👋	hey/hello
@@ -352,7 +359,7 @@
 🤔	hmm
 🤲	hold
 🏠	home
-🛐🕊	hope
+💭🕊	hope
 ♨️	hot
 🕑	hour
 __🔨	how
@@ -494,7 +501,7 @@ __↕	how much
 🚛	move
 🎞️	movie
 ⇈	much/more
-🗡️	murder/kill
+↦💀	murder/kill
 🎵	music
 ❗	must
 👇の	my
@@ -528,6 +535,7 @@ __↕	how much
 10🌙	October
 	of
 ↥	off
+⬚↹？	offer
 🛠️📍	office
 😲	oh
 🛢	oil
@@ -570,7 +578,7 @@ __↕	how much
 📍	place
 🗺	plan
 🪴	plant
-♳	plastic
+♳🧪	plastic
 🍽−🍴	plate
 [🤾]	play
 🤾🧑	player
@@ -579,10 +587,11 @@ __↕	how much
 	pocket
 ☠️🧪	poison
 👮	police
+🏛️💬の	political
 🏛️🧑	politician
-🪧🪧	politics
+🏛️💬	politics
 💧🔲	pool
-🚫💲の	poor
+🚫💵	poor
 🫗	pour
 ⚡	power
 🛐⟿	pray
@@ -597,6 +606,7 @@ __↕	how much
 🔒⛓️📍	prison
 🔮🤷	probably
 🧩	problem
+🔨⟿	produce/make
 💻🧮	program
 ⛓️	pull
 👐	push
@@ -609,8 +619,9 @@ __↕	how much
 [🏇🏎]	race
 📻	radio
 🌧️	rain
+🏋️	raise/lift
 🛬	reach/arrive
-📖⟿	read
+📖👀	read
 🐿️~	ready
 ◌○	real
 ⇈	really/more
@@ -662,6 +673,7 @@ __↕	how much
 	sense
 ⤺📤	sent
 9🌙	September
+⌥	set/choose
 🛌🎆	sex
 ⧛ ⧚	shake
 	shall
@@ -737,6 +749,7 @@ __↕	how much
 🚫⌒	straight
 👾	strange/weird
 	street
+|🛞|	street/road
 💪~	strong
 🔬	study
 ⬚⬚	stuff/things
@@ -747,10 +760,12 @@ __↕	how much
 ☀️⏰	summer
 7☀️	Sunday
 🦸	super
+🛠️🧑‍🤝‍🧑	support/help
 ❗	supposed/must
 👍	sure/good
 ∯	surface
 ⤺🏊‍♀️	swam
+🤬	swear
 💦	sweat
 🍯~	sweet
 🏊‍♀️	swim
@@ -761,6 +776,7 @@ __↕	how much
 ⌈	tall/high
 👅⟿	taste
 🫖	tea
+🧑‍🏫⟿	teach
 🧑‍🏫	teacher
 ⟨👥⟩	team
 [💻]	technology
@@ -827,8 +843,8 @@ __↕	how much
 ⌨️	type
 🤢	ugly
 ◒	under
-💡⟿	understand
-⤺💡⟿	understood
+💭💡	understand
+⤺💭💡	understood
 ∃1の	unique/only
 🎓📍	university
 🔓	unlock
@@ -891,6 +907,7 @@ __∵	why
 🧑‍🤝‍🧑	with
 🚫🧑‍🤝‍🧑	without
 ⤺🛌🛏	woke
+🤔⟿	wonder
 😍	wonderful
 💬	word
 ⤺👖⟿	wore
