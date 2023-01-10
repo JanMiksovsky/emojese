@@ -18,7 +18,7 @@
 👥👍👍	agree
 🚫💀	alive
 ∀	all
-↦	allow/give
+↦💪	allow
 ⤺⟢	already
 &	also/and
 ♾️	always
@@ -63,7 +63,7 @@
 💓	beat
 🦋~	beautiful
 ⤺🐛🦋	became
-∵⇒	because
+∵	because
 🐛🦋	become
 🛏◱	bedroom
 🐄🍖	beef
@@ -190,6 +190,7 @@
 🧭	direction
 🚫🧼~	dirty
 👥👍👎	disagree
+🚫↦💪	disallow
 😐🫥	disappear
 🗣👎	disapprove
 🤒🦠	disease
@@ -373,7 +374,7 @@ __↕	how much
 💍👨	husband
 👇	I
 💡	idea
-	if
+⍰	if
 🖼	image
 ‼️	important
 📥	in
@@ -627,7 +628,7 @@ __↕	how much
 🐿️~	ready
 ◌○	real
 ⇈	really/more
-∵	reason
+∵💬	reason
 📥	receive
 🏕️⛺⏰	recent
 🟥	red
