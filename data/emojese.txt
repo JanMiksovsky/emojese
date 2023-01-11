@@ -31,6 +31,7 @@
 	an
 &	and
 [🐘🐁]	animal
+🗣️✨	announce
 ⧉の	another
 ∃	any/some
 ∃👤	anyone/someone
@@ -49,6 +50,7 @@
 ⥁	around
 🛬	arrive
 [🖼️]	art
+🖼️🧑	artist
 ⚖️	as/same
 🗣？	ask
 🛌~	asleep
@@ -676,6 +678,7 @@ __↕	how much
 🧩	problem
 🔨⟿	produce/make
 💻🧮	program
+💻🧮🧑	programmer
 🍻📍	pub/bar
 ⛓️	pull
 👐	push
@@ -778,6 +781,7 @@ __↕	how much
 🎓~	smart
 👃⟿	smell
 	smile
+🤏🍽️	snack
 ❄️	snow
 ⇥	so
 ⇈	so/more
@@ -820,6 +824,7 @@ __↕	how much
 	street
 |🛞|	street/road
 💪~	strong
+🎓🧑	student
 🔬	study
 ⬚⬚	stuff/things
 ↦	submit/give
@@ -990,6 +995,7 @@ __∵	why
 	would
 🤩	wow
 ✍️	write
+✍️🧑	writer
 ❌	wrong
 ⤺✍️	wrote
 👍	yeah/good
