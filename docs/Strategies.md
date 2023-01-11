@@ -53,7 +53,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | 🔨      | make                                                               |
 | 💍      | marriage                                                           |
 | 💭      | mental activity                                                    |
-| 🍖      | meat (combine with animal for type)                                |
+| 🥩      | meat (combine with animal for type)                                |
 | 🎖️      | military                                                           |
 | 💵      | money                                                              |
 | 🌙      | month                                                              |
@@ -70,6 +70,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ◱       | room                                                               |
 | 🗣       | say, talk                                                          |
 | 👀      | see, look                                                          |
+| ⌼       | shape, form                                                        |
 | 🤏      | small                                                              |
 | 🧪      | substance                                                          |
 | ∯       | surface                                                            |

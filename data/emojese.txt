@@ -82,6 +82,7 @@
 🐛🦋	become
 🛏◱	bedroom
 🐄🍖	beef
+🐄🥩	beef
 🍺	beer
 ◐⏰	before
 1️⃣	begin/first
@@ -232,7 +233,7 @@
 ⟿	do/-ing
 🧑‍⚕️	doctor
 💲	dollar
-🏁	done/end
+⌛	done
 ·	dot
 ⬇️	down
 🔋🪫	drain
@@ -253,6 +254,7 @@
 ⤓⤓	each
 ⇈🌅	earlier
 🌅	early/morning
+↤💵	earn
 🌍	Earth/world
 ⥤🧭	east
 🚫🧩	easy
@@ -328,20 +330,24 @@
 🧠💥	forget
 ⤺🧠💥	forgot
 🍴−🔪	fork
-[○□]	form/shape
+⌼	form/shape
 ⤺🔍	found
 ０💵	free
 5☀️	Friday
 🫂🧑	friend
 ↫	from
 ◑	front
+⛽	fuel
 ⍐	full / enough
 。	full stop
 😀	fun
 [🎲🃏]	game
 🌱📍	garden
 ⛽	gasoline
+⛽	gasoline/fuel
 ⤺↦	gave
+⚣	gay
+[♀️♂]	gender
 ↤	get
 🐿️	get ready/prepare
 🎁	gift
@@ -482,6 +488,7 @@ __↕	how much
 ⤺🦮	led
 ↰	left
 ⤺⎋	left
+⚢	lesbian
 ⇊	less
 ↦	let/give
 🇦	letter
@@ -532,7 +539,7 @@ __↕	how much
 👇	me/I
 🍽️	meal
 👺~	mean
-🍖	meat
+🥩	meat
 ⚕️	medicine
 ⏀	medium/center
 🤝	meet
@@ -592,6 +599,7 @@ __↕	how much
 🚫⟢	not yet
 📝	note
 🚫⬚	nothing
+🗣️🔔	notify
 [⬚]	noun
 🏝	noun
 11🌙	November
@@ -617,6 +625,8 @@ __↕	how much
 ∃1の	only
 📕📖	open
 ↔️	or
+🟧	orange
+🍊	orange
 𐄛・	other
 👇👇の	our
 📤	out
@@ -625,7 +635,8 @@ __↕	how much
 💁♾️	own
 📄	page/paper
 💥😬	pain
-🎨	paint
+🎨🖌️	paint
+👖	pants
 📄	paper
 🧑‍🍼	parent
 🏞	park
@@ -634,8 +645,9 @@ __↕	how much
 |👣|	path
 🤒🧑	patient
 ▥	pattern
-💸	pay/lose
-🕊️~	peaceful
+↦💵	pay
+☮️	peace
+☮️~	peaceful
 👥	people
 🎭⟿	perform
 👤	person
@@ -647,6 +659,7 @@ __↕	how much
 ◔	piece/part
 📍	place
 🗺	plan
+✈️	plane/airplane
 🪴	plant
 ♳🧪	plastic
 🍽−🍴	plate
@@ -654,7 +667,7 @@ __↕	how much
 🤾🧑	player
 🙏🏻	please
 ➕	plus/add
-	pocket
+🧥🕳️	pocket
 ☠️🧪	poison
 👮	police
 🏛️💬の	political
@@ -662,6 +675,7 @@ __↕	how much
 🏛️💬	politics
 💧🔲	pool
 🚫💵	poor
+🐖🥩	pork
 🫗	pour
 ⚡	power
 🛐⟿	pray
@@ -689,6 +703,7 @@ __↕	how much
 🤫~	quiet
 ⇈	quite/more
 [🏇🏎]	race
+👤🎨	race
 📻	radio
 🌧️	rain
 🏋️	raise/lift
@@ -708,11 +723,13 @@ __↕	how much
 𐄛・	rest/other
 🥡📍	restaurant
 ↩	return
+🍚	rice
+💵🤑	rich
 💲の	rich
 ↱	right
 ✅	right
 🌅	rise/morning
-💧𐤛	river
+|💧|	river
 |🛞|	road
 🏠◠	roof
 🏠◱	room
@@ -730,7 +747,7 @@ __↕	how much
 ⤺👀	saw
 🗣	say
 🗣	says/say
-🏫	school
+🎓🏫	school
 ⚗️	science
 ▦	screen
 🌊📍	sea
@@ -750,8 +767,9 @@ __↕	how much
 ⧛ ⧚	shake
 	shall
 ⌊💧	shallow
-[○□]	shape
+⌼	shape
 👩	she/woman
+👕	shirt
 [👕]	shirt
 🔫⟿	shoot
 🛒	shop
@@ -813,12 +831,14 @@ __↕	how much
 1️⃣	start/first
 ⤓	stay
 🦝	steal
+⎈	steer
 〰	still/continue
 ⤺🦝	stole
 🪨	stone/rock
 ⤺🧍	stood
 🛑	stop
 🏬	store
+⛈️	storm
 🚫⌒	straight
 👾	strange/weird
 	street
@@ -885,6 +905,7 @@ __↕	how much
 ⤺⚾⟿	threw
 ⤃	through
 ⚾⟿	throw
+⛈️	thunderstorm/storm
 4☀️	Thursday
 ⇥⇤	tight/narrow
 ↬⏰	till/until
