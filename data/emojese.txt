@@ -66,6 +66,7 @@
 [🎾🧶]	ball
 🎶👥	band
 🍻📍	bar
+◡	base/bottom
 🏠◡	basement
 🛁	bathe
 🚻	bathroom/restroom
@@ -111,7 +112,7 @@
 ⤺💵↹⬚	bought
 📦	box
 💥	break/crash
-[🥞]	breakfast
+🌅🍽️	breakfast
 🌉	bridge
 🎒	bring/carry
 ⤺💥	broke/crashed
@@ -197,6 +198,7 @@
 ✂️	cut
 🧸	cute
 👨‍🍼	dad/father
+💃	dance
 ☠️	dangerous
 🚫💡	dark
 📅	date
@@ -216,7 +218,7 @@
 🍎🍊	different
 🧩~	difficult
 ⛏️	dig
-[🍲]	dinner
+🌃🍽️	dinner
 🧭	direction
 🚫🧼~	dirty
 👥👍👎	disagree
@@ -227,7 +229,9 @@
 🚫⟿	do not
 ⟿	do/-ing
 🧑‍⚕️	doctor
+💲	dollar
 🏁	done/end
+·	dot
 ⬇️	down
 🔋🪫	drain
 ✍️🖼	draw
@@ -250,9 +254,12 @@
 🌍	Earth/world
 ⥤🧭	east
 🚫🧩	easy
-🍽️	eat
+😋🍽️	eat
 	either
 🗳⏰	election
+⚡~	electric
+⚡~	electronic/electric
+[📺]	electronics
 	else
 📧	email
 🖼️💬	Emojese
@@ -282,7 +289,7 @@
 🍁⏰	fall
 ⊥	false
 ⇲📰の	famous
-⇲🏟️	fan
+🏟️🧑	fan
 ⛺🏕️	far
 🧑‍🌾📍	farm
 💨~	fast
@@ -309,9 +316,10 @@
 ⤺🛩⟿	flew
 ⤺🛩⟿	flew
 🏠◱◡	floor
+🌼	flower
 🛩⟿	fly
 ↤🐕‍🦺	follow
-🥫	food
+🍲	food
 ↬	for/to
 🌲🌳	forest
 ♾️	forever/always
@@ -322,7 +330,7 @@
 ⤺🔍	found
 ０💵	free
 5☀️	Friday
-🫂	friend
+🫂🧑	friend
 ↫	from
 ◑	front
 ⍐	full / enough
@@ -336,6 +344,7 @@
 🐿️	get ready/prepare
 🎁	gift
 ↦	give
+🪟🧪	glass
 →	go
 🔱	god
 🥇🧪	gold
@@ -349,8 +358,11 @@
 ◐👩‍🍼	grandmother
 ◐👨‍🍼	grandpa/grandfather
 🟩🌾	grass
+🪨🎨	gray
 🦸	great/super
+🟩	green
 ⤺🌱🌳	grew
+🪨🎨	grey/gray
 🌍∯	ground
 ⟨ ⟩	group
 🌱🌳	grow
@@ -367,11 +379,15 @@
 😄	happy
 🪵🖐	hard
 💁	has
+[🎩]	hat
 💁	have/has
 👨	he/man
 👤◔	head
+🚫🤒	healthy
 👂	hear
 ⤺👂	heard
+🫀	heart
+♨️↕	heat
 👼📍	heaven
 🏋️~	heavy
 ⤺🤲	held
@@ -380,13 +396,14 @@
 🛠️🧑‍🤝‍🧑	help
 🛠️🧑‍🤝‍🧑🧑	helper
 👩の	her
+👩👈	her
 👉📍	here
 👋	hey/hello
 👋	hi/hello
 ⌈	high
 🥾⟿	hike
 🤏🏔	hill
-🙍‍♂️	him
+🙍‍♂️👈	him
 🙍‍♂️の	his
 👊	hit
 🤔	hmm
@@ -398,6 +415,8 @@
 __🔨	how
 __🕑🕓	how long
 __↕	how much
+🫂	hug
+🧑	human/person
 ⤺🪝⟿	hung
 ❤️‍🔥🍽️	hungry
 🤕	hurt
@@ -405,7 +424,7 @@ __↕	how much
 👇	I
 💡	idea
 ⍰	if
-🖼	image
+🖼	image/picture
 ‼️	important
 📥	in
 ◑	in front/front
@@ -415,17 +434,19 @@ __↕	how much
 ⚆	inside
 [🎻]	instrument
 🤔~	interesting
-🌐	internet
+🌍🌐	internet
 ⇲	into
 🫥	invisible
 =	is
 ≠	is not
+🏝️	island
 ≠	isnt/is not
 ⬚	it
 ⬚の	its
 1🌙	January
 🛠️↹💵	job
 🤝	join/meet
+🧃	juice
 7🌙	July
 🐇⟿	jump
 6🌙	June
@@ -469,9 +490,11 @@ __↕	how much
 💡~	light
 🪶~	light
 💙	like
+👤🫦	lip
 👂	listen/hear
 🤏	little/small
 🕊️⟿	live
+📍	location/place
 🔒	lock
 🤣	lol
 🐍~	long
@@ -485,7 +508,7 @@ __↕	how much
 ⌊	low
 🍀	luck
 🍀~	lucky
-[🥪]	lunch
+🕛🍽️	lunch
 ⚙️	machine
 ⤺🔨⟿	made
 ⇥⇤📕	magazine
@@ -493,10 +516,11 @@ __↕	how much
 1️⃣の	main/first
 🔨⟿	make
 ♂	male
-◓👤	manager
+◓🧑	manager
 ✖️✖️	many
 🗺️	map
 3🌙	March
+💍↹💍	marriage
 ⚭	married
 💍⟿	marry
 🧪	material/substance
@@ -504,12 +528,14 @@ __↕	how much
 🎲	may/maybe
 🎲	maybe
 👇	me/I
+🍽️	meal
 👺~	mean
 🍖	meat
 ⚕️	medicine
 ⏀	medium/center
 🤝	meet
 🤝	meeting/meet
+🫠	melt
 ✉️	message
 ⤺🤝	met
 🪙🧪	metal
@@ -519,6 +545,7 @@ __↕	how much
 🥛	milk
 🧠	mind
 👇の	mine/my
+🤏🕑	minute
 💔	miss
 ⤭	mix
 👩‍🍼	mom/mother
@@ -535,7 +562,7 @@ __↕	how much
 🎞️	movie
 ⇈	much/more
 ↦💀	murder/kill
-🎵	music
+🎶	music
 ❗	must
 👇の	my
 📛	name
@@ -544,9 +571,12 @@ __↕	how much
 [🏔🍃]	nature
 ⚓️🎖️	navy
 🏕️⛺	near
+👤◡◔	neck
 	neck
 ❤️‍🔥↤	need
+🪡➖🧵	needle
 ⏭️🏠🧑	neighbor
+🌐	network
 🚫⏰	never
 ✨	new
 ⏭️	next
@@ -554,6 +584,7 @@ __↕	how much
 🌃	night
 👎	no/bad
 🚫👤	nobody
+🕛	noon
 ⥣🧭	north
 🚫	not
 🚫⟢	not yet
@@ -564,6 +595,7 @@ __↕	how much
 11🌙	November
 👉⏰	now
 🚫📍	nowhere
+☢️~	nuclear
 #	number
 🌊📍	ocean
 10🌙	October
@@ -609,6 +641,7 @@ __↕	how much
 📱	phone
 📷🖼	photograph
 ⌥	pick/choose
+🖼	picture
 ◔	piece/part
 📍	place
 🗺	plan
@@ -735,7 +768,7 @@ __↕	how much
 🌐📍	site
 ↕	size
 👤∯	skin
-	skirt
+👗◡	skirt
 🟦☁️	sky
 🛌	sleep
 😴	sleepy
@@ -914,7 +947,7 @@ __↕	how much
 ❄️~	weak
 👖⟿	wear
 [☀️🌧️]	weather
-💒	wedding
+💍💒	wedding
 3☀️	Wednesday
 ⓻☀️	week
 ⚖️↕	weight

@@ -198,8 +198,8 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <p>Brackets are <b>categories</b> represented by 1 or more emoji:</p>
         <table>
           <tr>
-            <td>[🥞]</td>
-            <td>breakfast</td>
+            <td>[🖼️]</td>
+            <td>art</td>
           </tr>
           <tr>
             <td>[⚽]</td>
