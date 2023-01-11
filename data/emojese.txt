@@ -28,6 +28,7 @@
 &	also/and
 ♾️	always
 =	am/is
+🤩~	amazing
 	an
 &	and
 [🐘🐁]	animal
@@ -149,7 +150,7 @@
 🎒	carry
 🕸️	catch
 🏠◱◠	ceiling
-👤🦠	cell
+👤🦠◔	cell
 ⏀	center
 🧗	challenge
 🔄	change
@@ -171,7 +172,7 @@
 [👖]	clothes
 [👖]	clothing/clothes
 ☁️~	cloudy
-🎤📍	club
+💃📍	club
 🧥	coat
 ☕	coffee
 🧊~	cold
@@ -190,6 +191,7 @@
 😎	cool
 ⧉	copy
 ⟓	corner
+✅	correct
 ⤺💪	could
 🔢⟿	count
 ⬇️◓	cover
@@ -441,6 +443,7 @@ __↕	how much
 📥	in
 ◑	in front/front
 🗳	include
+❌	incorrect/wrong
 🗣	inform/say
 🤕	injury
 ⚆	inside
@@ -731,9 +734,8 @@ __↕	how much
 ↩	return
 🍚	rice
 💵🤑	rich
-💲の	rich
 ↱	right
-✅	right
+✅	right/correct
 🌅	rise/morning
 |💧|	river
 |🛞|	road
