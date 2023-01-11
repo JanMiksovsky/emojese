@@ -63,6 +63,7 @@
 ⛺🏕️	away
 ◐	back
 👤◐	back
+🏠◐🪴	backyard
 👎	bad
 🛍	bag
 [🎾🧶]	ball
@@ -71,6 +72,7 @@
 ◡	base/bottom
 🏠◡	basement
 🛁	bathe
+🛁⟿	bathe
 🚻	bathroom/restroom
 ♾️=	be
 🏖️📍	beach
@@ -168,6 +170,7 @@
 🏕️⛺	close/near
 [👖]	clothes
 [👖]	clothing/clothes
+☁️~	cloudy
 🎤📍	club
 🧥	coat
 ☕	coffee
@@ -177,7 +180,7 @@
 ←	come
 💻	computer
 ☑	confirm/check
-😕	confused
+💭😕	confused
 💭	consider/think
 🪵🔊	consonant
 📞	contact/call
@@ -224,6 +227,7 @@
 🌃🍽️	dinner
 🧭	direction
 🚫🧼~	dirty
+🟫🌍∯	dirty
 👥👍👎	disagree
 🚫↦💪	disallow
 😐🫥	disappear
@@ -248,7 +252,7 @@
 🚫💧~	dry
 ⤺⛏️	dug
 🪨~	dumb
-🕑⤻🕓	duration
+⏰↕	duration
 〰️	during/continue
 	dust
 ⤓⤓	each
@@ -421,7 +425,7 @@
 ♨️	hot
 🕑	hour
 __🔨	how
-__🕑🕓	how long
+__⏰↕	how long
 __↕	how much
 🫂	hug
 🧑	human/person
@@ -641,7 +645,7 @@ __↕	how much
 🧑‍🍼	parent
 🏞	park
 ◔	part
-💯	pass/best
+💯	pass/win
 |👣|	path
 🤒🧑	patient
 ▥	pattern
@@ -695,6 +699,7 @@ __↕	how much
 💻🧮🧑	programmer
 🍻📍	pub/bar
 ⛓️	pull
+🟪	purple
 👐	push
 📦⬇️	put
 👸	queen
@@ -706,6 +711,7 @@ __↕	how much
 👤🎨	race
 📻	radio
 🌧️	rain
+🌧️~	rainy
 🏋️	raise/lift
 🛬	reach/arrive
 📖👀	read
@@ -782,23 +788,25 @@ __↕	how much
 🤒	sick
 ⚆	side
 [🛑]	sign
+📄✍️	sign
+🪨🎨🪙🧪	silver
 ↫⏰	since
 🗣🎶	sing
 ⚖️🧑‍🍼の👧	sister
-🪑	sit
+🪑⟿	sit
 🌐📍	site
 ↕	size
 👤∯	skin
 👗◡	skirt
 🟦☁️	sky
-🛌	sleep
+🛌⟿	sleep
 😴	sleepy
 ⤺🛌	slept
 🐌~	slow
 🤏	small
 🎓~	smart
 👃⟿	smell
-	smile
+😊⟿	smile
 🤏🍽️	snack
 ❄️	snow
 ⇥	so
@@ -818,6 +826,7 @@ __↕	how much
 🤏⏰	soon
 🙇	sorry
 🔊	sound
+💧🍲	soup
 ⥥🧭	south
 🌌	space
 ⭐️	special
@@ -826,8 +835,9 @@ __↕	how much
 [⚽]	sport
 🌷⏰	spring
 ◻~	square
+🍲🔄👖🎨	stain
 	stain
-🧍	stand
+🧍⟿	stand
 1️⃣	start/first
 ⤓	stay
 🦝	steal
@@ -841,7 +851,6 @@ __↕	how much
 ⛈️	storm
 🚫⌒	straight
 👾	strange/weird
-	street
 |🛞|	street/road
 💪~	strong
 🎓🧑	student
@@ -851,8 +860,10 @@ __↕	how much
 🧪	substance
 ◻️🍯	sugar
 ↦💬	suggest
+🕴️👖	suit
 ☀️⏰	summer
 7☀️	Sunday
+☀️~	sunny
 🦸	super
 🛠️🧑‍🤝‍🧑	support/help
 ❗	supposed/must
@@ -873,6 +884,7 @@ __↕	how much
 🧑‍🏫⟿	teach
 🧑‍🏫	teacher
 ⟨👥⟩	team
+😢💧	tear
 [💻]	technology
 🗣	tell/say
 🌡️↕	temperature
@@ -910,6 +922,7 @@ __↕	how much
 ⇥⇤	tight/narrow
 ↬⏰	till/until
 ⏰	time
+🛞	tire/wheel
 😴	tired/sleepy
 ↬	to
 ♾️	to (infinitive)
@@ -947,14 +960,15 @@ __↕	how much
 ⬆️	up
 👇👇	us/we
 🖐⬚⟿	use
-🏔📍🏔	valley
+⧲🏔	valley
 [⟿]	verb
 ⇈	very/more
 🧑↤💀	victim
 🗣👂	voice
 🗳️	vote
+🪶🔊	vowel
 ⏳	wait
-🥡🧑	waiter
+🥡💁🧑	waiter
 🛌🛏	wake
 🚶	walk
 🧱‖	wall
@@ -997,7 +1011,7 @@ __∵	why
 |⟷|	wide
 💍👩	wife
 ⤻	will
-💯	win/best
+↤💯	win
 🌬️	wind
 🍷	wine
 ❄️⏰	winter
@@ -1005,6 +1019,8 @@ __∵	why
 🧑‍🤝‍🧑	with
 🚫🧑‍🤝‍🧑	without
 ⤺🛌🛏	woke
+👩	woman
+⤺↤💯	won
 🤔⟿	wonder
 😍	wonderful
 💬	word
@@ -1019,9 +1035,11 @@ __∵	why
 ✍️🧑	writer
 ❌	wrong
 ⤺✍️	wrote
+🏠⧂🪴	yard
 👍	yeah/good
 ⥁☀️	year
 🗯️	yell
+🟨	yellow
 👍	yes/good
 ⏮️☀️	yesterday
 👋	yo/hello
