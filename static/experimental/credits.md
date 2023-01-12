@@ -83,14 +83,10 @@ noun-dirt-113123 dirt by Shawn Erdely from Noun Project
 noun-bigger-2819136 bigger by Samsul Rizal from Noun Project
 noun-knowledge-2018786 knowledge by ProSymbols from Noun Project
 personPointingAtSelf I/me by Jan Miksovsky
-
-Need:
-animal
-back (body)
-body
-bring
-care
-dumb (need something new)
-help
-listen
-path
+noun-animals-13643 animals by Pete Fecteau for Noun Project
+noun-back-3628027 back by IconPai from Noun Project
+noun-body-2952668 body by Adrien Coquet from Noun Project
+noun-caring-169351 caring by Luis Prado from Noun Project
+noun-help-3378626 help by supalerk laipawat from Noun Project
+noun-listen-4742433 Listen by Eucalyp from Noun Project
+noun-path-1925573 path by Melissa Schmitt from Noun Project

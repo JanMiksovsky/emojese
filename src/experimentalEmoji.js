@@ -8,8 +8,12 @@ const imageFolder =
 
 // This should be sorted from longest keys to shortest.
 export default {
+  // 4 characters
+  "[🐘🐁]": `<img src="${imageFolder}/noun-animals-13643.svg">`,
+
   // 3 characters
   "[😀]": `<img src="${imageFolder}/noun_mood_1415339.svg">`,
+  "|👣|": `<img src="${imageFolder}/noun-path-1925573.svg">`,
   "|🛞|": `<img src="${imageFolder}/noun_Road_1141292.svg">`,
   "⇥⇤📕": `<img src="${imageFolder}/noun_magazine_15905.svg">`,
   "⟨👥⟩": `<img src="${imageFolder}/noun_team_3240256.svg">`,
@@ -41,25 +45,29 @@ export default {
   "🐘~": `<img src="${imageFolder}/noun-bigger-2819136.svg">`,
   "🐿️~": `<img src="${imageFolder}/noun_ready_1823361.svg">`,
   "👇👇": `<img src="${imageFolder}/noun_together_1742410.svg">`,
+  "👤∀": `<img src="${imageFolder}/noun-body-2952668.svg">`,
+  "👤◐": `<img src="${imageFolder}/noun-back-3628027.svg">`,
   "💇‍♀️🧪": `<img src="${imageFolder}/noun_hair_2058198.svg">`,
   "💡⚙️": `<img src="${imageFolder}/noun_lamp_192630.svg">`,
   "💧𐤛": `<img src="${imageFolder}/noun_river_2025745.svg">`,
   "💧🔲": `<img src="${imageFolder}/noun_Pool_3417915.svg">`,
   "📖⟿": `<img src="${imageFolder}/noun_read_2008322.svg">`,
   "📦⬇️": `<img src="${imageFolder}/noun_Put In Package_1726694.svg">`,
+  "🔊👂": `<img src="${imageFolder}/noun-listen-4742433.svg">`,
   "🚫🧩": `<img src="${imageFolder}/noun_easy_3428320.svg">`,
   "🛌💭": `<img src="${imageFolder}/noun_dreaming_2071010.svg">`,
   "🛏◱": `<img src="${imageFolder}/noun_bedroom_1122147.svg" >`,
   "🛠️📍": `<img src="${imageFolder}/noun_Office_26565.svg">`,
+  "🛠️🧑‍🤝‍🧑": `<img src="${imageFolder}/noun-help-3378626.svg">`,
   "🟩🌾": `<img src="${imageFolder}/noun_grass_2939117.svg">`,
   "🤏🏙️": `<img src="${imageFolder}/noun_Town_1367604.svg">`,
   "🥛⟿": `<img src="${imageFolder}/noun_drinking_154888.svg">`,
   "🥡📍": `<img src="${imageFolder}/noun_Restaurant_2662746.svg">`,
   "🦵⏀": `<img src="${imageFolder}/noun_knee_67788.svg">`,
+  "🧑‍⚕️⟿": `<img src="${imageFolder}/noun-caring-169351.svg">`,
   "🧑‍🌾📍": `<img src="${imageFolder}/noun_Farm_557239.svg">`,
   "🧩~": `<img src="${imageFolder}/noun_tired_1749591.svg">`,
   "🧱‖": `<img src="${imageFolder}/noun_wall_3210004.svg">`,
-  "🪨~": `<img src="${imageFolder}/noun_dumb_108112.svg">`,
   "🪴🥚": `<img src="${imageFolder}/noun_seeding_3541933.svg">`,
 
   // 1 characters
@@ -89,6 +97,5 @@ export default {
   "🦝": `<img src="${imageFolder}/noun_stealing money_657568.svg">`,
   "🦮": `<img src="${imageFolder}/noun_lead_2404496.svg">`,
   "🧑‍⚕️": `<img src="${imageFolder}/noun_caring_169351.svg">`,
-  "🚑": `<img src="${imageFolder}/noun_help_3378626.svg">`,
   // "☀️": `<img src="${imageFolder}/noun_day and night_33746.svg">`,
 };

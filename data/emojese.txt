@@ -254,7 +254,7 @@
 💊	drug
 🚫💧~	dry
 ⤺⛏️	dug
-🪨~	dumb
+🚫🧠	dumb
 ⏰↕	duration
 〰️	during/continue
 	dust
@@ -435,7 +435,7 @@ __↕	how much
 🧑	human/person
 ⤺🪝⟿	hung
 ❤️‍🔥🍽️	hungry
-🤕	hurt
+🤕💥⟿	hurt
 💍👨	husband
 👇	I
 💡	idea
@@ -509,7 +509,7 @@ __↕	how much
 🪶~	light
 💙	like
 👤🫦	lip
-👂	listen/hear
+🔊👂	listen
 🤏	little/small
 🕊️⟿	live
 📍	location/place
@@ -643,7 +643,7 @@ __↕	how much
 ◓	over
 💁♾️	own
 📄	page/paper
-💥😬	pain
+🤕💥	pain
 🎨🖌️	paint
 👖	pants
 📄	paper
