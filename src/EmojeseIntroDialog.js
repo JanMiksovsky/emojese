@@ -227,11 +227,11 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>you</td>
           </tr>
           <tr>
-            <td>🙍‍♀️</td>
+            <td>🙍‍♀️👈</td>
             <td>she</td>
           </tr>
           <tr>
-            <td>🙍‍♂️</td>
+            <td>🙍‍♂️👈</td>
             <td>he</td>
           </tr>
           <tr>

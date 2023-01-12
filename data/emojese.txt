@@ -1,6 +1,5 @@
-⟿	-ing
 ~	-ish
-の	(possessive)
+の	(possess)
 	a
 💪	able/can
 ⥁	about/around
@@ -57,7 +56,7 @@
 🛌~	asleep
 🛠️🧑‍🤝‍🧑🧑	assistant/helper
 @	at
-⤺🍽️	ate
+⤺🍽️😋	ate
 👊	attack/hit
 8🌙	August
 ✍️🧑	author
@@ -117,6 +116,7 @@
 ◡	bottom
 ⤺💵↹⬚	bought
 📦	box
+💋👨	boyfriend
 💥	break/crash
 🌅🍽️	breakfast
 🌉	bridge
@@ -194,6 +194,7 @@
 ✅	correct
 ⤺💪	could
 🔢⟿	count
+[🏳️]	country
 ⬇️◓	cover
 💥	crash
 ⤺💥	crashed
@@ -228,15 +229,15 @@
 ⛏️	dig
 🌃🍽️	dinner
 🧭	direction
+🟫🌍∯	dirt
 🚫🧼~	dirty
-🟫🌍∯	dirty
 👥👍👎	disagree
 🚫↦💪	disallow
 😐🫥	disappear
 🗣👎	disapprove
 🤒🦠	disease
+⟿	do
 🚫⟿	do not
-⟿	do/-ing
 🧑‍⚕️	doctor
 💲	dollar
 ⌛	done
@@ -264,7 +265,7 @@
 🌍	Earth/world
 ⥤🧭	east
 🚫🧩	easy
-😋🍽️	eat
+🍽️😋	eat
 	either
 🗳⏰	election
 ⚡~	electric
@@ -333,8 +334,8 @@
 ↬	for/to
 🌲🌳	forest
 ♾️	forever/always
-🧠💥	forget
-⤺🧠💥	forgot
+🎓🗑️	forget
+⤺🎓🗑️	forgot
 🍴−🔪	fork
 ⌼	form/shape
 ⤺🔍	found
@@ -357,6 +358,7 @@
 ↤	get
 🐿️	get ready/prepare
 🎁	gift
+💋👩	girlfriend
 ↦	give
 🪟🧪	glass
 →	go
@@ -384,7 +386,7 @@
 🔫	gun
 👨	guy/man
 ⤺💁	had
-🤣	haha/lol
+🤣	haha/laugh
 💇‍♀️🧪	hair
 ½	half
 🤚	hand
@@ -395,7 +397,7 @@
 💁	has
 [🎩]	hat
 💁	have/has
-👨	he/man
+👨👈	he
 👤◔	head
 🚫🤒	healthy
 👂	hear
@@ -410,14 +412,14 @@
 🛠️🧑‍🤝‍🧑	help
 🛠️🧑‍🤝‍🧑🧑	helper
 👩の	her
-👩👈	her
+👩👈	her/she
 👉📍	here
 👋	hey/hello
 👋	hi/hello
 ⌈	high
 🥾⟿	hike
 🤏🏔	hill
-🙍‍♂️👈	him
+🙍‍♂️👈	him/he
 🙍‍♂️の	his
 👊	hit
 🤔	hmm
@@ -473,7 +475,7 @@ __↕	how much
 🤴	king
 🍳◱	kitchen
 🦵⏀	knee
-⤺🎓	knew
+⤺🎓♾️	knew
 🔪	knife
 🎓♾️	know
 🎓	knowledge
@@ -484,7 +486,7 @@ __↕	how much
 🏁の	last
 🌃	late/night
 ⇈🌃	later
-🤣⟿	laugh
+🤣	laugh
 ⚖️🧑	lawyer
 🦥~	lazy
 🦮	lead
@@ -512,7 +514,7 @@ __↕	how much
 🕊️⟿	live
 📍	location/place
 🔒	lock
-🤣	lol
+🤣	lol/laugh
 🐍~	long
 👀	look
 |⟷|	loose/wide
@@ -776,7 +778,7 @@ __↕	how much
 	shall
 ⌊💧	shallow
 ⌼	shape
-👩	she/woman
+👩👈	she
 👕	shirt
 [👕]	shirt
 🔫⟿	shoot
@@ -790,7 +792,7 @@ __↕	how much
 🤒	sick
 ⚆	side
 [🛑]	sign
-📄✍️	sign
+📄_✍️	sign
 🪨🎨🪙🧪	silver
 ↫⏰	since
 🗣🎶	sing
