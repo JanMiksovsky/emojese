@@ -137,6 +137,12 @@ export default class EmojeseComposer extends ReactiveElement {
         event.preventDefault(); // Keep focus on input.
       });
 
+      window.addEventListener("hashchange", () => {
+        this[raiseChangeEvents] = true;
+        updateValueFromHash(this);
+        this[raiseChangeEvents] = false;
+      });
+
       if (window.visualViewport) {
         window.visualViewport.addEventListener("resize", () => {
           viewportResized(this);
@@ -188,7 +194,7 @@ export default class EmojeseComposer extends ReactiveElement {
       if (window.visualViewport) {
         viewportResized(this);
       }
-
+      updateValueFromHash(this);
       this[ids].input.focus();
     }
   }
@@ -460,11 +466,15 @@ function updateValueFromInput(element) {
   element[setState]({ text });
 }
 
+function updateValueFromHash(element) {
+  const hash = location.hash.replace(/^#/, "");
+  const text = decodeURIComponent(hash);
+  element[setState]({ text });
+}
+
 function viewportResized(element) {
-  const {
-    height: viewportHeight,
-    width: viewportWidth,
-  } = window.visualViewport;
+  const { height: viewportHeight, width: viewportWidth } =
+    window.visualViewport;
   element[setState]({
     viewportHeight,
     viewportWidth,
