@@ -122,6 +122,11 @@ export default class EmojeseExperimentDialog extends PlainDialog {
             height: 40px;
           }
 
+          #experiments {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+          }
+
           #experiments img {
             height: 100%;
           }
@@ -137,6 +142,12 @@ export default class EmojeseExperimentDialog extends PlainDialog {
 
           #okButton {
             padding: 0.5em 1.5em;
+          }
+
+          @media (min-width: 600px) {
+            #experiments {
+              grid-template-columns: repeat(5, 1fr);
+            }
           }
         </style>
         <button id="closeButton">
