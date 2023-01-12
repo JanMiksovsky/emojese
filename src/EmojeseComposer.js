@@ -231,7 +231,7 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         #gloss {
-          overflow: scroll;
+          overflow-y: auto;
         }
 
         #inputBar {
