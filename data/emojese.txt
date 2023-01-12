@@ -470,6 +470,7 @@ __↕	how much
 	just
 💾	keep/save
 🦵⚽️⟿	kick
+🧒	kid/child
 ↦💀	kill
 👤↦💀	killer
 🤴	king
@@ -650,6 +651,7 @@ __↕	how much
 🧑‍🍼	parent
 🏞	park
 ◔	part
+🎉	party
 💯	pass/win
 |👣|	path
 🤒🧑	patient
