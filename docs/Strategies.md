@@ -43,6 +43,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ↦       | give                                                               |
 | 🏛️      | government, politics                                               |
 | ⟨ ⟩     | group                                                              |
+| ⛳      | ground                                                             |
 | 🖐      | hand, touching                                                     |
 | ⌈       | high                                                               |
 | 🌐      | internet                                                           |
@@ -66,6 +67,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | 🧑      | person (combining form for an occupation without a specific emoji) |
 | 📍      | place                                                              |
 | ⏮️      | previous                                                           |
+| 🔗      | related, linked, connection                                        |
 | 🛐      | religion                                                           |
 | ◱       | room                                                               |
 | 🗣       | say, talk                                                          |

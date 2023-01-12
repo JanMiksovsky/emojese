@@ -12,6 +12,7 @@
 ➕	add
 [~]	adjective
 👱~	adult
+😱	afraid
 ◑⏰	after
 ◑🕛	afternoon
 ⟲	again
@@ -50,10 +51,9 @@
 ⥁	around
 🛬	arrive
 [🖼️]	art
-🖼️🧑	artist
 ⚖️	as/same
 🗣？	ask
-🛌~	asleep
+📥🛌	asleep
 🛠️🧑‍🤝‍🧑🧑	assistant/helper
 @	at
 ⤺🍽️😋	ate
@@ -78,7 +78,7 @@
 🏖️📍	beach
 👤🧔‍♂️◔	beard
 💓	beat
-🦋~	beautiful
+🪞🤩	beautiful
 ⤺🐛🦋	became
 ∵	because
 🐛🦋	become
@@ -87,7 +87,7 @@
 🐄🥩	beef
 🍺	beer
 ◐⏰	before
-1️⃣	begin/first
+▶️	begin
 ◐	behind/back
 💭♾️	believe
 ◒	below/under
@@ -117,12 +117,13 @@
 ⤺💵↹⬚	bought
 📦	box
 💋👨	boyfriend
-💥	break/crash
+💔	break
 🌅🍽️	breakfast
 🌉	bridge
+🔅🔆	bright
 🎒	bring/carry
 ⤺💥	broke/crashed
-⚖️🧑‍🍼の👦	brother
+🔗👦	brother
 ⤺🎒	brought/carried
 🟫	brown
 	btw
@@ -175,10 +176,11 @@
 💃📍	club
 🧥	coat
 ☕	coffee
-🧊~	cold
+🥶	cold
 ↤	collect/get
 🎨	color
 ←	come
+🎛️	complex
 💻	computer
 ☑	confirm/check
 💭😕	confused
@@ -217,7 +219,8 @@
 🧏	deaf
 💀	death
 12🌙	December
-⌥	decide/choose
+🧑‍⚖️	decide
+📉	decrease
 ⌈💧	deep
 😋	delicious
 🛫	depart
@@ -229,7 +232,7 @@
 ⛏️	dig
 🌃🍽️	dinner
 🧭	direction
-🟫🌍∯	dirt
+🟫⛳	dirt
 🚫🧼~	dirty
 👥👍👎	disagree
 🚫↦💪	disallow
@@ -267,12 +270,14 @@
 🚫🧩	easy
 🍽️😋	eat
 	either
+💪⏀🔗	elbow
 🗳⏰	election
 ⚡~	electric
 ⚡~	electronic/electric
 [📺]	electronics
 	else
 📧	email
+😳	embarrassed
 🖼️💬	Emojese
 🪺🪹	empty
 🏁	end
@@ -281,12 +286,14 @@
 ⚙️	engine/machine
 😄⟿	enjoy
 ⍐	enough
+🧿	envy
 ⏸	even
 🌃	evening/night
 ∀	every/all
 ∀👤	everyone
 ∀⬚	everything
 ∀📍	everywhere
+🎯	exact
 📄☐☑	exam/test
 ↹	exchange
 [🏃]	exercise
@@ -304,6 +311,7 @@
 ⛺🏕️	far
 🧑‍🌾📍	farm
 💨~	fast
+🐘~	fat/big
 👨‍🍼	father
 2🌙	February
 ⤺↦🥫	fed
@@ -323,7 +331,7 @@
 ✋◔	finger
 🏁	finish/end
 1️⃣の	first
-🚫〰	flat
+🫓~	flat
 ⤺🛩⟿	flew
 ⤺🛩⟿	flew
 🏠◱◡	floor
@@ -334,14 +342,15 @@
 ↬	for/to
 🌲🌳	forest
 ♾️	forever/always
-🎓🗑️	forget
-⤺🎓🗑️	forgot
+🎓🚮	forget
+⤺🎓🚮	forgot
 🍴−🔪	fork
 ⌼	form/shape
 ⤺🔍	found
 ０💵	free
 5☀️	Friday
 🫂🧑	friend
+🫂🧑~	friendly
 ↫	from
 ◑	front
 ⛽	fuel
@@ -350,11 +359,10 @@
 😀	fun
 [🎲🃏]	game
 🌱📍	garden
-⛽	gasoline
 ⛽	gasoline/fuel
 ⤺↦	gave
 ⚣	gay
-[♀️♂]	gender
+🚻	gender
 ↤	get
 🐿️	get ready/prepare
 🎁	gift
@@ -362,6 +370,7 @@
 ↦	give
 🪟🧪	glass
 →	go
+🥅	goal
 🔱	god
 🥇🧪	gold
 👍	good
@@ -373,13 +382,13 @@
 ◐👩‍🍼	grandma/grandmother
 ◐👩‍🍼	grandmother
 ◐👨‍🍼	grandpa/grandfather
-🟩🌾	grass
+🟩⛳	grass
 🪨🎨	gray
 🦸	great/super
 🟩	green
 ⤺🌱🌳	grew
 🪨🎨	grey/gray
-🌍∯	ground
+⛳	ground
 ⟨ ⟩	group
 🌱🌳	grow
 🔮	guess
@@ -387,7 +396,7 @@
 👨	guy/man
 ⤺💁	had
 🤣	haha/laugh
-💇‍♀️🧪	hair
+🦰	hair
 ½	half
 🤚	hand
 🪝⟿	hang
@@ -396,9 +405,11 @@
 🪵🖐	hard
 💁	has
 [🎩]	hat
+😠	hate
 💁	have/has
 👨👈	he
 👤◔	head
+❤️‍🩹	heal
 🚫🤒	healthy
 👂	hear
 ⤺👂	heard
@@ -414,19 +425,21 @@
 👩の	her
 👩👈	her/she
 👉📍	here
+👩🤳	herself
 👋	hey/hello
 👋	hi/hello
 ⌈	high
 🥾⟿	hike
 🤏🏔	hill
 🙍‍♂️👈	him/he
+🙍‍♂️🤳	himself
 🙍‍♂️の	his
 👊	hit
 🤔	hmm
 🤲	hold
 🏠	home
 💭🕊	hope
-♨️	hot
+🤏🥵	hot
 🕑	hour
 __🔨	how
 __⏰↕	how long
@@ -446,6 +459,7 @@ __↕	how much
 ◑	in front/front
 🗳	include
 ❌	incorrect/wrong
+📈	increase
 🗣	inform/say
 🤕	injury
 ⚆	inside
@@ -460,7 +474,9 @@ __↕	how much
 ≠	isnt/is not
 ⬚	it
 ⬚の	its
+⬚🤳	itself
 1🌙	January
+🧿💔	jealous
 🛠️↹💵	job
 🤝	join/meet
 🧃	juice
@@ -468,14 +484,14 @@ __↕	how much
 🐇⟿	jump
 6🌙	June
 	just
-💾	keep/save
+💾	keep
 🦵⚽️⟿	kick
 🧒	kid/child
 ↦💀	kill
 👤↦💀	killer
 🤴	king
 🍳◱	kitchen
-🦵⏀	knee
+🦵⏀🔗	knee
 ⤺🎓♾️	knew
 🔪	knife
 🎓♾️	know
@@ -503,11 +519,11 @@ __↕	how much
 ↦	let/give
 🇦	letter
 📚📍	library
-🗣⊥	lie
+🤥	lie
 [🌱]	life
 🏋️	lift
-💡~	light
 🪶~	light
+🔅🔆	light/bright
 💙	like
 👤🫦	lip
 🔊👂	listen
@@ -584,6 +600,7 @@ __↕	how much
 🎶	music
 ❗	must
 👇の	my
+👇🤳	myself
 📛	name
 🤏🛌	nap
 ⇥⇤	narrow
@@ -639,6 +656,7 @@ __↕	how much
 🍊	orange
 𐄛・	other
 👇👇の	our
+👇👇🤳	ourself
 📤	out
 ⧂	outside
 ◓	over
@@ -652,7 +670,7 @@ __↕	how much
 🏞	park
 ◔	part
 🎉	party
-💯	pass/win
+💯	pass
 |👣|	path
 🤒🧑	patient
 ▥	pattern
@@ -676,7 +694,7 @@ __↕	how much
 🍽−🍴	plate
 [🤾]	play
 🤾🧑	player
-🙏🏻	please
+🙇🙏	please
 ➕	plus/add
 🧥🕳️	pocket
 ☠️🧪	poison
@@ -684,7 +702,7 @@ __↕	how much
 🏛️💬の	political
 🏛️🧑	politician
 🏛️💬	politics
-💧🔲	pool
+⛲🔲	pool
 🚫💵	poor
 🐖🥩	pork
 🫗	pour
@@ -693,7 +711,7 @@ __↕	how much
 🐿️	prepare
 🎁	present/gift
 ◠🏛️🧑	president
-🦢~	pretty
+🪞🤩	pretty/beautiful
 ⇈	pretty/more
 ⏮️	previous
 💵↕	price
@@ -720,6 +738,7 @@ __↕	how much
 🌧️	rain
 🌧️~	rainy
 🏋️	raise/lift
+🎲🔀	random
 🛬	reach/arrive
 📖👀	read
 🐿️~	ready
@@ -729,9 +748,14 @@ __↕	how much
 📥	receive
 🏕️⛺⏰	recent
 🟥	red
+🔗~	related
 🛐	religion
 💭🎓	remember
+🚮	remove
+📤↩	reply
 📰✍️🧑	reporter
+👥🗣️	reputation
+⛑️	rescue/save
 🤏🛌	rest/nap
 𐄛・	rest/other
 🥡📍	restaurant
@@ -755,7 +779,8 @@ __↕	how much
 ⤺🗣🎶	sang
 ⤺🪑	sat
 6☀️	Saturday
-💾	save
+💾	save/keep
+⛑️	save/rescue
 ⤺👀	saw
 🗣	say
 🗣	says/say
@@ -765,14 +790,15 @@ __↕	how much
 🌊📍	sea
 🔍	search/find
 🌷🍁⏰	season
+🤐	secret
 👀	see/look
 🪴🥚	seed
 🪞	seem
 	self
 ⬚↹💵	sell
-📤	send
-	sense
-⤺📤	sent
+📤⟿	send
+🧠⟿	sense
+⤺📤⟿	sent
 9🌙	September
 ⌥	set/choose
 🛌🎆	sex
@@ -798,16 +824,16 @@ __↕	how much
 🪨🎨🪙🧪	silver
 ↫⏰	since
 🗣🎶	sing
-⚖️🧑‍🍼の👧	sister
+🔗👧	sister
 🪑⟿	sit
 🌐📍	site
-↕	size
+📶↕	size
 👤∯	skin
 👗◡	skirt
 🟦☁️	sky
-🛌⟿	sleep
+🛌😴	sleep
 😴	sleepy
-⤺🛌	slept
+⤺🛌😴	slept
 🐌~	slow
 🤏	small
 🎓~	smart
@@ -844,7 +870,7 @@ __↕	how much
 🍲🔄👖🎨	stain
 	stain
 🧍⟿	stand
-1️⃣	start/first
+1️⃣の	start/first
 ⤓	stay
 🦝	steal
 ⎈	steer
@@ -852,7 +878,7 @@ __↕	how much
 ⤺🦝	stole
 🪨	stone/rock
 ⤺🧍	stood
-🛑	stop
+⏹️	stop
 🏬	store
 ⛈️	storm
 🚫⌒	straight
@@ -860,7 +886,7 @@ __↕	how much
 |🛞|	street/road
 💪~	strong
 🎓🧑	student
-🔬	study
+🔬🧐	study
 ⬚⬚	stuff/things
 ↦	submit/give
 🧪	substance
@@ -880,6 +906,7 @@ __↕	how much
 💦	sweat
 🍯~	sweet
 🏊‍♀️	swim
+⤺🤬	swore
 ┳┳	table
 ↤	take/get
 🗣💬	talk
@@ -897,16 +924,17 @@ __↕	how much
 📄☐☑	test
 ⌨️	text/type
 ﹥	than
-🙏🙏	thank/thanks
-🙏🙏	thanks
+🙏	thank/thanks
+🙏	thanks
 👈	that
 :	that
 	the
 🎭📍	theater
 👤の	their
 👥の	their
-👤👈	them
 👥👈	them
+👤👈	them
+👥👈🤳	themself
 ⇒	then
 📍👈	there
 👉👉	these
@@ -945,6 +973,7 @@ __↕	how much
 🖐⟿	touch
 🤏🏙️	town
 ⬚↹⬚	trade/transaction
+|🐾|	trail
 🚞	train
 ⬚↹⬚	transaction
 [🚌🚗]	transportation
@@ -953,9 +982,9 @@ __↕	how much
 ⊨	true
 🧗⟿	try
 2☀️	Tuesday
-➿	turn
+🪛➿	turn
 ⌨️	type
-🤢	ugly
+🪞🤢	ugly
 ◒	under
 💭💡	understand
 ⤺💭💡	understood
@@ -970,6 +999,7 @@ __↕	how much
 [⟿]	verb
 ⇈	very/more
 🧑↤💀	victim
+←🧑	visitor
 🗣👂	voice
 🗳️	vote
 🪶🔊	vowel
@@ -1017,7 +1047,7 @@ __∵	why
 |⟷|	wide
 💍👩	wife
 ⤻	will
-↤💯	win
+🏆	win
 🌬️	wind
 🍷	wine
 ❄️⏰	winter
@@ -1026,7 +1056,7 @@ __∵	why
 🚫🧑‍🤝‍🧑	without
 ⤺🛌🛏	woke
 👩	woman
-⤺↤💯	won
+⤺🏆	won
 🤔⟿	wonder
 😍	wonderful
 💬	word
@@ -1052,4 +1082,5 @@ __∵	why
 🫵	you
 🐣~	young
 🫵の	your
+🫵🤳	yourself
 ‍	zero-width-joiner
