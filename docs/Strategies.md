@@ -26,7 +26,7 @@ Emojis tend to be things, which leads to interpreting them as nouns. These indic
 
 ## Abstract concepts and combining forms
 
-Emojese tries to identify certain emoji as representative of a broader concept, then use this in combination with other emojis to create new words.
+Emojese tries to identify certain emoji as representative of a broader concept, then use this in combination with other emojis to create new words. These are used like [radicals](<https://en.m.wikipedia.org/wiki/Radical_(Chinese_characters)>) in Chinese and Japanese characters; they contribute a semantic meaning to the sequence.
 
 | Emojese | Meaning                                                            |
 | ------- | ------------------------------------------------------------------ |
