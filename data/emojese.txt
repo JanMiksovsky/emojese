@@ -110,7 +110,6 @@
 [🛥️]	boat
 👤∀	body
 📕	book
-📘	book
 🥱	boring
 𐄚	both
 🍾	bottle
@@ -122,7 +121,7 @@
 🌅🍽️	breakfast
 🌉	bridge
 🔅🔆	bright
-🎒	bring/carry
+🎒→	bring/carry
 ⤺💥	broke/crashed
 🔗👦	brother
 ⤺🎒	brought/carried
@@ -148,8 +147,8 @@
 🚗	car
 [🃏]	card
 🧑‍⚕️⟿	care
-⤺🎒	carried
-🎒	carry
+⤺🎒→	carried
+🎒→	carry
 🕸️	catch
 🏠◱◠	ceiling
 👤🦠◔	cell
@@ -314,18 +313,18 @@
 🏟️🧑	fan
 ⛺🏕️	far
 🧑‍🌾📍	farm
-💨~	fast
+⏩	fast
 🐘~	fat/big
 👨‍🍼	father
 2🌙	February
-⤺↦🥫	fed
-↦🥫	feed
+⤺↦🍲	fed
+↦🍲	feed
 [😀]⟿	feel
 🖐⟿	feel/touch
 [😀]	feeling
 ⤺[😀]	felt
 ♀️	female
-⠇	few
+⣠	few/several
 ⚔️	fight
 ⤺⚔️	fight
 🪫🔋	fill
@@ -495,7 +494,7 @@ __↕	how much
 ↦💀	kill
 👤↦💀	killer
 🤴	king
-🍳◱	kitchen
+🍳📍	kitchen
 🦵⏀🔗	knee
 ⤺🎓♾️	knew
 🔪	knife
@@ -538,11 +537,11 @@ __↕	how much
 🔒	lock
 🤣	lol/laugh
 🐍~	long
-👀	look
+👀	look/see
 |⟷|	loose/wide
 🚫🎓📍	lose
 ⤺🚫🎓📍	lost
-✖️✖️	lot/many
+𐄡	lot/many
 📢	loud
 ❤️	love
 ⌊	low
@@ -557,7 +556,7 @@ __↕	how much
 🔨⟿	make
 ♂	male
 ◓🧑	manager
-✖️✖️	many
+𐄡	many
 🗺️	map
 3🌙	March
 💍↹💍	marriage
@@ -655,7 +654,7 @@ __↕	how much
 ⊻	on
 1⏰	once
 🌐の	online
-∃1の	only
+⢀	only
 📕📖	open
 ↔️	or
 🟧	orange
@@ -734,8 +733,6 @@ __↕	how much
 👐	push
 📦⬇️	put
 👸	queen
-？	question
-¿	question
 🤫~	quiet
 ⇈	quite/more
 [🏇🏎]	race
@@ -760,7 +757,7 @@ __↕	how much
 🚮	remove
 📤↩	reply
 📰✍️🧑	reporter
-👥🗣️	reputation
+👥💬	reputation
 ⛑️	rescue/save
 🤏🛌	rest/nap
 𐄛・	rest/other
@@ -797,35 +794,36 @@ __↕	how much
 🔍	search/find
 🌷🍁⏰	season
 🤐	secret
-👀	see/look
+👀	see
 🪴🥚	seed
 🪞	seem
-	self
+🤳	self
 ⬚↹💵	sell
 📤⟿	send
 🧠⟿	sense
 ⤺📤⟿	sent
 9🌙	September
 ⌥	set/choose
-⠇	several
+⣠	several
 🛌🎆	sex
-⧛ ⧚	shake
+⧛⧚	shake
 	shall
 ⌊💧	shallow
 ⎄	shape
 👩👈	she
 👕	shirt
 [👕]	shirt
+⤺⧛⧚	shook
 🔫⟿	shoot
 🛒	shop
 ⌊	short/low
 🤏	short/small
 ⤺🔫⟿	shot
 ❗	should/must
-	shoulder
+💪◠🔗	shoulder
 💁👀	show
 🤒	sick
-⚆	side
+⟥	side
 [🛑]	sign
 📄_✍️	sign
 🪨🎨🪙🧪	silver
@@ -985,12 +983,13 @@ __↕	how much
 ⬚↹⬚	transaction
 [🚌🚗]	transportation
 🌳	tree
+⤺🎰	tried
 🚚	truck
 ⊨	true
 🎰	try
 2☀️	Tuesday
-🪛➿	turn
-⌨️	type
+➿	turn
+⌨️⟿	type
 🪞🤢	ugly
 ◒	under
 💭💡	understand
@@ -1022,7 +1021,7 @@ __↕	how much
 ⤺=	was
 🧼⟿	wash/clean
 ⤺≠	wasn't
-👀	watch/look
+👀	watch/see
 💧	water
 🌊	wave
 🛣️	way
