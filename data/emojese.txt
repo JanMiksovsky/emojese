@@ -27,7 +27,7 @@
 ∀	all
 ↦💪	allow
 ⤺⟢	already
-&	also/and
+➕⬚	also
 ♾️	always
 =	am/is
 🤩~	amazing
@@ -378,6 +378,7 @@
 →	go
 🥅	goal
 🔱	god
+→	goes/go
 🥇🧪	gold
 👍	good
 👋👋	goodbye
@@ -981,6 +982,7 @@ __↕	how much
 ⏭️☀️	tomorrow
 👉🌃	tonight
 ⌼	too
+➕⬚	too/also
 ⤺↤	took/got
 [🔧]	tool
 ◠	top
@@ -1062,6 +1064,7 @@ __∵	why
 |⟷|	wide
 💍👩	wife
 ⤻	will
+⤻🚫	will not
 🏆	win
 🌬️	wind
 🍷	wine
@@ -1074,6 +1077,7 @@ __∵	why
 ⤺🏆	won
 🤔⟿	wonder
 😍	wonderful
+⤻🚫	wont/will not
 💬	word
 ⤺👖⟿	wore
 🛠️	work
