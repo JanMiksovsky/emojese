@@ -243,8 +243,11 @@
 ⟿	do
 🚫⟿	do not
 🧑‍⚕️	doctor
+⟿	does/do
+🚫⟿	doesnt/do not
 💲	dollar
 ⌛	done
+🚫⟿	dont/do not
 ·	dot
 ⬇️	down
 🔋🪫	drain
@@ -363,7 +366,7 @@
 ⛽	gasoline/fuel
 ⤺↦	gave
 ⚣	gay
-🚻	gender
+[♀️♂]	gender
 ↤	get
 🐿️	get ready/prepare
 🎁	gift
@@ -416,7 +419,7 @@
 👂	hear
 ⤺👂	heard
 🫀	heart
-♨️↕	heat
+♨️	heat
 👼📍	heaven
 🏋️~	heavy
 ⤺🤲	held
