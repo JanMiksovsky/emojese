@@ -169,11 +169,11 @@ In cases where there are two emoji that have some interesting juxtaposition, Emo
 
 Categories appear in brackets.
 
-| Emojese | Meaning   |
-| ------- | --------- |
-| [🥞]    | breakfast |
-| [🐈🐕]  | pet       |
-| [⚽]    | sports    |
+| Emojese | Meaning |
+| ------- | ------- |
+| [🖼️]    | art     |
+| [🐈🐕]  | pet     |
+| [⚽]    | sports  |
 
 ## Metaphors
 
