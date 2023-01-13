@@ -1,18 +1,20 @@
-# Strategies for representing words with emojis
+# Guidelines for representing words with emojis
 
 Because there are [many common words with no obvious emoji representation](./Challenges.md), Emojese resorts to a number of strategies to produce understandable and memorable emoji sequences.
 
-## General strategies
+## General guidelines
 
-- Consider the full range of Unicode, not just emoji characters.
-- Make judicious use of mathematical symbols, including numbers. Recognize that few people will know the precise meaning of obscure mathematical symbols; it's best if the symbols are suggestive of their meanings.
-- Reserve arrows for the most common words or constructions. It is tempting to use the hundreds of Unicode arrows to suggest a wide range of actions, but relying too heavily on subtly-different arrows produces visually confusing results. See "Arrows" below.
+- Consider the full range of Unicode, not just emoji characters. The [Compart Unicode search tool](https://www.compart.com/en/unicode) is excellent for this purpose.
+- Make judicious use of mathematical symbols and arrows. See below.
 - Big, obvious distinctions are better than small, subtle ones. When sent in a messaging application, emojis can appear very small, making fine details hard to discern.
 - Choose emoji which, if not obvious, are at least recognizable, memorable, and sensible in retrospect. Few people would type 🐛🦋 for “become” on their own, but hopefully in retrospect the choice of those emoji makes sense.
 - The more common an idea is, ideally the shorter its emoji expression should be.
 - There's no need to reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat", and typing "cat" in the app already produces that emoji.
 - Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
-- Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 in their default (typically yellow) skin tone.
+- Avoid using text to convey meaning. Avoid emoji with words like 🆓, with the exception of 🆗 ("ok" is nearly universally understood). Text for proper nouns is fine.
+- Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 rather than gendered alternatives. Messages about specific people can use more specific genders.
+- Likewise, generally use the default yellow skin tone.
+- Be family-friendly. It's unclear whether adding entries like 🍆 would actually make this more fun.
 - [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
 
 ## Parts of speech indicators
@@ -39,6 +41,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | 💀      | death                                                              |
 | 🧭      | direction                                                          |
 | ♾️      | forever                                                            |
+| 🔮      | future                                                             |
 | ↤       | get                                                                |
 | ↦       | give                                                               |
 | 🏛️      | government, politics                                               |
@@ -190,8 +193,8 @@ Emojese adopts the hiragana の (“no”) as a possessive, one of its uses in J
 
 | Emojese | Meaning |
 | ------- | ------- |
-| 🏁 の   | last    |
-| 🌐 の   | online  |
+| `🏁の`  | last    |
+| `🌐の`  | online  |
 
 ## Mathematical, scientific, and musical notation
 
@@ -210,7 +213,7 @@ In a few cases, math, science, and music may have a notation with an existing me
 
 ## Symbols drawn from the entirety of Unicode
 
-In addition to emoji, Unicode contains some 140,000 other characters. Unlike the notation strategy above, here the original meaning of a character is ignored. Instead, the character is used for its pictorial value as a kind of emoji.
+In addition to emoji, Unicode contains some 140,000 other characters. Unlike the notation strategy above, here the original meaning of a character is often ignored, using it for its pictorial value as a kind of emoji.
 
 | Emojese | Meaning  |
 | ------- | -------- |

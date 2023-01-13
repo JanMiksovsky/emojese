@@ -33,10 +33,6 @@ Other goals:
 
 - The intended audience is global.
 - The initial audience is English speakers in the United States, because one has to start somewhere. When possible, avoid choices that would only make sense to U.S. speakers.
-- Avoid using text to convey meaning. Avoid emoji with words, with the exception of the word “OK” (which is nearly universally understood). Text for proper nouns is fine.
-- In cases where gender is irrelevant, use the default “person” emojis rather than gendered alternatives. Messages about specific people can use more specific genders.
-- Likewise, generally use the default yellow skin tone. Messages about specific people can use more specific depictions.
-- Be family-friendly. It's unclear whether adding entries like 🍆 would actually make this more fun. For now, you can always just type "eggplant" to pick that emoji if you want to include it.
 
 ## Evolve naturally
 
@@ -60,7 +56,7 @@ You can [contribute or update a definition](https://docs.google.com/forms/d/1-TF
 
 Identifying meaningful [emoji for some of the most common words is challenging](docs/Challenges.md).
 
-See also [strategies for representing words with emojis](docs/Strategies.md).
+See the [guidelines for representing words with emojis](docs/Guidelines.md).
 
 You're welcome to submit alternatives for words that already have definitions if you feel you've found an emoji sequence that might be clearer.
 
