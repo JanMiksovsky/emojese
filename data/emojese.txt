@@ -1,4 +1,5 @@
 ~	-ish
+᠁	(plural)
 の	(possess)
 	a
 💪	able/can
@@ -74,7 +75,7 @@
 🛁	bathe
 🛁⟿	bathe
 🚻	bathroom/restroom
-♾️=	be
+=♾️	be
 🏖️📍	beach
 👤🧔‍♂️◔	beard
 💓	beat
@@ -153,7 +154,7 @@
 🏠◱◠	ceiling
 👤🦠◔	cell
 ⏀	center
-🧗	challenge
+🧩🧗	challenge
 🔄	change
 ⇊💵	cheap
 ☑	check
@@ -261,7 +262,7 @@
 ⏰↕	duration
 〰️	during/continue
 	dust
-⤓⤓	each
+∀	each/all
 ⇈🌅	earlier
 🌅	early/morning
 ↤💵	earn
@@ -345,7 +346,7 @@
 🎓🚮	forget
 ⤺🎓🚮	forgot
 🍴−🔪	fork
-⌼	form/shape
+⎄	form/shape
 ⤺🔍	found
 ０💵	free
 5☀️	Friday
@@ -378,6 +379,7 @@
 ⤺↤	got
 🏛️	government
 🏛️の	governmental
+🌾	grain
 ◐👨‍🍼	grandfather
 ◐👩‍🍼	grandma/grandmother
 ◐👩‍🍼	grandmother
@@ -422,7 +424,7 @@
 👋	hello
 🛠️🧑‍🤝‍🧑	help
 🛠️🧑‍🤝‍🧑🧑	helper
-👩の	her
+👩👈の	her
 👩👈	her/she
 👉📍	here
 👩🤳	herself
@@ -433,7 +435,7 @@
 🤏🏔	hill
 🙍‍♂️👈	him/he
 🙍‍♂️🤳	himself
-🙍‍♂️の	his
+🙍‍♂️👈の	his
 👊	hit
 🤔	hmm
 🤲	hold
@@ -509,7 +511,7 @@ __↕	how much
 🦮	lead
 🍃	leaf
 🎓↤	learn
-⇊の	least
+⤓	least
 ⎋	leave
 ⤺🦮	led
 ↰	left
@@ -590,7 +592,7 @@ __↕	how much
 🌙	moon
 ⇈	more
 🌅	morning
-◕	most
+⤒	most
 👩‍🍼	mother
 👄	mouth
 🚛	move
@@ -801,11 +803,12 @@ __↕	how much
 ⤺📤⟿	sent
 9🌙	September
 ⌥	set/choose
+⠇	several
 🛌🎆	sex
 ⧛ ⧚	shake
 	shall
 ⌊💧	shallow
-⌼	shape
+⎄	shape
 👩👈	she
 👕	shirt
 [👕]	shirt
@@ -871,7 +874,7 @@ __↕	how much
 	stain
 🧍⟿	stand
 1️⃣の	start/first
-⤓	stay
+📍♾️	stay
 🦝	steal
 ⎈	steer
 〰	still/continue
@@ -966,7 +969,7 @@ __↕	how much
 ⤺🗣	told/said
 ⏭☀️	tomorrow
 👉🌃	tonight
-⇈	too/more
+⌼	too
 ⤺↤	took/got
 [🔧]	tool
 ◠	top
@@ -980,7 +983,7 @@ __↕	how much
 🌳	tree
 🚚	truck
 ⊨	true
-🧗⟿	try
+🎰	try
 2☀️	Tuesday
 🪛➿	turn
 ⌨️	type
