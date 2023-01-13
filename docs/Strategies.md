@@ -180,10 +180,9 @@ Emoji such as animals can be used for their metaphoric or symbolic value, often 
 | ------- | ------- |
 | 🐘~     | big     |
 | 🐝~     | busy    |
-| 🪨~     | dumb    |
 | 🦥~     | lazy    |
 | 🪶~     | light   |
-| 🐿️      | prepare |
+| 🐿️⟿     | prepare |
 
 ## Possessive marker
 
@@ -233,6 +232,7 @@ In addition to emoji, Unicode contains some 140,000 other characters. Unlike the
 | ᠁       | (plural) |
 | ◌○      | real     |
 | ▦       | screen   |
+| 🝆       | several  |
 | ⧛⧚      | shake    |
 | ⎄       | shape    |
 | ⟥       | side     |
