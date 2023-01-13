@@ -359,9 +359,9 @@ export default class EmojeseComposer extends ReactiveElement {
         </p>
         <ul>
           <li><a id="showIntroLink" href="javascript:">How to write in Emojese</a></li>
-          <li><a id="showGridLink" href="javascript:">Full list of words</a></li>
-          <li><a id="showExperimentLink" href="javascript:">Experimental emoji</a></li>
+          <li><a id="showGridLink" href="javascript:">Full word list</a></li>
           <li><a href="https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/viewform?edit_requested=true">Propose a word</a></li>
+          <li><a id="showExperimentLink" href="javascript:">Experimental emoji</a></li>
           <li><a href="https://github.com/JanMiksovsky/emojese">About</a></li>
         </ul>
       </div>
