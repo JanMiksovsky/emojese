@@ -93,8 +93,8 @@
 💭♾️	believe
 ◒	below/under
 🔨⌒	bend
-🔨⌒~	bent
 ⤺🔨⌒	bent
+🔨⌒~	bent
 💯	best
 ⇈👍	better
 ⧲	between
@@ -130,6 +130,7 @@
 🔨⟿	build/make
 🏢	building
 ⤺🔨⟿	built/made
+🝞	bump
 🔥⟿	burn
 🚌	bus
 🐝~	busy
@@ -187,7 +188,7 @@
 💭	consider/think
 🪵🔊	consonant
 📞	contact/call
-〰	continue
+〰️	continue
 ⚖️📜	contract
 🍳	cook
 😎	cool
@@ -227,7 +228,7 @@
 🔨⟿	develop/make
 ⤺	did
 💀⟿	die
-🍎🍊	different
+⊶	different
 🧩~	difficult
 ⛏️	dig
 🌃🍽️	dinner
@@ -324,7 +325,7 @@
 [😀]	feeling
 ⤺[😀]	felt
 ♀️	female
-⣠	few/several
+🝆	few/several
 ⚔️	fight
 ⤺⚔️	fight
 🪫🔋	fill
@@ -367,7 +368,7 @@
 ⚣	gay
 [♀️♂]	gender
 ↤	get
-🐿️	get ready/prepare
+🐿️⟿	get ready/prepare
 🎁	gift
 💋👩	girlfriend
 ↦	give
@@ -392,6 +393,7 @@
 🟩	green
 ⤺🌱🌳	grew
 🪨🎨	grey/gray
+𐄪	grid
 ⛳	ground
 ⟨ ⟩	group
 🌱🌳	grow
@@ -594,8 +596,8 @@ __↕	how much
 🌙	moon
 ⇈	more
 🌅	morning
-⤒	most
 >½	most
+⤒	most
 👩‍🍼	mother
 👄	mouth
 🚛	move
@@ -657,9 +659,9 @@ __↕	how much
 ⢀	only
 📕📖	open
 ↔️	or
-🟧	orange
 🍊	orange
-𐄛・	other
+🟧	orange
+⊶	other/different
 👇👇の	our
 👇👇🤳	ourself
 📤	out
@@ -676,6 +678,7 @@ __↕	how much
 ◔	part
 🎉	party
 💯	pass
+⛗	pass
 |👣|	path
 🤒🧑	patient
 ▥	pattern
@@ -713,7 +716,7 @@ __↕	how much
 🫗	pour
 ⚡	power
 🛐⟿	pray
-🐿️	prepare
+🐿️⟿	prepare
 🎁	present/gift
 ◠🏛️🧑	president
 🪞🤩	pretty/beautiful
@@ -752,6 +755,7 @@ __↕	how much
 🏕️⛺⏰	recent
 🟥	red
 🔗~	related
+🔗	relation/link
 🛐	religion
 💭🎓	remember
 🚮	remove
@@ -804,7 +808,7 @@ __↕	how much
 ⤺📤⟿	sent
 9🌙	September
 ⌥	set/choose
-⣠	several
+🝆	several
 🛌🎆	sex
 ⧛⧚	shake
 	shall
@@ -812,7 +816,6 @@ __↕	how much
 ⎄	shape
 👩👈	she
 👕	shirt
-[👕]	shirt
 ⤺⧛⧚	shook
 🔫⟿	shoot
 🛒	shop
@@ -871,7 +874,7 @@ __↕	how much
 ⤺💸	spent
 [⚽]	sport
 🌷⏰	spring
-◻~	square
+◻	square
 🍲🔄👖🎨	stain
 	stain
 🧍⟿	stand
@@ -879,7 +882,7 @@ __↕	how much
 📍♾️	stay
 🦝	steal
 ⎈	steer
-〰	still/continue
+〰️	still/continue
 ⤺🦝	stole
 🪨	stone/rock
 ⤺🧍	stood
@@ -931,14 +934,14 @@ __↕	how much
 ﹥	than
 🙏	thank/thanks
 🙏	thanks
-👈	that
 :	that
+👈	that
 	the
 🎭📍	theater
 👤の	their
 👥の	their
-👥👈	them
 👤👈	them
+👥👈	them
 👥👈🤳	themself
 ⇒	then
 📍👈	there
@@ -969,7 +972,7 @@ __↕	how much
 🦶◔	toe
 🧑‍🤝‍🧑	together/with
 ⤺🗣	told/said
-⏭☀️	tomorrow
+⏭️☀️	tomorrow
 👉🌃	tonight
 ⌼	too
 ⤺↤	took/got

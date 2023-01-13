@@ -225,7 +225,6 @@ In addition to emoji, Unicode contains some 140,000 other characters. Unlike the
 | ⟢       | happen   |
 | ⚆       | inside   |
 | ⎋       | leave    |
-| ⚭       | married  |
 | ⧂       | outside  |
 | ◔       | part     |
 | ▥       | pattern  |
