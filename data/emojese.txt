@@ -391,7 +391,7 @@
 ⛳	ground
 ⟨ ⟩	group
 🌱🌳	grow
-🔮	guess
+🗣️🔮	guess
 🔫	gun
 👨	guy/man
 ⤺💁	had
@@ -452,7 +452,7 @@ __↕	how much
 💍👨	husband
 👇	I
 💡	idea
-⍰	if
+🔮	if
 🖼	image/picture
 ‼️	important
 📥	in
