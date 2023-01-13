@@ -8,9 +8,9 @@ import {
   setState,
   state,
   template,
-} from "../node_modules/elix/src/base/internal";
-import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals";
-import PlainDialog from "../node_modules/elix/src/plain/PlainDialog";
+} from "../node_modules/elix/src/base/internal.js";
+import { fragmentFrom } from "../node_modules/elix/src/core/htmlLiterals.js";
+import PlainDialog from "../node_modules/elix/src/plain/PlainDialog.js";
 import experimentalEmojis from "./experimentalEmoji.js";
 
 export default class EmojeseExperimentDialog extends PlainDialog {
