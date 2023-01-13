@@ -226,8 +226,10 @@ export default class EmojeseComposer extends ReactiveElement {
         :host {
           box-sizing: border-box;
           display: grid;
-          grid-template-rows: minmax(0, 1fr) minmax(0, auto) minmax(0, 3fr);
-          padding: 0 0.5em;
+          gap: var(--gap);
+          grid-template-rows: minmax(0, auto) minmax(0, auto) minmax(0, 1fr);
+          padding: var(--gap);
+          --gap: 1rem;
         }
 
         #gloss {
@@ -299,7 +301,13 @@ export default class EmojeseComposer extends ReactiveElement {
         }
 
         #overview li {
+          display: inline-block;
           margin-bottom: 0.5em;
+          margin-right: 0.5em;
+        }
+
+        #tip {
+          margin-top: 0;
         }
 
         #grid {
@@ -314,8 +322,7 @@ export default class EmojeseComposer extends ReactiveElement {
 
         @media (min-width: 800px) {
           :host {
-            padding-left: 2em;
-            padding-right: 2em;
+            --gap: 2em;
           }
           
           #input {
@@ -340,15 +347,14 @@ export default class EmojeseComposer extends ReactiveElement {
         </div>
       </div>
       <div id="overview">
-        <p>
-          Emojese lets you write messages entirely in emoji by suggesting emoji
-          for common words.
+        <p id="tip">
+          Emojese lets you write messages in emoji by suggesting emoji for common words.
         </p>
         <ul>
           <li><a id="showIntroLink" href="javascript:">How to write in Emojese</a></li>
           <li><a id="showGridLink" href="javascript:">Full list of words</a></li>
           <li><a id="showExperimentLink" href="javascript:">Experimental emoji</a></li>
-          <li><a href="https://github.com/JanMiksovsky/emojese">Project info</a></li>
+          <li><a href="https://github.com/JanMiksovsky/emojese">About</a></li>
         </ul>
       </div>
       <emojese-grid id="grid"></emojese-grid>
