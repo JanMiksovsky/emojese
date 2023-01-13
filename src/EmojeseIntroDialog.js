@@ -192,7 +192,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>wake up</td>
           </tr>
         </table>
-        <p><b>Plurals</b> with ᠁ by typing “(plural)”</p>
+        <p>Indicate <b>plurals</b> with ᠁ by typing “(plural)”, or just use a number</p>
         <table>
           <tr>
             <td>☀️᠁</td>
@@ -201,6 +201,10 @@ export default class EmojeseIntroDialog extends PlainDialog {
           <tr>
             <td>🎉᠁</td>
             <td>parties</td>
+          </tr>
+          <tr>
+            <td>3🎉</td>
+            <td>three parties</td>
           </tr>
         </table>
         <p>Brackets are <b>categories</b> represented by 1 or more emoji:</p>
