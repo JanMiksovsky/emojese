@@ -6,9 +6,19 @@ Emojese is one attempt at an emoji language rich enough for interesting communic
 
 # Goals
 
-The main goal is **let people have fun.** It's fun for friends to express more complex thoughts entirely in emoji in texts/chats.
+The primary goal is **let people have fun.** It's fun for friends to express more complex thoughts entirely in emoji in texts/chats.
 
-A minor goal is to **explore emoji as a visual language for transmitting complex ideas** between parties who do not share a common natural language. Example: an airport or store posts signage in emoji so a wider range of visitors can understand it.
+In support of that primary goal:
+
+1. A tool for writing and reading Emojese needs to be fun to use: easy enough to start without studying anything, quick, and should keep the focus on the message.
+2. The tool should support the easy sending and receiving of messages using the communication tools people are already using.
+3. The language should be close enough to natural language that someone can often type a conversational message in natural language and get a corresponding sentence in Emojese.
+4. The emoji definitions for English words don't always have to be predictable, but once seen should be understandable and memorable.
+
+Other goals:
+
+1. Consider hypothetical additions to the Unicode emoji set to better express [very common words without obvious emoji](docs/Challenges.md).
+2. Explore emoji as a visual language for transmitting complex ideas between parties who do not share a common natural language. Example: store posts signage in emoji so a wider range of visitors can understand it.
 
 # Principles
 

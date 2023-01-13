@@ -1,6 +1,6 @@
 # Strategies for representing words with emojis
 
-Because a wide number of words have no obvious emoji representation (see [challenges](./Challenges.md)), Emojese resorts to a number of strategies to produce emoji sequences.
+Because there are [many common words with no obvious emoji representation](./Challenges.md), Emojese resorts to a number of strategies to produce understandable and memorable emoji sequences.
 
 ## General strategies
 
@@ -119,7 +119,7 @@ These generally use Unicode symbols that suggest a position or relationship.
 
 ## Arrows
 
-Although arrows are effective at communicating action and there are many Unicode arrows, they can be hard to tell apart and a row of different arrows is very hard to visually read. Emojese tries to avoid using too many different types of arrows.
+Although arrows are effective at communicating action and there are many Unicode arrows, they can be hard to tell apart and a row of different arrows is very hard to visually read. Emojese tries to avoid using too many different types of slightly different arrows; something about the arrow itself (direction, count, line quality, start/end decoration) should suggest the meaning.
 
 Generally speaking, action toward the speaker is to the left; action away from the speaker is to the right.
 
@@ -149,7 +149,7 @@ Generally speaking, action toward the speaker is to the left; action away from t
 | ↱       | right          |
 | ⇥       | so             |
 | ⇒       | then           |
-| ⤃       | through        |
+| ⍆       | through        |
 
 ## Comparison (resultative complement)
 
@@ -191,7 +191,7 @@ Emojese adopts the hiragana の (“no”) as a possessive, one of its uses in J
 | Emojese | Meaning |
 | ------- | ------- |
 | 🏁 の   | last    |
-| ⇊ の    | least   |
+| 🌐 の   | online  |
 
 ## Mathematical, scientific, and musical notation
 
