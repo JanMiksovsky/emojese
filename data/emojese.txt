@@ -596,6 +596,7 @@ __↕	how much
 ⇈	more
 🌅	morning
 ⤒	most
+>½	most
 👩‍🍼	mother
 👄	mouth
 🚛	move
