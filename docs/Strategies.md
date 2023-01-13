@@ -125,19 +125,31 @@ Generally speaking, action toward the speaker is to the left; action away from t
 
 | Emojese | Meaning        |
 | ------- | -------------- |
+| ⟲       | again          |
+| ⇤       | but            |
 | ←       | come           |
+| ⟿       | do             |
+| ↹       | exchange       |
 | ↬       | for            |
 | ↫       | from           |
 | ⤻       | (future tense) |
 | ↤       | get            |
 | ↦       | give           |
 | →       | go             |
+| ⇲       | into           |
+| ⤓       | least          |
 | ↰       | left           |
 | ⇊       | less           |
+| ⤭       | mix            |
 | ⇈       | more           |
+| ⤒       | most           |
+| ↔️      | or             |
 | ⤺       | (past tense)   |
 | ↩       | return         |
 | ↱       | right          |
+| ⇥       | so             |
+| ⇒       | then           |
+| ⤃       | through        |
 
 ## Comparison (resultative complement)
 
@@ -191,9 +203,43 @@ In a few cases, math, science, and music may have a notation with an existing me
 | ∀       | all               |
 | ∃       | any, some, exists |
 | ∵       | because           |
+| ⌈       | ceiling, high     |
+| ⌊       | floor, low        |
 | ⟨ ⟩     | group             |
 | ∯       | surface           |
 | ⇒       | then              |
+
+## Symbols drawn from the entirety of Unicode
+
+In addition to emoji, Unicode contains some 140,000 other characters. Unlike the notation strategy above, here the original meaning of a character is ignored. Instead, the character is used for its pictorial value as a kind of emoji.
+
+| Emojese | Meaning  |
+| ------- | -------- |
+| ◡       | bottom   |
+| ⏀       | center   |
+| ⌥       | choose   |
+| 〰️      | continue |
+| ⟓       | corner   |
+| ⌒       | curve    |
+| ⍐       | enough   |
+| 𐄪       | grid     |
+| ⟢       | happen   |
+| ⚆       | inside   |
+| ⎋       | leave    |
+| ⚭       | married  |
+| ⧂       | outside  |
+| ◔       | part     |
+| ▥       | pattern  |
+| ᠁       | (plural) |
+| ◌○      | real     |
+| ▦       | screen   |
+| ⧛⧚      | shake    |
+| ⎄       | shape    |
+| ⟥       | side     |
+| ⎈       | steer    |
+| ⌼       | too      |
+| ◠       | top      |
+| ➿      | turn     |
 
 ## Emoji pictures
 
@@ -206,7 +252,7 @@ This is something of a last-resort strategy, as it tends to require multiple cha
 
 ## Rebus or "math"
 
-This strategy is rarely employed as it requires substantial mental work to understand. "Math" operations like ➕ and ➖ can be used to indicate that one concept should be added to, or subtracted from, another.
+This strategy is also rarely employed as it requires substantial mental work to understand. "Math" operations like ➕ and ➖ can be used to indicate that one concept should be added to, or subtracted from, another.
 
 | Emojese | Meaning |
 | ------- | ------- |
