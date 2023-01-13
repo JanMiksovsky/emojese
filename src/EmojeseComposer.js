@@ -314,6 +314,13 @@ export default class EmojeseComposer extends ReactiveElement {
           font-size: 24px;
         }
 
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+
         @media (min-width: 350px) {
           #input {
             font-size: 20px;
@@ -354,6 +361,7 @@ export default class EmojeseComposer extends ReactiveElement {
           <li><a id="showIntroLink" href="javascript:">How to write in Emojese</a></li>
           <li><a id="showGridLink" href="javascript:">Full list of words</a></li>
           <li><a id="showExperimentLink" href="javascript:">Experimental emoji</a></li>
+          <li><a href="https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/viewform?edit_requested=true">Propose a word</a></li>
           <li><a href="https://github.com/JanMiksovsky/emojese">About</a></li>
         </ul>
       </div>
