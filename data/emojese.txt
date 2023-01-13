@@ -72,7 +72,7 @@
 🎶👥	band
 🍻📍	bar
 ◡	base/bottom
-🏠◡	basement
+🏠◒	basement
 🛁	bathe
 🛁⟿	bathe
 🚻	bathroom/restroom
@@ -139,12 +139,12 @@
 ⩕	by
 🎂	cake
 📞	call
+🧘~	calm
 ⤺←	came
 🏕️📍	camp
 💪	can
 🚫💪	cannot
 🚫💪	cant/cannot
-🚗	car
 🚗	car
 [🃏]	card
 🧑‍⚕️⟿	care
@@ -507,13 +507,13 @@ __↕	how much
 🎓	knowledge
 🤏🌊📍	lake
 💡⚙️	lamp
-☷	land
+⛳️☷	land
 🐘~	large/big
 🏁の	last
 🌃	late/night
 ⇈🌃	later
 🤣	laugh
-⚖️🧑	lawyer
+⚖️🧑‍💼	lawyer
 🦥~	lazy
 🦮	lead
 🍃	leaf
@@ -761,6 +761,7 @@ __↕	how much
 📥	receive
 🏕️⛺⏰	recent
 🟥	red
+🪞⟚	reflect
 🔗~	related
 🔗	relation/link
 🛐	religion
@@ -937,7 +938,6 @@ __↕	how much
 🗣	tell/say
 🌡️↕	temperature
 📄☐☑	test
-⌨️	text/type
 ﹥	than
 🙏	thank/thanks
 🙏	thanks
@@ -1003,6 +1003,7 @@ __↕	how much
 ⌨️⟿	type
 🪞🤢	ugly
 ◒	under
+◒⛳️	underground
 💭💡	understand
 ⤺💭💡	understood
 ∃1の	unique/only
@@ -1020,7 +1021,7 @@ __↕	how much
 🗣👂	voice
 🗳️	vote
 🪶🔊	vowel
-⏳	wait
+⏳👀	wait
 🥡💁🧑	waiter
 🛌🛏	wake
 🚶	walk
@@ -1081,7 +1082,7 @@ __∵	why
 💬	word
 ⤺👖⟿	wore
 🛠️	work
-🛠️🧑	worker
+🛠️👷	worker
 🌍	world
 😟	worry
 	would
