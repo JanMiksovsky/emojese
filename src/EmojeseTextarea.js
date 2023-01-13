@@ -112,7 +112,8 @@ function getPrefixBeforeInsertionPoint(state) {
     let letters = [];
     for (let i = split.length - 1; i >= 0; i--) {
       const c = split[i];
-      if ((c >= "a" && c <= "z") || c === " ") {
+      const isAlpha = /^\p{Alpha}$/u.test(c);
+      if (isAlpha || c === " ") {
         letters.unshift(c);
       } else {
         break;
@@ -121,7 +122,7 @@ function getPrefixBeforeInsertionPoint(state) {
     prefix = letters.join("");
   }
   // Don't count leading spaces in prefix.
-  const trimmed = prefix.trimLeft();
+  const trimmed = prefix.trimStart();
   return trimmed;
 }
 

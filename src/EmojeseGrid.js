@@ -324,9 +324,11 @@ function gridItemsFromEntries(entries) {
     const [gloss, preferred] = glosses.split("/");
 
     // Title is alphabetic lowercase gloss.
-    // Prepend a space to enable word-boundary match on the first word.
-    const notAlpha = /[^a-z0-9]/g;
+    // We use a Unicode property escape to match all non-alphabetic characters.
+    const notAlpha = /\P{Alpha}/gu;
     const glossText = gloss.toLowerCase().replaceAll(notAlpha, "");
+
+    // Prepend a space to enable word-boundary match on the first word.
     const title = " " + glossText;
 
     button.setAttribute("title", title);
