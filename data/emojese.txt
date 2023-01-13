@@ -8,11 +8,13 @@
 ◓	above/over
 💥	accident/crash
 ⤼	across
+⟿⬚	act
 🎭⟿	act/perform
+[⟿]	action
 🎭🧑	actor
 	actually
 ➕	add
-[~]	adjective
+~💬	adjective
 👱~	adult
 😱	afraid
 ◑⏰	after
@@ -44,6 +46,8 @@
 🏢◱	apartment
 📱🧮	app
 🫥😐	appear
+🪞⟿	appear/seem
+🪞	appearance
 🍎	apple
 🗣👍	approve
 4🌙	April
@@ -204,7 +208,7 @@
 ⤺💥	crashed
 🤪	crazy
 ✍️⟿	create
-👥👥	crowd
+𐄡👥	crowd
 😭⟿	cry
 🥃	cup
 ⌒	curve
@@ -226,6 +230,7 @@
 ⌈💧	deep
 😋	delicious
 🛫	depart
+🪞💬	description
 🔨⟿	develop/make
 ⤺	did
 💀⟿	die
@@ -261,6 +266,7 @@
 🍁	drop/fall
 💊	drug
 🚫💧~	dry
+🤙😎	dude
 ⤺⛏️	dug
 🚫🧠	dumb
 ⏰↕	duration
@@ -479,7 +485,7 @@ __↕	how much
 🫥	invisible
 =	is
 ≠	is not
-🏝️	island
+🏝	island
 ≠	isnt/is not
 ⬚	it
 ⬚の	its
@@ -638,8 +644,7 @@ __↕	how much
 📝	note
 🚫⬚	nothing
 🗣️🔔	notify
-[⬚]	noun
-🏝	noun
+⬚💬	noun
 11🌙	November
 👉⏰	now
 🚫📍	nowhere
@@ -808,7 +813,7 @@ __↕	how much
 🤐	secret
 👀	see
 🪴🥚	seed
-🪞	seem
+🪞⟿	seem
 🤳	self
 ⬚↹💵	sell
 📤⟿	send
@@ -1014,7 +1019,7 @@ __↕	how much
 👇👇	us/we
 🖐⬚⟿	use
 ⧲🏔	valley
-[⟿]	verb
+⟿💬	verb
 ⇈	very/more
 🧑↤💀	victim
 ←🧑	visitor
