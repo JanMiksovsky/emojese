@@ -81,6 +81,11 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
           justify-items: center;
         }
 
+        .word.noRuby {
+          margin-left: 0.2em;
+          margin-right: 0.2em;
+        }
+
         .base {
           line-height: 1em;
           height: 1em;
@@ -162,9 +167,14 @@ function createRuby(base, ruby, showExperimentalEmoji) {
   const displayBase = showExperimentalEmoji
     ? applyExperimentalEmoji(base)
     : base;
-  return `<div class="word">
+
+  // If there's no ruby, add space afterwards so the next word doesn't run into
+  // this one.
+  const wordClass = ruby ? "hasRuby" : "noRuby";
+
+  return `<div class="word ${wordClass}">
     <div class="base">${displayBase || "&nbsp;"}</div>
-    <div class="ruby">${ruby || "&nbsp;&nbsp;"}</div>
+    <div class="ruby">${ruby}</div>
   </div>`;
 }
 
