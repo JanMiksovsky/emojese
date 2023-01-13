@@ -110,7 +110,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <table>
           <tr>
             <td>=</td>
-            <td>is, be (Tip: can often omit this)</td>
+            <td>is</td>
           </tr>
           <tr>
             <td>🚫=</td>
@@ -124,23 +124,35 @@ export default class EmojeseIntroDialog extends PlainDialog {
         </p>
         <table>
           <tr>
-            <td>👩🚶‍♀️</td>
-            <td>She walks</td>
+            <td>👥🚶‍♀️</td>
+            <td>They walk</td>
           </tr>
           <tr>
-            <td>👩⤺🚶‍♀️</td>
-            <td>She walked (Tip: type “did walk”)</td>
+            <td>👥⤺🚶‍♀️</td>
+            <td>They walked (Tip: type “did walk”)</td>
           </tr>
           <tr>
-            <td>👩⤻🚶‍♀️</td>
-            <td>She will walk</td>
+            <td>👥⤻🚶‍♀️</td>
+            <td>They will walk</td>
           </tr>
         </table>
         <p>Make <b>verbs</b> from nouns with ⟿</p>
         <table>
           <tr>
-            <td>📚⟿</td>
-            <td>read (or reading)</td>
+            <td>🪑</td>
+            <td>chair</td>
+          </tr>
+          <tr>
+            <td>🪑⟿</td>
+            <td>sit</td>
+          </tr>
+          <tr>
+            <td>🧑‍🏫</td>
+            <td>teacher</td>
+          </tr>
+          <tr>
+            <td>🧑‍🏫⟿</td>
+            <td>teach</td>
           </tr>
         </table>
         <p>Make <b>adjectives</b> from a representative noun with ~ (“ish”)</p>
@@ -180,19 +192,15 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>wake up</td>
           </tr>
         </table>
-        <p><b>Double</b> for plurals or emphasis:</p>
+        <p><b>Plurals</b> with ᠁ by typing “(plural)”</p>
         <table>
           <tr>
-            <td>🐈🐈</td>
-            <td>cats</td>
+            <td>☀️᠁</td>
+            <td>days</td>
           </tr>
           <tr>
-            <td>⤺⤺</td>
-            <td>did (a long time ago)</td>
-          </tr>
-          <tr>
-            <td>❤️❤️</td>
-            <td>really loves</td>
+            <td>🎉᠁</td>
+            <td>parties</td>
           </tr>
         </table>
         <p>Brackets are <b>categories</b> represented by 1 or more emoji:</p>
@@ -257,7 +265,7 @@ export default class EmojeseIntroDialog extends PlainDialog {
         </p>
         <table>
           <tr>
-            <td>🙍‍♀️の🐕</td>
+            <td>👩👈の🐕</td>
             <td>her dog</td>
           </tr>
           <tr>
@@ -290,11 +298,11 @@ export default class EmojeseIntroDialog extends PlainDialog {
             <td>The girl who is tired went home.</td>
           </tr>
         </table>
-        <p><b>Conditions</b> use ⇒</p>
+        <p><b>Conditions</b></p>
         <table>
           <tr>
-            <td>🚫🌧️ ⇒ 👇⤻🏃</td>
-            <td>[If it’s] not raining, then I will run.</td>
+            <td>🔮 🚫🌧️ ⇒ 👇⤻🏃</td>
+            <td>If it’s not raining then I will run.</td>
           </tr>
         </table>
         <p>
@@ -313,25 +321,15 @@ export default class EmojeseIntroDialog extends PlainDialog {
           </tr>
         </table>
         <p>
-          <b>Questions</b> end with a question mark. It can also help to add a
-          Spanish-style opening question mark.
-        </p>
-        <table>
-          <tr>
-            <td>¿🎲 ↤ 🥡?</td>
-            <td>Maybe get takeout?</td>
-          </tr>
-        </table>
-        <p>
           <b>If no emoji exists</b> for a thing, you can try to describe it. The possessive の can be useful, as can categories.
         </p>
         <table>
           <tr>
-            <td>[🥞]の🌾</td>
-            <td>breakfast cereal (grain)</td>
+            <td>🌅🍽️🌾</td>
+            <td>breakfast cereal (“breakfast grain”)</td>
           </tr>
         </table>
-        <p>Drop <b>articles</b> like "the", "a", and "an".</p>
+        <p>Drop <b>articles</b> like “the”, “a”, and “an”.</p>
         <p>Use <b>spaces</b> to make a message easier to read.</p>
         <p id="okButtonParagraph">
           <button id="okButton">Close</button>
