@@ -4,7 +4,7 @@ Are there enough contemporary Unicode emoji to support visual communication of c
 
 No — at least, not yet. Too much is missing.
 
-The [Emojese](https://emojese.org) project takes a shot at assigning intuitive emoji representations of a reasonably large vocabulary for general communication. There are already enough emoji to make that possible, but many common words have no obvious representation emoji.
+The [Emojese emoji language](https://emojese.org) project takes a shot at assigning intuitive emoji representations of a reasonably large vocabulary for general communication. There are already enough emoji to make that possible, but many common words have no obvious representation emoji.
 
 1. While there are some 1300 emoji (not counting skin tones), they are over-concentrated in a few areas, particularly facial expressions, hearts, animals, foods, occupations, and cultural touchstones.
 2. There are very few verbs, adjectives, adverbs, prepositions, or pronouns. Setting aside the fact that there is no widely-understood grammar that could tie these together — there simply aren’t enough basic building blocks to express many common thoughts in emoji.

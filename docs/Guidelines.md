@@ -1,6 +1,6 @@
 # Guidelines for representing words with emojis
 
-Because there are [many common words with no obvious emoji representation](./Challenges.md), Emojese resorts to a number of strategies to produce understandable and memorable emoji sequences.
+Because there are [many common words with no obvious emoji representation](./Challenges.md), the Emojese emoji language project resorts to a number of strategies to produce understandable and memorable emoji sequences.
 
 ## General guidelines
 

@@ -1,4 +1,6 @@
-**Emojese** is a modest but earnest effort to explore the construction of a written language using emoji.
+# The Emojese emoji language
+
+The **Emojese** project explores the construction of a written language using emoji.
 
 When this project began in late 2020, there was no widely-accepted grammar for communicating complex thoughts in emoji. Emoji statements have been generally limited to expressing emotions, rebuses, or simple ideas directly expressible with the large but fixed vocabulary of existing emoji. Communicating ideas purely in standard emoji is made difficult by the fact that there are few or no emoji for many common verbs, pronouns, adjectives, prepositions, or abstract ideas.
 
