@@ -79,6 +79,7 @@ export default {
   "◑": `<img src="${imageFolder}/noun_ahead_984397.svg">`,
   "◒": `<img src="${imageFolder}/noun_below_2900924.svg" >`,
   "◓": `<img src="${imageFolder}/noun_over_2900915.svg" >`,
+  "◔": `<img src="${imageFolder}/noun-part-4682120.svg">`,
   "◠": `<img src="${imageFolder}/noun_above_967196.svg">`,
   "◡": `<img src="${imageFolder}/noun_bottom_967199.svg" >`,
   "⛏️": `<img src="${imageFolder}/noun_dig_2981747.svg">`,
@@ -95,5 +96,4 @@ export default {
   "🦝": `<img src="${imageFolder}/noun_stealing money_657568.svg">`,
   "🦮": `<img src="${imageFolder}/noun_lead_2404496.svg">`,
   "🧑‍⚕️": `<img src="${imageFolder}/noun_caring_169351.svg">`,
-  // "☀️": `<img src="${imageFolder}/noun_day and night_33746.svg">`,
 };
