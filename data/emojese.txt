@@ -293,7 +293,7 @@
 📧	email
 😳	embarrassed
 🖼️💬	Emojese
-🖼️🇦	emoji
+🖼️🄰	emoji
 🪺🪹	empty
 🏁	end
 ⚡	energy
@@ -519,7 +519,7 @@ __↕	how much
 🤏🌊📍	lake
 💡⚙️	lamp
 ⛳️☷	land
-[🇦文]	language
+[🄰文]	language
 🐘~	large/big
 🏁の	last
 🌃	late/night
@@ -538,7 +538,7 @@ __↕	how much
 ⚢	lesbian
 ⇊	less
 ↦	let/give
-🇦	letter
+🄰	letter
 📚📍	library
 🤥	lie
 [🕊️]	life
@@ -1004,7 +1004,7 @@ __↕	how much
 |🐾|	trail
 🚞	train
 ⬚⇆⬚	transaction
-🇦⇆文	translate
+🄰⇆文	translate
 [🚌🚗]	transportation
 🌳	tree
 ⤺🎰	tried
