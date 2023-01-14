@@ -119,7 +119,7 @@
 𐄚	both
 🍾	bottle
 ◡	bottom
-⤺💵↹⬚	bought
+⤺💵⇆⬚	bought
 📦	box
 💋👨	boyfriend
 💔	break
@@ -140,7 +140,7 @@
 🚌	bus
 🐝~	busy
 ⇤	but
-💵↹⬚	buy
+💵⇆⬚	buy
 ⩕	by
 🎂	cake
 📞	call
@@ -293,6 +293,7 @@
 📧	email
 😳	embarrassed
 🖼️💬	Emojese
+🖼️🇦	emoji
 🪺🪹	empty
 🏁	end
 ⚡	energy
@@ -309,7 +310,7 @@
 ∀📍	everywhere
 🎯	exact
 📄☐☑	exam/test
-↹	exchange
+⇆	exchange
 [🏃]	exercise
 💦	exhausted
 🤰	expect
@@ -461,6 +462,7 @@
 🕑	hour
 __🔨	how
 __⏰↕	how long
+__#	how many
 __↕	how much
 🫂	hug
 🧑	human/person
@@ -495,7 +497,7 @@ __↕	how much
 ⬚🤳	itself
 1🌙	January
 🧿💔	jealous
-🛠️↹💵	job
+🛠️⇆💵	job
 🤝	join/meet
 🧃	juice
 7🌙	July
@@ -517,6 +519,7 @@ __↕	how much
 🤏🌊📍	lake
 💡⚙️	lamp
 ⛳️☷	land
+[🇦文]	language
 🐘~	large/big
 🏁の	last
 🌃	late/night
@@ -573,7 +576,7 @@ __↕	how much
 𐄡	many
 🗺️	map
 3🌙	March
-💍↹💍	marriage
+💍⇆💍	marriage
 ⚭	married
 💍⟿	marry
 🧪	material/substance
@@ -657,7 +660,7 @@ __↕	how much
 10🌙	October
 	of
 ↥	off
-⬚↹？	offer
+⬚⇆？	offer
 🛠️📍	office
 😲	oh
 🛢	oil
@@ -819,7 +822,7 @@ __↕	how much
 🪴🥚	seed
 🪞⟿	seem
 🤳	self
-⬚↹💵	sell
+⬚⇆💵	sell
 📤⟿	send
 🧠🎓	sense
 ⤺📤⟿	sent
@@ -870,7 +873,7 @@ __↕	how much
 ⇈	so/more
 🪶🖐	soft
 	soil
-⤺⬚↹💵	sold
+⤺⬚⇆💵	sold
 🎖️🧑	soldier
 ∃	some
 ∃☀️	someday
@@ -997,10 +1000,11 @@ __↕	how much
 ◠	top
 🖐⟿	touch
 🤏🏙️	town
-⬚↹⬚	trade/transaction
+⬚⇆⬚	trade/transaction
 |🐾|	trail
 🚞	train
-⬚↹⬚	transaction
+⬚⇆⬚	transaction
+🇦⇆文	translate
 [🚌🚗]	transportation
 🌳	tree
 ⤺🎰	tried

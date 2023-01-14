@@ -132,7 +132,7 @@ Generally speaking, action toward the speaker is to the left; action away from t
 | ⇤       | but            |
 | ←       | come           |
 | ⟿       | do             |
-| ↹       | exchange       |
+| ⇆       | exchange       |
 | ↬       | for            |
 | ↫       | from           |
 | ⤻       | (future tense) |
