@@ -122,7 +122,13 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
           font-size: 0.45em;
         }
       </style>
-      <div id="gloss"></div>
+      <div id="gloss">
+        <!-- Preload with default text. -->
+        <div class="word hasRuby">
+          <div class="base">🖼️💬</div>
+          <div class="ruby">Emojese</div>
+        </div>        
+      </div>
     `;
   }
 
