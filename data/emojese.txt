@@ -97,6 +97,7 @@
 ▶️	begin/start
 ◐	behind/back
 💭♾️	believe
+🏷️💁	belong
 ◒	below/under
 🔨⌒	bend
 ⤺🔨⌒	bent
@@ -664,7 +665,7 @@ __↕	how much
 #	number
 🌊📍	ocean
 10🌙	October
-	of
+🏷️	of
 ↥	off
 ⬚⇆？	offer
 🛠️📍	office
@@ -756,6 +757,7 @@ __↕	how much
 🔨⟿	produce/make
 💻🧮	program
 💻🧮🧑	programmer
+🏷️🏠	property
 🍻📍	pub/bar
 ⛓️	pull
 🟪	purple

@@ -99,10 +99,10 @@ export default class EmojeseIntroDialog extends PlainDialog {
         <p>
           <b>How to write in Emojese</b>
         </p>
-        <p><b>Word order</b> is Subject–Verb–Object as in English:</p>
+        <p><b>Write naturally</b>, although you may need to search for simple words.</p>
         <table>
           <tr>
-            <td>👨💙🚴‍♂️</td>
+            <td>👨👈 💙 🚲</td>
             <td>He likes bikes.</td>
           </tr>
         </table>
