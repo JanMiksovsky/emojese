@@ -378,6 +378,7 @@
 😀	fun
 🔮	future
 [🎲🃏]	game
+🚗Ⓟ📍	garage
 🌱📍	garden
 ⛽	gasoline/fuel
 ⤺↦	gave
@@ -694,6 +695,7 @@ __↕	how much
 👖	pants
 📄	paper
 🧑‍🍼	parent
+🚗Ⓟ	park
 🏞	park
 🧩	part
 🎉	party
@@ -1012,6 +1014,8 @@ __↕	how much
 ⬚⇆⬚	transaction
 🄰⇆文	translate
 [🚌🚗]	transportation
+🚮⬚	trash
+🚮⬚	trash/garbage
 🌳	tree
 ⤺🎰	tried
 🚚	truck
@@ -1052,6 +1056,7 @@ __↕	how much
 ⤺=	was
 🧼⟿	wash/clean
 ⤺≠	wasn't
+🗑️	wastebasket
 👀	watch/see
 💧	water
 🌊	wave

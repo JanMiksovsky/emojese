@@ -12,6 +12,7 @@ Because there are [many common words with no obvious emoji representation](./Cha
 - There's no need to reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat", and typing "cat" in the app already produces that emoji.
 - Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
 - Avoid using text to convey meaning. Avoid emoji with words like 🆓, with the exception of 🆗 ("ok" is nearly universally understood). Text for proper nouns is fine.
+- Similarly, avoid letters to imply English words for those letters. 🄰 is used for "letter", not for words that start with "a". Exception: 🚗Ⓟ is used for "park" because many international parking signs include a "P" in a circle.
 - Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 rather than gendered alternatives. Messages about specific people can use more specific genders.
 - Likewise, generally use the default yellow skin tone.
 - Be family-friendly. It's unclear whether adding entries like 🍆 would actually make this more fun.
