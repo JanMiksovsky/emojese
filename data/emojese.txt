@@ -104,6 +104,7 @@
 ⧲	between
 [🥛]	beverage
 🐘~	big
+🚲	bike
 📄💵	bill
 🎂☀️	birthday
 ⬛	black
@@ -253,6 +254,7 @@
 🚫⟿	doesnt/do not
 💲	dollar
 ⌛	done
+🤷	dont know/do not know
 🚫⟿	dont/do not
 ·	dot
 ⬇️	down
@@ -269,6 +271,7 @@
 🤙😎	dude
 ⤺⛏️	dug
 🚫🧠	dumb
+🤷	dunno/do not know
 ⏰↕	duration
 〰️	during/continue
 	dust
@@ -782,6 +785,7 @@ __↕	how much
 ↩	return
 🍚	rice
 💵🤑	rich
+🚴	ride
 ↱	right
 ✅	right/correct
 🌅	rise/morning
