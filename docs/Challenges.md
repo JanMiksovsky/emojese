@@ -152,6 +152,6 @@ Hypothetical icons are from [Noun Project](https://thenounproject.com/); see [cr
 |winter||See “fall” (season). Emojese uses ❄️ Snowflake: “snow time”.|❄️⏰|
 |year|121|As with “week” and “month”, there is no emoji for this division of time. One icon for <a href="https://thenounproject.com/search/?ar">year</a> shows a complete <a href="https://thenounproject.com/search/?q=year&i=2612190">orbit around the sun</a>. Emojese accomplishes the latter via ⥁ Clockwise Closed Circle Arrow around the ☀️ Sun.|⥁☀️|<img src="../static/experimental/noun_year_2612190.svg" style="width: 200px">|
 
-If you’d like to suggest an improvement to an Emojese solution, please [contribute a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/).
+If you’d like to suggest an improvement to an Emojese solution, please [propose or request a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/).
 
 If you’re interested in working on improving emoji as a visual language, send a message to [@JanMiksovsky](https://fosstodon.org/@JanMiksovsky).

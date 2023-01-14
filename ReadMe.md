@@ -50,13 +50,11 @@ The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/e
 
 ## Experimental emoji
 
-Emoji sentences would be much clearer if there were more emoji for common words for abstract things such as pronouns, prepositions, and actions. The Emojese application includes experimental emoji that could fill that role, particularly for [common words without obvious emoji](https://docs.google.com/document/d/1Lkfpwm_BLYZiUEgtFUQ6OXYiLGlM9Jo8j44sR58Xn_I/edit).
+There are [many common words without obvious emoji](docs/Challenges.md). Emoji sentences would be much clearer if there were more emoji for common words for abstract things such as pronouns, prepositions, and actions. The Emojese application includes experimental emoji that could fill that role.
 
 # Contributing
 
-You can [contribute or update a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/). For other contributions, please submit a pull request. Please recognize that an emoji definition that seems obvious or perfect to you may not be so clear to other people.
-
-Identifying meaningful [emoji for some of the most common words is challenging](docs/Challenges.md).
+You can [propose or request a definition](https://docs.google.com/forms/d/1-TFomAkbYQyJSD6b-8vi-jDbahqxcg53DqtLmdo940A/). For other contributions, please submit a pull request. Please recognize that an emoji definition that seems obvious or perfect to you may not be so clear to other people.
 
 See the [guidelines for representing words with emojis](docs/Guidelines.md).
 
