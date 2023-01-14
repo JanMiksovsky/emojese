@@ -30,64 +30,67 @@ Emojis tend to be things, which leads to interpreting them as nouns. These indic
 
 Emojese tries to identify certain emoji as representative of a broader concept, then use this in combination with other emojis to create new words. These are used like [radicals](<https://en.m.wikipedia.org/wiki/Radical_(Chinese_characters)>) in Chinese and Japanese characters; they contribute a semantic meaning to the sequence.
 
-| Emojese | Meaning                                                            |
-| ------- | ------------------------------------------------------------------ |
-| ∀       | all                                                                |
-| ∃       | any, some, exists                                                  |
-| ◡       | bottom                                                             |
-| 🎨      | color                                                              |
-| 〰️      | continuation                                                       |
-| ☀️      | day, day of week                                                   |
-| 💀      | death                                                              |
-| 🧭      | direction                                                          |
-| ♾️      | forever                                                            |
-| 🔮      | future                                                             |
-| ↤       | get                                                                |
-| ↦       | give                                                               |
-| 🏛️      | government, politics                                               |
-| ⟨ ⟩     | group                                                              |
-| ⛳      | ground                                                             |
-| 🖐      | hand, touching                                                     |
-| ⌈       | high                                                               |
-| 🌐      | internet                                                           |
-| 🎓      | knowledge                                                          |
-| ⇊       | less                                                               |
-| ⌊       | low                                                                |
-| ⚙️      | machine, device                                                    |
-| 🔨      | make                                                               |
-| 💍      | marriage                                                           |
-| 💭      | mental activity                                                    |
-| 🥩      | meat (combine with animal for type)                                |
-| 🎖️      | military                                                           |
-| 💵      | money                                                              |
-| 🌙      | month                                                              |
-| ⇈       | more                                                               |
-| ⏭️      | next                                                               |
-| 🚫      | not, negate                                                        |
-| \#      | number                                                             |
-| 👥      | people (multiple)                                                  |
-| 👤      | person (abstract concept), the human body                          |
-| 🧑      | person (combining form for an occupation without a specific emoji) |
-| 📍      | place                                                              |
-| ⏮️      | previous                                                           |
-| 🔗      | related, linked, connection                                        |
-| 🛐      | religion                                                           |
-| ◱       | room                                                               |
-| 🗣       | say, talk                                                          |
-| 👀      | see, look                                                          |
-| ⌼       | shape, form                                                        |
-| 🤏      | small                                                              |
-| 🧪      | substance                                                          |
-| ∯       | surface                                                            |
-| 👈      | that                                                               |
-| ⬚       | thing                                                              |
-| 👉      | this                                                               |
-| ⏰      | time                                                               |
-| ◠       | top                                                                |
-| ↹       | transaction                                                        |
-| \_\_    | what                                                               |
-| 💬      | words                                                              |
-| 🌍      | world                                                              |
+| Emojese | Meaning                                                              |
+| ------- | -------------------------------------------------------------------- |
+| ∀       | all                                                                  |
+| ∃       | any, some, exists                                                    |
+| ◡       | bottom                                                               |
+| 🎨      | color                                                                |
+| 〰️      | continuation                                                         |
+| ☀️      | day, day of week                                                     |
+| 💀      | death                                                                |
+| ↕       | degree, amount                                                       |
+| 💦      | difficult, effort                                                    |
+| 🧭      | direction                                                            |
+| ♾️      | forever                                                              |
+| 🔮      | future                                                               |
+| ↤       | get                                                                  |
+| ↦       | give                                                                 |
+| 🏛️      | government, politics                                                 |
+| ⟨ ⟩     | group                                                                |
+| ⛳      | ground                                                               |
+| 🖐      | hand, touching                                                       |
+| ⌈       | high                                                                 |
+| 🌐      | internet                                                             |
+| 🎓      | knowledge                                                            |
+| ⇊       | less                                                                 |
+| ⌊       | low                                                                  |
+| ⚙️      | machine, device                                                      |
+| 🔨      | make                                                                 |
+| 💍      | marriage                                                             |
+| 💭      | mental activity                                                      |
+| 🥩      | meat (combine with animal for type)                                  |
+| 🎖️      | military                                                             |
+| 💵      | money                                                                |
+| 🌙      | month                                                                |
+| ⇈       | more                                                                 |
+| ⏭️      | next                                                                 |
+| 🚫      | not, negate                                                          |
+| \#      | number                                                               |
+| 🧩      | part                                                                 |
+| 👥      | people (multiple)                                                    |
+| 👤      | person (abstract concept), the human body                            |
+| 🧑      | person (combining form for occupation/role without a specific emoji) |
+| 📍      | place                                                                |
+| ⏮️      | previous                                                             |
+| 🔗      | related, linked, connection                                          |
+| 🛐      | religion                                                             |
+| ◱       | room                                                                 |
+| 🗣       | say, talk                                                            |
+| 👀      | see, look                                                            |
+| ⌼       | shape, form                                                          |
+| 🤏      | small                                                                |
+| 🧪      | substance                                                            |
+| ∯       | surface                                                              |
+| 👈      | that                                                                 |
+| ⬚       | thing                                                                |
+| 👉      | this                                                                 |
+| ⏰      | time                                                                 |
+| ◠       | top                                                                  |
+| ↹       | transaction                                                          |
+| \_\_    | what                                                                 |
+| 💬      | words                                                                |
+| 🌍      | world                                                                |
 
 ## Prepositions
 

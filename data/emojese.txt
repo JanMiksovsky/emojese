@@ -44,6 +44,7 @@
 ∃⏰	anytime/sometime
 ∃⌥	anyway
 🏢◱	apartment
+🗣️🙇	apologize
 📱🧮	app
 🫥😐	appear
 🪞⟿	appear/seem
@@ -52,6 +53,7 @@
 🗣👍	approve
 4🌙	April
 =	are/is
+⛶	area
 👤💪	arm
 🪖🎖️	army
 ⥁	around
@@ -82,7 +84,7 @@
 🚻	bathroom/restroom
 =♾️	be
 🏖️📍	beach
-👤🧔‍♂️◔	beard
+👤🧔‍♂️🧩	beard
 💓	beat
 🪞🤩	beautiful
 ⤺🐛🦋	became
@@ -157,9 +159,9 @@
 🎒→	carry
 🕸️	catch
 🏠◱◠	ceiling
-👤🦠◔	cell
+👤🦠🧩	cell
 ⏀	center
-🧩🧗	challenge
+💦⬚	challenge
 🔄	change
 ⇊💵	cheap
 ☑	check
@@ -236,7 +238,7 @@
 ⤺	did
 💀⟿	die
 ⊶	different
-🧩~	difficult
+💦~	difficult
 ⛏️	dig
 🌃🍽️	dinner
 🧭	direction
@@ -247,6 +249,7 @@
 😐🫥	disappear
 🗣👎	disapprove
 🤒🦠	disease
+💫🤢	dizzy
 ⟿	do
 🚫⟿	do not
 🧑‍⚕️	doctor
@@ -281,8 +284,9 @@
 ↤💵	earn
 🌍	Earth/world
 ⥤🧭	east
-🚫🧩	easy
+🚫💦	easy
 🍽️😋	eat
+💦↕	effort
 	either
 💪⏀🔗	elbow
 🗳⏰	election
@@ -312,7 +316,7 @@
 📄☐☑	exam/test
 ⇆	exchange
 [🏃]	exercise
-💦	exhausted
+💦😩	exhausted
 🤰	expect
 ⇈💵	expensive
 ↦🎓	explain
@@ -343,7 +347,7 @@
 🏁	finally/end
 🔍	find
 👍	fine/good
-✋◔	finger
+✋🧩	finger
 🏁	finish/end
 1️⃣の	first
 🫓~	flat
@@ -427,7 +431,7 @@
 😠	hate
 💁	have/has
 👨👈	he
-👤◔	head
+👤🧩	head
 ❤️‍🩹	heal
 🚫🤒	healthy
 👂	hear
@@ -603,6 +607,7 @@ __↕	how much
 👇の	mine/my
 🤏🕑	minute
 💔	miss
+🙇⬚	mistake
 ⤭	mix
 👩‍🍼	mom/mother
 1☀️	Monday
@@ -629,7 +634,7 @@ __↕	how much
 [🏔🍃]	nature
 ⚓️🎖️	navy
 🏕️⛺	near
-👤◡◔	neck
+👤◡🧩	neck
 	neck
 ❤️‍🔥↤	need
 🪡➖🧵	needle
@@ -690,7 +695,7 @@ __↕	how much
 📄	paper
 🧑‍🍼	parent
 🏞	park
-◔	part
+🧩	part
 🎉	party
 💯	pass
 ⛗	pass
@@ -709,7 +714,7 @@ __↕	how much
 📷🖼	photograph
 ⌥	pick/choose
 🖼	picture
-◔	piece/part
+🧩	piece/part
 📍	place
 🗺	plan
 ✈️	plane/airplane
@@ -721,6 +726,7 @@ __↕	how much
 🙇🙏	please
 ➕	plus/add
 🧥🕳️	pocket
+👉⟿	point
 ☠️🧪	poison
 👮	police
 🏛️💬の	political
@@ -743,8 +749,8 @@ __↕	how much
 💵↕	price
 🛐🧑	priest
 🔒⛓️📍	prison
-🔮🤷	probably
-🧩	problem
+🎲>½	probably
+😬💦	problem
 🔨⟿	produce/make
 💻🧮	program
 💻🧮🧑	programmer
@@ -988,7 +994,7 @@ __↕	how much
 ↬	to
 ♾️	to (infinitive)
 👉☀️	today
-🦶◔	toe
+🦶🧩	toe
 🧑‍🤝‍🧑	together/with
 ⤺🗣	told/said
 ⏭️☀️	tomorrow
@@ -1073,7 +1079,7 @@ __⌥	which
 ◻️	white
 __👤	who
 :	who/that
-∀◔	whole
+∀🧩	whole
 __∵	why
 |⟷|	wide
 💍👩	wife
@@ -1097,7 +1103,7 @@ __∵	why
 🛠️	work
 🛠️👷	worker
 🌍	world
-😟	worry
+😰	worry
 	would
 🤩	wow
 ✍️	write
