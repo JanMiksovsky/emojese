@@ -16,6 +16,7 @@
 	actually
 ➕	add
 ~💬	adjective
+🗣️🙋😳	admit
 👱~	adult
 😱	afraid
 ◑⏰	after
@@ -29,6 +30,7 @@
 🕊️~	alive
 ∀	all
 ↦💪	allow
+𐄡·🧑	alone
 ⤺⟢	already
 ➕⬚	also
 ♾️	always
@@ -269,7 +271,7 @@
 ⤺✍️🖼	drew
 🥛⟿	drink
 [🥛]	drink/beverage
-🚗⟿	drive
+⎈🚗	drive
 🍁	drop/fall
 💊	drug
 🚫💧~	dry
@@ -327,7 +329,7 @@
 🍁	fall
 🍁⏰	fall
 ❌	false/wrong
-⇲📰の	famous
+⇲📰	famous
 🏟️🧑	fan
 ⛺🏕️	far
 🧑‍🌾📍	farm
@@ -682,7 +684,7 @@ __↕	how much
 ⊻	on
 1⏰	once
 🌐の	online
-𐄡𐄙	only
+𐄡·	only
 📕📖	open
 ↔️	or
 🍊	orange
@@ -706,6 +708,7 @@ __↕	how much
 🎉	party
 💯	pass
 ⛗	pass
+⏰⤺	past
 |👣|	path
 🤒🧑	patient
 ▥	pattern
@@ -784,7 +787,7 @@ __↕	how much
 ⇈	really/more
 ∵💬	reason
 ↤ 📥	receive
-🏕️⛺⏰	recent
+🤏⏰⤺	recent
 🟥	red
 🪞⟚	reflect
 🔗~	related
@@ -802,6 +805,7 @@ __↕	how much
 ↩	return
 🍚	rice
 💵🤑	rich
+🏇	ride
 🚴	ride
 ↱	right
 ✅	right/correct
