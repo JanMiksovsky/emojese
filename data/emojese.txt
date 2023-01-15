@@ -419,7 +419,7 @@
 ⛳	ground
 ⟨ ⟩	group
 🌱🌳	grow
-🗣️🔮	guess
+🗣️🔮🤷	guess
 🔫	gun
 👨	guy/man
 ⤺💁	had
@@ -669,7 +669,7 @@ __↕	how much
 #	number
 ⟢👀	observe
 ⟢👀🧑	observer
-🌊📍	ocean
+🌊⛶	ocean
 10🌙	October
 🏷️	of
 ↥	off
@@ -749,7 +749,7 @@ __↕	how much
 🫗	pour
 ⚡	power
 🛐⟿	pray
-🗣️🔮	predict/guess
+🗣️🔮	predict
 🐿️⟿	prepare
 🎁	present/gift
 ◠🏛️🧑	president
