@@ -65,7 +65,7 @@
 ⚖️	as/same
 🗣？	ask
 📥🛌	asleep
-🛠️🧑‍🤝‍🧑🧑	assistant/helper
+🛠️🧑‍🤝‍🧑🧑	assistant
 @	at
 ⤺🍽️😋	ate
 👊	attack/hit
@@ -98,7 +98,7 @@
 🍺	beer
 ◐⏰	before
 ▶️	begin/start
-◐	behind/back
+◐📍	behind
 💭♾️	believe
 🏷️💁	belong
 ◒	below/under
@@ -448,8 +448,8 @@
 ⤺🤲	held
 👿📍	hell
 👋	hello
-🛠️🧑‍🤝‍🧑	help
-🛠️🧑‍🤝‍🧑🧑	helper
+↦🛟	help
+🛠️🧑‍🤝‍🧑🧑	helper/assistant
 👩👈の	her
 👩👈	her/she
 👉📍	here
@@ -526,7 +526,7 @@ __↕	how much
 🔪	knife
 🎓♾️	know
 🎓	knowledge
-🤏🌊📍	lake
+🤏🌊⛶	lake
 💡⚙️	lamp
 ⛳️☷	land
 [🄰文]	language
@@ -833,7 +833,7 @@ __↕	how much
 🎓🏫	school
 ⚗️	science
 ▦	screen
-🌊📍	sea
+🌊⛶	sea/ocean
 🔍	search/find
 🌷🍁⏰	season
 🤐	secret
@@ -864,6 +864,7 @@ __↕	how much
 ❗	should/must
 💪◠🔗	shoulder
 💁👀	show
+🤝😳	shy
 🤒	sick
 ⟥	side
 [🛑]	sign
@@ -945,7 +946,7 @@ __↕	how much
 7☀️	Sunday
 ☀️~	sunny
 🦸	super
-🛠️🧑‍🤝‍🧑	support/help
+↦🛟	support/help
 ❗	supposed/must
 👍	sure/good
 ∯	surface
@@ -1041,7 +1042,7 @@ __↕	how much
 ◒⛳️	underground
 💭💡	understand
 ⤺💭💡	understood
-∃1の	unique/only
+𐄡·	unique/only
 🎓📍	university
 🔓	unlock
 ↬⏰	until

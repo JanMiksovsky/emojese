@@ -12,14 +12,12 @@ export default {
   "[🐘🐁]": `<img src="${imageFolder}/noun-animals-13643.svg">`,
 
   // 3 characters
-  "[😀]": `<img src="${imageFolder}/noun_mood_1415339.svg">`,
   "|👣|": `<img src="${imageFolder}/noun-path-1925573.svg">`,
   "|🛞|": `<img src="${imageFolder}/noun_Road_1141292.svg">`,
   "⇥⇤📕": `<img src="${imageFolder}/noun_magazine_15905.svg">`,
   "⟨👥⟩": `<img src="${imageFolder}/noun_team_3240256.svg">`,
   "🍴−🔪": `<img src="${imageFolder}/noun_fork_1819231.svg">`,
   "🍽−🍴": `<img src="${imageFolder}/noun_Plate_1580290.svg">`,
-  "💵↹⬚": `<img src="${imageFolder}/noun_buy_1382663.svg">`,
   "📄☐☑": `<img src="${imageFolder}/noun_test_247442.svg">`,
   "🚫💧~": `<img src="${imageFolder}/noun_Dry_3478019.svg">`,
   "🚫🧼~": `<img src="${imageFolder}/noun_dirty_2406754.svg">`,
@@ -27,6 +25,7 @@ export default {
   "🦵⚽️⟿": `<img src="${imageFolder}/noun_kick_2815113.svg">`,
 
   // 2 characters
+  "↦💵": `<img src="${imageFolder}/noun_buy_1382663.svg">`,
   "⓻☀️": `<img src="${imageFolder}/noun_week_247256.svg">`,
   "┳┳": `<img src="${imageFolder}/noun_Table_3108110.svg">`,
   "◻️🍯": `<img src="${imageFolder}/noun_sugar_2913365.svg">`,
