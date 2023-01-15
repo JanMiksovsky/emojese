@@ -180,7 +180,7 @@ function createRuby(base, ruby, showExperimentalEmoji) {
 
   return `<div class="word ${wordClass}">
     <div class="base">${displayBase || "&nbsp;"}</div>
-    <div class="ruby">${ruby}</div>
+    <div class="ruby">${ruby || "&nbsp;"}</div>
   </div>`;
 }
 

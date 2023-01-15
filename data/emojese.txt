@@ -3,9 +3,10 @@
 ᠁	(plural)
 の	(possess)
 	a
-💪	able/can
+💪~	able
 ⥁	about/around
 ◓	above/over
+↦ 📥	accept
 💥	accident/crash
 ⤼	across
 ⟿⬚	act
@@ -274,7 +275,7 @@
 🚫💧~	dry
 🤙😎	dude
 ⤺⛏️	dug
-🚫🧠	dumb
+🚫🧠	dumb/stupid
 🤷	dunno/do not know
 ⏰↕	duration
 〰️	during/continue
@@ -359,7 +360,7 @@
 🛩⟿	fly
 ↤🐕‍🦺	follow
 🍲	food
-↬	for/to
+↬⬚	for
 🌲🌳	forest
 ♾️	forever/always
 🎓🚮	forget
@@ -458,6 +459,7 @@
 🤏🏔	hill
 🙍‍♂️👈	him/he
 🙍‍♂️🤳	himself
+💵⇆🛠️	hire
 🙍‍♂️👈の	his
 👊	hit
 🤔	hmm
@@ -502,7 +504,7 @@ __↕	how much
 ⬚の	its
 ⬚🤳	itself
 1🌙	January
-🧿💔	jealous
+🧿👿	jealous
 🛠️⇆💵	job
 🤝	join/meet
 🧃	juice
@@ -663,6 +665,8 @@ __↕	how much
 🚫📍	nowhere
 ☢️~	nuclear
 #	number
+⟢👀	observe
+⟢👀🧑	observer
 🌊📍	ocean
 10🌙	October
 🏷️	of
@@ -678,7 +682,7 @@ __↕	how much
 ⊻	on
 1⏰	once
 🌐の	online
-⢀	only
+𐄡𐄙	only
 📕📖	open
 ↔️	or
 🍊	orange
@@ -779,7 +783,7 @@ __↕	how much
 ◌○	real
 ⇈	really/more
 ∵💬	reason
-📥	receive
+↤ 📥	receive
 🏕️⛺⏰	recent
 🟥	red
 🪞⟚	reflect
@@ -815,6 +819,7 @@ __↕	how much
 🏜️🧪	sand
 ⤺🗣🎶	sang
 ⤺🪑	sat
+⤺🪑⟿	sat
 6☀️	Saturday
 💾	save/keep
 ⛑️	save/rescue
@@ -926,6 +931,7 @@ __↕	how much
 🎓🧑	student
 🔬🧐	study
 ⬚⬚	stuff/things
+🚫🧠	stupid
 ↦	submit/give
 🧪	substance
 ◻️🍯	sugar
