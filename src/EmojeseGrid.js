@@ -323,10 +323,18 @@ function gridItemsFromEntries(entries) {
     const button = document.createElement("button");
     const [gloss, preferred] = glosses.split("/");
 
-    // Title is alphabetic lowercase gloss.
-    // We use a Unicode property escape to match all non-alphabetic characters.
-    const notAlpha = /\P{Alpha}/gu;
-    const glossText = gloss.toLowerCase().replaceAll(notAlpha, "");
+    // Title is alphabetic lowercase gloss. For now we assume a Latin alphabet;
+    // some of the emoji sequences include non-Latin alphabetic characters from
+    // other scripts, but we don't want those to be picked up. We would need to
+    // redress this if we ever were to support languages with other scripts. Per
+    // https://stackoverflow.com/a/37511463, we normalize characters before
+    // removing diacritics.
+    const notAlpha = /[^a-z0-9]/g;
+    const glossText = gloss
+      .normalize("NFD")
+      .toLowerCase()
+      .replace(/\p{Diacritic}/gu, "")
+      .replaceAll(notAlpha, "");
 
     // Prepend a space to enable word-boundary match on the first word.
     const title = " " + glossText;

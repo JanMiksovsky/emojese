@@ -102,7 +102,13 @@ function getPrefixBeforeInsertionPoint(state) {
   if (selectionEnd === null || selectionStart === null || value === null) {
     return null;
   }
-  const text = value.toLowerCase();
+
+  // Remove diacritics.
+  const text = value
+    .normalize("NFD")
+    .toLowerCase()
+    .replace(/\p{Diacritic}/gu, "");
+
   let prefix = "";
   if (selectionStart === selectionEnd) {
     // Selection is an insertion point (not a proper selection).
@@ -112,8 +118,7 @@ function getPrefixBeforeInsertionPoint(state) {
     let letters = [];
     for (let i = split.length - 1; i >= 0; i--) {
       const c = split[i];
-      const isAlpha = /^\p{Alpha}$/u.test(c);
-      if (isAlpha || c === " ") {
+      if ((c >= "a" && c <= "z") || c === " ") {
         letters.unshift(c);
       } else {
         break;
