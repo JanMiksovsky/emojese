@@ -20,7 +20,7 @@ In support of that primary goal:
 Other goals:
 
 1. Consider hypothetical additions to the Unicode emoji set to better express [very common words without obvious emoji](docs/Challenges.md).
-2. Explore emoji as a visual language for transmitting complex ideas between parties who do not share a common natural language. Example: store posts signage in emoji so a wider range of visitors can understand it.
+2. Explore emoji as a written visual language for transmitting complex ideas between parties who do not share a common natural language — a written [international auxiliary language](https://en.m.wikipedia.org/wiki/International_auxiliary_language) that leverages exposure to emoji. Example: store posts signage in emoji so a wider range of visitors can understand it.
 
 # Principles
 
