@@ -105,14 +105,14 @@ export default class EmojeseGloss extends ResizeMixin(ReactiveElement) {
           width: 1em;
         }
 
-        /* SVGs from The Noun Project are a little short */
-        .base img[src$=".svg"] {
+        .base img[src$=".svg"]:not(.color) {
           /*
-           * We want to set fill: #444 on the SVG in the img.
-           * We can approximate that with a CSS filter using the tool at
-           * https://codepen.io/sosuke/pen/Pjoqqp
-           */
+          * We want to set fill: #444 on the SVG in the img.
+          * We can approximate that with a CSS filter using the tool at
+          * https://codepen.io/sosuke/pen/Pjoqqp
+          */
           filter: invert(25%) sepia(23%) saturate(20%) hue-rotate(326deg) brightness(93%) contrast(93%);
+          /* SVGs from The Noun Project are a little short */
           transform: scale(1.1);
           transform-origin: top;
         }

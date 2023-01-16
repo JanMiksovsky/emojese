@@ -131,7 +131,7 @@ export default class EmojeseExperimentDialog extends PlainDialog {
             height: 100%;
           }
 
-          #experiments img[src$=".svg"] {
+          #experiments img[src$=".svg"]:not(.color) {
             filter: invert(25%) sepia(23%) saturate(20%) hue-rotate(326deg) brightness(93%) contrast(93%);
           }
 

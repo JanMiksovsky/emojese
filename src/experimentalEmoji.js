@@ -2,7 +2,7 @@
 
 const origin = window.location.origin;
 const imageFolder =
-  origin === "http://localhost" || origin.includes(".local")
+  origin.startsWith("http://localhost") || origin.includes(".local")
     ? "static/experimental"
     : "experimental";
 
@@ -87,12 +87,11 @@ export default {
   "🎓": `<img src="${imageFolder}/noun-knowledge-2018786.svg">`,
   "🏬": `<img src="${imageFolder}/noun_Store_1938270.svg">`,
   "👂": `<img src="${imageFolder}/noun_hear_1512143.svg">`,
-  "👇": `<img src="${imageFolder}/personPointingAtSelf.svg" >`,
+  "👇": `<img src="${imageFolder}/personPointingAtSelf.svg" class="color">`,
   "👐": `<img src="${imageFolder}/noun_Pushing_3194184.svg">`,
   "💁": `<img src="${imageFolder}/noun_own_3067162.svg">`,
   "🕸️": `<img src="${imageFolder}/noun_receive_2012635.svg">`,
   "🥃": `<img src="${imageFolder}/noun_Cup_60143.svg">`,
   "🦝": `<img src="${imageFolder}/noun_stealing money_657568.svg">`,
   "🦮": `<img src="${imageFolder}/noun_lead_2404496.svg">`,
-  "🧑‍⚕️": `<img src="${imageFolder}/noun_caring_169351.svg">`,
 };
