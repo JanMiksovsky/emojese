@@ -22,36 +22,47 @@
 ◑⏰	after
 ◑🕛	afternoon
 ⟲	again
+→←	against
 🎂#	age
 ⚔️~	aggressive
+◐👉⏰	ago
 👥👍👍	agree
+◑⬚	ahead
 💨	air
 ✈️📍	airport
 🕊️~	alive
 ∀	all
 ↦💪	allow
+🤏📍	almost
 𐄡·🧑	alone
 ⤺⟢	already
 ➕⬚	also
+⇤⬚	although
 ♾️	always
 =	am/is
 🤩~	amazing
 	an
 &	and
+😡	angry
 [🐘🐁]	animal
-🗣️✨	announce
+📢✨	announce
 ⧉の	another
-∃	any/some
-∃👤	anyone/someone
-∃⬚	anything/something
-∃⏰	anytime/sometime
-∃⌥	anyway
+↩💬	answer
+⌥	any
+⌥👤	anybody/anyone
+⌥🔨	anyhow
+⌥⇈	anymore
+⌥👤	anyone
+⌥⬚	anything
+⌥⏰	anytime
+⌥🛣️	anyway
+⌥📍	anywhere
 🏢◱	apartment
 🗣️🙇	apologize
 📱🧮	app
 🫥😐	appear
-🪞⟿	appear/seem
-🪞	appearance
+🪞👀⟿	appear/seem
+🪞👀	appearance
 🍎	apple
 🗣👍	approve
 4🌙	April
@@ -70,6 +81,7 @@
 ⤺🍽️😋	ate
 👊	attack/hit
 8🌙	August
+🧑‍🍼🔗👧	aunt
 ✍️🧑	author
 ⛺🏕️	away
 ◐	back
@@ -98,7 +110,7 @@
 🍺	beer
 ◐⏰	before
 ▶️	begin/start
-◐📍	behind
+◐⬚	behind
 💭♾️	believe
 🏷️💁	belong
 ◒	below/under
@@ -113,14 +125,21 @@
 🚲	bike
 📄💵	bill
 🎂☀️	birthday
+🤏🧩	bit
+⤺🧛	bit
+🧛	bite
 ⬛	black
 😇	blessed/nice
 🦯~	blind
+🤲🛑	block
 🩸	blood
 🟦	blue
+🫓🪵	board
 [🛥️]	boat
 👤∀	body
 📕	book
+🥾	boot
+🗣️😴	bore
 🥱	boring
 𐄚	both
 🍾	bottle
@@ -171,7 +190,8 @@
 ☑	check
 🧀	cheese
 🧒	child
-⌥	choose
+🔘	choice
+🔘🖱	choose
 ◯	circle
 🏙	city
 🧑‍🏫⏰	class
@@ -265,6 +285,7 @@
 🚫⟿	dont/do not
 ·	dot
 ⬇️	down
+↘▙	downstairs
 🔋🪫	drain
 ✍️🖼	draw
 🛌💭	dream
@@ -439,8 +460,8 @@
 👤🧩	head
 ❤️‍🩹	heal
 🚫🤒	healthy
-👂	hear
-⤺👂	heard
+🔊👂	hear
+⤺🔊👂	heard
 🫀	heart
 ♨️	heat
 👼📍	heaven
@@ -457,8 +478,8 @@
 👋	hey/hello
 👋	hi/hello
 ⌈	high
-🥾⟿	hike
-🤏🏔	hill
+⛰️🚶	hike
+🤏⛰️	hill
 🙍‍♂️👈	him/he
 🙍‍♂️🤳	himself
 💵⇆🛠️	hire
@@ -474,6 +495,7 @@ __🔨	how
 __⏰↕	how long
 __#	how many
 __↕	how much
+⇤	however/but
 🫂	hug
 🧑	human/person
 ⤺🪝⟿	hung
@@ -557,7 +579,7 @@ __↕	how much
 🔅🔆	light/bright
 💙	like
 👤🫦	lip
-🔊👂	listen
+🎧👂	listen
 🤏	little/small
 🕊️⟿	live
 📍	location/place
@@ -569,6 +591,7 @@ __↕	how much
 🚫🎓📍	lose
 ⤺🚫🎓📍	lost
 𐄡	lot/many
+🎺🔊	loud
 📢	loud
 ❤️	love
 ⌊	low
@@ -637,9 +660,10 @@ __↕	how much
 📛	name
 🤏🛌	nap
 ⇥⇤	narrow
-[🏔🍃]	nature
+[⛰️🍃]	nature
 ⚓️🎖️	navy
 🏕️⛺	near
+🤏📍	nearly/almost
 👤◡🧩	neck
 	neck
 ❤️‍🔥↤	need
@@ -722,7 +746,7 @@ __↕	how much
 [🐈🐕]	pet
 📱	phone
 📷🖼	photograph
-⌥	pick/choose
+🔘🖱	pick/choose
 🖼	picture
 🧩	piece/part
 📍	place
@@ -771,7 +795,7 @@ __↕	how much
 👐	push
 📦⬇️	put
 👸	queen
-🤫~	quiet
+🤫🔈	quiet
 ⇈	quite/more
 [🏇🏎]	race
 👤🎨	race
@@ -840,13 +864,14 @@ __↕	how much
 👀	see
 🪴🥚	seed
 🪞⟿	seem
+🔘🖱	select/choose
 🤳	self
 ⬚⇆💵	sell
 📤⟿	send
 🧠🎓	sense
 ⤺📤⟿	sent
 9🌙	September
-⌥	set/choose
+🔘🖱	set/choose
 🝆	several
 🛌🎆	sex
 ⧛⧚	shake
@@ -896,7 +921,9 @@ __↕	how much
 ⤺⬚⇆💵	sold
 🎖️🧑	soldier
 ∃	some
+∃👤	somebody/someone
 ∃☀️	someday
+∃🔨	somehow
 ∃👤	someone
 ∃⬚	something
 ∃⏰	sometime
@@ -917,6 +944,7 @@ __↕	how much
 ◻	square
 🍲🔄👖🎨	stain
 	stain
+▟	stair
 🧍⟿	stand
 ▶️	start
 📍♾️	stay
@@ -943,17 +971,19 @@ __↕	how much
 ↦💬	suggest
 🕴️👖	suit
 ☀️⏰	summer
+🌞	sun
 7☀️	Sunday
-☀️~	sunny
+🌞😎	sunny
 🦸	super
 ↦🛟	support/help
 ❗	supposed/must
 👍	sure/good
 ∯	surface
+🎉😲	surprise
 ⤺🏊‍♀️	swam
 🤬	swear
 💦	sweat
-🍯~	sweet
+🍯🍬	sweet
 🏊‍♀️	swim
 ⤺🤬	swore
 ┳┳	table
@@ -1027,6 +1057,7 @@ __↕	how much
 ⬚⇆⬚	transaction
 🄰⇆文	translate
 [🚌🚗]	transportation
+🐁🪤	trap
 🚮⬚	trash
 🚮⬚	trash/garbage
 🌳	tree
@@ -1038,6 +1069,7 @@ __↕	how much
 ➿	turn
 ⌨️⟿	type
 🪞🤢	ugly
+🧑‍🍼🔗👦	uncle
 ◒	under
 ◒⛳️	underground
 💭💡	understand
@@ -1047,14 +1079,15 @@ __↕	how much
 🔓	unlock
 ↬⏰	until
 ⬆️	up
+↗▟	upstairs
 👇👇	us/we
 🖐⬚⟿	use
-⧲🏔	valley
+⧲⛰️	valley
 ⟿💬	verb
 ⇈	very/more
 🧑↤💀	victim
 ←🧑	visitor
-🗣👂	voice
+🗣🔊	voice
 🗳️	vote
 🪶🔊	vowel
 ⏳👀	wait
@@ -1092,7 +1125,7 @@ __	what
 __⏰	when
 __📍	where
 	whether
-__⌥	which
+__🔘	which
 〰️	while/continue
 ◻️	white
 __👤	who

@@ -101,6 +101,7 @@ These generally use Unicode symbols that suggest a position or relationship.
 | ------- | ------------ |
 | ◓       | above, over  |
 | ⤼       | across       |
+| →←      | against      |
 | ⥁       | around       |
 | ◑       | after        |
 | @       | at           |
