@@ -192,6 +192,7 @@
 🧒	child
 🔘	choice
 🔘🖱	choose
+⤺🔘🖱	chose
 ◯	circle
 🏙	city
 🧑‍🏫⏰	class
