@@ -525,9 +525,9 @@ __↕	how much
 ≠	is not
 🏝	island
 ≠	isnt/is not
-⬚	it
-⬚の	its
-⬚🤳	itself
+⬚👈	it
+⬚👈の	its
+⬚👈🤳	itself
 1🌙	January
 🧿👿	jealous
 🛠️⇆💵	job
@@ -615,8 +615,8 @@ __↕	how much
 💍⟿	marry
 🧪	material/substance
 5🌙	May
-🎲	may/maybe
-🎲	maybe
+🎲⟢	may/maybe
+🎲⟢	maybe
 👇	me/I
 🍽️	meal
 👺~	mean
@@ -630,7 +630,7 @@ __↕	how much
 ⤺🤝	met
 🪙🧪	metal
 ⏀	middle/center
-⤺🎲	might
+⤺🎲⟢	might
 🎖️	military
 🥛	milk
 🧠	mind
@@ -804,7 +804,7 @@ __↕	how much
 🌧️	rain
 🌧️~	rainy
 🏋️	raise/lift
-🎲🔀	random
+🎲	random
 🛬	reach/arrive
 📖👀	read
 🐿️~	ready
@@ -817,6 +817,7 @@ __↕	how much
 🪞⟚	reflect
 🔗~	related
 🔗	relation/link
+🔗🧑	relative
 🛐	religion
 💭🎓	remember
 🚮	remove
@@ -964,7 +965,7 @@ __↕	how much
 💪~	strong
 🎓🧑	student
 🔬🧐	study
-⬚⬚	stuff/things
+🎲⬚⬚	stuff
 🚫🧠	stupid
 ↦	submit/give
 🧪	substance
@@ -1021,8 +1022,7 @@ __↕	how much
 👤	they/person
 |⟷|	thick/wide
 ⇥⇤	thin/narrow
-⬚	thing/it
-⬚⬚	things
+⬚	thing
 💭	think
 👉	this
 👈👈	those

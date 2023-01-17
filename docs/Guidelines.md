@@ -74,6 +74,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | 🧑      | person (combining form for occupation/role without a specific emoji) |
 | 📍      | place                                                                |
 | ⏮️      | previous                                                             |
+| 🎲      | random                                                               |
 | 🔗      | related, linked, connection                                          |
 | 🛐      | religion                                                             |
 | ◱       | room                                                                 |
