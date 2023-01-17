@@ -22,7 +22,7 @@
 ◑⏰	after
 ◑🕛	afternoon
 ⟲	again
-→←	against
+⩘	against
 🎂#	age
 ⚔️~	aggressive
 ◐👉⏰	ago
@@ -131,7 +131,7 @@
 ⬛	black
 😇	blessed/nice
 🦯~	blind
-🤲🛑	block
+✋🛑	block
 🩸	blood
 🟦	blue
 🫓🪵	board
@@ -154,7 +154,7 @@
 🎒→	bring/carry
 ⤺💥	broke/crashed
 🔗👦	brother
-⤺🎒	brought/carried
+⤺🎒→	brought/carried
 🟫	brown
 	btw
 🔨⟿	build/make
@@ -714,6 +714,7 @@ __↕	how much
 ↔️	or
 🍊	orange
 🟧	orange
+🗃️	organize
 ⊶	other/different
 👇👇の	our
 👇👇🤳	ourself
