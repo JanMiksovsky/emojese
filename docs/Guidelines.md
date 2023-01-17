@@ -162,7 +162,7 @@ Generally speaking, action toward the speaker is to the left; action away from t
 
 ## Comparison (resultative complement)
 
-In cases where there are two emoji that have some interesting juxtaposition, Emojese may use a Mandarin-style <a href="https://eastasiastudent.net/china/mandarin/result-complement-detail-explanation/">resultative complement</a>. This contrasts two ideas and focusing on the second to imply a change, difference, or result:
+In cases where there are two emoji that have some interesting juxtaposition, Emojese may use a Mandarin-style <a href="https://eastasiastudent.net/china/mandarin/result-complement-detail-explanation/">resultative complement</a>. This contrasts two ideas and focuses on the second to imply a change, difference, or result:
 
 | Emojese | Meaning        |
 | ------- | -------------- |
