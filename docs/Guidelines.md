@@ -9,8 +9,10 @@ Because there are [many common words with no obvious emoji representation](./Cha
 - Big, obvious distinctions are better than small, subtle ones. When sent in a messaging application, emojis can appear very small, making fine details hard to discern.
 - Choose emoji which, if not obvious, are at least recognizable, memorable, and sensible in retrospect. Few people would type 🐛🦋 for “become” on their own, but hopefully in retrospect the choice of those emoji makes sense.
 - The more common an idea is, ideally the shorter its emoji expression should be.
-- There's no need to reproduce standard emoji definitions. There is no Emojese definition for "cat", for example, because the 🐈 emoji already has the standard English description "cat", and typing "cat" in the app already produces that emoji.
-- Be aware that emoji representations vary from platform to platform, which can occasionally present challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
+- Avoid using a single emoji like 🐌 Snail on its own to mean something more specific, like "slow", because that would remove the noun "snail" from the language. The Emojese for "slow" is "🐌~", which adds "~" ("-ish") to create an adjective.
+- Exception to the above rule: single emoji for obscure words, like ⚗️ Alembic, are up for grabs.
+- In general, search for a 2–3 emoji sequence to represent a common word.
+- Be aware that emoji representations vary from platform to platform, which can occasionally present real challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
 - Avoid using text to convey meaning. Avoid emoji with words like 🆓, with the exception of 🆗 ("ok" is nearly universally understood). Text for proper nouns is fine.
 - Similarly, avoid letters to imply English words for those letters. 🄰 is used for "letter", not for words that start with "a". Exception: 🚗Ⓟ is used for "park" because many international parking signs include a "P" in a circle.
 - Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 rather than gendered alternatives. Messages about specific people can use more specific genders.
@@ -35,11 +37,12 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ------- | -------------------------------------------------------------------- |
 | ∀       | all                                                                  |
 | ∃       | any, some, exists                                                    |
+| ⛶       | area                                                                 |
 | ◡       | bottom                                                               |
 | 🎨      | color                                                                |
 | 〰️      | continuation                                                         |
 | ☀️      | day, day of week                                                     |
-| 💀      | death                                                                |
+| ☠️      | death                                                                |
 | ↕       | degree, amount                                                       |
 | 💦      | difficult, effort                                                    |
 | 🧭      | direction                                                            |

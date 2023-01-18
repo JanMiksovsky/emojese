@@ -62,7 +62,7 @@ export default {
   "🟩🌾": `<img src="${imageFolder}/noun_grass_2939117.svg">`,
   "🟫⛳": `<img src="${imageFolder}/noun-dirt-113123.svg">`,
   "🤏🏙️": `<img src="${imageFolder}/noun_Town_1367604.svg">`,
-  "🥛⟿": `<img src="${imageFolder}/noun_drinking_154888.svg">`,
+  "🥛😋": `<img src="${imageFolder}/noun_drinking_154888.svg">`,
   "🥡📍": `<img src="${imageFolder}/noun_Restaurant_2662746.svg">`,
   "🧑‍⚕️⟿": `<img src="${imageFolder}/noun-caring-169351.svg">`,
   "🧑‍🌾📍": `<img src="${imageFolder}/noun_Farm_557239.svg">`,
