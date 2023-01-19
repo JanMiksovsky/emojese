@@ -325,27 +325,33 @@
 ⤺🎒→	carried
 🥕	carrot
 🎒→	carry
+💼	case
 🏰	castle
 🐈	cat
 🕸️	catch
 🗂️⟿	categorize
 🗂️	category
+🛠️⟢	cause
 🇰🇾	Cayman Islands
 ◱⌈	ceiling
 🍾🥂	celebrate
 👤🦠🧩	cell
 ⏀	center
 🇨🇫	Central African Republic
+💯%	certain
 🇪🇦	Ceuta & Melilla
 🇹🇩	Chad
 ⛓️	chain
 🪑	chair
 💦⬚	challenge
+∃🎲	chance
 🔄	change
 ⇊💵	cheap
 ☑	check
+😊⟥🧩	cheek
 🧀	cheese
 🍒	cherry
+👤⏀◑	chest
 🌰	chestnut
 🐔	chicken
 🧒	child
@@ -398,6 +404,7 @@
 ☄️	comet
 🇰🇲	Comoros
 🧭	compass
+⏳⌛	complete/done
 🎛️	complex
 🖥️	computer
 ☑	confirm/check
@@ -520,7 +527,7 @@ __🧭	direction
 🐬	dolphin
 🇩🇲	Dominica
 🇩🇴	Dominican Republic
-⌛	done
+⏳⌛	done
 🤷	dont know/shrug
 🚫⟿	dont/do not
 🚪	door
@@ -682,6 +689,7 @@ __🧭	direction
 💡🔍	focus
 🌁	fog
 🌁~	foggy
+📁	folder
 ↤🐕‍🦺	follow
 🫕	fondue
 🍲	food
