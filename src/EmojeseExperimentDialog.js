@@ -193,9 +193,9 @@ export default class EmojeseExperimentDialog extends PlainDialog {
 function getExperimentalEmojiList() {
   let html = "";
   for (const entry of emojis) {
-    const [emoji, glosses, shortNames, emojese] = entry;
+    const [emoji, glosses] = entry;
     const experimentalEmoji = experimentalEmojis[emoji];
-    if (emojese && experimentalEmoji) {
+    if (experimentalEmoji) {
       const [gloss, preferred] = glosses.split("/");
       if (!preferred) {
         html += `<div class="word">

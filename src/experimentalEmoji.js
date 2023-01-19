@@ -59,7 +59,7 @@ export default {
   "🛌💭": `<img src="${imageFolder}/noun_dreaming_2071010.svg">`,
   "🛏◱": `<img src="${imageFolder}/noun_bedroom_1122147.svg" >`,
   "🛠️🏢": `<img src="${imageFolder}/noun_Office_26565.svg">`,
-  "🛠️🧑‍🤝‍🧑": `<img src="${imageFolder}/noun-help-3378626.svg">`,
+  "↦🛟": `<img src="${imageFolder}/noun-help-3378626.svg">`,
   "🟩🌾": `<img src="${imageFolder}/noun_grass_2939117.svg">`,
   "🟫⛳": `<img src="${imageFolder}/noun-dirt-113123.svg">`,
   "🤏🏙️": `<img src="${imageFolder}/noun_Town_1367604.svg">`,
