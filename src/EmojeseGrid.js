@@ -292,18 +292,9 @@ export default class EmojeseGrid extends Base {
 function gridItemsFromEntries(entries) {
   const items = [];
   let referenceLetter = "";
-  let lastItemWasEmojese = false;
   for (const entry of entries) {
-    const [emoji, glosses, shortNames, emojese] = entry;
-    // Add letter reference mark before first gloss that starts with that
-    // letter.
-    const firstStandardItem = lastItemWasEmojese && !emojese;
-
-    const entryLetter = emojese
-      ? glosses[0].toUpperCase()
-      : firstStandardItem
-      ? "⋯"
-      : "";
+    const [emoji, glosses] = entry;
+    const entryLetter = glosses[0].toUpperCase();
     if (
       ((entryLetter >= "A") & (entryLetter <= "Z") || entryLetter === "⋯") &&
       entryLetter !== referenceLetter
@@ -340,7 +331,6 @@ function gridItemsFromEntries(entries) {
     const title = " " + glossText;
 
     button.setAttribute("title", title);
-    button.classList.toggle("emojese", !!emojese);
     const preferredSpan = preferred
       ? `<span class="preferred"> ${preferred}</span>`
       : "";
@@ -348,8 +338,6 @@ function gridItemsFromEntries(entries) {
     button.innerHTML = html;
 
     items.push(button);
-
-    lastItemWasEmojese = !!emojese;
   }
   return items;
 }

@@ -4,7 +4,7 @@ Because there are [many common words with no obvious emoji representation](./Cha
 
 ## General guidelines
 
-- Consider the full range of Unicode, not just emoji characters. The [Compart Unicode search tool](https://www.compart.com/en/unicode) is excellent for this purpose.
+- Consider the full range of Unicode, not just emoji characters. The [Compart Unicode search tool](https://www.compart.com/en/unicode) is excellent for this purpose, as is the [Shapecatcher](http://shapecatcher.com/) tool that lets you search by drawing a symbol.
 - Make judicious use of mathematical symbols and arrows. See below.
 - Big, obvious distinctions are better than small, subtle ones. When sent in a messaging application, emojis can appear very small, making fine details hard to discern.
 - Choose emoji which, if not obvious, are at least recognizable, memorable, and sensible in retrospect. Few people would type 🐛🦋 for “become” on their own, but hopefully in retrospect the choice of those emoji makes sense.
@@ -17,7 +17,6 @@ Because there are [many common words with no obvious emoji representation](./Cha
 - Similarly, avoid letters to imply English words for those letters. 🄰 is used for "letter", not for words that start with "a". Exception: 🚗Ⓟ is used for "park" because many international parking signs include a "P" in a circle.
 - Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 rather than gendered alternatives. Messages about specific people can use more specific genders.
 - Likewise, generally use the default yellow skin tone.
-- Be family-friendly. It's unclear whether adding entries like 🍆 would actually make this more fun.
 - [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
 
 ## Parts of speech indicators

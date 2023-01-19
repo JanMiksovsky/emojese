@@ -84,13 +84,14 @@
 🛬	arrive
 [🖼️]	art
 🖼️🧑‍🎨	artist
-⚖️	as/same
+⧟	as
 🗣？	ask
 🛌😴	asleep
 🛠️🧑‍🤝‍🧑🧑	assistant
 🌌🧑‍🚀	astronaut
 @	at
 ⤺🍽️😋	ate
+⚛️	atom
 📎⟿	attach
 👊	attack/hit
 8🌙	August
@@ -118,7 +119,7 @@
 🪕	banjo
 🏦	bank
 🍻📍	bar
-◡	base/bottom
+⌊꠵	base/bottom
 ⚾	baseball
 🏠◒	basement
 🧺	basket
@@ -196,7 +197,7 @@
 🥱	boring
 𐄚	both
 🍾	bottle
-◡	bottom
+⌊꠵	bottom
 ⤺💵⇆⬚	bought
 ⛹️⟿	bounce
 💐	bouquet
@@ -204,11 +205,15 @@
 🥣	bowl
 📦	box
 🥊	box
+👦	boy
 💋👨	boyfriend
 🧠	brain
 🍞	bread
 💔	break
 🌅🍽️	breakfast
+🤱⊙	breast
+👄💨	breath
+👄💨⟿	breathe
 🧱	brick
 🌉	bridge
 🩲	briefs
@@ -216,6 +221,7 @@
 🎒→	bring/carry
 🥦	broccoli
 ⤺💥	broke/crashed
+🥉🧪	bronze
 🧹	broom
 🔗👦	brother
 ⤺🎒→	brought/carried
@@ -231,6 +237,7 @@
 🔥⟿	burn
 🌯	burrito
 🚌	bus
+📈🏢	business
 🐝~	busy
 ⇤	but
 🧈	butter
@@ -262,10 +269,11 @@
 🥕	carrot
 🎒→	carry
 🏰	castle
+🐈	cat
 🕸️	catch
 🗂️⟿	categorize
 🗂️	category
-◱◠	ceiling
+◱⌈	ceiling
 🍾🥂	celebrate
 👤🦠🧩	cell
 ⏀	center
@@ -338,6 +346,7 @@
 🍳🧑‍🍳	cook
 🍪	cookie
 😎	cool
+👮	cop/officer
 ⧉	copy
 🪸	coral
 🌽	corn
@@ -371,7 +380,7 @@
 ⌒	curve
 🍮	custard
 ✂️⟿	cut
-🧸	cute
+🧸🥹	cute
 👨‍🍼	dad/father
 🗡️	dagger
 💃	dance
@@ -379,7 +388,7 @@
 🍡	dango
 🚫💡	dark
 📅	date
-👧	daughter/girl
+🧑‍🍼🔗👧	daughter
 ☀️	day
 ☠️⚰️	dead
 ☠️~	deadly
@@ -387,7 +396,7 @@
 ☠️	death
 12🌙	December
 🗣️🧑‍⚖️	decide
-📉	decrease
+📉↓	decrease
 ⌈💧	deep
 🦌	deer
 😋	delicious
@@ -417,7 +426,7 @@ __🧭	direction
 🥸	disguise
 🤿	dive
 ➗	divide
-💫🤢	dizzy
+💫😵	dizzy
 🧬	DNA
 ⟿	do
 🚫⟿	do not
@@ -437,6 +446,7 @@ __🧭	direction
 🕊️	dove
 ⬇️	down
 ↘▙	downstairs
+⛓️⟿	drag/pull
 🐉	dragon
 🔋🪫	drain
 ✍️🖼	draw
@@ -446,6 +456,7 @@ __🧭	direction
 🥛😋	drink
 [🥛]	drink/beverage
 ⎈🚗	drive
+⎈🚗🧑	driver
 🍁	drop/fall
 [💊💉]	drug
 🥁	drum
@@ -468,6 +479,7 @@ __🧭	direction
 🌅	early/morning
 ↤💵	earn
 🌍	Earth/world
+🚫💦	easily/easy
 ⥤🧭	east
 🚫💦	easy
 🍽️😋	eat
@@ -506,6 +518,7 @@ __🧭	direction
 ∀📍	everywhere
 🐾	evidence
 🎯👌	exact
+🎯👌	exactly/exact
 📄☐☑	exam/test
 ⇆	exchange
 [🏃]	exercise
@@ -514,6 +527,7 @@ __🧭	direction
 ⇈💵	expensive
 ↦🎓	explain
 🧨💥	explode
+➕⧉	extra
 👁️	eye
 👤◑	face
 🏭	factory
@@ -533,6 +547,7 @@ __🧭	direction
 🐘👤	fat
 👨‍🍼	father
 📠	fax
+😱⬚	fear
 🪶	feather
 2🌙	February
 ⤺↦🍲	fed
@@ -554,7 +569,7 @@ __🧭	direction
 🔥	fire
 🔥🧑‍🚒	firefighter
 🎆	firework
-1️⃣の	first
+🥇	first
 🎣	fish
 🐟	fish
 🦩	flamingo
@@ -563,7 +578,7 @@ __🧭	direction
 🫓	flatbread
 ⤺🛩⟿	flew
 🕴️	float
-◱◡	floor
+◱⌊	floor
 🌼	flower
 🪰	fly
 🛩⟿	fly
@@ -616,6 +631,7 @@ __🧭	direction
 👻	ghost
 🎁	gift
 🦒	giraffe
+👧	girl
 💋👩	girlfriend
 ↦	give
 🪟🧪	glass
@@ -662,6 +678,7 @@ __🧭	direction
 🦰	hair
 ½	half
 🎃	Halloween
+🏠||	hallway
 🍔	hamburger
 🔨	hammer
 🐹	hamster
@@ -749,7 +766,7 @@ __↕	how much
 ◑	in front/front
 🗳	include
 ❌	incorrect/wrong
-📈	increase
+📈↑	increase
 🗣	inform/say
 ↤🧬	inherit
 🤕	injury
@@ -887,6 +904,7 @@ __↕	how much
 🔨⟿	make
 ♂	male
 🦣	mammoth
+👨	man
 ◓🧑	manager
 🥭	mango
 𐄡	many
@@ -975,7 +993,7 @@ __↕	how much
 ⚓️🎖️	navy
 🏕️⛺	near
 🤏📍	nearly/almost
-👤◡🧩	neck
+👤⌊🧩	neck
 ❤️‍🔥↤	need
 🪡	needle
 ⏭️🏠🧑	neighbor
@@ -1102,6 +1120,7 @@ __↕	how much
 💊	pill
 ✈️🧑‍✈️	pilot
 🍍	pineapple
+💕🎨	pink
 🏴‍☠️	pirate
 🍕	pizza
 🪧	placard
@@ -1140,7 +1159,7 @@ __↕	how much
 🤰	pregnant
 🐿️⟿	prepare
 🎁	present/gift
-◠🏛️🧑	president
+🏛️⌈🧑	president
 🪞🤩	pretty/beautiful
 ⇈	pretty/more
 🥨	pretzel
@@ -1158,7 +1177,7 @@ __↕	how much
 🏷️🏠	property
 🖖	prosper
 🛡️⟿	protect
-🗣️🪧	protest
+🗯️🪧	protest
 🥲	proud
 🍻📍	pub/bar
 ⛓️⟿	pull
@@ -1195,6 +1214,7 @@ __↕	how much
 ♻️	recycle
 🟥	red
 🪞⟚	reflect
+∿∿	regular
 🙅	reject
 🔗~	related
 🔗	relation/link
@@ -1228,10 +1248,10 @@ __↕	how much
 🪨	rock
 🚀	rocket
 ⤺🏇	rode
-🏠◠	roof
+🏠⌈	roof
 ◱	room
 🐓	rooster
-🪴◡	root
+🪴⌊	root
 🌹	rose
 🚣	row
 📏	ruler
@@ -1242,7 +1262,7 @@ __↕	how much
 ⛵	sailboat
 🥗	salad
 🧂	salt
-⚖️	same
+⚖️~	same
 🏜️🧪	sand
 🩴	sandal
 🥪	sandwich
@@ -1260,6 +1280,7 @@ __↕	how much
 🗣	say
 🗣	says/say
 ⚖️	scale
+😱	scared/afraid
 🧣	scarf
 🧑‍🏫🏫	school
 ⚗️🧬	science
@@ -1275,6 +1296,7 @@ __↕	how much
 🔍	search/find
 🌷🍁⏰	season
 💺	seat
+🥈	second
 🤐	secret
 👀	see
 🪴🥚	seed
@@ -1313,7 +1335,8 @@ __↕	how much
 🩳	shorts
 ⤺🔫⟿	shot
 ❗	should/must
-💪◠🔗	shoulder
+💪⌈🔗	shoulder
+🗯️	shout
 💁👀	show
 🚿	shower
 🦐	shrimp
@@ -1322,13 +1345,15 @@ __↕	how much
 🤝😳	shy
 🤒	sick
 ⟥	side
-[🛑]	sign
+🪧	sign
 📄_✍️	sign
+🔇	silence
 😶	silent
-🪨🎨🪙🧪	silver
+🥈🧪	silver
 ↫⏰	since
 🗣🎶	sing
 🎶🧑‍🎤	singer
+♘🤵‍♂️	sir
 🔗👧	sister
 🪑⟿	sit
 🌐📍	site
@@ -1379,7 +1404,7 @@ __↕	how much
 ∃⬚	something
 ∃⏰	sometime
 ∃📍	somewhere
-👦	son/boy
+🧑‍🍼🔗👦	son
 🎶💬	song
 🤏⏰	soon
 🙇	sorry
@@ -1402,8 +1427,9 @@ __↕	how much
 ◻	square
 🦑	squid
 🗡️⟿	stab
+꠵	stack
 🏟️	stadium/arena
-🍲🔄👖🎨	stain
+🫗👚🎨	stain
 ▟	stair
 🧍	stand
 ⭐	star
@@ -1507,6 +1533,7 @@ __↕	how much
 ⇥⇤	thin/narrow
 ⬚	thing
 💭	think
+🥉	third
 👉	this
 👈👈	those
 ⤺💭	thought
@@ -1520,7 +1547,7 @@ __↕	how much
 👔	tie
 🪢⟿	tie
 🐅	tiger
-⇥⇤	tight/narrow
+🪢~	tight
 ↬⏰	till/until
 ⏰	time
 ⏲️	timer
@@ -1530,7 +1557,7 @@ __↕	how much
 ♾️	to (infinitive)
 👉☀️	today
 🦶🧩	toe
-🧑‍🤝‍🧑	together/with
+ↀ	together
 🚽	toilet
 ⤺🗣	told/said
 🍅	tomato
@@ -1545,7 +1572,7 @@ __↕	how much
 🧰	toolbox
 🦷	tooth
 🪥	toothbrush
-◠	top
+⌈꠵	top
 🌪️	tornado
 🖐⟿	touch
 🤏🏙️	town
@@ -1701,7 +1728,7 @@ __∵	why
 🧶	yarn
 👍	yeah/good
 ⥁☀️	year
-🗯️	yell
+🗯️	yell/shout
 🟨	yellow
 👍	yes/good
 ⏮️☀️	yesterday

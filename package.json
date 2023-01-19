@@ -9,9 +9,10 @@
     "rollup": "3.9.0"
   },
   "scripts": {
-    "build": "npm run buildEmojis; npm run buildGraphemer; npm run buildApp",
+    "build": "npm run buildEmojis; npm run buildShortNames; npm run buildGraphemer; npm run buildApp",
     "buildApp": "rollup --config",
     "buildEmojis": "node data/buildEmojis.js",
-    "buildGraphemer": "npx browserify src/browserify/graphemer.js > static/loadGraphemer.js"
+    "buildGraphemer": "npx browserify src/browserify/graphemer.js > static/loadGraphemer.js",
+    "buildShortNames": "node data/buildShortNames.js"
   }
 }

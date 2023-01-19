@@ -42,6 +42,7 @@ export default {
   "🎭📍": `<img src="${imageFolder}/noun_Theater_145066.svg">`,
   "🏋️~": `<img src="${imageFolder}/noun_heavy_609607.svg">`,
   "🏢◱": `<img src="${imageFolder}/noun_Apartment_697664.svg" >`,
+  "🏴‍☠️⟿": `<img src="${imageFolder}/noun_stealing money_657568.svg">`,
   "🐇⟿": `<img src="${imageFolder}/noun_jumping_1692169.svg">`,
   "🐘~": `<img src="${imageFolder}/noun-bigger-2819136.svg">`,
   "🐿️~": `<img src="${imageFolder}/noun_ready_1823361.svg">`,
@@ -92,6 +93,5 @@ export default {
   "💁": `<img src="${imageFolder}/noun_own_3067162.svg">`,
   "🕸️": `<img src="${imageFolder}/noun_receive_2012635.svg">`,
   "🥃": `<img src="${imageFolder}/noun_Cup_60143.svg">`,
-  "🦝": `<img src="${imageFolder}/noun_stealing money_657568.svg">`,
   "🦮": `<img src="${imageFolder}/noun_lead_2404496.svg">`,
 };

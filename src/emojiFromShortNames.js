@@ -1,6 +1,4 @@
-import emojis from "../data/emojis.js";
-
-let shortNamesMap;
+import shortNamesMap from "../data/shortNames.js";
 
 /**
  * Given a text string that may contain emoji short names (like :joy: for "😂"),
@@ -9,34 +7,10 @@ let shortNamesMap;
  * @param {string} text
  */
 export default function emojiFromShortNames(text) {
-  const map = getShortNamesMap();
   const shortNameRegex = /:([a-z-_+\d]+):/g;
   const translated = text.replace(shortNameRegex, (match, textInColons) => {
-    const normalized = textInColons.replace(/[_-]/g, " ");
-    return map.get(normalized) || match;
+    const normalized = textInColons.replace(/[-]/g, "_");
+    return shortNamesMap[normalized] || match;
   });
   return translated;
-}
-
-function getShortNamesMap() {
-  if (!shortNamesMap) {
-    const map = new Map();
-    emojis.forEach((entry) => {
-      const [emoji, gloss, shortNames] = entry;
-      // Add gloss itself as a short name.
-      map.set(gloss, emoji);
-
-      // Add any additional short names.
-      if (shortNames) {
-        shortNames.forEach((shortName) => {
-          // Don't set a short name if it's already defined.
-          if (!map.get(shortName)) {
-            map.set(shortName, emoji);
-          }
-        });
-      }
-    });
-    shortNamesMap = map;
-  }
-  return shortNamesMap;
 }
