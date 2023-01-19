@@ -846,7 +846,7 @@ __🧭	direction
 👋	hey/hello
 👋	hi/hello
 🌺	hibiscus
-⌈	high
+⌈꠵~	high
 ⛰️🚶	hike
 🤏⛰️	hill
 🙍‍♂️👈	him/he
@@ -1044,7 +1044,7 @@ __↕	how much
 🎺🔊	loud
 📢	loud
 ❤️	love
-⌊	low
+⌊꠵~	low
 ☘️	luck
 🍀	luck
 🍀~	lucky
@@ -1693,7 +1693,7 @@ __↕	how much
 💪~	strong
 🧑‍🎓	student
 🔬🧐	study
-🎲⬚⬚	stuff
+🎲⬚᠁	stuff
 🚫🧠	stupid
 ↦	submit/give
 🧪	substance
@@ -1874,8 +1874,8 @@ __↕	how much
 🧑‍🍼🔗👦	uncle
 ◒	under
 ◒⛳️	underground
-💭💡	understand
-⤺💭💡	understood
+🎓∵	understand
+⤺🎓∵	understood
 🦄	unicorn
 𐄡·	unique/only
 🇦🇪	United Arab Emirates
@@ -1890,7 +1890,7 @@ __↕	how much
 🏺	urn
 🇺🇾	Uruguay
 👇👇	us/we
-🖐⬚⟿	use
+🖐⟿⬚	use
 🇺🇿	Uzbekistan
 ⧲⛰️	valley
 🇻🇺	Vanuatu

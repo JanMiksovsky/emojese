@@ -26,6 +26,9 @@ export default {
 
   // 2 characters
   "↦💵": `<img src="${imageFolder}/noun_buy_1382663.svg">`,
+  "↦🛟": `<img src="${imageFolder}/noun-help-3378626.svg">`,
+  "⌈꠵": `<img src="${imageFolder}/noun_above_967196.svg">`,
+  "⌊꠵": `<img src="${imageFolder}/noun_bottom_967199.svg" >`,
   "⓻☀️": `<img src="${imageFolder}/noun_week_247256.svg">`,
   "┳┳": `<img src="${imageFolder}/noun_Table_3108110.svg">`,
   "◻️🍯": `<img src="${imageFolder}/noun_sugar_2913365.svg">`,
@@ -59,7 +62,6 @@ export default {
   "🛌💭": `<img src="${imageFolder}/noun_dreaming_2071010.svg">`,
   "🛏◱": `<img src="${imageFolder}/noun_bedroom_1122147.svg" >`,
   "🛠️🏢": `<img src="${imageFolder}/noun_Office_26565.svg">`,
-  "↦🛟": `<img src="${imageFolder}/noun-help-3378626.svg">`,
   "🟩🌾": `<img src="${imageFolder}/noun_grass_2939117.svg">`,
   "🟫⛳": `<img src="${imageFolder}/noun-dirt-113123.svg">`,
   "🤏🏙️": `<img src="${imageFolder}/noun_Town_1367604.svg">`,
@@ -80,8 +82,6 @@ export default {
   "◒": `<img src="${imageFolder}/noun_below_2900924.svg" >`,
   "◓": `<img src="${imageFolder}/noun_over_2900915.svg" >`,
   "◔": `<img src="${imageFolder}/noun-part-4682120.svg">`,
-  "◠": `<img src="${imageFolder}/noun_above_967196.svg">`,
-  "◡": `<img src="${imageFolder}/noun_bottom_967199.svg" >`,
   "⛏️": `<img src="${imageFolder}/noun_dig_2981747.svg">`,
   "⛓️": `<img src="${imageFolder}/noun_pull_3117274.svg">`,
   "🍁": `<img src="${imageFolder}/noun_falling_1887964.svg">`,
