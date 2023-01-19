@@ -17,6 +17,7 @@ Because there are [many common words with no obvious emoji representation](./Cha
 - Similarly, avoid letters to imply English words for those letters. 🄰 is used for "letter", not for words that start with "a". Exception: 🚗Ⓟ is used for "park" because many international parking signs include a "P" in a circle.
 - Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 rather than gendered alternatives. Messages about specific people can use more specific genders.
 - Likewise, generally use the default yellow skin tone.
+- Be family-friendly.
 - [Emojipedia](https://emojipedia.org/) is a reasonably definitive emoji reference.
 
 ## Parts of speech indicators

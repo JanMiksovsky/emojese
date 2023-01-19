@@ -43,6 +43,7 @@
 ↦💪	allow
 🤏📍	almost
 𐄡·🧑	alone
+∸	along
 ⤺⟢	already
 ➕⬚	also
 ⇤⬚	although
@@ -51,6 +52,7 @@
 🤩~	amazing
 🚑	ambulance
 🇦🇸	American Samoa
+ꗝ	among
 	an
 ⚓	anchor
 🏺~	ancient
@@ -83,6 +85,7 @@
 🪞👀⟿	appear/seem
 🪞👀	appearance
 🍎	apple
+→🏕️⛺	approach
 🗣👍	approve
 4🌙	April
 =	are/is
@@ -108,15 +111,20 @@
 ⚛️	atom
 📎⟿	attach
 👊	attack/hit
+💡🔍	attention/focus
+🧲⟿	attract
+🧲🤩	attractive
 8🌙	August
 🧑‍🍼🔗👧	aunt
 🇦🇺	Australia
 🇦🇹	Austria
 ✍️🧑	author/writer
 🥑	avocado
-⛺🏕️	away
+ᕆ→	avoid
+🚫🏡	away
 🪓	axe
 🇦🇿	Azerbaijan
+👶	baby
 ◐	back
 👤◐	back
 🏠◐🪴	backyard
@@ -179,15 +187,18 @@
 🏷️💁	belong
 ◒	below/under
 🔨⌒	bend
+◒	beneath/under
 🇧🇯	Benin
 ⤺🔨⌒	bent
 ⌒~	bent
 🍱	bento
 🇧🇲	Bermuda
+🧍🧍	beside
 💯	best
 ⇈👍	better
 ⧲	between
 [🥛]	beverage
+⛗📍	beyond
 🇧🇹	Bhutan
 🚲	bicycle/bike
 🐘~	big
@@ -207,6 +218,7 @@
 👐🛑	block
 🩸	blood
 👚	blouse
+🌬️⟿	blow
 🐡	blowfish
 🟦	blue
 🫐	blueberry
@@ -239,6 +251,7 @@
 👦	boy
 💋👨	boyfriend
 🧠	brain
+🌲🧩	branch
 🇧🇷	Brazil
 🍞	bread
 💔	break
@@ -666,6 +679,7 @@ __🧭	direction
 🌼	flower
 🪰	fly
 🛩⟿	fly
+💡🔍	focus
 🌁	fog
 🌁~	foggy
 ↤🐕‍🦺	follow
@@ -696,7 +710,6 @@ __🧭	direction
 🐸	frog
 ↫	from
 ◑	front
-🛌🖕	fuck
 ⛽	fuel
 🍽️🫄	full
 ⍐	full / enough
@@ -921,7 +934,6 @@ __↕	how much
 7🌙	July
 🐇⟿	jump
 6🌙	June
-	just
 🦘	kangaroo
 🇰🇿	Kazakhstan
 💾	keep
@@ -1039,7 +1051,7 @@ __↕	how much
 🪄	magic
 🧲	magnet
 ✉️	mail/message
-1️⃣の	main/first
+⤒‼️	main
 🔨⟿	make
 🇲🇼	Malawi
 🇲🇾	Malaysia
@@ -1208,7 +1220,7 @@ __↕	how much
 🏷️	of
 ↥	off
 ↦⬚	offer
-🛠️📍	office
+🛠️🏢	office
 👮	officer
 😲	oh
 🛢	oil
@@ -1307,7 +1319,7 @@ __↕	how much
 🏴‍☠️	pirate
 🇵🇳	Pitcairn Islands
 🍕	pizza
-🪧	placard
+🪧	placard/sign
 📍	place
 🗺	plan
 ✈️	plane/airplane
@@ -1525,7 +1537,6 @@ __↕	how much
 🛡️	shield
 🚢	ship
 👕	shirt
-💩	shit
 👞	shoe
 ⤺⧛⧚	shook
 🔫⟿	shoot
@@ -1823,7 +1834,6 @@ __↕	how much
 🄰⇆文	translate
 [🚌🚗]	transportation
 🪤	trap
-🚮⬚	trash
 🚮⬚	trash/garbage
 🌲	tree
 ⤺🎰	tried
