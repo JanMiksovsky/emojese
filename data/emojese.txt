@@ -148,6 +148,7 @@
 🏦	bank
 🍻📍	bar
 🇧🇧	Barbados
+🚫👕👖	bare/naked
 ⌊꠵	base/bottom
 ⚾	baseball
 🏠◒	basement
@@ -435,6 +436,7 @@
 ⤺💪	could
 🔢⟿	count
 [🏳️]	country
+💑	couple
 ⬇️◓	cover
 🐄	cow
 🤠	cowboy
@@ -602,7 +604,7 @@ __🧭	direction
 ⚙️	engine/machine
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	England
 😄⟿	enjoy
-⍐👌	enough
+⍐👍	enough
 🧿	envy
 🇬🇶	Equatorial Guinea
 🇪🇷	Eritrea
@@ -617,8 +619,8 @@ __🧭	direction
 ∀⬚	everything
 ∀📍	everywhere
 🐾	evidence
-🎯👌	exact
-🎯👌	exactly/exact
+🎯👍	exact
+🎯👍	exactly/exact
 📄☐☑	exam/test
 ⇆	exchange
 [🏃]	exercise
@@ -737,6 +739,7 @@ __🧭	direction
 💎	gem/jewel
 [♀️♂]	gender
 🧞	genie
+🪶😊	gentle
 🇬🇪	Georgia
 🇩🇪	Germany
 ↤	get
@@ -892,6 +895,7 @@ __↕	how much
 🔮⋯	if
 🙈	ignore
 🖼	image/picture
+👉⏰‼️	immediate
 ‼️	important
 📥	in
 ◑	in front/front
@@ -1165,6 +1169,7 @@ __↕	how much
 👇の	my
 🇲🇲	Myanmar (Burma)
 👇🤳	myself
+🚫👕👖	naked
 📛	name
 🇳🇦	Namibia
 🤏🛌	nap
@@ -1304,7 +1309,7 @@ __↕	how much
 ✏️	pencil
 🐧	penguin
 👥	people
-👌	perfect
+💯👍	perfect
 🎭⟿	perform
 👤	person
 🇵🇪	Peru
@@ -1594,6 +1599,7 @@ __↕	how much
 😴	sleepy
 ⤺🛌😴	slept
 🛝	slide
+🤏	slight/small
 🦥	sloth
 🇸🇰	Slovakia
 🇸🇮	Slovenia
@@ -1699,6 +1705,7 @@ __↕	how much
 🧪	substance
 ➖⟿	subtract
 🇸🇩	Sudan
+🤏⏰😲	sudden
 ◻️🍯	sugar
 ↦💬	suggest
 🤵	suit
