@@ -1402,11 +1402,14 @@ __↕	how much
 👥	people
 💯👍	perfect
 🎭⟿	perform
+🎲⟢	perhaps/maybe
 👤	person
+👤🏷️	personal
 🇵🇪	Peru
 [🐈🐕]	pet
 🇵🇭	Philippines
 📱	phone
+🖼	photo/picture
 📷🖼	photograph
 🎹	piano
 🔘🖱	pick/choose
@@ -1416,6 +1419,7 @@ __↕	how much
 🥧	pie
 🧩	piece
 🐖	pig
+꠵	pile/stack
 💊	pill
 ✈️🧑‍✈️	pilot
 🍍	pineapple
@@ -1448,9 +1452,12 @@ __↕	how much
 ⛲🔲	pool
 💩	poop
 🚫💵	poor
+🎈🪡💢	pop
 🍿	popcorn
 🐖🥩	pork
 🇵🇹	Portugal
+📍	position/place
+🎲⟢~	possible
 📄📌	post
 🥔	potato
 🫗	pour
@@ -1462,6 +1469,8 @@ __↕	how much
 🐿️⟿	prepare
 🎁	present/gift
 🏛️⌈🧑	president
+👉🔘	press
+🎭🧚	pretend
 🪞🤩	pretty/beautiful
 ⇈	pretty/more
 🥨	pretzel
@@ -1476,6 +1485,7 @@ __↕	how much
 🔨⟿	produce/make
 🖥️🧮	program
 🖥️🧮🧑	programmer
+🗣️👇⤻	promise
 🏷️🏠	property
 🖖	prosper
 🛡️⟿	protect
@@ -1490,6 +1500,8 @@ __↕	how much
 📦⬇️	put
 🇶🇦	Qatar
 👸	queen
+🗣？💬	question
+⏩	quick/fast
 🤫🔈	quiet
 ⇈	quite/more
 🐇	rabbit
