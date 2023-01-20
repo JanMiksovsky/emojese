@@ -14,7 +14,8 @@ Because there are [many common words with no obvious emoji representation](./Cha
 - In general, search for a 2–3 emoji sequence to represent a common word.
 - Be aware that emoji representations vary from platform to platform, which can occasionally present real challenges. For example, the contrast in 🏕️⛺ ("near") works well in iOS and other platforms, but poorly in Microsoft Windows.
 - Avoid using text to convey meaning. Avoid emoji with words like 🆓, with the exception of 🆗 ("ok" is nearly universally understood). Text for proper nouns is fine.
-- Similarly, avoid letters to imply English words for those letters. 🄰 is used for "letter", not for words that start with "a". Exception: 🚗Ⓟ is used for "park" because many international parking signs include a "P" in a circle.
+- Similarly, avoid letters to imply English words for those letters. 🄰 is used for "letter", not for words that start with "a". Exceptions: ℹ️ is used for "information" because that is an internationally recognized symbol. Similarly, 🚗Ⓟ is used for "park" because many international parking signs include a "P" in a circle.
+- Avoid characters from other languages such as Chinese or Japanese that would only make sense to speakers of those languages. It's fine to define a character like ⼚ (Kangxi Radical Cliff) to mean "edge", since anyone could infer that meaning from the character's appearance.
 - Unless gender or skin tone is an important aspect of the word, use the genderless people emoji like 🧑 rather than gendered alternatives. Messages about specific people can use more specific genders.
 - Likewise, generally use the default yellow skin tone.
 - Be family-friendly.
@@ -93,6 +94,8 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ⏰      | time                                                                 |
 | ⌈       | top                                                                  |
 | ↹       | transaction                                                          |
+| ✅      | true, correct                                                        |
+| \|\|    | way, path                                                            |
 | \_\_    | what                                                                 |
 | 💬      | words                                                                |
 | 🌍      | world                                                                |

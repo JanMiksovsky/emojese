@@ -10,7 +10,7 @@
 ↦ 📥	accept
 💥	accident/crash
 🪗	accordion
-⤼	across
+⛌	across
 ⟿⬚	act
 🎭⟿	act/perform
 [⟿]	action
@@ -18,7 +18,7 @@
 	actually
 ➕⟿	add
 ~💬	adjective
-🗣️🙋😳	admit
+😳🙋🗣️	admit
 👱~	adult
 🇦🇫	Afghanistan
 😱	afraid
@@ -64,6 +64,7 @@
 🇦🇮	Anguilla
 [🐘🐁]	animal
 📢✨	announce
+👉😑	annoy
 ⧉の	another
 ↩💬	answer
 🐜	ant
@@ -238,6 +239,7 @@
 🥱	boring
 🇧🇦	Bosnia & Herzegovina
 𐄚	both
+👉😑	bother/annoy
 🇧🇼	Botswana
 🍾	bottle
 ⌊꠵	bottom
@@ -321,6 +323,7 @@
 🚗	car
 [🃏]	card
 🧑‍⚕️⟿	care
+🐌🛠️	careful
 🇧🇶	Caribbean Netherlands
 🎠	carousel
 ⤺🎒→	carried
@@ -398,18 +401,23 @@
 ⚰️	coffin
 🪙	coin
 🥶	cold
+𐄡🤲	collect
 ↤	collect/get
+𐄡🎓🏫	college
 🇨🇴	Colombia
 🎨	color
 ←	come
 ☄️	comet
 🇰🇲	Comoros
+⟨🏢⟩	company
 🧭	compass
 ⏳⌛	complete/done
 🎛️	complex
 🖥️	computer
 ☑	confirm/check
+🛠️😕⍰	confuse
 💭😕	confused
+😕⍰	confused
 🇨🇬	Congo - Brazzaville
 🇨🇩	Congo - Kinshasa
 💭	consider/think
@@ -420,6 +428,7 @@
 〰️	continue
 ⚖️📜	contract
 🎛️⟿	control
+💬⇆💬	conversation
 🍳⟿	cook
 🍳🧑‍🍳	cook
 🇨🇰	Cook Islands
@@ -435,8 +444,10 @@
 🇨🇮	Côte d’Ivoire
 ⤺💪	could
 🔢⟿	count
+🍳◱∯	counter
 [🏳️]	country
 💑	couple
+|↑|	course
 ⬇️◓	cover
 🐄	cow
 🤠	cowboy
@@ -446,11 +457,13 @@
 🖍️	crayon
 🤪	crazy
 ✍️💭	create
+[🧑🐁]	creature
 🏏	cricket
 🦗	cricket
 🇭🇷	Croatia
 🐊	crocodile
 🥐	croissant
+⛌⟿	cross
 𐄡👥	crowd
 👑	crown
 🩼	crutch
@@ -474,6 +487,7 @@
 ⚠️~	dangerous
 🍡	dango
 🚫💡	dark
+🚫💡⬚	darkness
 📅	date
 🧑‍🍼🔗👧	daughter
 ☀️	day
@@ -491,6 +505,7 @@
 🛫	depart
 🪞💬	description
 🏜️	desert
+📄┳┳	desk
 [🍰🍮]	dessert
 🕵️	detective
 🔨⟿	develop/make
@@ -511,8 +526,10 @@ __🧭	direction
 😐🫥	disappear
 😞	disappointed
 🗣👎	disapprove
+🔬🤯	discover
 🤒🦠	disease
 🥸	disguise
+⧟↕	distance
 🤿	dive
 ➗	divide
 💫😵	dizzy
@@ -533,6 +550,7 @@ __🧭	direction
 🤷	dont know/shrug
 🚫⟿	dont/do not
 🚪	door
+🚪||	doorway
 ·	dot
 🍩	doughnut
 🕊️	dove
@@ -570,12 +588,13 @@ __🧭	direction
 ⇈🌅	earlier
 🌅	early/morning
 ↤💵	earn
-🌍	Earth/world
+🌍	earth/world
 🚫💦	easily/easy
 ⥤🧭	east
 🚫💦	easy
 🍽️😋	eat
 🇪🇨	Ecuador
+⼚	edge
 💦↕	effort
 🥚	egg
 🍆	eggplant
@@ -605,16 +624,22 @@ __🧭	direction
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	England
 😄⟿	enjoy
 ⍐👍	enough
+→🚪	enter
+∀🧩	entire/whole
 🧿	envy
 🇬🇶	Equatorial Guinea
 🇪🇷	Eritrea
+🌟⟿	especially
 🇪🇪	Estonia
 🇸🇿	Eswatini
 🇪🇹	Ethiopia
 🇪🇺	European Union
 ⏸	even
 🌃	evening/night
+⬚⟢	event
+♾️	ever/always
 ∀	every/all
+∀👤	everybody/everyone
 ∀👤	everyone
 ∀⬚	everything
 ∀📍	everywhere
@@ -622,23 +647,33 @@ __🧭	direction
 🎯👍	exact
 🎯👍	exactly/exact
 📄☐☑	exam/test
+⇤🚫	except
 ⇆	exchange
+🛠️🤩	excite
+↤🤩	excited
+🛠️🤩~	exciting
 [🏃]	exercise
 💦😩	exhausted
 🤰👀	expect
 ⇈💵	expensive
 ↦🎓	explain
 🧨💥	explode
+😀⎄	expression
+💬⎄	expression
 ➕⧉	extra
 👁️	eye
 👤◑	face
+✅💬	fact
 🏭	factory
+😐🫥	fade/disappear
+🎰❌	fail
 🧚	fairy
 🧆	falafel
 🇫🇰	Falkland Islands
 🍁	fall
 🍁⏰	fall
 ❌	false/wrong
+🚫💦🎗️	familiar
 👪	family
 ⇲📰	famous
 🏟️🧑	fan
@@ -648,7 +683,7 @@ __🧭	direction
 🌾🧑‍🌾	farmer
 🇫🇴	Faroe Islands
 ⏩	fast
-🐘👤	fat
+👤⟷	fat
 👨‍🍼	father
 📠	fax
 😱⬚	fear
@@ -663,13 +698,16 @@ __🧭	direction
 ♀️	female
 ⛴️	ferry
 🝆	few/several
+🌾⛶	field
 ⚔️	fight
+⎄	figure/shape
 🇫🇯	Fiji
 🪫🔋	fill
+🏁~	final
 🏁	finally/end
 🔍	find
 👍	fine/good
-✋🧩	finger
+🖐️🧩	finger
 🏁	finish/end
 🇫🇮	Finland
 🔥	fire
@@ -678,11 +716,16 @@ __🧭	direction
 🥇	first
 🎣	fish
 🐟	fish
+💪⇲	fit
+🏃~	fit
+🛠️🩹	fix
 🦩	flamingo
+💡💥	flash
 🔦	flashlight
 🫓~	flat
 🫓	flatbread
 ⤺🛩⟿	flew
+🛩⬚	flight
 🕴️	float
 ◱⌊	floor
 🌼	flower
@@ -698,12 +741,14 @@ __🧭	direction
 🦶	foot
 🏈	football
 ↬⬚	for
+👐⇲	force
 🌲🌳	forest
 ♾️	forever/always
 🎓🚮	forget
 ⤺🎓🚮	forgot
 🍴−🔪	fork
 ⎄	form/shape
+◑⟥	forward
 ⤺⚔️	fought
 ⤺🔍	found
 ⛲	fountain
@@ -713,6 +758,7 @@ __🧭	direction
 🇬🇫	French Guiana
 🇵🇫	French Polynesia
 🇹🇫	French Southern Territories
+✨🌱~	fresh
 5☀️	Friday
 🫂🧑	friend
 🫂🧑~	friendly
@@ -725,6 +771,7 @@ __🧭	direction
 ⍐	full / enough
 。	full stop
 😀	fun
+🤣~	funny
 🔮	future
 🇬🇦	Gabon
 🇬🇲	Gambia
@@ -733,6 +780,8 @@ __🧭	direction
 🌱⛶	garden
 🧄	garlic
 ⛽	gasoline/fuel
+–⛩️–	gate
+𐄡🤲	gather/collect
 ⤺↦	gave
 ⚣	gay
 🤓	geek
@@ -752,6 +801,7 @@ __🧭	direction
 👧	girl
 💋👩	girlfriend
 ↦	give
+🤏👀	glance
 🪟🧪	glass
 👓	glasses
 🧤	gloves
@@ -770,6 +820,7 @@ __🧭	direction
 ⤺↤	got
 🏛️	government
 🏛️の	governmental
+↤💨	grab
 🌾	grain
 ◐👨‍🍼	grandfather
 ◐👩‍🍼	grandma/grandmother
@@ -806,8 +857,9 @@ __🧭	direction
 🦰	hair
 🇭🇹	Haiti
 ½	half
+🏠||	hall
 🎃	Halloween
-🏠||	hallway
+🏠||	hallway/hall
 🍔	hamburger
 🔨	hammer
 🐹	hamster
@@ -849,6 +901,7 @@ __🧭	direction
 👋	hey/hello
 👋	hi/hello
 🌺	hibiscus
+🛠️🤐	hide
 ⌈꠵~	high
 ⛰️🚶	hike
 🤏⛰️	hill
@@ -857,6 +910,7 @@ __🧭	direction
 🦛	hippopotamus
 💵⇆🛠️	hire
 🙍‍♂️👈の	his
+🏺📜	history
 🤜	hit
 🤔	hmm
 🤲	hold
@@ -872,6 +926,7 @@ __🧭	direction
 🥵	hot
 🏨	hotel
 🕑	hour
+⌛	hour
 🏠	house
 __🔨	how
 __⏰↕	how long
@@ -879,10 +934,12 @@ __#	how many
 __↕	how much
 ⇤	however/but
 🫂	hug
+⇈🐘	huge
 🧑	human/person
 ⤺🪝⟿	hung
 🇭🇺	Hungary
 ❤️‍🔥🍽️	hungry
+⏩⟿	hurry
 🤕💥⟿	hurt
 💍👨	husband
 🛖	hut
@@ -895,6 +952,7 @@ __↕	how much
 🔮⋯	if
 🙈	ignore
 🖼	image/picture
+💭🖼	imagine
 👉⏰‼️	immediate
 ‼️	important
 📥	in
@@ -905,12 +963,14 @@ __↕	how much
 🇮🇳	India
 🇮🇩	Indonesia
 🗣	inform/say
+ℹ️	information
 ↤🧬	inherit
 🤕	injury
 😇	innocent
 [🪳]	insect
 ⚆	inside
 [🎻]	instrument
+🛠️🤔	interest
 🤔~	interesting
 🌍🌐	internet
 ⇲	into
@@ -928,6 +988,7 @@ __↕	how much
 🇮🇹	Italy
 ⬚👈の	its
 ⬚👈🤳	itself
+🧥	jacket/coat
 🇯🇲	Jamaica
 1🌙	January
 🇯🇵	Japan
@@ -938,6 +999,7 @@ __↕	how much
 💎	jewel
 🛠️⇆💵	job
 🤝	join/meet
+🤣💬	joke
 🇯🇴	Jordan
 🕹️	joystick
 🧑‍⚖️	judge
@@ -957,16 +1019,19 @@ __↕	how much
 ↦💀	kill
 👤↦💀	killer
 👘	kimono
+😊	kind/nice
+🗂️🏷️	kind/type
 🤴	king
 🇰🇮	Kiribati
 💏	kiss
-🍳📍	kitchen
+🍳◱	kitchen
 🪁	kite
 🥝	kiwi
 🦵⏀🔗	knee
 🧎	kneel
 ⤺🎓♾️	knew
 🔪	knife
+✊💢🚪	knock
 🪢	knot
 🎓♾️	know
 🎓	knowledge
@@ -976,6 +1041,7 @@ __↕	how much
 🇰🇬	Kyrgyzstan
 🥍	lacrosse
 🪜	ladder
+👩	lady/woman
 🤏🌊⛶	lake
 💡⚙️	lamp
 ⛳️⛶	land
@@ -991,9 +1057,11 @@ __↕	how much
 🤣	laugh
 🧑‍⚖️💬	law
 ⚖️🧑‍💼	lawyer
+📦⬇️	lay/put
 🦥~	lazy
 🦮	lead
 🍃	leaf
+🧍/	lean
 🎓↤	learn
 ⤓	least
 ⎋	leave
@@ -1022,6 +1090,7 @@ __↕	how much
 🪶~	light
 🔅🔆	light/bright
 💙	like
+|⎄	line
 🦁	lion
 👤🫦	lip
 💄	lipstick
@@ -1032,6 +1101,7 @@ __↕	how much
 🦎	lizard
 🦙	llama
 🦞	lobster
+👉⛶	local
 📍	location/place
 🔒	lock
 🤣	lol/laugh
@@ -1073,11 +1143,13 @@ __↕	how much
 🇲🇹	Malta
 🦣	mammoth
 👨	man
-◓🧑	manager
+🎛️⬚	manage
+🎛️⬚🧑	manager
 🥭	mango
 𐄡	many
 🗺️	map
 3🌙	March
+•✍️	mark
 💍⇆💍	marriage
 💍💍	married
 💍⟿	marry
@@ -1087,6 +1159,8 @@ __↕	how much
 💆	massage
 🧉	mate
 🧪	material/substance
+🧪	matter/substance
+⬚	matter/thing
 🇲🇷	Mauritania
 🇲🇺	Mauritius
 5🌙	May
@@ -1105,7 +1179,10 @@ __↕	how much
 🤝⏰	meeting
 🍈	melon
 🫠	melt
+⟨ ⟩🏷️	member
 📝	memo/note
+🧠🎗️	memory
+🪶🗣️	mention
 🧜‍♀️	mermaid
 🧜‍♂️	merman
 ✉️	message
@@ -1125,12 +1202,14 @@ __↕	how much
 🚐	minibus
 ➖	minus
 🤏🕑	minute
+⌛🧩	minute
 🪞	mirror
 💔	miss
 🙇⬚	mistake
 ⤭	mix
 🇲🇩	Moldova
 👩‍🍼	mom/mother
+🤏⌛🧩	moment/second
 🇲🇨	Monaco
 🫅	monarch
 1☀️	Monday
@@ -1191,6 +1270,7 @@ __↕	how much
 ✨	new
 🇳🇨	New Caledonia
 🇳🇿	New Zealand
+📰💬	news
 📰	newspaper
 ⏭️	next
 🇳🇮	Nicaragua
@@ -1203,8 +1283,12 @@ __↕	how much
 🚫	no
 👎	no/bad
 🚫👤	nobody
+🔊😬	noise
+🚫⌥	none
 🕛	noon
+🚫↔️	nor
 🇳🇫	Norfolk Island
+∀⏰	normal/usual
 ⥣🧭	north
 🇰🇵	North Korea
 🇲🇰	North Macedonia
@@ -1216,6 +1300,7 @@ __↕	how much
 📝	note
 📓	notebook
 🚫⬚	nothing
+👀🤔	notice
 🗣️🔔	notify
 ⬚💬	noun
 11🌙	November
@@ -1235,6 +1320,7 @@ __↕	how much
 ↦⬚	offer
 🛠️🏢	office
 👮	officer
+𐄡⏰	often
 😲	oh
 🛢	oil
 🆗	OK
@@ -1248,11 +1334,13 @@ __↕	how much
 🧅	onion
 🌐の	online
 𐄡·	only
+↤⊻	onto
 📕📖	open
 ↔️	or
 🍊	orange
 🟧	orange
 🦧	orangutan
+🗣️❗	order
 🗃️	organize
 ⊶	other/different
 🦦	otter
@@ -1270,9 +1358,12 @@ __↕	how much
 🤕💥	pain
 🎨🖌️	paint
 🖌️	paintbrush
+=🧦	pair
 🇵🇰	Pakistan
 🇵🇼	Palau
+🤏◻️	pale
 🇵🇸	Palestinian Territories
+🖐️🫓	palm
 🍳	pan
 🇵🇦	Panama
 🥞	pancake
@@ -1334,7 +1425,7 @@ __↕	how much
 🍕	pizza
 🪧	placard/sign
 📍	place
-🗺	plan
+💭🗺	plan
 ✈️	plane/airplane
 🪴	plant
 ♳🧪	plastic
@@ -1426,7 +1517,7 @@ __↕	how much
 🤏⏰⤺	recent
 ♻️	recycle
 🟥	red
-🪞⟚	reflect
+⊶🪞⊷	reflect
 ∿∿	regular
 🙅	reject
 🔗~	related
@@ -1468,6 +1559,7 @@ __↕	how much
 🐓	rooster
 🪴⌊	root
 🌹	rose
+🗺||	route
 🚣	row
 📏	ruler
 🏃💨	run
@@ -1479,7 +1571,7 @@ __↕	how much
 ⛵	sailboat
 🥗	salad
 🧂	salt
-⚖️~	same
+==	same
 🇼🇸	Samoa
 🇸🇲	San Marino
 🏜️🧪	sand
@@ -1519,6 +1611,7 @@ __↕	how much
 🌷🍁⏰	season
 💺	seat
 🥈	second
+🤏⌛🧩	second
 🤐	secret
 👀	see
 🪴🥚	seed
@@ -1640,6 +1733,8 @@ __↕	how much
 🎶💬	song
 🤏⏰	soon
 🙇	sorry
+🛠️🗂️	sort
+🗂️🏷️	sort/type
 🔊	sound
 💧🍲	soup
 ⥥🧭	south
@@ -1676,6 +1771,7 @@ __↕	how much
 🏟️	stadium/arena
 🫗👚🎨	stain
 ▟	stair
+▟	stairs
 🧍	stand
 ⭐	star
 ▶️	start
@@ -1770,8 +1866,8 @@ __↕	how much
 ﹥	than
 🙏	thank/thanks
 🙏	thanks
-:	that
 👈	that
+:	that
 	the
 🎭📍	theater
 👤の	their
@@ -1870,6 +1966,7 @@ __↕	how much
 ➿	turn
 🐢	turtle
 🇹🇻	Tuvalu
+🗂️🏷️	type
 ⌨️⟿	type
 🇺🇲	U.S. Outlying Islands
 🇻🇮	U.S. Virgin Islands
@@ -1898,6 +1995,7 @@ __↕	how much
 🇺🇾	Uruguay
 👇👇	us/we
 🖐⟿⬚	use
+∀⏰	usual
 🇺🇿	Uzbekistan
 ⧲⛰️	valley
 🇻🇺	Vanuatu

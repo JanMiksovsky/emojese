@@ -44,7 +44,7 @@ Other goals:
 
 # Definitions
 
-Emojese standardizes how to write a list of 1000+ common English words in emoji and other Unicode glyphs. This set of common words was drawn from various sources, including the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf) and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
+Emojese standardizes how to write a list of 2000+ common English words in emoji and other Unicode glyphs. This set of common words was drawn from various sources, including the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf) and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
 
 The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file.
 
