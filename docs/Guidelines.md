@@ -39,6 +39,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | ∀       | all                                                                  |
 | ∃       | any, some, exists                                                    |
 | ⛶       | area                                                                 |
+| 🧍      | body (physical)                                                      |
 | ⌊       | bottom                                                               |
 | 🎨      | color                                                                |
 | 〰️      | continuation                                                         |
@@ -74,7 +75,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | \#      | number                                                               |
 | 🧩      | part                                                                 |
 | 👥      | people (multiple)                                                    |
-| 👤      | person (abstract concept), the human body                            |
+| 👤      | person (abstract concept), the head                                  |
 | 🧑      | person (combining form for occupation/role without a specific emoji) |
 | 📍      | place                                                                |
 | ⏮️      | previous                                                             |

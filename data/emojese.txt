@@ -42,7 +42,7 @@
 ∀	all
 ↦💪	allow
 🤏📍	almost
-𐄡·🧑	alone
+𐄡·😐	alone
 ∸	along
 ⤺⟢	already
 ➕⬚	also
@@ -93,7 +93,7 @@
 ⛶	area
 🏟️	arena
 🇦🇷	Argentina
-👤💪	arm
+🧍💪	arm
 🇦🇲	Armenia
 🪖🎖️	army
 ⥁	around
@@ -111,7 +111,7 @@
 ⤺🍽️😋	ate
 ⚛️	atom
 📎⟿	attach
-👊	attack/hit
+💪👊💢	attack
 💡🔍	attention/focus
 🧲⟿	attract
 🧲🤩	attractive
@@ -127,7 +127,7 @@
 🇦🇿	Azerbaijan
 👶	baby
 ◐	back
-👤◐	back
+🧍◐	back
 🏠◐🪴	backyard
 🥓	bacon
 👎	bad
@@ -227,7 +227,7 @@
 🐗	boar
 🫓🪵	board
 🛥️	boat
-👤∀	body
+🧍∀	body
 🇧🇴	Bolivia
 💣	bomb
 🦴	bone
@@ -339,7 +339,7 @@
 🇰🇾	Cayman Islands
 ◱⌈	ceiling
 🍾🥂	celebrate
-👤🦠🧩	cell
+🧍💧🛍️	cell
 ⏀	center
 🇨🇫	Central African Republic
 💯%	certain
@@ -355,7 +355,7 @@
 😊⟥🧩	cheek
 🧀	cheese
 🍒	cherry
-👤⏀◑	chest
+🧍⏀◑	chest
 🌰	chestnut
 🐔	chicken
 🧒	child
@@ -414,6 +414,7 @@
 ⏳⌛	complete/done
 🎛️	complex
 🖥️	computer
+👍👎↕	condition/state
 ☑	confirm/check
 🛠️😕⍰	confuse
 💭😕	confused
@@ -444,7 +445,7 @@
 🇨🇮	Côte d’Ivoire
 ⤺💪	could
 🔢⟿	count
-🍳◱∯	counter
+🍳⎴	counter
 [🏳️]	country
 💑	couple
 |↑|	course
@@ -486,8 +487,8 @@
 💃	dance
 ⚠️~	dangerous
 🍡	dango
-🚫💡	dark
-🚫💡⬚	darkness
+🌃🔦	dark
+🌃🔦⬚	darkness
 📅	date
 🧑‍🍼🔗👧	daughter
 ☀️	day
@@ -683,7 +684,7 @@ __🧭	direction
 🌾🧑‍🌾	farmer
 🇫🇴	Faroe Islands
 ⏩	fast
-👤⟷	fat
+🧍⟷	fat
 👨‍🍼	father
 📠	fax
 😱⬚	fear
@@ -699,7 +700,7 @@ __🧭	direction
 ⛴️	ferry
 🝆	few/several
 🌾⛶	field
-⚔️	fight
+⚔️💢	fight
 ⎄	figure/shape
 🇫🇯	Fiji
 🪫🔋	fill
@@ -749,7 +750,7 @@ __🧭	direction
 🍴−🔪	fork
 ⎄	form/shape
 ◑⟥	forward
-⤺⚔️	fought
+⤺⚔️💢	fought
 ⤺🔍	found
 ⛲	fountain
 🦊	fox
@@ -809,7 +810,7 @@ __🧭	direction
 🥅	goal
 🐐	goat
 👺	goblin
-🔱	god
+🛐🔱	god
 →	goes/go
 🥽	goggles
 🥇🧪	gold
@@ -874,7 +875,7 @@ __🧭	direction
 😡⟿	hate
 💁	have/has
 👨👈	he
-👤🧩	head
+🧍👤	head
 🎧	headphones
 ❤️‍🩹	heal
 🚫🤒	healthy
@@ -911,7 +912,7 @@ __🧭	direction
 💵⇆🛠️	hire
 🙍‍♂️👈の	his
 🏺📜	history
-🤜	hit
+👊💢	hit
 🤔	hmm
 🤲	hold
 🕳	hole
@@ -1017,7 +1018,7 @@ __↕	how much
 🦵⚽️⟿	kick
 🧒	kid/child
 ↦💀	kill
-👤↦💀	killer
+↦💀🧑	killer
 👘	kimono
 😊	kind/nice
 🗂️🏷️	kind/type
@@ -1209,7 +1210,7 @@ __↕	how much
 ⤭	mix
 🇲🇩	Moldova
 👩‍🍼	mom/mother
-🤏⌛🧩	moment/second
+🤏⌛👣	moment/second
 🇲🇨	Monaco
 🫅	monarch
 1☀️	Monday
@@ -1283,6 +1284,7 @@ __↕	how much
 🚫	no
 👎	no/bad
 🚫👤	nobody
+👤↑↓	nod
 🔊😬	noise
 🚫⌥	none
 🕛	noon
@@ -1434,6 +1436,7 @@ __↕	how much
 🪴	plant
 ♳🧪	plastic
 🍽−🍴	plate
+⎴	platform
 [🤾]	play
 🤾🧑	player
 🙇🙏	please
@@ -1454,6 +1457,7 @@ __↕	how much
 🚫💵	poor
 🎈🪡💢	pop
 🍿	popcorn
+🏠◑⎴	porch
 🐖🥩	pork
 🇵🇹	Portugal
 📍	position/place
@@ -1470,7 +1474,7 @@ __↕	how much
 🎁	present/gift
 🏛️⌈🧑	president
 👉🔘	press
-🎭🧚	pretend
+🥸🎭	pretend
 🪞🤩	pretty/beautiful
 ⇈	pretty/more
 🥨	pretzel
@@ -1491,6 +1495,7 @@ __↕	how much
 🛡️⟿	protect
 🗯️🪧	protest
 🥲	proud
+🔬💯	prove
 🍻📍	pub/bar
 🇵🇷	Puerto Rico
 ⛓️⟿	pull
@@ -1507,7 +1512,7 @@ __↕	how much
 🐇	rabbit
 🦝	raccoon
 [🏇🏎]	race
-👤🎨	race
+🧍🎨	race
 📻	radio
 ☢️	radioactive
 🌧️	rain
@@ -1522,14 +1527,18 @@ __↕	how much
 📖👀	read
 🐿️~	ready
 ◌○	real
+💭🤯	realize
+🛠️◌○	realize
 ⇈	really/more
 ∵💬	reason
 🧾	receipt
 ↤ 📥	receive
 🤏⏰⤺	recent
+👀🎓	recognize
 ♻️	recycle
 🟥	red
 ⊶🪞⊷	reflect
+🗣️🙅	refuse
 ∿∿	regular
 🙅	reject
 🔗~	related
@@ -1537,7 +1546,9 @@ __↕	how much
 🔗🧑	relative
 🧖	relax
 🛐	religion
+📍♾️	remain/stay
 💭🎗️	remember
+🎗️⟿	remind
 🎗️	reminder
 🚮	remove
 ⟲⟿	repeat
@@ -1550,6 +1561,7 @@ __↕	how much
 🥡📍	restaurant
 ↩	return
 🇷🇪	Réunion
+💁👀	reveal/show
 💞	revolve
 🦏	rhinoceros
 🍚	rice
@@ -1565,16 +1577,20 @@ __↕	how much
 🪨	rock
 🚀	rocket
 ⤺🏇	rode
+🛞➿	roll
 🇷🇴	Romania
 🏠⌈	roof
 ◱	room
 🐓	rooster
 🪴⌊	root
 🌹	rose
+◯~	round
 🗺||	route
 🚣	row
+🖐️⥁	rub
 📏	ruler
 🏃💨	run
+⏩⟿	rush/hurry
 🇷🇺	Russia
 🇷🇼	Rwanda
 😢	sad
@@ -1607,6 +1623,7 @@ __↕	how much
 ⚖️	scale
 😱	scared/afraid
 🧣	scarf
+🎭🖼️	scene
 🧑‍🏫🏫	school
 ⚗️🧬	science
 ⚗️🧑‍🔬	scientist
@@ -1614,6 +1631,7 @@ __↕	how much
 🛴	scooter
 🦂	scorpion
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	Scotland
+😱🗯️	scream
 ▦	screen
 🪛	screwdriver
 📜	scroll
@@ -1623,7 +1641,7 @@ __↕	how much
 🌷🍁⏰	season
 💺	seat
 🥈	second
-🤏⌛🧩	second
+🤏⌛👣	second
 🤐	secret
 👀	see
 🪴🥚	seed
@@ -1638,19 +1656,26 @@ __↕	how much
 ⤺📤⟿	sent
 9🌙	September
 🇷🇸	Serbia
+⇈💭	serious
+💁↦	serve
+💁↦⬚	service
 🔘🖱	set/choose
+🧑‍⚖️🏁	settle
 🝆	several
 🪡⟿	sew
 🛌🎆	sex
 🇸🇨	Seychelles
+⌊🕴️	shadow
 ⧛⧚	shake
 	shall
 ⌊💧	shallow
 ⎄	shape
+💁ↀ	share
 🦈	shark
 🔪~	sharp
 👩👈	she
 🐑	sheep
+🛏️⬜️	sheet
 🐚	shell
 🛡️	shield
 🚢	ship
@@ -1666,24 +1691,31 @@ __↕	how much
 ❗	should/must
 💪⌈🔗	shoulder
 🗯️	shout
+👐💥	shove
 💁👀	show
 🚿	shower
 🦐	shrimp
 ⛩️	shrine
 🤷	shrug
+📖📕	shut/close
 🤝😳	shy
 🤒	sick
 ⟥	side
 🇸🇱	Sierra Leone
+😮‍💨	sigh
+👀⬚	sight
+👀🧠	sight/vision
 🪧	sign
 📄_✍️	sign
 🔇	silence
 😶	silent
 🥈🧪	silver
+🚫💦	simple/easy
 ↫⏰	since
 🗣🎶	sing
 🇸🇬	Singapore
 🎶🧑‍🎤	singer
+𐄡·🧑	single
 🇸🇽	Sint Maarten
 ♘🤵‍♂️	sir
 🔗👧	sister
@@ -1694,17 +1726,19 @@ __↕	how much
 🛹	skateboard
 🤨	skeptical
 ⛷️	ski
-👤∯	skin
+🧍∯	skin
 👗◡	skirt
 💀	skull
 🦨	skunk
 🟦☁️	sky
+🚪💥	slam
 🛷	sled
 🛌😴	sleep
 😴	sleepy
 ⤺🛌😴	slept
 🛝	slide
 🤏	slight/small
+⛸️⤻💥	slip
 🦥	sloth
 🇸🇰	Slovakia
 🇸🇮	Slovenia
@@ -1717,6 +1751,7 @@ __↕	how much
 🤏🍽️	snack
 🐌	snail
 🐍	snake
+🫰💢	snap
 🤧	sneeze
 ❄️	snow
 🏂	snowboard
@@ -1740,6 +1775,7 @@ __↕	how much
 ∃👤	someone
 ∃⬚	something
 ∃⏰	sometime
+∃⏰	sometimes/sometime
 ∃📍	somewhere
 🧑‍🍼🔗👦	son
 🎶💬	song
@@ -1747,6 +1783,7 @@ __↕	how much
 🙇	sorry
 🛠️🗂️	sort
 🗂️🏷️	sort/type
+🛐👻	soul
 🔊	sound
 💧🍲	soup
 ⥥🧭	south
@@ -1763,10 +1800,14 @@ __↕	how much
 💸	spend
 ⤺💸	spent
 🕷️	spider
+🧍➿	spin
+🛐👻	spirit/soul
 ⤺🗣	spoke/said
 🧽	sponge
 🥄	spoon
 [⚽]	sport
+•	spot
+📈↑⛶	spread
 🌷⏰	spring
 ◻	square
 🦑	squid
@@ -1781,19 +1822,25 @@ __↕	how much
 🗡️⟿	stab
 ꠵	stack
 🏟️	stadium/arena
+🎭⎴	stage
 🫗👚🎨	stain
 ▟	stair
 ▟	stairs
-🧍	stand
+🧍⟿	stand
 ⭐	star
+👀👀	stare
 ▶️	start
+👍👎↕	state
 🚉	station
 📍♾️	stay
 🏴‍☠️⟿	steal
 ⎈	steer
+👣	step
 🩺	stethoscope
+🌳🥢	stick
 〰️	still/continue
 ⤺🦝	stole
+🧍😋🛍️	stomach
 🪨	stone/rock
 ⤺🧍	stood
 ⏹️	stop
@@ -1804,6 +1851,8 @@ __↕	how much
 👾	strange/weird
 🍓	strawberry
 |🛞|	street/road
+🛠️🐍	stretch
+💪👊💢	strike/attack
 💪~	strong
 🧑‍🎓	student
 🔬🧐	study
@@ -1993,7 +2042,7 @@ __↕	how much
 🎓∵	understand
 ⤺🎓∵	understood
 🦄	unicorn
-𐄡·	unique/only
+𐄡·~	unique
 🇦🇪	United Arab Emirates
 🇬🇧	United Kingdom
 🇺🇳	United Nations
@@ -2016,10 +2065,11 @@ __↕	how much
 ⟿💬	verb
 ⇈	very/more
 📳	vibrate
-🧑↤💀	victim
+↤💀🧑	victim
 📼	videocassette
 🇻🇳	Vietnam
 🎻	violin
+👀🧠	vision
 ←🧑	visitor
 🗣🔊	voice
 🌋	volcano
