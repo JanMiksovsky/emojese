@@ -5,7 +5,7 @@
 	a
 🧮	abacus
 💪~	able
-⥁	about/around
+↻📍	about
 ◓	above/over
 ↦ 📥	accept
 💥	accident/crash
@@ -96,7 +96,7 @@
 🧍💪	arm
 🇦🇲	Armenia
 🪖🎖️	army
-⥁	around
+↻	around
 🛬	arrive
 [🖼️]	art
 🖼️🧑‍🎨	artist
@@ -507,6 +507,7 @@
 🪞💬	description
 🏜️	desert
 📄┳┳	desk
+👐⛗	despite
 [🍰🍮]	dessert
 🕵️	detective
 🔨⟿	develop/make
@@ -523,7 +524,6 @@ __🧭	direction
 🟫⛳	dirt
 🚫🧼~	dirty
 👥👍👎	disagree
-🚫↦💪	disallow
 😐🫥	disappear
 😞	disappointed
 🗣👎	disapprove
@@ -609,7 +609,7 @@ __🧭	direction
 ⚡~	electrical/electric
 ⚡	electricity
 ⚡~	electronic/electric
-[📺]	electronics
+[📺📻]	electronics
 🐘	elephant
 🛗	elevator
 🧝	elf
@@ -743,6 +743,7 @@ __🧭	direction
 🏈	football
 ↬⬚	for
 👐⇲	force
+👤◑⌈	forehead
 🌲🌳	forest
 ♾️	forever/always
 🎓🚮	forget
@@ -970,6 +971,7 @@ __↕	how much
 😇	innocent
 [🪳]	insect
 ⚆	inside
+⇆⬚	instead
 [🎻]	instrument
 🛠️🤔	interest
 🤔~	interesting
@@ -1360,7 +1362,7 @@ __↕	how much
 🤕💥	pain
 🎨🖌️	paint
 🖌️	paintbrush
-=🧦	pair
+⟨🧦⟩	pair
 🇵🇰	Pakistan
 🇵🇼	Palau
 🤏◻️	pale
@@ -1587,14 +1589,14 @@ __↕	how much
 ◯~	round
 🗺||	route
 🚣	row
-🖐️⥁	rub
+🖐️↻	rub
 📏	ruler
 🏃💨	run
 ⏩⟿	rush/hurry
 🇷🇺	Russia
 🇷🇼	Rwanda
 😢	sad
-🦺	safe
+⇲🏰	safe
 ⤺🗣	said
 ⛵	sailboat
 🥗	salad
@@ -1642,7 +1644,7 @@ __↕	how much
 💺	seat
 🥈	second
 🤏⌛👣	second
-🤐	secret
+🤐💬	secret
 👀	see
 🪴🥚	seed
 🌱	seedling
@@ -1721,6 +1723,7 @@ __↕	how much
 🔗👧	sister
 🪑⟿	sit
 🌐📍	site
+⬚🔗📍	situation
 📶↕	size
 ⛸️	skate
 🛹	skateboard
@@ -1738,7 +1741,7 @@ __↕	how much
 ⤺🛌😴	slept
 🛝	slide
 🤏	slight/small
-⛸️⤻💥	slip
+⛸️↗💥	slip
 🦥	sloth
 🇸🇰	Slovakia
 🇸🇮	Slovenia
@@ -1858,6 +1861,7 @@ __↕	how much
 🔬🧐	study
 🎲⬚᠁	stuff
 🚫🧠	stupid
+[𝓐A]	style
 ↦	submit/give
 🧪	substance
 ➖⟿	subtract
@@ -1875,6 +1879,7 @@ __↕	how much
 🌞😎	sunny
 🦸	super
 ↦🛟	support/help
+💭♾️	suppose/believe
 ❗	supposed/must
 👍	sure/good
 🏄	surf
@@ -1891,11 +1896,14 @@ __↕	how much
 🇸🇪	Sweden
 🍯🍬	sweet
 🏊	swim
+🪝⏝	swing
 🇨🇭	Switzerland
 ⤺🤬	swore
+⤺🪝⏝	swung
 🕍	synagogue
 🇸🇾	Syria
 💉	syringe
+⟨⚙️⟩	system
 👕	t-shirt/shirt
 ┳┳	table
 🌮	taco
@@ -1918,10 +1926,12 @@ __↕	how much
 😢💧	tear
 🧑‍💻	technologist
 [💻]	technology
+📺	television/TV
 🗣	tell/say
 🌡️↕	temperature
 🎾	tennis
 ⛺	tent
+⇈👎	terrible
 📄☐☑	test
 🇹🇭	Thailand
 ﹥	than
@@ -1935,7 +1945,8 @@ __↕	how much
 👥の	their
 👤👈	them
 👥👈	them
-👥👈🤳	themself
+👤👈🤳	themself
+👥👈🤳	themselves
 ⇒	then
 📍👈	there
 🌡️	thermometer
@@ -1949,11 +1960,13 @@ __↕	how much
 🥉	third
 👉	this
 👈👈	those
+⇤	though/but
 ⤺💭	thought
 🧵	thread
-⤺⚾⟿	threw
+⤺⚾↷	threw
+👤||	throat
 ⍆	through
-⚾⟿	throw
+⚾↷	throw
 ⛈️	thunderstorm/storm
 4☀️	Thursday
 🎫	ticket
@@ -1965,6 +1978,7 @@ __↕	how much
 ⏰	time
 ⏲️	timer
 🇹🇱	Timor-Leste
+⇈🤏	tiny
 🛞	tire/wheel
 😴	tired/sleepy
 ↬	to
@@ -1979,6 +1993,7 @@ __↕	how much
 🍅	tomato
 🪦	tombstone
 ⏭️☀️	tomorrow
+♩↕	tone
 🇹🇴	Tonga
 👅	tongue
 👉🌃	tonight
@@ -1991,7 +2006,9 @@ __↕	how much
 🪥	toothbrush
 ⌈꠵	top
 🌪️	tornado
+⚾️↷	toss/throw
 🖐⟿	touch
+↬🧭	toward
 🤏🏙️	town
 👣🕵️	track
 🖲️	trackball
@@ -2007,15 +2024,20 @@ __↕	how much
 [🚌🚗]	transportation
 🪤	trap
 🚮⬚	trash/garbage
+🧳⟿	travel
 🌲	tree
 ⤺🎰	tried
 🇹🇹	Trinidad & Tobago
+🧳↻	trip
 🇹🇦	Tristan da Cunha
 🧌	troll
 🏆	trophy
+😬💦↕	trouble
 🚚	truck
 ✅	true/correct
 🎺	trumpet
+🤝🔒	trust
+✅⬚	truth
 🎰	try
 2☀️	Tuesday
 🌷	tulip
@@ -2027,6 +2049,8 @@ __↕	how much
 ➿	turn
 🐢	turtle
 🇹🇻	Tuvalu
+📺	TV
+2✖️	twice
 🗂️🏷️	type
 ⌨️⟿	type
 🇺🇲	U.S. Outlying Islands
@@ -2048,9 +2072,11 @@ __↕	how much
 🇺🇳	United Nations
 🇺🇸	United States
 🎓📍	university
+🚫🔮⋯	unless
 🔓	unlock
 ↬⏰	until
 ⬆️	up
+⊻	upon/on
 ↗▟	upstairs
 🏺	urn
 🇺🇾	Uruguay
@@ -2068,9 +2094,12 @@ __↕	how much
 ↤💀🧑	victim
 📼	videocassette
 🇻🇳	Vietnam
+🏞️👀	view
+⟨🏠⟩	village
 🎻	violin
 👀🧠	vision
-←🧑	visitor
+📍⇆	visit
+📍⇆🧑	visitor
 🗣🔊	voice
 🌋	volcano
 🏐	volleyball
@@ -2116,29 +2145,38 @@ __↕	how much
 💧~	wet
 🐋	whale
 __	what
+∀⬚⛗	whatever
+🛞	wheel
 🧑‍🦽	wheelchair
 __⏰	when
 __📍	where
-	whether
+👍↔️👎	whether
 __🔘	which
 〰️	while/continue
+🤫💬	whisper
 ◻️	white
 __👤	who
 :	who/that
 🤯	whoa/omg
 ∀🧩	whole
+↬👤	whom
+__👤の	whose
 __∵	why
 |⟷|	wide
 💍👩	wife
+🐗~	wild
 ⤻	will
 ⤻🚫	will not
 ↤🏆	win
 🌬️	wind
 🪟	window
 🍷	wine
+🐦💪🧩	wing
 ❄️⏰	winter
+🖐️🧽↻	wipe
 🗣️🧞	wish
 🧑‍🤝‍🧑	with
+⚆	within/inside
 🚫🧑‍🤝‍🧑	without
 🧙	wizard
 ⤺🛌🛏	woke
@@ -2149,6 +2187,7 @@ __∵	why
 😍	wonderful
 ⤻🚫	wont/will not
 🪵	wood
+🪵~	wooden
 💬	word
 ⤺👖⟿	wore
 🛠️	work
@@ -2159,6 +2198,7 @@ __∵	why
 😰	worry
 	would
 🤩	wow
+🌯⟿	wrap
 🔧	wrench
 🤼	wrestle
 ✍️	write
@@ -2176,6 +2216,7 @@ __∵	why
 🇾🇪	Yemen
 👍	yes/good
 ⏮️☀️	yesterday
+↬👉⏰	yet
 🪀	yo-yo
 👋	yo/hello
 🫵	you
