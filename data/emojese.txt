@@ -41,7 +41,7 @@
 🕊️~	alive
 ∀	all
 ↦💪	allow
-🤏📍	almost
+🤏⧟	almost
 𐄡·😐	alone
 ∸	along
 ⤺⟢	already
@@ -53,6 +53,7 @@
 🚑	ambulance
 🇦🇸	American Samoa
 ꗝ	among
+#↕	amount
 	an
 ⚓	anchor
 🏺~	ancient
@@ -105,7 +106,7 @@
 🇦🇨	Ascension Island
 🗣？	ask
 🛌😴	asleep
-🛠️🧑‍🤝‍🧑🧑	assistant
+🧰🧑‍🤝‍🧑🧑	assistant
 🌌🧑‍🚀	astronaut
 @	at
 ⤺🍽️😋	ate
@@ -150,6 +151,7 @@
 🍻📍	bar
 🇧🇧	Barbados
 🚫👕👖	bare/naked
+😌😮‍💨	barely
 ⌊꠵	base/bottom
 ⚾	baseball
 🏠◒	basement
@@ -257,7 +259,7 @@
 🌲🧩	branch
 🇧🇷	Brazil
 🍞	bread
-💔	break
+🥥💢	break
 🌅🍽️	breakfast
 🤱⊙	breast
 👄💨	breath
@@ -323,7 +325,7 @@
 🚗	car
 [🃏]	card
 🧑‍⚕️⟿	care
-🐌🛠️	careful
+🐌🧰	careful
 🇧🇶	Caribbean Netherlands
 🎠	carousel
 ⤺🎒→	carried
@@ -335,7 +337,7 @@
 🕸️	catch
 🗂️⟿	categorize
 🗂️	category
-🛠️⟢	cause
+🔨⟢	cause
 🇰🇾	Cayman Islands
 ◱⌈	ceiling
 🍾🥂	celebrate
@@ -416,7 +418,7 @@
 🖥️	computer
 👍👎↕	condition/state
 ☑	confirm/check
-🛠️😕⍰	confuse
+🔨😕⍰	confuse
 💭😕	confused
 😕⍰	confused
 🇨🇬	Congo - Brazzaville
@@ -583,7 +585,7 @@ __🧭	direction
 〰️	during/continue
 	dust
 📀	DVD
-∀	each/all
+⦂⇇	each
 🦅	eagle
 👂	ear
 ⇈🌅	earlier
@@ -650,9 +652,9 @@ __🧭	direction
 📄☐☑	exam/test
 ⇤🚫	except
 ⇆	exchange
-🛠️🤩	excite
+🔨🤩	excite
 ↤🤩	excited
-🛠️🤩~	exciting
+🔨🤩~	exciting
 [🏃]	exercise
 💦😩	exhausted
 🤰👀	expect
@@ -719,7 +721,7 @@ __🧭	direction
 🐟	fish
 💪⇲	fit
 🏃~	fit
-🛠️🩹	fix
+🔨🩹	fix
 🦩	flamingo
 💡💥	flash
 🔦	flashlight
@@ -871,6 +873,7 @@ __🧭	direction
 ⟢	happen
 😄	happy
 🪵🖐	hard
+🤏↕	hardly
 💁	has
 [🎩]	hat
 😡⟿	hate
@@ -893,8 +896,8 @@ __🧭	direction
 🚁	helicopter
 👿📍	hell
 👋	hello
-↦🛟	help
-🛠️🧑‍🤝‍🧑🧑	helper/assistant
+🛟↷	help
+🧰🧑‍🤝‍🧑🧑	helper/assistant
 👩👈の	her
 👩👈	her/she
 🌿	herb
@@ -903,14 +906,14 @@ __🧭	direction
 👋	hey/hello
 👋	hi/hello
 🌺	hibiscus
-🛠️🤐	hide
+🔨🤐	hide
 ⌈꠵~	high
 ⛰️🚶	hike
 🤏⛰️	hill
 🙍‍♂️👈	him/he
 🙍‍♂️🤳	himself
 🦛	hippopotamus
-💵⇆🛠️	hire
+💵⇆🧰	hire
 🙍‍♂️👈の	his
 🏺📜	history
 👊💢	hit
@@ -956,7 +959,7 @@ __↕	how much
 🖼	image/picture
 💭🖼	imagine
 👉⏰‼️	immediate
-‼️	important
+‼️~	important
 📥	in
 ◑	in front/front
 🗳	include
@@ -973,7 +976,7 @@ __↕	how much
 ⚆	inside
 ⇆⬚	instead
 [🎻]	instrument
-🛠️🤔	interest
+🔨🤔	interest
 🤔~	interesting
 🌍🌐	internet
 ⇲	into
@@ -1000,7 +1003,7 @@ __↕	how much
 👖	jeans/pants
 🇯🇪	Jersey
 💎	jewel
-🛠️⇆💵	job
+🧰⇆💵	job
 🤝	join/meet
 🤣💬	joke
 🇯🇴	Jordan
@@ -1011,6 +1014,7 @@ __↕	how much
 7🌙	July
 🐇⟿	jump
 6🌙	June
+𐄡·	just/only
 🦘	kangaroo
 🇰🇿	Kazakhstan
 💾	keep
@@ -1087,12 +1091,13 @@ __↕	how much
 🇱🇾	Libya
 🤥	lie
 🇱🇮	Liechtenstein
-[🕊️]	life
+🕊️⬚	life
 🏋️	lift
 💡	light
 🪶~	light
 🔅🔆	light/bright
 💙	like
+≅	like
 |⎄	line
 🦁	lion
 👤🫦	lip
@@ -1131,6 +1136,7 @@ __↕	how much
 🇲🇴	Macao SAR China
 ⚙️	machine
 🇲🇬	Madagascar
+🏰🤵‍♀️	madam
 ⤺🔨⟿	made
 ⇥⇤📕	magazine
 🪄	magic
@@ -1162,8 +1168,7 @@ __↕	how much
 💆	massage
 🧉	mate
 🧪	material/substance
-🧪	matter/substance
-⬚	matter/thing
+⚛️⬚	matter
 🇲🇷	Mauritania
 🇲🇺	Mauritius
 5🌙	May
@@ -1260,9 +1265,9 @@ __↕	how much
 🇳🇷	Nauru
 ⚓️🎖️	navy
 🏕️⛺	near
-🤏📍	nearly/almost
+🤏⧟	nearly/almost
 👤⌊🧩	neck
-❤️‍🔥↤	need
+❤️‍🔥❗	need
 🪡	needle
 ⏭️🏠🧑	neighbor
 🇳🇵	Nepal
@@ -1322,7 +1327,7 @@ __↕	how much
 🏷️	of
 ↥	off
 ↦⬚	offer
-🛠️🏢	office
+🧰🏢	office
 👮	officer
 𐄡⏰	often
 😲	oh
@@ -1334,7 +1339,7 @@ __↕	how much
 🇴🇲	Oman
 🤯	omg
 ⊻	on
-1⏰	once
+1✖️	once
 🧅	onion
 🌐の	online
 𐄡·	only
@@ -1357,7 +1362,7 @@ __↕	how much
 💁♾️	own
 🐂	ox
 🦪	oyster
-📄	page/paper
+📄	page
 📟	pager
 🤕💥	pain
 🎨🖌️	paint
@@ -1373,7 +1378,7 @@ __↕	how much
 🥞	pancake
 🐼	panda
 👖	pants
-📄	paper
+📄🧪	paper
 📎	paperclip
 🇵🇬	Papua New Guinea
 🪂	parachute
@@ -1524,13 +1529,14 @@ __↕	how much
 🐏	ram
 🎲~	random
 🐀	rat
+❤️‍🔥⇈	rather
 🪒	razor
 🛬	reach/arrive
 📖👀	read
 🐿️~	ready
 ◌○	real
 💭🤯	realize
-🛠️◌○	realize
+🔨◌○	realize
 ⇈	really/more
 ∵💬	reason
 🧾	receipt
@@ -1542,7 +1548,7 @@ __↕	how much
 ⊶🪞⊷	reflect
 🗣️🙅	refuse
 ∿∿	regular
-🙅	reject
+🗣️❌	reject
 🔗~	related
 🔗	relation/link
 🔗🧑	relative
@@ -1719,12 +1725,12 @@ __↕	how much
 🎶🧑‍🎤	singer
 𐄡·🧑	single
 🇸🇽	Sint Maarten
-♘🤵‍♂️	sir
+🏰🤵‍♂️	sir
 🔗👧	sister
 🪑⟿	sit
 🌐📍	site
 ⬚🔗📍	situation
-📶↕	size
+▫◻↕	size
 ⛸️	skate
 🛹	skateboard
 🤨	skeptical
@@ -1784,7 +1790,7 @@ __↕	how much
 🎶💬	song
 🤏⏰	soon
 🙇	sorry
-🛠️🗂️	sort
+🔨🗂️	sort
 🗂️🏷️	sort/type
 🛐👻	soul
 🔊	sound
@@ -1854,7 +1860,7 @@ __↕	how much
 👾	strange/weird
 🍓	strawberry
 |🛞|	street/road
-🛠️🐍	stretch
+🔨🐍	stretch
 💪👊💢	strike/attack
 💪~	strong
 🧑‍🎓	student
@@ -1865,10 +1871,11 @@ __↕	how much
 ↦	submit/give
 🧪	substance
 ➖⟿	subtract
+≅↕	such
 🇸🇩	Sudan
 🤏⏰😲	sudden
 ◻️🍯	sugar
-↦💬	suggest
+🗣️💡	suggest
 🤵	suit
 🧳	suitcase
 ☀️⏰	summer
@@ -1878,14 +1885,14 @@ __↕	how much
 🕶️	sunglasses
 🌞😎	sunny
 🦸	super
-↦🛟	support/help
+🛟↷	support/help
 💭♾️	suppose/believe
 ❗	supposed/must
 👍	sure/good
 🏄	surf
 ∯	surface
 🇸🇷	Suriname
-🎉😲	surprise
+⟢😲	surprise
 🍣	sushi
 🚙	SUV
 🇸🇯	Svalbard & Jan Mayen
@@ -1903,7 +1910,7 @@ __↕	how much
 🕍	synagogue
 🇸🇾	Syria
 💉	syringe
-⟨⚙️⟩	system
+⚙️🔗⚙️	system
 👕	t-shirt/shirt
 ┳┳	table
 🌮	taco
@@ -2190,9 +2197,8 @@ __∵	why
 🪵~	wooden
 💬	word
 ⤺👖⟿	wore
-🛠️	work
-👷	worker
-🛠️👷	worker
+🧰	work
+🧰👷	worker
 🌍	world
 🪱	worm
 😰	worry

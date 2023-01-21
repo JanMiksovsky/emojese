@@ -99,6 +99,7 @@ Emojese tries to identify certain emoji as representative of a broader concept, 
 | \|\|    | way, path                                                            |
 | \_\_    | what                                                                 |
 | 💬      | words                                                                |
+| 🧰      | work                                                                 |
 | 🌍      | world                                                                |
 
 ## Prepositions
