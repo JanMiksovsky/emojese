@@ -514,6 +514,8 @@
 🕵️	detective
 🔨⟿	develop/make
 ⤺	did
+⤺🚫	did not
+⤺🚫	didnt/did not
 ☠️⟿	die
 🇩🇬	Diego Garcia
 ⊶	different
@@ -1602,7 +1604,7 @@ __↕	how much
 🇷🇺	Russia
 🇷🇼	Rwanda
 😢	sad
-⇲🏰	safe
+🏰🔒	safe
 ⤺🗣	said
 ⛵	sailboat
 🥗	salad
