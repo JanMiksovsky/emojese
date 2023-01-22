@@ -1,6 +1,6 @@
 # The Emojese emoji language
 
-The **Emojese** project explores the construction of a written language using emoji.
+The Emojese project explores the construction of a written language using emoji, standardizing how to write a list of 2000+ common English words in emoji and other Unicode glyphs.
 
 When this project began in late 2020, there was no widely-accepted grammar for communicating complex thoughts in emoji. Emoji statements have been generally limited to expressing emotions, rebuses, or simple ideas directly expressible with the large but fixed vocabulary of existing emoji. Communicating ideas purely in standard emoji is made difficult by the fact that there are few or no emoji for many common verbs, pronouns, adjectives, prepositions, or abstract ideas.
 
@@ -28,7 +28,7 @@ Other goals:
 
 - Strive for easy recognition and recall. Try to minimize the amount of what must be learned.
 - Be a natural extension of current emoji use.
-- Start with basic words friends use in text messages.
+- Focus on common words.
 - Be usable on existing devices. Pick emoji already in use (or arriving imminently). Use emoji as is; they cannot be rotated, resized, etc.
 
 ## Be inclusive
@@ -44,7 +44,9 @@ Other goals:
 
 # Definitions
 
-Emojese standardizes how to write a list of 2000+ common English words in emoji and other Unicode glyphs. This set of common words was drawn from various sources, including the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf) and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343).
+The list of words in Emojese was drawn from various sources, including the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf) and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343). The definitions include all of Randall Monroe's [The Ten Hundred Words People Use Most](https://gist.github.com/JanMiksovsky/77ffbb4d0805f1a09ac5bfe80b057cc3) from his book [Thing Explainer](https://xkcd.com/thing-explainer/), with the exception of the same swear words he omitted; it also omits number words like "one" and "two" since you can write those with numbers.
+
+If you can write something using Monroe's [Simple Writer](https://xkcd.com/simplewriter/), you can generally write it in Emojese.
 
 The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file.
 
