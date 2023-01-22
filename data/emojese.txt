@@ -1,5 +1,6 @@
 ⟿	-ing/do
 ~	-ish
+❦	-style
 ᠁	(plural)
 の	(possess)
 	a
@@ -326,6 +327,7 @@
 [🃏]	card
 🧑‍⚕️⟿	care
 🐌🧰	careful
+🐌🧰❦	carefully
 🇧🇶	Caribbean Netherlands
 🎠	carousel
 ⤺🎒→	carried
@@ -345,6 +347,7 @@
 ⏀	center
 🇨🇫	Central African Republic
 💯%	certain
+💯%❦	certainly
 🇪🇦	Ceuta & Melilla
 🇹🇩	Chad
 ⛓️	chain
@@ -383,6 +386,7 @@
 🧼~	clean
 🧼⟿	clean
 🪟~	clear
+🪟❦	clearly
 🧗	climb
 🇨🇵	Clipperton Island
 🕰	clock
@@ -414,6 +418,7 @@
 ⟨🏢⟩	company
 🧭	compass
 ⏳⌛	complete/done
+⏳⌛❦	completely
 🎛️	complex
 🖥️	computer
 👍👎↕	condition/state
@@ -795,6 +800,7 @@ __🧭	direction
 [♀️♂]	gender
 🧞	genie
 🪶😊	gentle
+🪶😊❦	gently
 🇬🇪	Georgia
 🇩🇪	Germany
 ↤	get
@@ -961,6 +967,7 @@ __↕	how much
 🖼	image/picture
 💭🖼	imagine
 👉⏰‼️	immediate
+👉⏰‼️❦	immediately
 ‼️~	important
 📥	in
 ◑	in front/front
@@ -1240,6 +1247,7 @@ __↕	how much
 🦟	mosquito
 >½	most
 ⤒	most
+>½❦	mostly
 👩‍🍼	mother
 🏍️	motorcycle
 ⛰️	mountain
@@ -1300,6 +1308,7 @@ __↕	how much
 🚫↔️	nor
 🇳🇫	Norfolk Island
 ∀⏰	normal/usual
+∀⏰❦	normally/usually
 ⥣🧭	north
 🇰🇵	North Korea
 🇲🇰	North Macedonia
@@ -1516,7 +1525,9 @@ __↕	how much
 👸	queen
 🗣？💬	question
 ⏩	quick/fast
+⏩❦	quickly
 🤫🔈	quiet
+🤫🔈❦	quietly
 ⇈	quite/more
 🐇	rabbit
 🦝	raccoon
@@ -1667,6 +1678,7 @@ __↕	how much
 9🌙	September
 🇷🇸	Serbia
 ⇈💭	serious
+⇈💭❦	seriously
 💁↦	serve
 💁↦⬚	service
 🔘🖱	set/choose
@@ -1721,6 +1733,7 @@ __↕	how much
 😶	silent
 🥈🧪	silver
 🚫💦	simple/easy
+🚫💦❦	simply
 ↫⏰	since
 🗣🎶	sing
 🇸🇬	Singapore
@@ -1749,11 +1762,13 @@ __↕	how much
 ⤺🛌😴	slept
 🛝	slide
 🤏	slight/small
+🤏❦	slightly
 ⛸️↗💥	slip
 🦥	sloth
 🇸🇰	Slovakia
 🇸🇮	Slovenia
 🐌~	slow
+🐌❦	slowly
 🤏	small
 🎓~	smart
 👃⟿	smell
@@ -1774,6 +1789,7 @@ __↕	how much
 🧦	sock
 🪶🖐	soft
 🥎	softball
+🪶🖐❦	softly
 🟫⛳	soil/dirt
 ⤺⬚⇆💵	sold
 🎖️🧑	soldier
@@ -1876,6 +1892,7 @@ __↕	how much
 ≅↕	such
 🇸🇩	Sudan
 🤏⏰😲	sudden
+🤏⏰😲❦	suddenly
 ◻️🍯	sugar
 🗣️💡	suggest
 🤵	suit
@@ -1991,7 +2008,6 @@ __↕	how much
 🛞	tire/wheel
 😴	tired/sleepy
 ↬	to
-♾️	to (infinitive)
 👉☀️	today
 🦶🧩	toe
 ↀ	together
@@ -2092,6 +2108,7 @@ __↕	how much
 👇👇	us/we
 🖐⟿⬚	use
 ∀⏰	usual
+∀⏰❦	usually
 🇺🇿	Uzbekistan
 ⧲⛰️	valley
 🇻🇺	Vanuatu

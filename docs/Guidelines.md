@@ -28,6 +28,7 @@ Emojis tend to be things, which leads to interpreting them as nouns. These indic
 | Emojese | Meaning            |
 | ------- | ------------------ |
 | ~       | adjective ("-ish") |
+| ❦       | adverb ("-style")  |
 | ⟿       | verb               |
 
 ## Abstract concepts and combining forms
