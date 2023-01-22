@@ -175,10 +175,10 @@ In cases where there are two emoji that have some interesting juxtaposition, Emo
 
 | Emojese | Meaning        |
 | ------- | -------------- |
-| 🐛🦋    | become, change |
-| ⛺🏕️    | far            |
-| 🏕️⛺    | near           |
-| 🛌🛏     | wake up        |
+| 🐛→🦋   | become, change |
+| ⛺→🏕️   | far            |
+| 🏕️→⛺   | near           |
+| 🛌→🛏    | wake           |
 
 ## Categories
 

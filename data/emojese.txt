@@ -167,13 +167,13 @@
 🏖️📍	beach
 🫘	bean
 🐻	bear
-👤🧔‍♂️🧩	beard
+🧔‍♂️ᗨ	beard
 💓	beat
 🪞🤩	beautiful
 🦫	beaver
-⤺🐛🦋	became
+⤺🐛→🦋	became
 ∵	because
-🐛🦋	become
+🐛→🦋	become
 🛏️	bed
 🛏◱	bedroom
 🐝	bee
@@ -268,7 +268,7 @@
 🧱	brick
 🌉	bridge
 🩲	briefs
-🔅🔆	bright
+🔅→🔆	bright
 🎒→	bring/carry
 🇮🇴	British Indian Ocean Territory
 🇻🇬	British Virgin Islands
@@ -357,7 +357,7 @@
 🔄	change
 ⇊💵	cheap
 ☑	check
-😊⟥🧩	cheek
+😊⟥	cheek
 🧀	cheese
 🍒	cherry
 🧍⏀◑	chest
@@ -390,7 +390,7 @@
 🧗	climb
 🇨🇵	Clipperton Island
 🕰	clock
-📖📕	close
+📖→📕	close
 🏕️⛺	close/near
 [👖]	clothes
 [👖]	clothing/clothes
@@ -417,8 +417,8 @@
 🇰🇲	Comoros
 ⟨🏢⟩	company
 🧭	compass
-⏳⌛	complete/done
-⏳⌛❦	completely
+⏳→⌛	complete/done
+⏳→⌛❦	completely
 🎛️	complex
 🖥️	computer
 👍👎↕	condition/state
@@ -526,7 +526,7 @@
 ⊶	different
 💦~	difficult
 ⛏️⟿	dig
-🔆🔅	dim
+🔆→🔅	dim
 🌃🍽️	dinner
 🦖	dinosaur
 __🧭	direction
@@ -556,7 +556,7 @@ __🧭	direction
 🐬	dolphin
 🇩🇲	Dominica
 🇩🇴	Dominican Republic
-⏳⌛	done
+⏳→⌛	done
 🤷	dont know/shrug
 🚫⟿	dont/do not
 🚪	door
@@ -688,7 +688,7 @@ __🧭	direction
 ⇲📰	famous
 🏟️🧑	fan
 🤵~	fancy
-⛺🏕️	far
+⛺→🏕️	far
 🧑‍🌾⛶	farm
 🌾🧑‍🌾	farmer
 🇫🇴	Faroe Islands
@@ -752,7 +752,7 @@ __🧭	direction
 🏈	football
 ↬⬚	for
 👐⇲	force
-👤◑⌈	forehead
+👤⌓	forehead
 🌲🌳	forest
 ♾️	forever/always
 🎓🚮	forget
@@ -1105,7 +1105,6 @@ __↕	how much
 🏋️	lift
 💡	light
 🪶~	light
-🔅🔆	light/bright
 💙	like
 ≅	like
 |⎄	line
@@ -1128,8 +1127,8 @@ __↕	how much
 👀	look/see
 |⟷|	loose/wide
 🚛	lorry
-🚫🎓📍	lose
-⤺🚫🎓📍	lost
+🤷📍	lose
+⤺🤷📍	lost
 𐄡	lot/many
 🧴	lotion
 🪷	lotus
@@ -1219,15 +1218,14 @@ __↕	how much
 👇の	mine/my
 🚐	minibus
 ➖	minus
-🤏🕑	minute
-⌛🧩	minute
+🕑👣	minute
 🪞	mirror
 💔	miss
 🙇⬚	mistake
 ⤭	mix
 🇲🇩	Moldova
 👩‍🍼	mom/mother
-🤏⌛👣	moment/second
+🤏🕑👣	moment/second
 🇲🇨	Monaco
 🫅	monarch
 1☀️	Monday
@@ -1275,9 +1273,9 @@ __↕	how much
 [⛰️🍃]	nature
 🇳🇷	Nauru
 ⚓️🎖️	navy
-🏕️⛺	near
+🏕️→⛺	near
 🤏⧟	nearly/almost
-👤⌊🧩	neck
+👤❩❨	neck
 ❤️‍🔥❗	need
 🪡	needle
 ⏭️🏠🧑	neighbor
@@ -1356,7 +1354,7 @@ __↕	how much
 🌐の	online
 𐄡·	only
 ↤⊻	onto
-📕📖	open
+📕→📖	open
 ↔️	or
 🍊	orange
 🟧	orange
@@ -1663,7 +1661,7 @@ __↕	how much
 🌷🍁⏰	season
 💺	seat
 🥈	second
-🤏⌛👣	second
+🤏🕑👣	second
 🤐💬	secret
 👀	see
 🪴🥚	seed
@@ -1720,7 +1718,7 @@ __↕	how much
 🦐	shrimp
 ⛩️	shrine
 🤷	shrug
-📖📕	shut/close
+📖→📕	shut/close
 🤝😳	shy
 🤒	sick
 ⟥	side
@@ -1856,7 +1854,7 @@ __↕	how much
 ▟	stairs
 🧍⟿	stand
 ⭐	star
-👀👀	stare
+—👀	stare
 ▶️	start
 👍👎↕	state
 🚉	station
@@ -2010,7 +2008,7 @@ __↕	how much
 😴	tired/sleepy
 ↬	to
 👉☀️	today
-🦶🧩	toe
+🦶⍝	toe
 ↀ	together
 🇹🇬	Togo
 🚽	toilet
@@ -2135,7 +2133,7 @@ __↕	how much
 🧇	waffle
 ⏳👀	wait
 🥡💁🧑	waiter
-🛌🛏	wake
+🛌→🛏	wake
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	Wales
 🚶	walk
 🧱‖	wall
@@ -2206,7 +2204,7 @@ __∵	why
 ⚆	within/inside
 🚫🧑‍🤝‍🧑	without
 🧙	wizard
-⤺🛌🛏	woke
+⤺🛌→🛏	woke
 🐺	wolf
 👩	woman
 ⤺🏆	won
