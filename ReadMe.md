@@ -42,13 +42,13 @@ Other goals:
 - Keep in mind that, if the existence of a new emoji would make something substantially easier to express, such an emoji could actually be added someday.
 - Grow the set of definitions slowly, ideally based on observed usage.
 
-# Definitions
+# Lexicon
 
 The list of words in Emojese was drawn from various sources, including the Fluent Forever [625 Base Vocabulary Word List](https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Alphabetical.pdf) and the [National University of Singapore SMS Corpus](https://scholarbank.nus.edu.sg/handle/10635/137343). The definitions include all of Randall Monroe's [The Ten Hundred Words People Use Most](https://gist.github.com/JanMiksovsky/77ffbb4d0805f1a09ac5bfe80b057cc3) from his book [Thing Explainer](https://xkcd.com/thing-explainer/), with the exception of the same swear words he omitted; it also omits number words like "one" and "two" since you can write those with numbers.
 
 If you can write something using Monroe's [Simple Writer](https://xkcd.com/simplewriter/), you can generally write it in Emojese.
 
-The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file.
+The Emojese definitions can be found in the tab-delimited [emojese.txt](./data/emojese.txt) file. You can also view a [spreadsheet snapshot](https://docs.google.com/spreadsheets/d/1lB-XmWmzeb6bkNbfVQobhuh0aK4BVmlLOxQ78JZQJKk/edit#gid=425780240) of the definitions.
 
 ## Experimental emoji
 
