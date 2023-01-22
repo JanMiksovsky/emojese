@@ -176,19 +176,19 @@ export default class EmojeseIntroDialog extends PlainDialog {
         </p>
         <table>
           <tr>
-            <td>🐛🦋</td>
-            <td>become, change</td>
+            <td>🐛→🦋</td>
+            <td>become</td>
           </tr>
           <tr>
-            <td>🏕️⛺</td>
+            <td>🏕️→⛺</td>
             <td>near</td>
           </tr>
           <tr>
-            <td>⛺🏕️</td>
+            <td>⛺→🏕️</td>
             <td>far</td>
           </tr>
           <tr>
-            <td>🛌🛏</td>
+            <td>🛌→🛏</td>
             <td>wake up</td>
           </tr>
         </table>
