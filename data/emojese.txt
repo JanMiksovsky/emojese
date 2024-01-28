@@ -2198,6 +2198,7 @@ __👤の	whose
 __∵	why
 |⟷|	wide
 💍👩	wife
+🛜	wifi
 🐗~	wild
 ⤻	will
 ⤻🚫	will not
@@ -2205,11 +2206,9 @@ __∵	why
 🌬️	wind
 🪟	window
 🍷	wine
-🐦💪🧩	wing
 🪽	wing
 ❄️⏰	winter
 🖐️🧽↻	wipe
-🛜	wireless
 🗣️🧞	wish
 🧑‍🤝‍🧑	with
 ⚆	within/inside
