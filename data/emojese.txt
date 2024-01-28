@@ -557,6 +557,7 @@ __🧭	direction
 🇩🇲	Dominica
 🇩🇴	Dominican Republic
 ⏳→⌛	done
+🫏	donkey
 🤷	dont know/shrug
 🚫⟿	dont/do not
 🚪	door
@@ -687,6 +688,7 @@ __🧭	direction
 👪	family
 ⇲📰	famous
 🏟️🧑	fan
+🪭	fan
 🤵~	fancy
 ⛺→🏕️	far
 🧑‍🌾⛶	farm
@@ -739,6 +741,7 @@ __🧭	direction
 🕴️	float
 ◱⌊	floor
 🌼	flower
+🪈	flute
 🪰	fly
 🛩⟿	fly
 💡🔍	focus
@@ -809,6 +812,7 @@ __🧭	direction
 👻	ghost
 🇬🇮	Gibraltar
 🎁	gift
+🫚	ginger
 🦒	giraffe
 👧	girl
 💋👩	girlfriend
@@ -828,6 +832,7 @@ __🧭	direction
 🏌️	golf
 👍	good
 👋👋	goodbye
+🪿	goose
 🦍	gorilla
 ⤺↤	got
 🏛️	government
@@ -1011,6 +1016,7 @@ __↕	how much
 🫙	jar
 🧿👿	jealous
 👖	jeans/pants
+🪼	jellyfish
 🇯🇪	Jersey
 💎	jewel
 🧰⇆💵	job
@@ -1166,6 +1172,7 @@ __↕	how much
 🥭	mango
 𐄡	many
 🗺️	map
+🪇	maracas
 3🌙	March
 •✍️	mark
 💍⇆💍	marriage
@@ -1238,6 +1245,7 @@ __↕	how much
 🗓️	month
 🇲🇸	Montserrat
 🌙	moon
+🫎	moose
 🛵	moped
 ⇈	more
 🌅	morning
@@ -1408,6 +1416,7 @@ __↕	how much
 ▥	pattern
 ⏸️	pause
 ↦💵	pay
+🫛	pea
 ☮️	peace
 ☮️~	peaceful
 🍑	peach
@@ -1687,7 +1696,7 @@ __↕	how much
 🛌🎆	sex
 🇸🇨	Seychelles
 ⌊🕴️	shadow
-⧛⧚	shake
+🫨	shake
 	shall
 ⌊💧	shallow
 ⎄	shape
@@ -1702,7 +1711,7 @@ __↕	how much
 🚢	ship
 👕	shirt
 👞	shoe
-⤺⧛⧚	shook
+⤺🫨	shook
 🔫⟿	shoot
 🛒🛍️	shop
 ⌊	short/low
@@ -2197,8 +2206,10 @@ __∵	why
 🪟	window
 🍷	wine
 🐦💪🧩	wing
+🪽	wing
 ❄️⏰	winter
 🖐️🧽↻	wipe
+🛜	wireless
 🗣️🧞	wish
 🧑‍🤝‍🧑	with
 ⚆	within/inside
